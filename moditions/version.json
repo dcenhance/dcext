@@ -1,0 +1,16 @@
+{
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "changelog": [
+    "Initial release with notification system",
+    "Customizable notification UI settings",
+    "Theme customization and presets",
+    "Font customization",
+    "Navigation bar customization"
+  ],
+  "minCloudstreamVersion": 1,
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+  "releaseDate": "2024-12-31",
+  "isRequired": false,
+  "message": ""
+}

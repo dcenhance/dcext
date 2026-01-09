@@ -1,0 +1,81 @@
+﻿[
+    {
+        "iconUrl":  "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
+        "apiVersion":  1,
+        "repositoryUrl":  "https://github.com/dcenhance/dcext",
+        "fileSize":  1009482,
+        "status":  1,
+        "language":  "en",
+        "authors":  [
+                        "dce"
+                    ],
+        "tvTypes":  [
+                        "Others"
+                    ],
+        "version":  132,
+        "internalName":  "CS3MProvider",
+        "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+        "name":  "CS3M",
+        "description":  "UI customization tool for CloudStream - themes, fonts, animations, and more"
+    },
+    {
+        "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion":  1,
+        "repositoryUrl":  "https://github.com/dcenhance/dcext",
+        "fileSize":  34552,
+        "status":  1,
+        "language":  "de",
+        "authors":  [
+                        "dce"
+                    ],
+        "tvTypes":  [
+                        "AnimeMovie",
+                        "Anime",
+                        "OVA"
+                    ],
+        "version":  1,
+        "internalName":  "AniworldProvider",
+        "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
+        "name":  "Aniworld",
+        "description":  "German anime streaming from aniworld.to"
+    },
+    {
+        "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion":  1,
+        "repositoryUrl":  "https://github.com/dcenhance/dcext",
+        "fileSize":  22532,
+        "status":  1,
+        "language":  "de",
+        "authors":  [
+                        "dce"
+                    ],
+        "tvTypes":  [
+                        "Live"
+                    ],
+        "version":  1,
+        "internalName":  "KoolLiveTVProvider",
+        "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
+        "name":  "Kool Live TV",
+        "description":  "German Live TV streaming"
+    },
+    {
+        "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion":  1,
+        "repositoryUrl":  "https://github.com/dcenhance/dcext",
+        "fileSize":  28130,
+        "status":  1,
+        "language":  "de",
+        "authors":  [
+                        "dce"
+                    ],
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries"
+                    ],
+        "version":  1,
+        "internalName":  "KoolToProvider",
+        "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
+        "name":  "Kool VOD",
+        "description":  "German Movies and TV series streaming"
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "welcome-v2",
+    "title": "Welcome to CS3M Notifications!",
+    "message": "You've enabled CS3M notifications. Stay tuned for updates, tips, and important announcements.",
+    "type": "announcement",
+    "priority": 100,
+    "dismissible": true
+  },
+  {
+    "id": "tip-settings",
+    "title": "Pro Tip: Custom Themes",
+    "message": "Did you know you can create custom color themes? Go to CS3M Settings > Appearance to personalize your CloudStream experience.",
+    "type": "tip",
+    "priority": 50,
+    "dismissible": true,
+    "actionText": "Learn More",
+    "actionUrl": "https://github.com/dcenhance/dcext"
+  }
+]
