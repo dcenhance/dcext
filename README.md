@@ -1,106 +1,166 @@
-# dcext - CloudStream Plugins
+# dcext - CloudStream Extensions
 
-Custom plugins for CloudStream.
+<p align="center">
+  <img src="assets/CS3M.png" width="120" alt="CS3M Logo">
+</p>
 
-## Installation
+<p align="center">
+  <strong>Custom plugins for CloudStream</strong><br>
+  UI customization, German streaming providers, and more
+</p>
 
-1. Open CloudStream app
-2. Go to **Settings** → **Extensions** → **Add Repository**
+---
+
+## Quick Install
+
+1. Open **CloudStream** app
+2. Go to **Settings** > **Extensions** > **Add Repository**
 3. Paste this URL:
    ```
    https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json
    ```
-4. Go back to Extensions and install the plugins you want
-
-## Available Plugins
-
-| Plugin | Version | Description |
-|--------|---------|-------------|
-| **CS3M** | v87 | UI customization - themes, fonts, animations, colors, Discord RPC |
-| **Aniworld** | v3 | German anime streaming (aniworld.to) |
-| **Kool Live TV** | v3 | German Live TV streaming |
-| **Kool VOD** | v3 | German Movies and TV series streaming |
-
-## CS3M Features
-
-### Theme & Colors
-- Custom color themes (15+ presets)
-- Material You (Android 12+) wallpaper-based colors
-- Custom accent, background, card, and text colors
-
-### Typography
-- 10+ built-in fonts (Roboto, Montserrat, Open Sans, etc.)
-- Custom font file support (.ttf)
-- Adjustable font scale (75% - 150%)
-
-### Navigation
-- Show/hide navigation labels
-- Custom icon tint colors
-- Icon animations (bounce, pulse, rotate, shake)
-- Hide specific nav tabs
-
-### Cards & Posters
-- Adjustable corner radius with live preview
-- Card elevation/shadow depth
-- Poster saturation control
-
-### Animations
-- Activity transitions (fade, slide, zoom, etc.)
-- List item animations
-- Scrolling/marquee titles
-- Typewriter text effect
-
-### Player Enhancements
-- **Custom Zoom** - Pinch-to-zoom with 4 modes: Fit, Fill, Zoom, Custom
-- Custom zoom scale (50% - 300%)
-- Remember zoom setting per session
-- Transparent zoom controls integrated with player UI
-
-### Discord Rich Presence
-- Show what you're watching on Discord
-- Custom activity status
-- Automatic presence updates
-- Login via Discord OAuth
-
-### System Bars
-- Custom status bar color
-- Custom navigation bar color
-- Transparent status/nav bars
-- Immersive mode (hide status bar)
-- Edge-to-edge mode (content under bars)
-
-### Hide Elements
-- Hide microphone button
-- Remove profile avatar
-- Hide navigation tabs
-- Hide CloudStream settings sections
-
-### Profile Customization
-- Custom profile picture from gallery
-- Profile image picker with recent photos grid
-
-### Home Page
-- Show provider icons on source button
-
-### Data & Storage
-- Clear image cache
-- Clear search history
-- Export/import CS3M settings
-
-### Search
-- Toggle search history
-- Toggle search suggestions
-- Adjustable recent searches limit
-
-### Notifications
-- Update notifications for CS3M
-- Background update checking
-
-### Danger Zone
-- Delete all plugins
-- Delete all repositories
-- Restore deleted plugins (session-based)
+4. Browse Extensions and install what you need
 
 ---
 
-Access settings via the CS3M entry in CloudStream's Settings → Extensions, or through the injected settings entry in CloudStream's main Settings page.
+## Available Plugins
+
+| Plugin | Version | Language | Description |
+|--------|---------|----------|-------------|
+| **CS3M** | v132 | EN | Complete UI customization toolkit |
+| **Aniworld** | v1 | DE | Anime streaming (aniworld.to) |
+| **Kool Live TV** | v1 | DE | German Live TV channels |
+| **Kool VOD** | v1 | DE | German Movies & TV series |
+
+---
+
+## CS3M - CloudStream 3 Manager
+
+The ultimate UI customization plugin for CloudStream. Transform every aspect of your streaming experience.
+
+### Look & Feel
+
+#### Appearance
+- **15+ Theme Presets** - Dark, AMOLED, Nord, Dracula, Solarized, and more
+- **Material You** - Dynamic colors from your wallpaper (Android 12+)
+- **Custom Colors** - Accent, background, cards, text, and surface colors
+- **Card Styling** - Corner radius, elevation, shadows with live preview
+- **Poster Effects** - Saturation, brightness, contrast adjustments
+
+#### Typography
+- **10+ Built-in Fonts** - Roboto, Montserrat, Open Sans, Poppins, JetBrains Mono...
+- **Custom Font Import** - Load your own .ttf files
+- **Font Scale** - 75% to 150% sizing
+
+#### Animations
+- **Page Transitions** - Fade, slide, zoom, shared element, and custom durations
+- **List Animations** - Cascade, stagger, wave effects on scroll
+- **Nav Icon Animations** - Bounce, pulse, rotate, shake on tap
+- **Typewriter Effect** - Animated text reveals
+- **Loading Transitions** - Skeleton loaders, shimmer effects
+
+#### Home Page
+- **Live Home Editor** - Real-time layout customization
+- **UI Style Presets** - Netflix, Compact Grid, Large Grid, List View, TV Mode
+- **Profile Rows** - Customizable user profiles
+- **Provider Display** - Show extension icons and metadata
+
+#### Navigation
+- **Tab Management** - Hide, reorder, rename tabs
+- **Icon Themes** - Material, Emoji, Text-only styles
+- **Custom Tints** - Per-tab color customization
+- **Startup Page** - Choose default landing page
+- **Navbar Styling** - Labels, spacing, animations
+
+### Playback
+
+#### Player Controls
+- **Pinch-to-Zoom** - 4 modes: Fit, Fill, Zoom, Custom (50-300%)
+- **Speed Presets** - Quick access playback speeds
+- **Skip Intervals** - Customizable forward/back durations
+- **Gesture Controls** - Volume, brightness, seek gestures
+- **Auto-Rotate** - Smart rotation based on video
+
+#### Sources & Quality
+- **Quality Priority** - Prefer specific resolutions
+- **Source Sorting** - By speed, quality, or provider
+- **Auto-Select** - Automatic best source selection
+
+#### Downloads
+- **External Downloader Detection** - Auto-detect Seal, YTDLnis, ADM, 1DM
+- **Preferred Downloader** - Choose your download manager
+- **Download Rules** - WiFi-only, charging-only modes
+- **Bandwidth Limits** - Throttle download speeds
+- **Concurrent Downloads** - Control simultaneous downloads
+
+### Connectivity
+
+#### Sync & Sharing
+- **WiFi Transfer** - Send settings to other devices
+- **Tap to TV** - Cast to discoverable TVs
+- **Export/Import** - Backup and restore all settings
+- **QR Code Sharing** - Quick settings transfer
+
+#### Discord Rich Presence
+- **Now Playing Status** - Show what you're watching
+- **Custom Activity** - Personalized status messages
+- **Auto-Presence** - Automatic updates on playback
+- **OAuth Login** - Secure Discord authentication
+
+#### Notifications
+- **Update Alerts** - Get notified of CS3M updates
+- **Background Checking** - Silent update detection
+
+### Advanced
+
+#### Device Layout
+- **TV Mode** - D-pad navigation, large touch targets
+- **Tablet Split View** - Optimized two-pane layouts
+- **Accessibility** - High contrast, large text options
+
+#### Parental Controls
+- **Content Filter** - Filter by maturity rating
+- **PIN Lock** - Protect settings access
+- **Keyword Blocking** - Custom content filters
+- **Adult Content Filter** - Block explicit content
+
+#### System
+- **Cache Management** - Clear images, search history
+- **Storage Info** - View cache sizes
+- **Update Checker** - Manual update checks
+- **Feature Status** - View what's working/experimental
+- **Danger Zone** - Reset settings, delete plugins/repos
+
+---
+
+## Screenshots
+
+*Coming soon*
+
+---
+
+## Requirements
+
+- CloudStream 3.x or CloudStream 4.x
+- Android 5.0+ (Lollipop)
+- Some features require Android 12+ (Material You)
+
+---
+
+## Support
+
+Having issues? Found a bug?
+
+- Open an issue on [GitHub](https://github.com/dcenhance/dcext/issues)
+
+---
+
+## License
+
+This project is provided as-is for personal use with CloudStream.
+
+---
+
+<p align="center">
+  Made with care for the CloudStream community
+</p>
