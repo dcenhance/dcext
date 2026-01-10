@@ -1,9 +1,9 @@
-﻿[
+[
     {
         "iconUrl":  "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/dcenhance/dcext",
-        "fileSize":  1056122,
+        "fileSize":  1058134,
         "status":  1,
         "language":  "en",
         "authors":  [
@@ -12,7 +12,7 @@
         "tvTypes":  [
                         "Others"
                     ],
-        "version":  161,
+        "version":  162,
         "internalName":  "CS3MProvider",
         "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name":  "CS3M",
