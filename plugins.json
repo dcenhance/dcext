@@ -3,7 +3,7 @@
         "iconUrl":  "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/dcenhance/dcext",
-        "fileSize":  1069837,
+        "fileSize":  1069867,
         "status":  1,
         "language":  "en",
         "authors":  [
@@ -12,7 +12,7 @@
         "tvTypes":  [
                         "Others"
                     ],
-        "version":  183,
+        "version":  184,
         "internalName":  "CS3MProvider",
         "url":  "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name":  "CS3M",
@@ -22,7 +22,7 @@
         "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/dcenhance/dcext",
-        "fileSize":  34552,
+        "fileSize":  1069867,
         "status":  1,
         "language":  "de",
         "authors":  [
@@ -43,7 +43,7 @@
         "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/dcenhance/dcext",
-        "fileSize":  22532,
+        "fileSize":  1069867,
         "status":  1,
         "language":  "de",
         "authors":  [
@@ -62,7 +62,7 @@
         "iconUrl":  "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/dcenhance/dcext",
-        "fileSize":  28130,
+        "fileSize":  1069867,
         "status":  1,
         "language":  "de",
         "authors":  [
