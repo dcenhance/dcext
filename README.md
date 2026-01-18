@@ -25,139 +25,115 @@
 
 ## Available Plugins
 
-| Plugin | Version | Language | Description |
-|--------|---------|----------|-------------|
-| **CS3M** | v132 | EN | Complete UI customization toolkit |
-| **Aniworld** | v1 | DE | Anime streaming (aniworld.to) |
-| **Kool Live TV** | v1 | DE | German Live TV channels |
-| **Kool VOD** | v1 | DE | German Movies & TV series |
+| Plugin | Version | Language | Type | Description |
+|--------|---------|----------|------|-------------|
+| **CS3M** | v190 | English | UI/Tools | Complete UI customization toolkit for CloudStream |
+| **Aniworld** | v1 | German | Anime | Anime streaming from aniworld.to |
+| **Kool Live TV** | v1 | German | Live TV | German Live TV channels |
+| **Kool VOD** | v1 | German | Movies/TV | German Movies & TV series streaming |
 
 ---
 
 ## CS3M - CloudStream 3 Manager
 
-The ultimate UI customization plugin for CloudStream. Transform every aspect of your streaming experience.
+The ultimate UI customization plugin for CloudStream. Transform every aspect of your streaming experience with 100+ customization options.
 
-### Look & Feel
+### Features at a Glance
 
-#### Appearance
-- **15+ Theme Presets** - Dark, AMOLED, Nord, Dracula, Solarized, and more
+| Category | Features |
+|----------|----------|
+| **Themes** | 15+ presets, Material You, custom colors |
+| **Typography** | 10+ fonts, custom imports, scaling |
+| **Animations** | Page transitions, list effects, nav animations |
+| **Player** | Pinch-to-zoom, gesture controls, side panels |
+| **Discord** | Rich Presence with poster art and timestamps |
+| **Downloads** | External downloader support (Seal, ADM, 1DM) |
+| **Profiles** | Reorder, hide, custom pictures |
+| **Parental** | PIN lock, content filters |
+
+### Appearance
+
+- **Theme Presets** - Dark, AMOLED, Nord, Dracula, Solarized, Monokai, Gruvbox, and more
 - **Material You** - Dynamic colors from your wallpaper (Android 12+)
 - **Custom Colors** - Accent, background, cards, text, and surface colors
-- **Card Styling** - Corner radius, elevation, shadows with live preview
-- **Poster Effects** - Saturation, brightness, contrast adjustments
+- **Card Styling** - Corner radius, elevation, and shadows
+- **Typography** - 10+ built-in fonts, custom font import, 75-150% scaling
 
-#### Typography
-- **10+ Built-in Fonts** - Roboto, Montserrat, Open Sans, Poppins, JetBrains Mono...
-- **Custom Font Import** - Load your own .ttf files
-- **Font Scale** - 75% to 150% sizing
+### Animations
 
-#### Animations
-- **Page Transitions** - Fade, slide, zoom, shared element, and custom durations
+- **Page Transitions** - Fade, slide, zoom, shared element effects
 - **List Animations** - Cascade, stagger, wave effects on scroll
-- **Nav Icon Animations** - Bounce, pulse, rotate, shake on tap
-- **Typewriter Effect** - Animated text reveals
-- **Loading Transitions** - Skeleton loaders, shimmer effects
+- **Nav Animations** - Bounce, pulse, rotate, shake on tab tap
+- **Loading Effects** - Skeleton loaders, shimmer effects
 
-#### Home Page
-- **Live Home Editor** - Real-time layout customization
-- **UI Style Presets** - Netflix, Compact Grid, Large Grid, List View, TV Mode
-- **Profile Rows** - Customizable user profiles
-- **Provider Display** - Show extension icons and metadata
+### Video Player
 
-#### Navigation
-- **Tab Management** - Hide, reorder, rename tabs
-- **Icon Themes** - Material, Emoji, Text-only styles
-- **Custom Tints** - Per-tab color customization
-- **Startup Page** - Choose default landing page
-- **Navbar Styling** - Labels, spacing, animations
-
-### Playback
-
-#### Player Controls
-- **Pinch-to-Zoom** - 4 modes: Fit, Fill, Zoom, Custom (50-300%)
-- **Speed Presets** - Quick access playback speeds
-- **Skip Intervals** - Customizable forward/back durations
+- **Pinch-to-Zoom** - Fit, Fill, Zoom, Custom (50-300%)
 - **Gesture Controls** - Volume, brightness, seek gestures
-- **Auto-Rotate** - Smart rotation based on video
+- **Side Panels** - Episodes and sources in slide-out panels
+- **Custom Speeds** - Define your own playback speed options
+- **Netflix-style Pause** - Show media info when paused
+- **Auto-skip Intro** - Automatic intro/outro skipping
 
-#### Sources & Quality
-- **Quality Priority** - Prefer specific resolutions
-- **Source Sorting** - By speed, quality, or provider
-- **Auto-Select** - Automatic best source selection
+### Downloads
 
-#### Downloads
-- **External Downloader Detection** - Auto-detect Seal, YTDLnis, ADM, 1DM
-- **Preferred Downloader** - Choose your download manager
+- **External Downloaders** - Auto-detect Seal, YTDLnis, ADM, 1DM
 - **Download Rules** - WiFi-only, charging-only modes
-- **Bandwidth Limits** - Throttle download speeds
 - **Concurrent Downloads** - Control simultaneous downloads
 
-### Connectivity
+### Discord Integration
 
-#### Sync & Sharing
-- **WiFi Transfer** - Send settings to other devices
-- **Tap to TV** - Cast to discoverable TVs
-- **Export/Import** - Backup and restore all settings
-- **QR Code Sharing** - Quick settings transfer
-
-#### Discord Rich Presence
-- **Now Playing Status** - Show what you're watching
-- **Custom Activity** - Personalized status messages
-- **Auto-Presence** - Automatic updates on playback
+- **Rich Presence** - Show what you're watching on Discord
+- **Poster Art** - Display media poster as large image
+- **Timestamps** - Show elapsed watching time
+- **Custom Buttons** - Add clickable links to your status
 - **OAuth Login** - Secure Discord authentication
 
-#### Notifications
-- **Update Alerts** - Get notified of CS3M updates
-- **Background Checking** - Silent update detection
+### Profile Management
 
-### Advanced
+- **Reorder Profiles** - Drag to arrange profile order
+- **Hide Profiles** - Remove profiles from the selector
+- **Local Pictures** - Use gallery images as profile pictures
 
-#### Device Layout
-- **TV Mode** - D-pad navigation, large touch targets
-- **Tablet Split View** - Optimized two-pane layouts
-- **Accessibility** - High contrast, large text options
+### Parental Controls
 
-#### Parental Controls
-- **Content Filter** - Filter by maturity rating
-- **PIN Lock** - Protect settings access
-- **Keyword Blocking** - Custom content filters
-- **Adult Content Filter** - Block explicit content
-
-#### System
-- **Cache Management** - Clear images, search history
-- **Storage Info** - View cache sizes
-- **Update Checker** - Manual update checks
-- **Feature Status** - View what's working/experimental
-- **Danger Zone** - Reset settings, delete plugins/repos
+- **PIN Lock** - Protect settings with a PIN
+- **Content Filters** - Filter by maturity rating
+- **Keyword Blocking** - Block content by keywords
 
 ---
 
-## Screenshots
+## German Streaming Plugins
 
-*Coming soon*
+### Aniworld
+Stream anime from aniworld.to with full episode support.
+- Anime movies, series, and OVAs
+- German dubbed and subbed content
+
+### Kool Live TV
+Watch German Live TV channels.
+- Live streaming
+- Channel guide
+
+### Kool VOD
+Stream German movies and TV series.
+- Movies and TV series
+- German content library
 
 ---
 
 ## Requirements
 
-- CloudStream 3.x or CloudStream 4.x
+- CloudStream 3.x or 4.x
 - Android 5.0+ (Lollipop)
-- Some features require Android 12+ (Material You)
+- Android 12+ for Material You colors
 
 ---
 
 ## Support
 
 Having issues? Found a bug?
-
 - Open an issue on [GitHub](https://github.com/dcenhance/dcext/issues)
-
----
-
-## License
-
-This project is provided as-is for personal use with CloudStream.
 
 ---
 
