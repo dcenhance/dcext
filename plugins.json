@@ -89,7 +89,8 @@
             "dce"
         ],
         "tvTypes": [
-            "TvSeries"
+            "TvSeries",
+            "Movie"
         ],
         "version": 6,
         "internalName": "SerienstreamProvider",
