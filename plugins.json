@@ -82,7 +82,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 23635,
+        "fileSize": 13796,
         "status": 1,
         "language": "de",
         "authors": [
@@ -92,7 +92,7 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "SerienstreamProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
         "name": "S.to Serienstream",
@@ -102,7 +102,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 21150,
+        "fileSize": 13649,
         "status": 1,
         "language": "de",
         "authors": [
@@ -112,7 +112,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "FilmpalastProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
         "name": "Filmpalast",
