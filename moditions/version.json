@@ -8,7 +8,7 @@
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-06-10",
+  "releaseDate": "2026-06-11",
   "isRequired": false,
   "message": "v293 - Auto build + deploy"
 }
