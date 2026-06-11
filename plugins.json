@@ -77,5 +77,44 @@
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
         "name": "Kool VOD",
         "description": "German Movies and TV series streaming"
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 20729,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "SerienstreamProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
+        "name": "S.to Serienstream",
+        "description": "S.to - Serien & Staffeln online streamen. VOE Hoster."
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 21123,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "FilmpalastProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
+        "name": "Filmpalast",
+        "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile."
     }
 ]
