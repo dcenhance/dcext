@@ -72,7 +72,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 14,
+        "version": 15,
         "internalName": "KoolToProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
         "name": "Kool VOD",
