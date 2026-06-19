@@ -1,15 +1,14 @@
 {
-  "versionName": "1.0.372",
-  "latestVersion": 372,
-  "versionCode": 372,
+  "versionName": "1.0.373",
+  "latestVersion": "1.0.373",
+  "versionCode": 373,
   "changelog": [
-    "v372: VideoInfoOverlay - dp() now uses real screen density instead of hardcoded 3f (fixes over-sized badge on non-3x devices)",
-    "v372: VideoInfoOverlay - refresh loop now self-terminates when overlay detached from hierarchy (stops perpetual 2s CPU/battery drain after player teardown)",
-    "v371: Crash prevention - StackOverflowError guard (depth cap + Throwable catch) in VideoInfoOverlay view recursion",
-    "v371: AutoResume - unguarded SharedPreferences reads at entry point now try-guarded (prevents ClassCastException crash)",
-    "v371: Minibar - runaway 300ms poll loop now single-instance/cancellable/slower cadence (fixes primary ANR suspect)",
+    "Auto-build v373",
     "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3"
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+  "releaseDate": "2026-06-19",
+  "isRequired": false,
+  "message": "v373 - Auto build + deploy"
 }
