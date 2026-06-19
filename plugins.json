@@ -12,13 +12,13 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 408,
+        "version": 409,
         "internalName": "CS3MProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name": "CS3M",
         "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
-        "versionCode": 408,
-        "versionInt": 408
+        "versionCode": 409,
+        "versionInt": 409
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
