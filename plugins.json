@@ -17,8 +17,8 @@
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name": "CS3M",
         "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
-        "versionCode": 385,
-        "versionInt": 385
+        "versionCode": 399,
+        "versionInt": 399
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
