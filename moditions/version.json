@@ -1,14 +1,12 @@
 {
-  "versionName": "1.0.293",
-  "latestVersion": "1.0.293",
-  "versionCode": 293,
+  "versionName": "1.0.367",
+  "latestVersion": "1.0.367",
+  "versionCode": 367,
   "changelog": [
-    "Auto-build v293",
+    "v367: InjectionLoadingOverlay perf — eliminate per-frame Paint/PorterDuffXfermode/Color.parseColor allocations during injection (reduces GC pressure at the most perf-critical moment)",
+    "v367: Overlay show() robustness — accept any ViewGroup parent instead of broken dead fallback that silently dropped the overlay",
     "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-06-12",
-  "isRequired": false,
-  "message": "v293 - Auto build + deploy"
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3"
 }
