@@ -1,10 +1,13 @@
 {
-  "versionName": "1.0.370",
-  "latestVersion": 370,
-  "versionCode": 370,
+  "versionName": "1.0.371",
+  "latestVersion": 371,
+  "versionCode": 371,
   "changelog": [
-    "v367: InjectionLoadingOverlay perf \u2014 eliminate per-frame Paint/PorterDuffXfermode/Color.parseColor allocations during injection (reduces GC pressure at the most perf-critical moment)",
-    "v367: Overlay show() robustness \u2014 accept any ViewGroup parent instead of broken dead fallback that silently dropped the overlay",
+    "v371: Crash prevention - StackOverflowError guard (depth cap + Throwable catch) in VideoInfoOverlay view recursion",
+    "v371: AutoResume - unguarded SharedPreferences reads at entry point now try-guarded (prevents ClassCastException crash)",
+    "v371: AutoResume - resume-retry runnable now cancellable + Activity destroy-guarded (prevents leak/BadTokenException)",
+    "v371: Minibar - runaway 300ms poll loop now single-instance/cancellable/slower cadence (fixes primary ANR suspect)",
+    "v371: Minibar - clearTracking() now cancels all Handler callbacks (prevents Activity leak + post-destroy crashes)",
     "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
