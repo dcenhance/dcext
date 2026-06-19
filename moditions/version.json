@@ -1,15 +1,14 @@
 {
-  "versionName": "1.0.392",
-  "latestVersion": "1.0.392",
-  "versionCode": 392,
+  "versionName": "1.0.393",
+  "latestVersion": "1.0.393",
+  "versionCode": 393,
   "changelog": [
-    "Player injection: stop redundant delayed passes once controls are ready",
-    "Removes 3-5 redundant view-tree walks per player injection",
-    "Cleanup: removed dead .bak source clutter"
+    "Auto-build v393",
+    "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-19",
   "isRequired": false,
-  "message": "v392 - Player injection perf: completion guard"
+  "message": "v393 - Auto build + deploy"
 }
