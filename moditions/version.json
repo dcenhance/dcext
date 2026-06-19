@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.369",
-  "latestVersion": 369,
-  "versionCode": 369,
+  "versionName": "1.0.370",
+  "latestVersion": 370,
+  "versionCode": 370,
   "changelog": [
     "v367: InjectionLoadingOverlay perf \u2014 eliminate per-frame Paint/PorterDuffXfermode/Color.parseColor allocations during injection (reduces GC pressure at the most perf-critical moment)",
     "v367: Overlay show() robustness \u2014 accept any ViewGroup parent instead of broken dead fallback that silently dropped the overlay",
