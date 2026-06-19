@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.385",
-  "latestVersion": "1.0.385",
-  "versionCode": 385,
+  "versionName": "1.0.386",
+  "latestVersion": "1.0.386",
+  "versionCode": 386,
   "changelog": [
-    "v385 - AudioOutputModitions leak + perf hardening",
-    "Fix: OnAttachStateChangeListener accumulation across injection cycles (dedup via tag)",
-    "Perf: cache last audio output type; skip getIdentifier/setImageDrawable on 2s poll when unchanged"
+    "v386 - Scroll font performance optimization",
+    "Perf: replace per-frame OnScrollListener with OnChildAttachStateChangeListener in hookRecyclerViews",
+    "Each RecyclerView item now styled once on bind instead of every scroll frame (hundreds of setTypeface calls eliminated)"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-19",
   "isRequired": false,
-  "message": "v385 - Leak fix + polling perf optimization"
+  "message": "v386 - RecyclerView font application performance fix"
 }
