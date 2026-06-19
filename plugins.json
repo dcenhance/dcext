@@ -1,122 +1,122 @@
 [
-  {
-    "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 1567064,
-    "status": 1,
-    "language": "en",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "Others"
-    ],
-    "version": 404,
-    "internalName": "CS3MProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-    "name": "CS3M",
-    "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
-    "versionCode": 404,
-    "versionInt": 404
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 60050,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "version": 13,
-    "internalName": "AniworldProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
-    "name": "Aniworld",
-    "description": "German anime streaming from aniworld.to"
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 45069,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "Live"
-    ],
-    "version": 11,
-    "internalName": "KoolLiveTVProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
-    "name": "Kool Live TV",
-    "description": "Kool.to Live TV - 17 L\u00e4nder, 9900+ IPTV Sender"
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 44707,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "version": 15,
-    "internalName": "KoolToProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
-    "name": "Kool VOD",
-    "description": "German Movies and TV series streaming"
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 28324,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "TvSeries"
-    ],
-    "version": 19,
-    "internalName": "SerienstreamProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
-    "name": "S.to Serienstream",
-    "description": "S.to - Serien & Staffeln online streamen. VOE Hoster."
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 26545,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "dce"
-    ],
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "version": 17,
-    "internalName": "FilmpalastProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
-    "name": "Filmpalast",
-    "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile."
-  }
+    {
+        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 1566785,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "Others"
+        ],
+        "version": 405,
+        "internalName": "CS3MProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+        "name": "CS3M",
+        "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
+        "versionCode": 405,
+        "versionInt": 405
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 60050,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 13,
+        "internalName": "AniworldProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
+        "name": "Aniworld",
+        "description": "German anime streaming from aniworld.to"
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 45069,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 11,
+        "internalName": "KoolLiveTVProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
+        "name": "Kool Live TV",
+        "description": "Kool.to Live TV - 17 L\u00e4nder, 9900+ IPTV Sender"
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 44707,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 15,
+        "internalName": "KoolToProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
+        "name": "Kool VOD",
+        "description": "German Movies and TV series streaming"
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 28324,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 19,
+        "internalName": "SerienstreamProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
+        "name": "S.to Serienstream",
+        "description": "S.to - Serien & Staffeln online streamen. VOE Hoster."
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 26545,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "dce"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 17,
+        "internalName": "FilmpalastProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
+        "name": "Filmpalast",
+        "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile."
+    }
 ]
