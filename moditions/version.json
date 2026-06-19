@@ -1,15 +1,14 @@
 {
-  "versionName": "1.0.386",
-  "latestVersion": "1.0.386",
-  "versionCode": 386,
+  "versionName": "1.0.387",
+  "latestVersion": "1.0.387",
+  "versionCode": 387,
   "changelog": [
-    "v386 - Scroll font performance optimization",
-    "Perf: replace per-frame OnScrollListener with OnChildAttachStateChangeListener in hookRecyclerViews",
-    "Each RecyclerView item now styled once on bind instead of every scroll frame (hundreds of setTypeface calls eliminated)"
+    "Auto-build v387",
+    "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-19",
   "isRequired": false,
-  "message": "v386 - RecyclerView font application performance fix"
+  "message": "v387 - Auto build + deploy"
 }
