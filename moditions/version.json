@@ -1,14 +1,15 @@
 {
-  "versionName": "1.0.384",
-  "latestVersion": "1.0.384",
-  "versionCode": 384,
+  "versionName": "1.0.385",
+  "latestVersion": "1.0.385",
+  "versionCode": 385,
   "changelog": [
-    "Auto-build v384",
-    "See GitHub for full changelog"
+    "v385 - AudioOutputModitions leak + perf hardening",
+    "Fix: OnAttachStateChangeListener accumulation across injection cycles (dedup via tag)",
+    "Perf: cache last audio output type; skip getIdentifier/setImageDrawable on 2s poll when unchanged"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-19",
   "isRequired": false,
-  "message": "v384 - Auto build + deploy"
+  "message": "v385 - Leak fix + polling perf optimization"
 }
