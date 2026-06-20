@@ -1,7 +1,7 @@
 {
   "versionName": "1.0.443",
   "latestVersion": "1.0.443",
-  "versionCode": 443,
+  "versionCode": 444,
   "changelog": [
     "Auto-build v443",
     "See GitHub for full changelog"
@@ -10,5 +10,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-21",
   "isRequired": false,
-  "message": "v443 - Auto build + deploy"
+  "message": "v443 - Auto build + deploy",
+  "version": "1.0.444"
 }
