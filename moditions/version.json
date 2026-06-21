@@ -1,7 +1,7 @@
 {
   "versionName": "1.0.443",
   "latestVersion": "1.0.443",
-  "versionCode": 447,
+  "versionCode": 448,
   "changelog": [
     "Auto-build v443",
     "See GitHub for full changelog"
@@ -11,5 +11,5 @@
   "releaseDate": "2026-06-21",
   "isRequired": false,
   "message": "v443 - Auto build + deploy",
-  "version": "1.0.447"
+  "version": "1.0.448"
 }
