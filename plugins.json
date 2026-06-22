@@ -3,7 +3,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 1686680,
+        "fileSize": 1687332,
         "status": 1,
         "language": "en",
         "authors": [
@@ -12,13 +12,13 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 472,
+        "version": 473,
         "internalName": "CS3MProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name": "CS3M",
         "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
-        "versionCode": 472,
-        "versionInt": 472
+        "versionCode": 473,
+        "versionInt": 473
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
