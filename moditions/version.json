@@ -3,12 +3,13 @@
   "latestVersion": "1.0.523",
   "versionCode": 523,
   "changelog": [
-    "Auto-build v523",
-    "See GitHub for full changelog"
+    "External downloader now forwards episode-aware filenames and folder hints on both ACTION_VIEW and ACTION_SEND paths",
+    "Added recognition for ADM Pro, 1DM+, IDM Lite, and corrected Download Navi package handling",
+    "Improved chooser compatibility so downloader apps receive consistent filename and header metadata"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-06-23",
   "isRequired": false,
-  "message": "v523 - Auto build + deploy"
+  "message": "v523 - External downloader compatibility + episode naming hardening"
 }
