@@ -84,7 +84,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 28324,
+        "fileSize": 34905,
         "status": 1,
         "language": "de",
         "authors": [
@@ -93,7 +93,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 19,
+        "version": 21,
         "internalName": "SerienstreamProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
         "name": "S.to Serienstream",
