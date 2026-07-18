@@ -45,7 +45,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 36734,
+        "fileSize": 36959,
         "status": 1,
         "language": "de",
         "authors": [
@@ -54,7 +54,7 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 13,
+        "version": 14,
         "internalName": "KoolLiveTVProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
         "name": "Kool Live TV",
