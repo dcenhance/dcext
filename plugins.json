@@ -24,7 +24,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 62712,
+        "fileSize": 67910,
         "status": 1,
         "language": "de",
         "authors": [
@@ -35,7 +35,7 @@
             "Anime",
             "OVA"
         ],
-        "version": 15,
+        "version": 16,
         "internalName": "AniworldProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
         "name": "Aniworld",
