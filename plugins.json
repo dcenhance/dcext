@@ -103,7 +103,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 26545,
+        "fileSize": 38324,
         "status": 1,
         "language": "de",
         "authors": [
@@ -113,7 +113,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 17,
+        "version": 18,
         "internalName": "FilmpalastProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
         "name": "Filmpalast",
