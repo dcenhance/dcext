@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.580",
-  "latestVersion": "1.0.580",
-  "versionCode": 580,
+  "versionName": "1.0.581",
+  "latestVersion": "1.0.581",
+  "versionCode": 581,
   "changelog": [
-    "Fix auto-fullscreen re-enable: stopping monitoring now clears the applied player roots so the same player can be monitored again."
+    "Fix background-dim re-enable: disabling now clears its activity tracking, so the same player activity can apply dimming again."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v580 - fix auto-fullscreen re-enable"
+  "message": "v581 - fix background-dim re-enable"
 }
