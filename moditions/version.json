@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.583",
-  "latestVersion": "1.0.583",
-  "versionCode": 583,
+  "versionName": "1.0.584",
+  "latestVersion": "1.0.584",
+  "versionCode": 584,
   "changelog": [
-    "Fix dim-monitor lifecycle cleanup when the player Activity is finishing or destroyed."
+    "Stop the quick subtitle-font watcher when its player Activity is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v583 - fix dim monitor lifecycle cleanup"
+  "message": "v584 - fix quick subtitle watcher lifecycle"
 }
