@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.578",
-  "latestVersion": "1.0.578",
-  "versionCode": 578,
+  "versionName": "1.0.579",
+  "latestVersion": "1.0.579",
+  "versionCode": 579,
   "changelog": [
-    "Fix background-dimming lifecycle: defer activity tracking until the player view and dim overlay are attached, so an early layout pass can retry."
+    "Fix update identity: CS3M now reports its published build version, preventing a perpetual false update prompt after installation."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v578 - fix background dim lifecycle retry"
+  "message": "v579 - fix update identity"
 }
