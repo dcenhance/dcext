@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.592",
-  "latestVersion": "1.0.592",
-  "versionCode": 592,
+  "versionName": "1.0.593",
+  "latestVersion": "1.0.593",
+  "versionCode": 593,
   "changelog": [
-    "Stop Auto Hide Controls callbacks when a player fragment view is destroyed."
+    "Stop PlayerModitions callbacks when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-20",
+  "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v592 - stop Auto Hide Controls callbacks on player view teardown"
+  "message": "v593 - stop PlayerModitions callbacks on player view teardown"
 }
