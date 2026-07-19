@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.575",
-  "latestVersion": "1.0.575",
-  "versionCode": 575,
+  "versionName": "1.0.576",
+  "latestVersion": "1.0.576",
+  "versionCode": 576,
   "changelog": [
-    "Fix Android transparent system navigation: disable contrast scrims and draw content behind the bottom system bar.",
-    "Remove duplicate Fullscreen Mode control from legacy settings."
+    "Fix fullscreen/edge-to-edge cleanup: disabling it restores status and navigation bars immediately.",
+    "Stop uncancellable fullscreen retry writers and route fullscreen through one system-bar coordinator."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v575 - fix bottom transparent system navigation"
+  "message": "v576 - fix fullscreen and edge-to-edge cleanup"
 }
