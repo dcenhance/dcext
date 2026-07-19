@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.589",
-  "latestVersion": "1.0.589",
-  "versionCode": 589,
+  "versionName": "1.0.590",
+  "latestVersion": "1.0.590",
+  "versionCode": 590,
   "changelog": [
-    "Release screenshot-prevention monitor cleanup when a player fragment view is destroyed."
+    "Release player background-dim monitor cleanup when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-19",
+  "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v589 - fix screenshot-prevention lifecycle cleanup"
+  "message": "v590 - fix player background-dim lifecycle cleanup"
 }
