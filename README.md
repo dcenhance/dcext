@@ -6,7 +6,7 @@
 
 **CloudStream Extensions Repository**
 
-[![CS3M](https://img.shields.io/badge/CS3M-v233-blue?style=flat-square)](plugins/)
+[![CS3M](https://img.shields.io/badge/CS3M-v572-blue?style=flat-square)](plugins/)
 [![Android](https://img.shields.io/badge/Android-5.0+-green?style=flat-square)](https://www.android.com)
 [![CloudStream](https://img.shields.io/badge/CloudStream-3.x%20%7C%204.x-purple?style=flat-square)](https://github.com/recloudstream/cloudstream)
 
@@ -42,9 +42,11 @@ https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json
 
 | Plugin | Content |
 |--------|---------|
-| **Aniworld** | Anime (aniworld.to) |
+| **Aniworld** | German anime (aniworld.to) |
 | **Kool Live TV** | Live TV channels |
 | **Kool VOD** | Movies & TV series |
+| **S.to Serienstream** | German TV series |
+| **Filmpalast** | German movies & TV series |
 
 ---
 
