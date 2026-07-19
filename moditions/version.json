@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.585",
-  "latestVersion": "1.0.585",
-  "versionCode": 585,
+  "versionName": "1.0.586",
+  "latestVersion": "1.0.586",
+  "versionCode": 586,
   "changelog": [
-    "Release Auto-hide tracking for the current player root when the feature is disabled, so it can re-arm after re-enable."
+    "Release screenshot-prevention monitor cleanup when the setting is disabled."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v585 - fix auto-hide controls re-enable"
+  "message": "v586 - fix screenshot prevention monitor cleanup"
 }
