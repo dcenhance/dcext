@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.586",
-  "latestVersion": "1.0.586",
-  "versionCode": 586,
+  "versionName": "1.0.587",
+  "latestVersion": "1.0.587",
+  "versionCode": 587,
   "changelog": [
-    "Release screenshot-prevention monitor cleanup when the setting is disabled."
+    "Release auto-resume saver cleanup when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v586 - fix screenshot prevention monitor cleanup"
+  "message": "v587 - fix auto-resume saver lifecycle cleanup"
 }
