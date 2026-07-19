@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.573",
-  "latestVersion": "1.0.573",
-  "versionCode": 573,
+  "versionName": "1.0.574",
+  "latestVersion": "1.0.574",
+  "versionCode": 574,
   "changelog": [
-    "Fix player controller timing: preserve native progress-bar and control fade synchronization by default.",
+    "Fix duplicate Transparent Nav Bar setting and stop CS3M from overriding CloudStream's in-app navigation controls.",
     "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-19",
   "isRequired": false,
-  "message": "v573 - fix player progress/control fade synchronization"
+  "message": "v574 - fix transparent navigation settings and restoration"
 }
