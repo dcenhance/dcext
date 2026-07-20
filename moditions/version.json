@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.594",
-  "latestVersion": "1.0.594",
-  "versionCode": 594,
+  "versionName": "1.0.595",
+  "latestVersion": "1.0.595",
+  "versionCode": 595,
   "changelog": [
-    "Stop Now Playing overlay polling when a player fragment view is destroyed."
+    "Clear Player Mute Button tracking when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-19",
+  "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v594 - stop Now Playing overlay polling on player view teardown"
+  "message": "v595 - clear Player Mute Button tracking on player view teardown"
 }
