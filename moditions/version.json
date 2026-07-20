@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.608",
-  "latestVersion": "1.0.608",
-  "versionCode": 608,
+  "versionName": "1.0.609",
+  "latestVersion": "1.0.609",
+  "versionCode": 609,
   "changelog": [
-    "Stop External Downloader Auto-Capture when the player view is destroyed."
+    "Release Background Audio wake lock and notification when the player view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v608 - stop External Downloader Auto-Capture on player teardown"
+  "message": "v609 - clean up Background Audio on player teardown"
 }
