@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.620",
-  "latestVersion": "1.0.620",
-  "versionCode": 620,
+  "versionName": "1.0.621",
+  "latestVersion": "1.0.621",
+  "versionCode": 621,
   "changelog": [
-    "Typewriter Speed liest jetzt den Integer-Wert, den die UI speichert.",
-    "Die Verzögerung wird zur Laufzeit auf 10–200 ms begrenzt."
+    "Selected navigation animations no longer stack a layout listener after every settings refresh.",
+    "Refresh, disable and teardown remove the exact registered listener."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v620 - typewriter speed uses the numeric setting value at runtime"
+  "message": "v621 - selected-navigation animation listeners are replaced and cleaned up correctly"
 }
