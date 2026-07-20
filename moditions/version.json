@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.618",
-  "latestVersion": "1.0.618",
-  "versionCode": 618,
+  "versionName": "1.0.619",
+  "latestVersion": "1.0.619",
+  "versionCode": 619,
   "changelog": [
-    "Title- und Body-Font greifen jetzt auch bei Standard-App-Font.",
-    "Font-Scale-Suchergebnis oeffnet die echte Preference."
+    "Scroll Animation Style wird jetzt vom Runtime-Hook gelesen und angewendet.",
+    "Die nicht umsetzbare Marquee-Speed-Pseudooption ist in UI und Suche verborgen."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v618 - title/body font overrides work independently; font-scale search opens its real setting"
+  "message": "v619 - selected scroll animation style now drives runtime behavior; unsupported marquee-speed control hidden"
 }
