@@ -1,14 +1,13 @@
 {
-  "versionName": "1.0.622",
-  "latestVersion": "1.0.622",
-  "versionCode": 622,
+  "versionName": "1.0.623",
+  "latestVersion": "1.0.623",
+  "versionCode": 623,
   "changelog": [
-    "Notification card style, overlay opacity and optional blur are configurable.",
-    "Preview Notification renders a local sample without fetching announcements."
+    "Parental search now fails closed: Hide Adult Content is off until you explicitly enable it."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v622 - notification presentation controls and local preview"
+  "message": "v623 - safe default for parental-content search control"
 }
