@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.604",
-  "latestVersion": "1.0.604",
-  "versionCode": 604,
+  "versionName": "1.0.605",
+  "latestVersion": "1.0.605",
+  "versionCode": 605,
   "changelog": [
-    "Stop Auto Next Source polling when its player fragment no longer has a view."
+    "Wire Download Progress Notification to the runtime injection path and stop it when disabled."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v604 - stop Auto Next Source polling after player view teardown"
+  "message": "v605 - activate and stop Download Progress Notification with its setting"
 }
