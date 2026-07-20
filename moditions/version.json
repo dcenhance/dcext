@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.614",
-  "latestVersion": "1.0.614",
-  "versionCode": 614,
+  "versionName": "1.0.615",
+  "latestVersion": "1.0.615",
+  "versionCode": 615,
   "changelog": [
-    "Download Progress polling now stops when the final CloudStream Activity is destroyed."
+    "Update checker now recognizes the installed CS3M version and will not offer the same build as an update."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v614 - stop Download Progress polling after final Activity teardown"
+  "message": "v615 - synchronize Update Checker version identity"
 }
