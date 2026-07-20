@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.613",
-  "latestVersion": "1.0.613",
-  "versionCode": 613,
+  "versionName": "1.0.614",
+  "latestVersion": "1.0.614",
+  "versionCode": 614,
   "changelog": [
-    "Theme Auto Switch now starts and stops immediately when its setting changes."
+    "Download Progress polling now stops when the final CloudStream Activity is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v613 - apply Theme Auto Switch setting changes immediately"
+  "message": "v614 - stop Download Progress polling after final Activity teardown"
 }
