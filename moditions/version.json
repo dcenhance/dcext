@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.602",
-  "latestVersion": "1.0.602",
-  "versionCode": 602,
+  "versionName": "1.0.603",
+  "latestVersion": "1.0.603",
+  "versionCode": 603,
   "changelog": [
-    "Clean up Audio Output receiver and poller when a player view is destroyed."
+    "Clean up Player Color Filter overlay, effect, and per-player state when a player view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v602 - clean up Audio Output receiver and poller on player view teardown"
+  "message": "v603 - clean up Player Color Filter state on player view teardown"
 }
