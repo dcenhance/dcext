@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.615",
-  "latestVersion": "1.0.615",
-  "versionCode": 615,
+  "versionName": "1.0.616",
+  "latestVersion": "1.0.616",
+  "versionCode": 616,
   "changelog": [
-    "Update checker now recognizes the installed CS3M version and will not offer the same build as an update."
+    "New-episode alerts no longer run against an Activity that was destroyed during their startup delay."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v615 - synchronize Update Checker version identity"
+  "message": "v616 - guard delayed new-episode alerts after Activity destruction"
 }
