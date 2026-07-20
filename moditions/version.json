@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.610",
-  "latestVersion": "1.0.610",
-  "versionCode": 610,
+  "versionName": "1.0.611",
+  "latestVersion": "1.0.611",
+  "versionCode": 611,
   "changelog": [
-    "Release Audio Ducking focus and restore pending volume when the player view is destroyed."
+    "Stop the Minibar Play Button monitor as soon as its setting is disabled."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v610 - release Audio Ducking audio focus on player teardown"
+  "message": "v611 - stop the Minibar monitor when disabled"
 }
