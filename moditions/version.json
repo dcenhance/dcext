@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.599",
-  "latestVersion": "1.0.599",
-  "versionCode": 599,
+  "versionName": "1.0.600",
+  "latestVersion": "1.0.600",
+  "versionCode": 600,
   "changelog": [
-    "Stop Buffering Speed monitor tracking when a player fragment view is destroyed."
+    "Clear Quick Subtitle Font watcher/cache when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v599 - clear Buffering Speed monitor on player view teardown"
+  "message": "v600 - clear Quick Subtitle Font watcher/cache on player view teardown"
 }
