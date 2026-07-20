@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.605",
-  "latestVersion": "1.0.605",
-  "versionCode": 605,
+  "versionName": "1.0.606",
+  "latestVersion": "1.0.606",
+  "versionCode": 606,
   "changelog": [
-    "Wire Download Progress Notification to the runtime injection path and stop it when disabled."
+    "Rebind Download Progress Notification after its captured Activity is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v605 - activate and stop Download Progress Notification with its setting"
+  "message": "v606 - recover Download Progress Notification after Activity recreation"
 }
