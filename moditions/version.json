@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.596",
-  "latestVersion": "1.0.596",
-  "versionCode": 596,
+  "versionName": "1.0.597",
+  "latestVersion": "1.0.597",
+  "versionCode": 597,
   "changelog": [
-    "Stop Pause Screen monitoring and clear its player state when a player fragment view is destroyed."
+    "Remove the Video Info Overlay and stop its refresh callback when a player fragment view is destroyed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v596 - clear Pause Screen monitoring on player view teardown"
+  "message": "v597 - stop Video Info Overlay refresh on player view teardown"
 }
