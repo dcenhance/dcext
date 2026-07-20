@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.616",
-  "latestVersion": "1.0.616",
-  "versionCode": 616,
+  "versionName": "1.0.617",
+  "latestVersion": "1.0.617",
+  "versionCode": 617,
   "changelog": [
-    "New-episode alerts no longer run against an Activity that was destroyed during their startup delay."
+    "Subtitle-Sprachwahl wird beim Verlassen des Players zurueckgesetzt und greift im naechsten Player sofort erneut."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v616 - guard delayed new-episode alerts after Activity destruction"
+  "message": "v617 - reset subtitle language state on player teardown"
 }
