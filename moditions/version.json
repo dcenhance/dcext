@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.612",
-  "latestVersion": "1.0.612",
-  "versionCode": 612,
+  "versionName": "1.0.613",
+  "latestVersion": "1.0.613",
+  "versionCode": 613,
   "changelog": [
-    "Clear Profile Gallery Picker callbacks during injection refreshes."
+    "Theme Auto Switch now starts and stops immediately when its setting changes."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-20",
   "isRequired": false,
-  "message": "v612 - clear Profile Gallery Picker callbacks on refresh"
+  "message": "v613 - apply Theme Auto Switch setting changes immediately"
 }
