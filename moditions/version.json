@@ -1,13 +1,14 @@
 {
-  "versionName": "1.0.625",
-  "latestVersion": "1.0.625",
-  "versionCode": 625,
+  "versionName": "1.0.623",
+  "latestVersion": "1.0.623",
+  "versionCode": 623,
   "changelog": [
-    "Device Tweaks: Improved Keyboard Overlay now activates and fully cleans up immediately when its switch is changed."
+    "Critical: repaired invalid overlapping long-register move in applyInjectionsPhase2.",
+    "CS3M can load again instead of entering CloudStream safe mode."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "v625 - live TV keyboard toggle lifecycle"
+  "message": "v623 - critical Android verifier repair; CS3M loads again"
 }
