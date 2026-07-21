@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.625",
-  "latestVersion": "1.0.625",
-  "versionCode": 625,
+  "versionName": "1.0.626",
+  "latestVersion": "1.0.626",
+  "versionCode": 626,
   "changelog": [
     "Critical: fixed an invoke-direct/invoke-virtual mismatch in PlayerQuickSubtitleFontModitions.",
     "CS3M no longer crashes CloudStream while the quick subtitle-font toggle is disabled."
@@ -10,5 +10,5 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "v625 - critical subtitle font crash repair"
+  "message": "Appearance and animation cleanup"
 }

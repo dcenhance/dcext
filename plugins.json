@@ -3,7 +3,7 @@
     "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 1779920,
+    "fileSize": 1776391,
     "status": 1,
     "language": "en",
     "authors": [
@@ -12,13 +12,13 @@
     "tvTypes": [
       "Others"
     ],
-    "version": 625,
+    "version": 626,
     "internalName": "CS3MProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
     "name": "CS3M",
     "description": "UI customization tool for CloudStream - themes, fonts, animations, and more",
-    "versionCode": 625,
-    "versionInt": 625
+    "versionCode": 626,
+    "versionInt": 626
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
@@ -57,7 +57,7 @@
     "internalName": "KoolLiveTVProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
     "name": "Kool Live TV",
-    "description": "Kool.to Live TV - 17 Länder, 9900+ IPTV Sender"
+    "description": "Kool.to Live TV - 17 L\u00e4nder, 9900+ IPTV Sender"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
