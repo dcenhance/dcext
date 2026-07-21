@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.624",
-  "latestVersion": "1.0.624",
-  "versionCode": 624,
+  "versionName": "1.0.625",
+  "latestVersion": "1.0.625",
+  "versionCode": 625,
   "changelog": [
-    "Developer: Feature Review is now directly available from Developer settings, without the hidden version-tap gesture."
+    "Device Tweaks: Improved Keyboard Overlay now activates and fully cleans up immediately when its switch is changed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "v624 - direct Developer Feature Review access"
+  "message": "v625 - live TV keyboard toggle lifecycle"
 }
