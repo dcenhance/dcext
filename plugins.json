@@ -24,7 +24,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 67858,
+    "fileSize": 68304,
     "status": 1,
     "language": "de",
     "authors": [
@@ -34,7 +34,7 @@
       "AnimeMovie",
       "Anime"
     ],
-    "version": 21,
+    "version": 22,
     "internalName": "AniworldProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
     "name": "Aniworld",
@@ -44,7 +44,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 38026,
+    "fileSize": 37720,
     "status": 1,
     "language": "de",
     "authors": [
@@ -53,7 +53,7 @@
     "tvTypes": [
       "Live"
     ],
-    "version": 16,
+    "version": 17,
     "internalName": "KoolLiveTVProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
     "name": "Kool Live TV",
@@ -63,7 +63,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 46351,
+    "fileSize": 46123,
     "status": 1,
     "language": "de",
     "authors": [
@@ -73,7 +73,7 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 18,
+    "version": 19,
     "internalName": "KoolToProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
     "name": "Kool VOD",
