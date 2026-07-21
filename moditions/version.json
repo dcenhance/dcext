@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.623",
-  "latestVersion": "1.0.623",
-  "versionCode": 623,
+  "versionName": "1.0.624",
+  "latestVersion": "1.0.624",
+  "versionCode": 624,
   "changelog": [
-    "Critical: repaired invalid overlapping long-register move in applyInjectionsPhase2.",
-    "CS3M can load again instead of entering CloudStream safe mode."
+    "Clear image cache now scans internal and external cache trees and reports reclaimed space.",
+    "New confirmed Clear All App Cache action preserves settings, repositories, and installed extensions."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "v623 - critical Android verifier repair; CS3M loads again"
+  "message": "v624 - safe cache maintenance tools"
 }
