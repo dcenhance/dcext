@@ -1,13 +1,13 @@
 {
-  "versionName": "1.0.623",
-  "latestVersion": "1.0.623",
-  "versionCode": 623,
+  "versionName": "1.0.624",
+  "latestVersion": "1.0.624",
+  "versionCode": 624,
   "changelog": [
-    "Parental search now fails closed: Hide Adult Content is off until you explicitly enable it."
+    "Developer: Feature Review is now directly available from Developer settings, without the hidden version-tap gesture."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-20",
+  "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "v623 - safe default for parental-content search control"
+  "message": "v624 - direct Developer Feature Review access"
 }
