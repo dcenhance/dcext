@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.628",
-  "latestVersion": "1.0.628",
-  "versionCode": 628,
+  "versionName": "1.0.629",
+  "latestVersion": "1.0.629",
+  "versionCode": 629,
   "changelog": [
-    "Player controls are excluded from global card corner-radius and elevation styling.",
-    "Native CloudStream player-bar geometry is preserved."
+    "Font selection now exposes an explicit Save Font action.",
+    "Custom font paths also require Save Font before being persisted and applied."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "Preserve native player controls"
+  "message": "Explicit font save action"
 }
