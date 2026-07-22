@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.629",
-  "latestVersion": "1.0.629",
-  "versionCode": 629,
+  "versionName": "1.0.630",
+  "latestVersion": "1.0.630",
+  "versionCode": 630,
   "changelog": [
-    "Font selection now exposes an explicit Save Font action.",
-    "Custom font paths also require Save Font before being persisted and applied."
+    "Font selector now uses a constrained scrollable list with an always-visible Save Font action.",
+    "Removed the oversized preview panel that pushed dialog actions off-screen."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "Explicit font save action"
+  "message": "Compact font selector"
 }
