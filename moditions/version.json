@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.627",
-  "latestVersion": "1.0.627",
-  "versionCode": 627,
+  "versionName": "1.0.628",
+  "latestVersion": "1.0.628",
+  "versionCode": 628,
   "changelog": [
-    "Auto Cache Clean now compares cache size precisely in bytes, so it runs immediately once the configured threshold is exceeded.",
-    "Invalid zero or negative thresholds are safely clamped to 1 MB."
+    "Player controls are excluded from global card corner-radius and elevation styling.",
+    "Native CloudStream player-bar geometry is preserved."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "Auto cache threshold precision"
+  "message": "Preserve native player controls"
 }
