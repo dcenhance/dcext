@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.630",
-  "latestVersion": "1.0.630",
-  "versionCode": 630,
+  "versionName": "1.0.631",
+  "latestVersion": "1.0.631",
+  "versionCode": 631,
   "changelog": [
-    "Font selector now uses a constrained scrollable list with an always-visible Save Font action.",
-    "Removed the oversized preview panel that pushed dialog actions off-screen."
+    "Critical: package the full Appearance Settings synthetic class family with the compact font selector.",
+    "Fixes App Font NoSuchMethodError on click."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "Compact font selector"
+  "message": "Repair font selector crash"
 }
