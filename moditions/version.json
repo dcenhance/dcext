@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.632",
-  "latestVersion": "1.0.632",
-  "versionCode": 632,
+  "versionName": "1.0.633",
+  "latestVersion": "1.0.633",
+  "versionCode": 633,
   "changelog": [
-    "Auto-build v632",
+    "Auto-build v633",
     "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-23",
   "isRequired": false,
-  "message": "v632 - Auto build + deploy"
+  "message": "v633 - Auto build + deploy"
 }
