@@ -6,9 +6,9 @@
 
 **CloudStream Extensions Repository**
 
-[![CS3M](https://img.shields.io/badge/CS3M-v572-blue?style=flat-square)](plugins/)
+[![CS3M](https://img.shields.io/badge/CS3M-v233-blue?style=flat-square)](plugins/)
 [![Android](https://img.shields.io/badge/Android-5.0+-green?style=flat-square)](https://www.android.com)
-[![CloudStream](https://img.shields.io/badge/CloudStream-Extensions-purple?style=flat-square)](https://github.com/recloudstream/cloudstream)
+[![CloudStream](https://img.shields.io/badge/CloudStream-3.x%20%7C%204.x-purple?style=flat-square)](https://github.com/recloudstream/cloudstream)
 
 </div>
 
@@ -42,11 +42,9 @@ https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json
 
 | Plugin | Content |
 |--------|---------|
-| **Aniworld** | German anime (aniworld.to) |
+| **Aniworld** | Anime (aniworld.to) |
 | **Kool Live TV** | Live TV channels |
 | **Kool VOD** | Movies & TV series |
-| **S.to Serienstream** | German TV series |
-| **Filmpalast** | German movies & TV series |
 
 ---
 
@@ -125,7 +123,7 @@ https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json
 
 | | |
 |---|---|
-| CloudStream | Install from the current official release; compatibility depends on the app's extension API |
+| CloudStream | 3.x or 4.x |
 | Android | 5.0+ |
 | Material You | Android 12+ |
 

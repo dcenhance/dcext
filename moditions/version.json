@@ -3,12 +3,12 @@
   "latestVersion": "1.0.632",
   "versionCode": 632,
   "changelog": [
-    "Transparent Nav Bar no longer adds a blank top inset.",
-    "Dim App now covers the entire active CloudStream Activity."
+    "Auto-build v632",
+    "See GitHub for full changelog"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-21",
+  "releaseDate": "2026-07-23",
   "isRequired": false,
-  "message": "v632 \u2014 Transparent Nav + Dim App fixes"
+  "message": "v632 - Auto build + deploy"
 }
