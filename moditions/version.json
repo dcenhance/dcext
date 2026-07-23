@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.631",
-  "latestVersion": "1.0.631",
-  "versionCode": 631,
+  "versionName": "1.0.632",
+  "latestVersion": "1.0.632",
+  "versionCode": 632,
   "changelog": [
-    "Critical: package the full Appearance Settings synthetic class family with the compact font selector.",
-    "Fixes App Font NoSuchMethodError on click."
+    "Transparent Nav Bar no longer adds a blank top inset.",
+    "Dim App now covers the entire active CloudStream Activity."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-21",
   "isRequired": false,
-  "message": "Repair font selector crash"
+  "message": "v632 \u2014 Transparent Nav + Dim App fixes"
 }
