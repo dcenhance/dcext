@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.645",
-  "latestVersion": "1.0.645",
-  "versionCode": 645,
+  "versionName": "1.0.646",
+  "latestVersion": "1.0.646",
+  "versionCode": 646,
   "changelog": [
-    "Syncplay Watch Party: synchronized play, pause, seek, room chat, and participant list",
-    "Verified STARTTLS transport with fail-closed certificate and downgrade protection"
+    "Fix: Watch Party player button now waits for late CloudStream controls",
+    "Bounded, lifecycle-safe control injection retries"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-26",
   "isRequired": false,
-  "message": "v645 - Syncplay Watch Party"
+  "message": "v646 - Watch Party player button fix"
 }
