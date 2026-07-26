@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.646",
-  "latestVersion": "1.0.646",
-  "versionCode": 646,
+  "versionName": "1.0.647",
+  "latestVersion": "1.0.647",
+  "versionCode": 647,
   "changelog": [
-    "Fix: Watch Party player button now waits for late CloudStream controls",
-    "Bounded, lifecycle-safe control injection retries"
+    "Discord presence starts after 3 seconds and can be cancelled by going back or disabling it.",
+    "No repeat delay on episode changes in the same player."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-26",
   "isRequired": false,
-  "message": "v646 - Watch Party player button fix"
+  "message": "v647 - delayed Discord presence"
 }
