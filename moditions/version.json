@@ -1,19 +1,18 @@
 {
-  "versionName": "1.0.651",
-  "latestVersion": "1.0.651",
-  "versionCode": 651,
+  "versionName": "1.0.652",
+  "latestVersion": "1.0.652",
+  "versionCode": 652,
   "changelog": [
-    "Deep function audit: lifecycle, settings, downloader, sharing, updates, system bars, and Syncplay",
-    "Reject stale Activity and stale Syncplay callbacks",
-    "Fix TV keyboard callback ownership and immediate toggle reconciliation",
-    "Restore result-page downloader hooks and Share Stream URL button",
-    "Verify downloaded CS3 archive identity/version before install",
-    "Hide unwired settings instead of exposing no-op controls"
+    "Account for self-echo Syncplay latency samples before ignoring playback echoes",
+    "Emit exactly one terminal update-download result across fallback sources",
+    "Enforce Android Auto parent-child state in category and settings search",
+    "Remove stale duplicate settings-search controls",
+    "Hide pause controls that have no active lifecycle owner"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-27",
   "isRequired": false,
-  "message": "v651 - deep function reliability fixes",
-  "sha256": "594f364693af1ed302067409a503bc8c5e870253c0e7d8c4e249f4baa07639bd"
+  "message": "v652 - final late-audit reliability fixes",
+  "sha256": "2a1e46d81a57e5b6a5dedc71207771d14264b93716689e71f001da0c3e6eefc7"
 }
