@@ -1,14 +1,14 @@
 {
-  "versionName": "1.0.648",
-  "latestVersion": "1.0.648",
-  "versionCode": 648,
+  "versionName": "1.0.649",
+  "latestVersion": "1.0.649",
+  "versionCode": 649,
   "changelog": [
-    "Discord poster artwork is opt-in by default on new installs.",
-    "Existing poster choices are preserved during migration."
+    "Disabling the audio-output indicator now unregisters its receiver and cancels queued updates.",
+    "Queued audio-indicator updates revalidate that their target view is attached."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-27",
   "isRequired": false,
-  "message": "v648 - Discord artwork remains opt-in by default"
+  "message": "v649 - Audio-output indicator callback lifecycle hardening"
 }
