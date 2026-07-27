@@ -1,14 +1,19 @@
 {
-  "versionName": "1.0.650",
-  "latestVersion": "1.0.650",
-  "versionCode": 650,
+  "versionName": "1.0.651",
+  "latestVersion": "1.0.651",
+  "versionCode": 651,
   "changelog": [
-    "Now-playing overlays cancel their pending fade callback during teardown.",
-    "Delayed overlay fades run only for the current, attached player root."
+    "Deep function audit: lifecycle, settings, downloader, sharing, updates, system bars, and Syncplay",
+    "Reject stale Activity and stale Syncplay callbacks",
+    "Fix TV keyboard callback ownership and immediate toggle reconciliation",
+    "Restore result-page downloader hooks and Share Stream URL button",
+    "Verify downloaded CS3 archive identity/version before install",
+    "Hide unwired settings instead of exposing no-op controls"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-07-27",
   "isRequired": false,
-  "message": "v650 - Now-playing overlay callback lifecycle hardening"
+  "message": "v651 - deep function reliability fixes",
+  "sha256": "594f364693af1ed302067409a503bc8c5e870253c0e7d8c4e249f4baa07639bd"
 }
