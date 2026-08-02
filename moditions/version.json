@@ -1,18 +1,17 @@
 {
-  "versionName": "1.0.653",
-  "latestVersion": "1.0.653",
-  "versionCode": 653,
+  "versionName": "1.0.655",
+  "latestVersion": "1.0.655",
+  "versionCode": 655,
   "changelog": [
-    "Account for self-echo Syncplay latency samples before ignoring playback echoes",
-    "Emit exactly one terminal update-download result across fallback sources",
-    "Enforce Android Auto parent-child state in category and settings search",
-    "Remove stale duplicate settings-search controls",
-    "Hide pause controls that have no active lifecycle owner"
+    "Real cross-surface video effects for SurfaceView and TextureView players",
+    "Local subtitle burn-in pipeline with Media3 Transformer and MediaStore export",
+    "Native CloudStream download concurrency controls and safe performance presets",
+    "Safer lifecycle cleanup, update archive validation, and player UI isolation"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-07-27",
+  "releaseDate": "2026-08-02",
   "isRequired": false,
-  "message": "v652 - final late-audit reliability fixes",
+  "message": "CS3M v655 — video effects, subtitle burn-in, native download controls, and lifecycle hardening",
   "sha256": "2a1e46d81a57e5b6a5dedc71207771d14264b93716689e71f001da0c3e6eefc7"
 }
