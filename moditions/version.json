@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.652",
-  "latestVersion": "1.0.652",
-  "versionCode": 652,
+  "versionName": "1.0.653",
+  "latestVersion": "1.0.653",
+  "versionCode": 653,
   "changelog": [
     "Account for self-echo Syncplay latency samples before ignoring playback echoes",
     "Emit exactly one terminal update-download result across fallback sources",
