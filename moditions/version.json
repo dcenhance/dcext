@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.658",
-  "latestVersion": "1.0.658",
-  "versionCode": 658,
+  "versionName": "1.0.659",
+  "latestVersion": "1.0.659",
+  "versionCode": 659,
   "changelog": [
-    "Burn-in now rejects unsafe, credential-bearing, or non-HTTP(S) video and subtitle URLs, including redirect targets",
-    "Subtitle downloads are capped at 2 MiB before parsing, preventing oversized remote text from exhausting the renderer",
-    "Timed caption input is bounded to 2,000 cues and 2,000 characters per cue for stable decoded-frame overlays",
-    "ASS/SSA Dialogue tracks, exclusive hardware rendering, and safe bounded MP4 output names remain supported"
+    "External downloader handoff now accepts only credential-free HTTP(S) stream URLs and rejects control-character input",
+    "External downloader headers now retain valid playback authentication while rejecting injected, routing, and HTTP-framing fields",
+    "Suggested external-download filenames are now reduced to bounded portable leaf names before intent extras are created"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-03",
   "isRequired": false,
-  "message": "CS3M v658 — hardened optional subtitle burn-in input and renderer limits",
-  "sha256": "5a700808ffe88ffc781c7e2643171a54dbec0e969729cee8aae36bc2872561cc"
+  "message": "CS3M v659 — hardened external downloader handoff boundaries",
+  "sha256": "150d4d9e8e941d175b3ae28c7f9675d220e9d4ea7611555ac53814c79b035650"
 }
