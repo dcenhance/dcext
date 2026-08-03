@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.657",
-  "latestVersion": "1.0.657",
-  "versionCode": 657,
+  "versionName": "1.0.658",
+  "latestVersion": "1.0.658",
+  "versionCode": 658,
   "changelog": [
-    "Subtitle burn-in accepts ASS/SSA Dialogue tracks and preserves explicit subtitle line breaks",
-    "Optional subtitle rendering now rejects non-HTTP(S) source URLs before any local export work begins",
-    "One hardware subtitle render is admitted at a time, with release on all completion and setup paths",
-    "Safe bounded MP4 output names prevent resolver paths, controls, and unsupported filename characters"
+    "Burn-in now rejects unsafe, credential-bearing, or non-HTTP(S) video and subtitle URLs, including redirect targets",
+    "Subtitle downloads are capped at 2 MiB before parsing, preventing oversized remote text from exhausting the renderer",
+    "Timed caption input is bounded to 2,000 cues and 2,000 characters per cue for stable decoded-frame overlays",
+    "ASS/SSA Dialogue tracks, exclusive hardware rendering, and safe bounded MP4 output names remain supported"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-03",
   "isRequired": false,
-  "message": "CS3M v657 — safer and more compatible optional subtitle burn-in exports",
-  "sha256": "618a64bb4d2f0010caa0b72d87779a08fa0a43392f914b7f05f2f4e23d2ba5e6"
+  "message": "CS3M v658 — hardened optional subtitle burn-in input and renderer limits",
+  "sha256": "5a700808ffe88ffc781c7e2643171a54dbec0e969729cee8aae36bc2872561cc"
 }
