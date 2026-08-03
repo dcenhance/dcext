@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.655",
-  "latestVersion": "1.0.655",
-  "versionCode": 655,
+  "versionName": "1.0.657",
+  "latestVersion": "1.0.657",
+  "versionCode": 657,
   "changelog": [
-    "Real cross-surface video effects for SurfaceView and TextureView players",
-    "Local subtitle burn-in pipeline with Media3 Transformer and MediaStore export",
-    "Native CloudStream download concurrency controls and safe performance presets",
-    "Safer lifecycle cleanup, update archive validation, and player UI isolation"
+    "Subtitle burn-in accepts ASS/SSA Dialogue tracks and preserves explicit subtitle line breaks",
+    "Optional subtitle rendering now rejects non-HTTP(S) source URLs before any local export work begins",
+    "One hardware subtitle render is admitted at a time, with release on all completion and setup paths",
+    "Safe bounded MP4 output names prevent resolver paths, controls, and unsupported filename characters"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-02",
+  "releaseDate": "2026-08-03",
   "isRequired": false,
-  "message": "CS3M v655 — video effects, subtitle burn-in, native download controls, and lifecycle hardening",
-  "sha256": "2a1e46d81a57e5b6a5dedc71207771d14264b93716689e71f001da0c3e6eefc7"
+  "message": "CS3M v657 — safer and more compatible optional subtitle burn-in exports",
+  "sha256": "618a64bb4d2f0010caa0b72d87779a08fa0a43392f914b7f05f2f4e23d2ba5e6"
 }
