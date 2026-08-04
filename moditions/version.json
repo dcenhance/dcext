@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.659",
-  "latestVersion": "1.0.659",
-  "versionCode": 659,
+  "versionName": "1.0.660",
+  "latestVersion": "1.0.660",
+  "versionCode": 660,
   "changelog": [
-    "External downloader handoff now accepts only credential-free HTTP(S) stream URLs and rejects control-character input",
-    "External downloader headers now retain valid playback authentication while rejecting injected, routing, and HTTP-framing fields",
-    "Suggested external-download filenames are now reduced to bounded portable leaf names before intent extras are created"
+    "Subtitle burn-in accepts only credential-free absolute HTTP(S) media and subtitle URLs before network access",
+    "Subtitle burn-in retains playback authentication while rejecting routing and HTTP-framing request headers",
+    "Subtitle burn-in output names are now bounded portable leaf names before they reach Downloads storage"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-03",
+  "releaseDate": "2026-08-04",
   "isRequired": false,
-  "message": "CS3M v659 — hardened external downloader handoff boundaries",
-  "sha256": "150d4d9e8e941d175b3ae28c7f9675d220e9d4ea7611555ac53814c79b035650"
+  "message": "CS3M v660 — hardened subtitle burn-in export boundaries",
+  "sha256": "28784ff25c9ae821925e6acccb6d71a37223da9f77db2f358a5375625dcdab7d"
 }
