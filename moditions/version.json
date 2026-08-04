@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.660",
-  "latestVersion": "1.0.660",
-  "versionCode": 660,
+  "versionName": "1.0.661",
+  "latestVersion": "1.0.661",
+  "versionCode": 661,
   "changelog": [
-    "Subtitle burn-in accepts only credential-free absolute HTTP(S) media and subtitle URLs before network access",
-    "Subtitle burn-in retains playback authentication while rejecting routing and HTTP-framing request headers",
-    "Subtitle burn-in output names are now bounded portable leaf names before they reach Downloads storage"
+    "Subtitle burn-in rejects non-HTTP(S), relative, malformed and user-info-bearing media or subtitle URLs before network/export work",
+    "Subtitle burn-in preserves playback authentication while dropping routing, proxy and HTTP-framing request headers",
+    "Subtitle burn-in turns export names into bounded portable leaf filenames before Downloads publication"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-04",
   "isRequired": false,
-  "message": "CS3M v660 — hardened subtitle burn-in export boundaries",
-  "sha256": "28784ff25c9ae821925e6acccb6d71a37223da9f77db2f358a5375625dcdab7d"
+  "message": "CS3M v661 — hardened subtitle burn-in export boundaries",
+  "sha256": "093edd13ebf68833fc6f0b8b104c7659f51d40eaf51d127500bf18913bc9c593"
 }
