@@ -1,18 +1,18 @@
 {
-  "versionName": "1.0.666",
-  "latestVersion": "1.0.666",
-  "versionCode": 666,
+  "versionName": "1.0.667",
+  "latestVersion": "1.0.667",
+  "versionCode": 667,
   "changelog": [
-    "Subtitle burn-in validates and normalizes video and subtitle sources to credential-free HTTP(S) before export",
-    "Subtitle payloads decode UTF-8, UTF-16LE, and UTF-16BE byte-order marks before parsing",
-    "Mislabeled HTML or login bodies are rejected even when the server omits the HTML content type",
-    "WebVTT NOTE, STYLE, and REGION blocks are skipped completely instead of becoming rendered cues",
-    "Subtitle cue character-budget accounting is linear rather than repeatedly summing all prior cues"
+    "Discord login shields authenticated chat routes before their first visible frame and captures credentials without JavaScript alerts",
+    "Episode thumbnails now enter and leave a real animated blur, with a bitmap cross-fade fallback on older Android versions",
+    "Thumbnail blur refreshes are deduplicated, stale callbacks stop when disabled, and recycled rows keep the correct original image",
+    "Subtitle burn-in keeps empty cue intervals bitmap-safe, preserves extractor user agents, and rejects excessive line counts",
+    "WebVTT tab-separated settings and overflowing hour fields are parsed safely"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v666 — robustere Subtitle-Quellen und WebVTT-Verarbeitung",
-  "sha256": "120896de9754b27d0fafa54adf743e625d3785656edb3df04780036eeafa8c0a"
+  "message": "CS3M v667 — sicherer Discord-Login und animierter Thumbnail-Blur",
+  "sha256": "b22951a98552cd85d62e50954423b97d8e533c2e96cebc72d16472d6f2f5ad80"
 }
