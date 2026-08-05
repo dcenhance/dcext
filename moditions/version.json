@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.669",
-  "latestVersion": "1.0.669",
-  "versionCode": 669,
+  "versionName": "1.0.670",
+  "latestVersion": "1.0.670",
+  "versionCode": 670,
   "changelog": [
-    "Fluid thumbnail blur with a subtle organic distortion on Android 13+ and stable fallback blur on older Android versions",
-    "Exact Android TV episode targeting through fragment_result_tv, result_episodes, result_episode_large, and episode_poster",
-    "Lifecycle-safe animator and observer cleanup while keeping cast artwork, text, and playback controls sharp"
+    "Restores the exact original episode artwork before Android 8–11 bitmap-blur tracking is destroyed, preventing blur-on-blur refreshes",
+    "Keeps long-press reveal stable against pending checks while still re-blurring genuinely new Coil artwork",
+    "Observes only the exact result_episodes RecyclerView and removes owned child and attach listeners on detach"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v669 — Flüssiger Episoden-Blur und TV-Layout-Unterstützung",
-  "sha256": "0163ebafca40a1ba869a2be079624b65f54a7f63ac9c6e477d1adb8d81f0952d"
+  "message": "CS3M v670 — Blur-Lifecycle-Hotfix für Reveal, Refresh und RecyclerView-Cleanup",
+  "sha256": "a6569b2f2df8cb834212f474c83e7091040d6106b60cddc2f193e90c8834c36a"
 }
