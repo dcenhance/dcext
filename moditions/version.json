@@ -1,18 +1,17 @@
 {
-  "versionName": "1.0.667",
-  "latestVersion": "1.0.667",
-  "versionCode": 667,
+  "versionName": "1.0.668",
+  "latestVersion": "1.0.668",
+  "versionCode": 668,
   "changelog": [
-    "Discord login shields authenticated chat routes before their first visible frame and captures credentials without JavaScript alerts",
-    "Episode thumbnails now enter and leave a real animated blur, with a bitmap cross-fade fallback on older Android versions",
-    "Thumbnail blur refreshes are deduplicated, stale callbacks stop when disabled, and recycled rows keep the correct original image",
-    "Subtitle burn-in keeps empty cue intervals bitmap-safe, preserves extractor user agents, and rejects excessive line counts",
-    "WebVTT tab-separated settings and overflowing hour fields are parsed safely"
+    "Episode thumbnail blur is installed before asynchronous Coil image delivery, so current CloudStream result rows are blurred reliably",
+    "Already tracked and recycled episode rows are rechecked immediately instead of being skipped by stale listener state",
+    "GPU reveal no longer restores an old thumbnail after RecyclerView reuse, and legacy hardware bitmaps are copied safely before blur",
+    "Animated blur rendering is covered by an Android API 35 pixel-level instrumentation test"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v667 — sicherer Discord-Login und animierter Thumbnail-Blur",
-  "sha256": "b22951a98552cd85d62e50954423b97d8e533c2e96cebc72d16472d6f2f5ad80"
+  "message": "CS3M v668 — Thumbnail-Blur am Coil-Ladepfad repariert",
+  "sha256": "81ad327a44c809993eafd3bd325ee1e42372fa1bdc3f43edad10dc65672076f6"
 }
