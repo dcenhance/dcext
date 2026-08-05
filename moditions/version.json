@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.668",
-  "latestVersion": "1.0.668",
-  "versionCode": 668,
+  "versionName": "1.0.669",
+  "latestVersion": "1.0.669",
+  "versionCode": 669,
   "changelog": [
-    "Episode thumbnail blur is installed before asynchronous Coil image delivery, so current CloudStream result rows are blurred reliably",
-    "Already tracked and recycled episode rows are rechecked immediately instead of being skipped by stale listener state",
-    "GPU reveal no longer restores an old thumbnail after RecyclerView reuse, and legacy hardware bitmaps are copied safely before blur",
-    "Animated blur rendering is covered by an Android API 35 pixel-level instrumentation test"
+    "Fluid thumbnail blur with a subtle organic distortion on Android 13+ and stable fallback blur on older Android versions",
+    "Exact Android TV episode targeting through fragment_result_tv, result_episodes, result_episode_large, and episode_poster",
+    "Lifecycle-safe animator and observer cleanup while keeping cast artwork, text, and playback controls sharp"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v668 — Thumbnail-Blur am Coil-Ladepfad repariert",
-  "sha256": "81ad327a44c809993eafd3bd325ee1e42372fa1bdc3f43edad10dc65672076f6"
+  "message": "CS3M v669 — Flüssiger Episoden-Blur und TV-Layout-Unterstützung",
+  "sha256": "0163ebafca40a1ba869a2be079624b65f54a7f63ac9c6e477d1adb8d81f0952d"
 }
