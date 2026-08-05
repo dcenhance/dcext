@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.664",
-  "latestVersion": "1.0.664",
-  "versionCode": 664,
+  "versionName": "1.0.665",
+  "latestVersion": "1.0.665",
+  "versionCode": 665,
   "changelog": [
-    "Subtitle burn-in rejects HTTPS-to-HTTP redirect downgrades and strips Cookie, Authorization, Proxy-Authorization, Origin, and Referer when a redirect changes origin",
-    "Subtitle burn-in bounds parsed subtitle work to 2,000 cues, 600 characters per cue, and 100,000 rendered-text characters while removing control and bidirectional override characters",
-    "Subtitle burn-in renders at most the two most recent overlapping cues and caps the composed caption frame at 1,200 characters to keep Media3 overlay work bounded"
+    "Subtitle burn-in validates each redirect explicitly, rejects non-HTTP(S) and HTTPS-to-HTTP targets, and never forwards resolver credentials across an origin change",
+    "Subtitle burn-in rejects HTML/login pages and caps subtitle payloads at 2 MB before parsing, preventing unbounded renderer preparation work",
+    "Subtitle burn-in sanitizes and bounds generated MP4 filenames while limiting hostile cue text and overlapping caption frames before Media3 overlay rendering"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v664 — bounded subtitle burn-in redirects and rendering",
-  "sha256": "b3efb1dbd9219ab94f25569a10a63860f986b533e060d4411c0567ae85fc77e9"
+  "message": "CS3M v665 — sichere und begrenzte Subtitle-Burn-ins",
+  "sha256": "0abd2e5c335e4a4a38d1ca2742a6bf6f71652f6e78328bea391ed0da24c44a2c"
 }
