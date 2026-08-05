@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.670",
-  "latestVersion": "1.0.670",
-  "versionCode": 670,
+  "versionName": "1.0.671",
+  "latestVersion": "1.0.671",
+  "versionCode": 671,
   "changelog": [
-    "Restores the exact original episode artwork before Android 8–11 bitmap-blur tracking is destroyed, preventing blur-on-blur refreshes",
-    "Keeps long-press reveal stable against pending checks while still re-blurring genuinely new Coil artwork",
-    "Observes only the exact result_episodes RecyclerView and removes owned child and attach listeners on detach"
+    "Preserves CloudStream's circular cast, character, profile, and account image masks when custom card corners are enabled",
+    "Keeps episode artwork at its full 16:9 size by excluding the host thumbnail mask from custom radius, elevation, and compatibility padding",
+    "Applies custom card geometry only to real content cards, including dynamically attached and recycled cards"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v670 — Blur-Lifecycle-Hotfix für Reveal, Refresh und RecyclerView-Cleanup",
-  "sha256": "a6569b2f2df8cb834212f474c83e7091040d6106b60cddc2f193e90c8834c36a"
+  "message": "CS3M v671 — Host-Bildmasken und Episoden-Thumbnail-Geometrie repariert",
+  "sha256": "a8de045c2abc4c46278ce3df8ce0e8782e1df77f6bca603c706ddba234bda6ae"
 }
