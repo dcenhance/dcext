@@ -1,16 +1,18 @@
 {
-  "versionName": "1.0.665",
-  "latestVersion": "1.0.665",
-  "versionCode": 665,
+  "versionName": "1.0.666",
+  "latestVersion": "1.0.666",
+  "versionCode": 666,
   "changelog": [
-    "Subtitle burn-in validates each redirect explicitly, rejects non-HTTP(S) and HTTPS-to-HTTP targets, and never forwards resolver credentials across an origin change",
-    "Subtitle burn-in rejects HTML/login pages and caps subtitle payloads at 2 MB before parsing, preventing unbounded renderer preparation work",
-    "Subtitle burn-in sanitizes and bounds generated MP4 filenames while limiting hostile cue text and overlapping caption frames before Media3 overlay rendering"
+    "Subtitle burn-in validates and normalizes video and subtitle sources to credential-free HTTP(S) before export",
+    "Subtitle payloads decode UTF-8, UTF-16LE, and UTF-16BE byte-order marks before parsing",
+    "Mislabeled HTML or login bodies are rejected even when the server omits the HTML content type",
+    "WebVTT NOTE, STYLE, and REGION blocks are skipped completely instead of becoming rendered cues",
+    "Subtitle cue character-budget accounting is linear rather than repeatedly summing all prior cues"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-05",
   "isRequired": false,
-  "message": "CS3M v665 — sichere und begrenzte Subtitle-Burn-ins",
-  "sha256": "0abd2e5c335e4a4a38d1ca2742a6bf6f71652f6e78328bea391ed0da24c44a2c"
+  "message": "CS3M v666 — robustere Subtitle-Quellen und WebVTT-Verarbeitung",
+  "sha256": "120896de9754b27d0fafa54adf743e625d3785656edb3df04780036eeafa8c0a"
 }
