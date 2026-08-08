@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.676",
-  "latestVersion": "1.0.676",
-  "versionCode": 676,
+  "versionName": "1.0.677",
+  "latestVersion": "1.0.677",
+  "versionCode": 677,
   "changelog": [
-    "Quality-of-life improvements",
-    "Discord artwork is opt-in and preserves existing preferences",
-    "Settings consistency and stability refinements"
+    "Quality-of-life refinements",
+    "System settings and About presentation improvements",
+    "Stability and compatibility maintenance"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v676 — Quality-of-life and privacy improvements",
+  "message": "CS3M v677 — Quality-of-life refinements",
   "sha256": "28ddf1ea5248bc7d7f0e08ab4870ead3ceaee20adf1cf955c9eb032ac1ae5c35"
 }
