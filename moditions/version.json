@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.674",
-  "latestVersion": "1.0.674",
-  "versionCode": 674,
+  "versionName": "1.0.675",
+  "latestVersion": "1.0.675",
+  "versionCode": 675,
   "changelog": [
-    "Syncplay begrenzt und bereinigt Servernamen, Räume, MOTDs und Chattexte vor der Anzeige im Player-Dialog",
-    "Syncplay verwirft nicht-endliche oder negative Zeit-, Ping- und Positionswerte, damit keine ungültigen JSON-Frames oder Remote-Seeks entstehen",
-    "Syncplay lehnt übergroße Protokollframes ab und begrenzt Raum- und Teilnehmerlisten vor der UI- und Verlaufseinbindung"
+    "Quality-of-life improvements",
+    "Improved episode layout and title scrolling behavior",
+    "System settings and stability refinements"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v674 — Syncplay-Protokoll, Anzeige und Playback-Daten gehärtet",
+  "message": "CS3M v675 — Quality-of-life and stability improvements",
   "sha256": "28ddf1ea5248bc7d7f0e08ab4870ead3ceaee20adf1cf955c9eb032ac1ae5c35"
 }
