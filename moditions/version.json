@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.673",
-  "latestVersion": "1.0.673",
-  "versionCode": 673,
+  "versionName": "1.0.674",
+  "latestVersion": "1.0.674",
+  "versionCode": 674,
   "changelog": [
-    "Subtitle Burn-in verwirft nun ungültige Minutenfelder statt sie stillschweigend zu einer anderen Stunde zu verschieben",
-    "Burn-in-Request-Header verwerfen jetzt alle C0-Steuerzeichen und DEL, bevor sie an die HTTP-Schicht gelangen",
-    "Sehr lange oder unsichere Quellnamen werden für den gebrannten MP4-Download zu einem sicheren, dateisystemtauglichen Namen begrenzt"
+    "Syncplay begrenzt und bereinigt Servernamen, Räume, MOTDs und Chattexte vor der Anzeige im Player-Dialog",
+    "Syncplay verwirft nicht-endliche oder negative Zeit-, Ping- und Positionswerte, damit keine ungültigen JSON-Frames oder Remote-Seeks entstehen",
+    "Syncplay lehnt übergroße Protokollframes ab und begrenzt Raum- und Teilnehmerlisten vor der UI- und Verlaufseinbindung"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v673 — Untertitel-Burn-in bei Zeitstempeln, Headern und Downloadnamen gehärtet",
-  "sha256": "29fbafbb6f76fa262a5006a95741b38f55701df57b1f4736a09be721509a808e"
+  "message": "CS3M v674 — Syncplay-Protokoll, Anzeige und Playback-Daten gehärtet",
+  "sha256": "28ddf1ea5248bc7d7f0e08ab4870ead3ceaee20adf1cf955c9eb032ac1ae5c35"
 }
