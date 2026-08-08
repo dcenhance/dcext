@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.682",
-  "latestVersion": "1.0.682",
-  "versionCode": 682,
+  "versionName": "1.0.683",
+  "latestVersion": "1.0.683",
+  "versionCode": 683,
   "changelog": [
-    "Update-Archive akzeptieren nur kanonische ZIP-Pfade ohne leere oder Punktsegmente und verhindern Parser-Differenzen bei der Installation",
-    "Update-Manifeste werden strikt als UTF-8 dekodiert; fehlerhafte Bytefolgen können die Plugin-Identität nicht mehr durch Ersatzzeichen verfälschen",
-    "Update-Archive prüfen die vollständige DEX-Kennung und erlaubte DEX-Version jeder classes*.dex-Datei vor der Installation"
+    "Update-Archive lehnen doppelte ZIP-Pfade ab, damit unterschiedliche ZIP-Parser keine abweichenden Plugin-Dateien auswählen können",
+    "Installationsprüfungen begrenzen entpackte Gesamtdaten und extreme Kompressionsraten, bevor ein Archiv Speicher oder Speicherplatz beanspruchen kann",
+    "Update-Manifeste akzeptieren exakt eine Plugin-Identität und Versionsangabe; doppelte JSON-Felder können die Prüfung nicht mehr täuschen"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v682 — Update-Archiv-Parserhärtung",
-  "sha256": "e50f23d94b78c94d9f30cf0302379aef82b7d867c389479aeb3514fc80830d61"
+  "message": "CS3M v683 — Update-Archiv-Integrität",
+  "sha256": "509d2c8bc0033fef79cea2e806997e0cd0ca5a0af3b8058506661efc342ad64c"
 }
