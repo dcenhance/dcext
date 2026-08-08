@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.679",
-  "latestVersion": "1.0.679",
-  "versionCode": 679,
+  "versionName": "1.0.680",
+  "latestVersion": "1.0.680",
+  "versionCode": 680,
   "changelog": [
-    "Update-Archive verweigern doppelte oder mehrdeutige ZIP-Einträge vor der Manifest-Auswahl",
-    "Syncplay normalisiert nicht-endliche Medien- und Pingwerte und begrenzt eingehende Raum-, Teilnehmer- und Chatdaten",
-    "Syncplay verwirft ausgehende Frame-Injektion per Zeilenumbruch sowie Frames über 256 KiB"
+    "Update-Archive verweigern doppelte ZIP-Pfade statt eine mehrdeutige Manifest- oder DEX-Datei auszuwählen",
+    "Update-Archive akzeptieren nur reguläre classes.dex-Dateien mit echter DEX-Kennung und begrenzter entpackter Größe",
+    "Update-Archive verwerfen mehrdeutige Manifest-Namen oder -Versionen statt stillschweigend den ersten Wert zu übernehmen"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v679 — Syncplay- und Update-Archiv-Härtung",
-  "sha256": "e04d2045bc04b51ad244719d4ffa7574a96f6aa5d7d7368f81b9384b500c0e8b"
+  "message": "CS3M v680 — Update-Archiv-Integritätshärtung",
+  "sha256": "4a2a33b2f7ccb661fddeca21fce1f9cfbef4b3d56375a848a18c6b747599f2e1"
 }
