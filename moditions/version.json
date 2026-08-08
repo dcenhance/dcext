@@ -1,16 +1,17 @@
 {
-  "versionName": "1.0.671",
-  "latestVersion": "1.0.671",
-  "versionCode": 671,
+  "versionName": "1.0.672",
+  "latestVersion": "1.0.672",
+  "versionCode": 672,
   "changelog": [
-    "Preserves CloudStream's circular cast, character, profile, and account image masks when custom card corners are enabled",
-    "Keeps episode artwork at its full 16:9 size by excluding the host thumbnail mask from custom radius, elevation, and compatibility padding",
-    "Applies custom card geometry only to real content cards, including dynamically attached and recycled cards"
+    "Subtitle Burn-in ist nun auf Android 6.0+ verfügbar, bleibt doppelt opt-in und lässt den normalen Download unverändert als Standard",
+    "Ungültige Untertitel-Zeitstempel mit Minuten außerhalb von 00–59 werden sicher verworfen statt zu einer falschen Stunde verschoben",
+    "Burn-in-Request-Header verwerfen jetzt sämtliche Steuerzeichen und verhindern damit Header-Injection über nicht druckbare Zeichen",
+    "Gespeicherte Player-Effekt-Presets bleiben auch bei türkischer Gerätesprache stabil auswählbar"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-05",
+  "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v671 — Host-Bildmasken und Episoden-Thumbnail-Geometrie repariert",
-  "sha256": "a8de045c2abc4c46278ce3df8ce0e8782e1df77f6bca603c706ddba234bda6ae"
+  "message": "CS3M v672 — Burn-in-Kompatibilität, Untertitel-Validierung und Effekt-Preset-Stabilität verbessert",
+  "sha256": "1cc1de403b8a859075302f91d09fa221907d2ce9ca3a489bbcc2b876d8cbaf08"
 }
