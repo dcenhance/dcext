@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.672",
-  "latestVersion": "1.0.672",
-  "versionCode": 672,
+  "versionName": "1.0.673",
+  "latestVersion": "1.0.673",
+  "versionCode": 673,
   "changelog": [
-    "Subtitle Burn-in ist nun auf Android 6.0+ verfügbar, bleibt doppelt opt-in und lässt den normalen Download unverändert als Standard",
-    "Ungültige Untertitel-Zeitstempel mit Minuten außerhalb von 00–59 werden sicher verworfen statt zu einer falschen Stunde verschoben",
-    "Burn-in-Request-Header verwerfen jetzt sämtliche Steuerzeichen und verhindern damit Header-Injection über nicht druckbare Zeichen",
-    "Gespeicherte Player-Effekt-Presets bleiben auch bei türkischer Gerätesprache stabil auswählbar"
+    "Subtitle Burn-in verwirft nun ungültige Minutenfelder statt sie stillschweigend zu einer anderen Stunde zu verschieben",
+    "Burn-in-Request-Header verwerfen jetzt alle C0-Steuerzeichen und DEL, bevor sie an die HTTP-Schicht gelangen",
+    "Sehr lange oder unsichere Quellnamen werden für den gebrannten MP4-Download zu einem sicheren, dateisystemtauglichen Namen begrenzt"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v672 — Burn-in-Kompatibilität, Untertitel-Validierung und Effekt-Preset-Stabilität verbessert",
-  "sha256": "1cc1de403b8a859075302f91d09fa221907d2ce9ca3a489bbcc2b876d8cbaf08"
+  "message": "CS3M v673 — Untertitel-Burn-in bei Zeitstempeln, Headern und Downloadnamen gehärtet",
+  "sha256": "29fbafbb6f76fa262a5006a95741b38f55701df57b1f4736a09be721509a808e"
 }
