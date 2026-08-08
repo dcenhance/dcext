@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.680",
-  "latestVersion": "1.0.680",
-  "versionCode": 680,
+  "versionName": "1.0.681",
+  "latestVersion": "1.0.681",
+  "versionCode": 681,
   "changelog": [
-    "Update-Archive verweigern doppelte ZIP-Pfade statt eine mehrdeutige Manifest- oder DEX-Datei auszuwählen",
-    "Update-Archive akzeptieren nur reguläre classes.dex-Dateien mit echter DEX-Kennung und begrenzter entpackter Größe",
-    "Update-Archive verwerfen mehrdeutige Manifest-Namen oder -Versionen statt stillschweigend den ersten Wert zu übernehmen"
+    "Update-Archive verwerfen Steuerzeichen in ZIP-Pfaden, damit Dateinamen nicht zwischen ZIP- und Zielplattform-Parsern unterschiedlich interpretiert werden",
+    "Update-Archive begrenzen die gesamte deklarierte entpackte Datenmenge zusätzlich zur Downloadgröße und stoppen ZIP-Bomben vor dem Entpacken",
+    "Update-Archive begrenzen das Kompressionsverhältnis jeder regulären ZIP-Datei und verwerfen extrem expandierende Einzeldateien"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-08",
   "isRequired": false,
-  "message": "CS3M v680 — Update-Archiv-Integritätshärtung",
-  "sha256": "4a2a33b2f7ccb661fddeca21fce1f9cfbef4b3d56375a848a18c6b747599f2e1"
+  "message": "CS3M v681 — Update-Archiv-Ressourcenhärtung",
+  "sha256": "78ace203d6519ea91827336fd64b857626572a7f391188824e23bdab9ab596af"
 }
