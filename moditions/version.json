@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.684",
-  "latestVersion": "1.0.684",
-  "versionCode": 684,
+  "versionName": "1.0.685",
+  "latestVersion": "1.0.685",
+  "versionCode": 685,
   "changelog": [
-    "Media3-Frame-Effekte werden beim Austausch des Players sauber vom vorherigen Player entfernt",
-    "Untertitel-Burn-in prüft jede Weiterleitung explizit auf sichere HTTP(S)-Ziele und begrenzt Weiterleitungsketten",
-    "Untertitel-Burn-in weist zu große, deklarierte Untertiteldateien vor dem Herunterladen zurück",
-    "Explizit gespeicherte Download-Parallelität wird nach einem Neustart wieder sicher in CloudStreams native Queue-Einstellungen übernommen"
+    "Der Settings-Eintrag verwendet nur noch einen zentral verwalteten Root-Layout-Observer statt doppelter Listener.",
+    "Verzögerte Settings-Retries gehören jetzt eindeutig zur Activity und werden bei Refresh, Root-Wechsel oder Teardown abgebrochen.",
+    "Stale Callbacks prüfen den aktuellen angehängten Root, bevor sie die Host-Hierarchie verändern."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-08",
+  "releaseDate": "2026-08-10",
   "isRequired": false,
-  "message": "CS3M v684 — Player- und Download-Härtung",
-  "sha256": "01eda3a8457bf69bcfd960cdc5e63cec290cbc4f5fd7941e1abf7a421967fa1f"
+  "message": "CS3M v685 — Injection-Lifecycle-Härtung",
+  "sha256": "c405b8031d5c53218caeb9ca737bd1d5a949571874eb7de96cdbdfa5f5cf5b42"
 }
