@@ -3,7 +3,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 5883905,
+        "fileSize": 5883872,
         "status": 1,
         "language": "en",
         "authors": [
@@ -12,13 +12,13 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 685,
+        "version": 686,
         "internalName": "CS3MProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name": "CS3M",
         "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
-        "versionCode": 685,
-        "versionInt": 685
+        "versionCode": 686,
+        "versionInt": 686
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
@@ -97,7 +97,7 @@
         "internalName": "SerienstreamProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
         "name": "S.to Serienstream",
-        "description": "S.to - Serien & Staffeln online streamen. VOE Hoster."
+        "description": "S.to Serienstream - Serien & Staffeln online streamen. VOE Hoster."
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",

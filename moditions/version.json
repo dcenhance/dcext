@@ -1,16 +1,17 @@
 {
-  "versionName": "1.0.685",
-  "latestVersion": "1.0.685",
-  "versionCode": 685,
+  "versionName": "1.0.686",
+  "latestVersion": "1.0.686",
+  "versionCode": 686,
   "changelog": [
-    "Der Settings-Eintrag verwendet nur noch einen zentral verwalteten Root-Layout-Observer statt doppelter Listener.",
-    "Verzögerte Settings-Retries gehören jetzt eindeutig zur Activity und werden bei Refresh, Root-Wechsel oder Teardown abgebrochen.",
+    "Home-RecyclerView-Adapter-Observer werden bei Refresh, Disable und Navigation zusammen mit ihren UI-Hooks entfernt.",
+    "Der Settings-Eintrag verwendet einen zentral verwalteten Root-Layout-Observer statt doppelter Listener.",
+    "Settings-Retries gehören eindeutig zur Activity, werden dedupliziert und bei Root-Wechsel oder Teardown abgebrochen.",
     "Stale Callbacks prüfen den aktuellen angehängten Root, bevor sie die Host-Hierarchie verändern."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-10",
   "isRequired": false,
-  "message": "CS3M v685 — Injection-Lifecycle-Härtung",
-  "sha256": "c405b8031d5c53218caeb9ca737bd1d5a949571874eb7de96cdbdfa5f5cf5b42"
+  "message": "CS3M v686 — Injection-Lifecycle-Härtung",
+  "sha256": "94638c60479c6547e2e493e394064a7b17e37554d62494ece32ce4733d16d896"
 }
