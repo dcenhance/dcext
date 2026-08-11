@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.689",
-  "latestVersion": "1.0.689",
-  "versionCode": 689,
+  "versionName": "1.0.690",
+  "latestVersion": "1.0.690",
+  "versionCode": 690,
   "changelog": [
-    "Fixed settings layout-listener ownership when the host root is replaced.",
-    "The old listener is removed before the current root receives its replacement listener."
+    "Removed the unimplemented Tablet Split View control from settings and hub search.",
+    "Legacy split-view values are ignored until a real host implementation exists."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-11",
   "isRequired": false,
-  "message": "v689 - Settings layout listener root replacement repair",
-  "sha256": "2744b4837d2b77747bc1a4b4737c47d3b3fe85bb366f0d6201a333f76dc5d99a"
+  "message": "v690 - Disable unimplemented Tablet Split View",
+  "sha256": "e19a58013e4a67c611c41280e426341b59cb65d1b59da1a75f0197b05ca6d0dd"
 }
