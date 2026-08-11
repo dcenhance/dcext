@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.688",
-  "latestVersion": "1.0.688",
-  "versionCode": 688,
+  "versionName": "1.0.689",
+  "latestVersion": "1.0.689",
+  "versionCode": 689,
   "changelog": [
-    "Fixed episode thumbnail blur after RecyclerView reuse and late image binds.",
-    "Fixed Discord Rich Presence artwork URL serialization and transport-method ownership."
+    "Fixed settings layout-listener ownership when the host root is replaced.",
+    "The old listener is removed before the current root receives its replacement listener."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-11",
   "isRequired": false,
-  "message": "v688 - Episode blur and Discord RPC repair",
-  "sha256": "94638c60479c6547e2e493e394064a7b17e37554d62494ece32ce4733d16d896"
+  "message": "v689 - Settings layout listener root replacement repair",
+  "sha256": "2744b4837d2b77747bc1a4b4737c47d3b3fe85bb366f0d6201a333f76dc5d99a"
 }
