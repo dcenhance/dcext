@@ -1,17 +1,15 @@
 {
-  "versionName": "1.0.686",
-  "latestVersion": "1.0.686",
-  "versionCode": 686,
+  "versionName": "1.0.687",
+  "latestVersion": "1.0.687",
+  "versionCode": 687,
   "changelog": [
-    "Home-RecyclerView-Adapter-Observer werden bei Refresh, Disable und Navigation zusammen mit ihren UI-Hooks entfernt.",
-    "Der Settings-Eintrag verwendet einen zentral verwalteten Root-Layout-Observer statt doppelter Listener.",
-    "Settings-Retries gehören eindeutig zur Activity, werden dedupliziert und bei Root-Wechsel oder Teardown abgebrochen.",
-    "Stale Callbacks prüfen den aktuellen angehängten Root, bevor sie die Host-Hierarchie verändern."
+    "Fixed bottom navigation label handling.",
+    "CloudStream now retains its own gesture inset and navigation geometry."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-10",
+  "releaseDate": "2026-08-11",
   "isRequired": false,
-  "message": "CS3M v686 — Injection-Lifecycle-Härtung",
+  "message": "v687 - Navigation layout fix",
   "sha256": "94638c60479c6547e2e493e394064a7b17e37554d62494ece32ce4733d16d896"
 }
