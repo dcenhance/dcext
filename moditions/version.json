@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.687",
-  "latestVersion": "1.0.687",
-  "versionCode": 687,
+  "versionName": "1.0.688",
+  "latestVersion": "1.0.688",
+  "versionCode": 688,
   "changelog": [
-    "Fixed bottom navigation label handling.",
-    "CloudStream now retains its own gesture inset and navigation geometry."
+    "Fixed episode thumbnail blur after RecyclerView reuse and late image binds.",
+    "Fixed Discord Rich Presence artwork URL serialization and transport-method ownership."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-11",
   "isRequired": false,
-  "message": "v687 - Navigation layout fix",
+  "message": "v688 - Episode blur and Discord RPC repair",
   "sha256": "94638c60479c6547e2e493e394064a7b17e37554d62494ece32ce4733d16d896"
 }
