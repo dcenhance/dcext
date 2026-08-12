@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.691",
-  "latestVersion": "1.0.691",
-  "versionCode": 691,
+  "versionName": "1.0.692",
+  "latestVersion": "1.0.692",
+  "versionCode": 692,
   "changelog": [
     "Removed the unimplemented Tablet Split View control from settings and hub search.",
     "Legacy split-view values are ignored until a real host implementation exists."
