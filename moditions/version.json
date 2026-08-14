@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.696",
-  "latestVersion": "1.0.696",
-  "versionCode": 696,
+  "versionName": "1.0.697",
+  "latestVersion": "1.0.697",
+  "versionCode": 697,
   "changelog": [
-    "Adds a private, validated Artwork webhook setting in Discord settings.",
-    "Retains attachment-CDN artwork delivery without exposing webhook credentials.",
-    "Refreshes the active Rich Presence after artwork webhook changes."
+    "Enables the product-owned Discord artwork delivery route by default.",
+    "Uploads player artwork through the validated attachment CDN path.",
+    "Keeps custom webhook override optional."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-14",
   "isRequired": false,
-  "message": "v696 - artwork webhook setup repair",
-  "sha256": "64dcc31fbb154b1e89b3a99e9d6126ad85b701f6b5f6ea343326af8bba45ded3"
+  "message": "v697 - built-in Discord artwork delivery",
+  "sha256": "238ed3645684a3ba6e3f29a554f382ef39464aecde293955ab00e502542427b6"
 }
