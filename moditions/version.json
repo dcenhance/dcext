@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.694",
-  "latestVersion": "1.0.694",
-  "versionCode": 694,
+  "versionName": "1.0.695",
+  "latestVersion": "1.0.695",
+  "versionCode": 695,
   "changelog": [
-    "Finalized the current CS3M runtime additions in one immutable release.",
-    "Hardened Media3 video-effects and subtitle burn-in opt-in boundaries.",
-    "Preserved download, lifecycle, Syncplay Watch Party, and update-verification additions."
+    "Restores owner-configured Discord webhook artwork delivery.",
+    "Uploads verified image bytes with multipart files[0] and uses the returned Discord attachment asset.",
+    "Preserves valid provider artwork while async upload resolves and rejects stale callbacks."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-14",
   "isRequired": false,
-  "message": "v694 - finalized CS3M runtime additions",
-  "sha256": "23c0474bdc4aacebda80ef38aa404bf210cb636778d48f7fa9378d6d7519fc37"
+  "message": "v695 - webhook artwork delivery repair",
+  "sha256": "f315367dd71d14b25cfb17706ab7e64db222b84e319574b60f6fac34d0f8dd82"
 }
