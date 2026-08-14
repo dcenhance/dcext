@@ -1,15 +1,16 @@
 {
-  "versionName": "1.0.693",
-  "latestVersion": "1.0.693",
-  "versionCode": 693,
+  "versionName": "1.0.694",
+  "latestVersion": "1.0.694",
+  "versionCode": 694,
   "changelog": [
-    "Removed the unimplemented Tablet Split View control from settings and hub search.",
-    "Legacy split-view values are ignored until a real host implementation exists."
+    "Finalized the current CS3M runtime additions in one immutable release.",
+    "Hardened Media3 video-effects and subtitle burn-in opt-in boundaries.",
+    "Preserved download, lifecycle, Syncplay Watch Party, and update-verification additions."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-11",
+  "releaseDate": "2026-08-14",
   "isRequired": false,
-  "message": "v690 - Disable unimplemented Tablet Split View",
-  "sha256": "e19a58013e4a67c611c41280e426341b59cb65d1b59da1a75f0197b05ca6d0dd"
+  "message": "v694 - finalized CS3M runtime additions",
+  "sha256": "23c0474bdc4aacebda80ef38aa404bf210cb636778d48f7fa9378d6d7519fc37"
 }
