@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.697",
-  "latestVersion": "1.0.697",
-  "versionCode": 697,
+  "versionName": "1.0.698",
+  "latestVersion": "1.0.698",
+  "versionCode": 698,
   "changelog": [
-    "Enables the product-owned Discord artwork delivery route by default.",
-    "Uploads player artwork through the validated attachment CDN path.",
-    "Keeps custom webhook override optional."
+    "Restores your saved download concurrency after a CloudStream restart.",
+    "Leaves fresh CloudStream download defaults untouched until you choose a CS3M value.",
+    "Keeps the existing bounded parallel-download and connection limits."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-14",
+  "releaseDate": "2026-08-15",
   "isRequired": false,
-  "message": "v697 - built-in Discord artwork delivery",
-  "sha256": "238ed3645684a3ba6e3f29a554f382ef39464aecde293955ab00e502542427b6"
+  "message": "v698 - saved download performance now survives restart",
+  "sha256": "2183b49a151b5aa2f1c0d78ee6b2b36a26822678ad1d83674acbc8d1422eab0f"
 }
