@@ -47,7 +47,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 37904,
+    "fileSize": 40015,
     "status": 1,
     "language": "de",
     "authors": [
@@ -56,13 +56,13 @@
     "tvTypes": [
       "Live"
     ],
-    "version": 17,
+    "version": 18,
     "internalName": "KoolLiveTVProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
     "name": "Kool Live TV",
     "description": "Kool.to Live TV - 17 Länder, 9900+ IPTV Sender",
-    "versionCode": 17,
-    "versionInt": 17
+    "versionCode": 18,
+    "versionInt": 18
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
