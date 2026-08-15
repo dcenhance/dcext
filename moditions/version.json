@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.698",
-  "latestVersion": "1.0.698",
-  "versionCode": 698,
+  "versionName": "1.0.699",
+  "latestVersion": "1.0.699",
+  "versionCode": 699,
   "changelog": [
-    "Restores your saved download concurrency after a CloudStream restart.",
-    "Leaves fresh CloudStream download defaults untouched until you choose a CS3M value.",
-    "Keeps the existing bounded parallel-download and connection limits."
+    "Choose the DC preset or your own private Discord artwork webhook.",
+    "Artwork delivery cache now follows the selected CDN/asset format immediately.",
+    "Private webhooks stay local to the device and are never logged."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-15",
   "isRequired": false,
-  "message": "v698 - saved download performance now survives restart",
-  "sha256": "2183b49a151b5aa2f1c0d78ee6b2b36a26822678ad1d83674acbc8d1422eab0f"
+  "message": "v699 - selectable Discord artwork webhook routes",
+  "sha256": "cc1fd82a7c361cd7ec813a850746daee19da063025b747c3ffa78f7383ba38f5"
 }
