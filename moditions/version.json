@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.699",
-  "latestVersion": "1.0.699",
-  "versionCode": 699,
+  "versionName": "1.0.700",
+  "latestVersion": "1.0.700",
+  "versionCode": 700,
   "changelog": [
-    "Choose the DC preset or your own private Discord artwork webhook.",
-    "Artwork delivery cache now follows the selected CDN/asset format immediately.",
-    "Private webhooks stay local to the device and are never logged."
+    "Discord settings are now more compact, clearer, and theme-aware.",
+    "Artwork routes prevent selecting a private webhook until a valid local one is saved.",
+    "Idle presence refresh now uses safe, fixed intervals and live-editor Cancel restores the prior value."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-15",
   "isRequired": false,
-  "message": "v699 - selectable Discord artwork webhook routes",
-  "sha256": "cc1fd82a7c361cd7ec813a850746daee19da063025b747c3ffa78f7383ba38f5"
+  "message": "v700 - clearer Discord settings and artwork controls",
+  "sha256": "e47f313859807e75818db7182ba421b8291bafb9070cfb8f2e21e350b377bf57"
 }
