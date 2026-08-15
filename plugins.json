@@ -3,7 +3,7 @@
     "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 5888079,
+    "fileSize": 5885488,
     "status": 1,
     "language": "en",
     "authors": [
@@ -12,19 +12,19 @@
     "tvTypes": [
       "Others"
     ],
-    "version": 700,
+    "version": 697,
     "internalName": "CS3MProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
     "name": "CS3M",
     "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
-    "versionCode": 700,
-    "versionInt": 700
+    "versionCode": 697,
+    "versionInt": 697
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 60050,
+    "fileSize": 72897,
     "status": 1,
     "language": "de",
     "authors": [
@@ -35,17 +35,19 @@
       "Anime",
       "OVA"
     ],
-    "version": 13,
+    "version": 20,
     "internalName": "AniworldProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
     "name": "Aniworld",
-    "description": "German anime streaming from aniworld.to"
+    "description": "German anime streaming from aniworld.to",
+    "versionCode": 20,
+    "versionInt": 20
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 45069,
+    "fileSize": 37904,
     "status": 1,
     "language": "de",
     "authors": [
@@ -54,17 +56,19 @@
     "tvTypes": [
       "Live"
     ],
-    "version": 11,
+    "version": 17,
     "internalName": "KoolLiveTVProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
     "name": "Kool Live TV",
-    "description": "Kool.to Live TV - 17 Länder, 9900+ IPTV Sender"
+    "description": "Kool.to Live TV - 17 Länder, 9900+ IPTV Sender",
+    "versionCode": 17,
+    "versionInt": 17
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 44707,
+    "fileSize": 47882,
     "status": 1,
     "language": "de",
     "authors": [
@@ -74,11 +78,13 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 15,
+    "version": 20,
     "internalName": "KoolToProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
     "name": "Kool VOD",
-    "description": "German Movies and TV series streaming"
+    "description": "German Movies and TV series streaming",
+    "versionCode": 20,
+    "versionInt": 20
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
