@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.705",
-  "latestVersion": "1.0.705",
-  "versionCode": 705,
+  "versionName": "1.0.706",
+  "latestVersion": "1.0.706",
+  "versionCode": 706,
   "changelog": [
-    "Removed the duplicate Artwork type selector; Artwork source preference is now the single artwork selection.",
-    "Legacy artwork-type values are ignored and cannot override the remaining selection.",
+    "Fixed the webhook-to-RPC artwork handoff: Rich Presence now receives the verified Discord CDN URL returned by the webhook.",
+    "Removed the synthesized mp:attachments conversion that Discord rejected for outbound Gateway presence updates.",
     "Official CS3M and private local webhook upload routes remain selectable."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-16",
   "isRequired": false,
-  "message": "v705 - remove duplicate artwork selector",
-  "sha256": "b1c40f2943494afc8b611edb42d87e2dfa64d5fe194b4a77bac9a9cc83d2ca93"
+  "message": "v706 - send Discord CDN artwork URL to RPC",
+  "sha256": "d67d9db5e9030dfaeee61ee415ec85c0f3b5366d0a9df4156143a7221975988a"
 }
