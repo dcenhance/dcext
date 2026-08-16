@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.704",
-  "latestVersion": "1.0.704",
-  "versionCode": 704,
+  "versionName": "1.0.705",
+  "latestVersion": "1.0.705",
+  "versionCode": 705,
   "changelog": [
-    "Fix Discord-hosted artwork delivery to use the documented attachment RPC asset after webhook upload.",
-    "Official CS3M and private local webhooks remain selectable.",
-    "The CDN attachment identity is converted to mp:attachments for large_image; raw signed CDN URLs are no longer sent as RPC assets."
+    "Removed the duplicate Artwork type selector; Artwork source preference is now the single artwork selection.",
+    "Legacy artwork-type values are ignored and cannot override the remaining selection.",
+    "Official CS3M and private local webhook upload routes remain selectable."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-16",
   "isRequired": false,
-  "message": "v704 - fixed Discord attachment RPC artwork",
-  "sha256": "72ab9be9e35240a5033cd8dbd3ea513a846726e4be7028b34baec96b1078b595"
+  "message": "v705 - remove duplicate artwork selector",
+  "sha256": "b1c40f2943494afc8b611edb42d87e2dfa64d5fe194b4a77bac9a9cc83d2ca93"
 }
