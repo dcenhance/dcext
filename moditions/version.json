@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.702",
-  "latestVersion": "1.0.702",
-  "versionCode": 702,
+  "versionName": "1.0.703",
+  "latestVersion": "1.0.703",
+  "versionCode": 703,
   "changelog": [
-    "Artwork delivery is now a single fixed Discord-hosted pipeline.",
-    "The plugin uploads the current artwork through the bundled Discord webhook and only uses the verified Discord CDN attachment URL for Rich Presence.",
-    "Artwork delivery modes, private webhook entry, provider URL fallback, and synthetic asset keys were removed."
+    "Artwork routing again offers the official CS3M webhook or a private local Discord webhook.",
+    "Both choices use the same strict Discord-hosted workflow: upload artwork, receive a verified CDN attachment URL, then use that URL for Rich Presence.",
+    "Invalid private webhooks fail closed; provider URLs and synthetic asset keys are never used as fallbacks."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-16",
   "isRequired": false,
-  "message": "v702 - fixed Discord CDN Rich Presence artwork",
-  "sha256": "21ff511c2140b2c078f703181603e9af0d55465119ee628e71dd954f20af7a04"
+  "message": "v703 - selectable Discord artwork webhooks",
+  "sha256": "de335aebfbfe978bf1be3100cd99d405622fdcd6f61d41191fac9af74f3efbdb"
 }
