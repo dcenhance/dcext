@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.703",
-  "latestVersion": "1.0.703",
-  "versionCode": 703,
+  "versionName": "1.0.704",
+  "latestVersion": "1.0.704",
+  "versionCode": 704,
   "changelog": [
-    "Artwork routing again offers the official CS3M webhook or a private local Discord webhook.",
-    "Both choices use the same strict Discord-hosted workflow: upload artwork, receive a verified CDN attachment URL, then use that URL for Rich Presence.",
-    "Invalid private webhooks fail closed; provider URLs and synthetic asset keys are never used as fallbacks."
+    "Fix Discord-hosted artwork delivery to use the documented attachment RPC asset after webhook upload.",
+    "Official CS3M and private local webhooks remain selectable.",
+    "The CDN attachment identity is converted to mp:attachments for large_image; raw signed CDN URLs are no longer sent as RPC assets."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-16",
   "isRequired": false,
-  "message": "v703 - selectable Discord artwork webhooks",
-  "sha256": "de335aebfbfe978bf1be3100cd99d405622fdcd6f61d41191fac9af74f3efbdb"
+  "message": "v704 - fixed Discord attachment RPC artwork",
+  "sha256": "72ab9be9e35240a5033cd8dbd3ea513a846726e4be7028b34baec96b1078b595"
 }
