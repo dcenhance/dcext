@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.706",
-  "latestVersion": "1.0.706",
-  "versionCode": 706,
+  "versionName": "1.0.707",
+  "latestVersion": "1.0.707",
+  "versionCode": 707,
   "changelog": [
     "Fixed the webhook-to-RPC artwork handoff: Rich Presence now receives the verified Discord CDN URL returned by the webhook.",
     "Removed the synthesized mp:attachments conversion that Discord rejected for outbound Gateway presence updates.",
