@@ -68,7 +68,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 47882,
+    "fileSize": 47932,
     "status": 1,
     "language": "de",
     "authors": [
@@ -78,13 +78,13 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 20,
+    "version": 21,
     "internalName": "KoolToProvider",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
     "name": "Kool VOD",
     "description": "German Movies and TV series streaming",
-    "versionCode": 20,
-    "versionInt": 20
+    "versionCode": 21,
+    "versionInt": 21
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
