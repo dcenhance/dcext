@@ -1,16 +1,15 @@
 {
-  "versionName": "1.0.707",
-  "latestVersion": "1.0.707",
-  "versionCode": 707,
+  "versionName": "1.0.708",
+  "latestVersion": "1.0.708",
+  "versionCode": 708,
   "changelog": [
-    "Fixed the webhook-to-RPC artwork handoff: Rich Presence now receives the verified Discord CDN URL returned by the webhook.",
-    "Removed the synthesized mp:attachments conversion that Discord rejected for outbound Gateway presence updates.",
-    "Official CS3M and private local webhook upload routes remain selectable."
+    "Fixes the settings crash after restoring a previous CS3M session.",
+    "Uses safe programmatic controls if plugin resources are temporarily unavailable."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-16",
+  "releaseDate": "2026-08-29",
   "isRequired": false,
-  "message": "v706 - send Discord CDN artwork URL to RPC",
+  "message": "v708 - restored-session settings crash fix",
   "sha256": "d67d9db5e9030dfaeee61ee415ec85c0f3b5366d0a9df4156143a7221975988a"
 }
