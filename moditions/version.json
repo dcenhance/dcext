@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.708",
-  "latestVersion": "1.0.708",
-  "versionCode": 708,
+  "versionName": "1.0.709",
+  "latestVersion": "1.0.709",
+  "versionCode": 709,
   "changelog": [
-    "Fixes the settings crash after restoring a previous CS3M session.",
-    "Uses safe programmatic controls if plugin resources are temporarily unavailable."
+    "Hardens the restored-session settings fallback against plugin class-loader failures.",
+    "Memory-exhaustion errors still propagate instead of being swallowed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-29",
   "isRequired": false,
-  "message": "v708 - restored-session settings crash fix",
+  "message": "v709 - restored-session settings hardening",
   "sha256": "d67d9db5e9030dfaeee61ee415ec85c0f3b5366d0a9df4156143a7221975988a"
 }
