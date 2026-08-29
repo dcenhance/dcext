@@ -1,128 +1,128 @@
 [
-  {
-    "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 5885538,
-    "status": 1,
-    "language": "en",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "Others"
-    ],
-    "version": 707,
-    "internalName": "CS3MProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-    "name": "CS3M",
-    "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
-    "versionCode": 707,
-    "versionInt": 707
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 72284,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "version": 21,
-    "internalName": "AniworldProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
-    "name": "Aniworld",
-    "description": "German anime streaming from aniworld.to",
-    "versionCode": 21,
-    "versionInt": 21
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 41646,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "Live"
-    ],
-    "version": 19,
-    "internalName": "KoolLiveTVProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
-    "name": "Kool Live TV",
-    "description": "Kool.to Live TV - 17 Länder, 9900+ IPTV Sender",
-    "versionCode": 19,
-    "versionInt": 19
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 52525,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "version": 22,
-    "internalName": "KoolToProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
-    "name": "Kool VOD",
-    "description": "German Movies and TV series streaming",
-    "versionCode": 22,
-    "versionInt": 22
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 28324,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "TvSeries"
-    ],
-    "version": 19,
-    "internalName": "SerienstreamProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
-    "name": "S.to Serienstream",
-    "description": "S.to Serienstream - Serien & Staffeln online streamen. VOE Hoster."
-  },
-  {
-    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 26545,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "version": 17,
-    "internalName": "FilmpalastProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
-    "name": "Filmpalast",
-    "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile."
-  }
+    {
+        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 5888228,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "Others"
+        ],
+        "version": 708,
+        "internalName": "CS3MProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+        "name": "CS3M",
+        "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
+        "versionCode": 708,
+        "versionInt": 708
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 72284,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 21,
+        "internalName": "AniworldProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
+        "name": "Aniworld",
+        "description": "German anime streaming from aniworld.to",
+        "versionCode": 21,
+        "versionInt": 21
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 41646,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 19,
+        "internalName": "KoolLiveTVProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
+        "name": "Kool Live TV",
+        "description": "Kool.to Live TV - 17 L\u00e4nder, 9900+ IPTV Sender",
+        "versionCode": 19,
+        "versionInt": 19
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 52525,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 22,
+        "internalName": "KoolToProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
+        "name": "Kool VOD",
+        "description": "German Movies and TV series streaming",
+        "versionCode": 22,
+        "versionInt": 22
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 28324,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 19,
+        "internalName": "SerienstreamProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
+        "name": "S.to Serienstream",
+        "description": "S.to Serienstream - Serien & Staffeln online streamen. VOE Hoster."
+    },
+    {
+        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 26545,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 17,
+        "internalName": "FilmpalastProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
+        "name": "Filmpalast",
+        "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile."
+    }
 ]
