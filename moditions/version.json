@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.710",
-  "latestVersion": "1.0.710",
-  "versionCode": 710,
+  "versionName": "1.0.711",
+  "latestVersion": "1.0.711",
+  "versionCode": 711,
   "changelog": [
-    "Adds lifecycle-owned Auto-Pause on Interrupt for active player sessions.",
-    "Pauses only active playback on focus loss or noisy audio output, then removes hooks on detach or refresh."
+    "Fixes CS3M Settings navigation during CloudStream saved-state transitions.",
+    "Defers one settings launch until the host resumes instead of committing state loss or leaving a blocking empty overlay."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-30",
   "isRequired": false,
-  "message": "v710 - lifecycle-owned auto-pause",
-  "sha256": "a1919637fd555d45058a2818e6f83d0b4305dce6368ad39d8d879ad7ae039ea9"
+  "message": "v711 - state-safe settings navigation",
+  "sha256": "c7a7cbf731767602bf02120f6c6b3b0ba3bc359fa0e1e0bd0dcca883c1ef2b71"
 }
