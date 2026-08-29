@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.709",
-  "latestVersion": "1.0.709",
-  "versionCode": 709,
+  "versionName": "1.0.710",
+  "latestVersion": "1.0.710",
+  "versionCode": 710,
   "changelog": [
-    "Hardens the restored-session settings fallback against plugin class-loader failures.",
-    "Memory-exhaustion errors still propagate instead of being swallowed."
+    "Adds lifecycle-owned Auto-Pause on Interrupt for active player sessions.",
+    "Pauses only active playback on focus loss or noisy audio output, then removes hooks on detach or refresh."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-29",
+  "releaseDate": "2026-08-30",
   "isRequired": false,
-  "message": "v709 - restored-session settings hardening",
-  "sha256": "d67d9db5e9030dfaeee61ee415ec85c0f3b5366d0a9df4156143a7221975988a"
+  "message": "v710 - lifecycle-owned auto-pause",
+  "sha256": "a1919637fd555d45058a2818e6f83d0b4305dce6368ad39d8d879ad7ae039ea9"
 }
