@@ -1,15 +1,16 @@
 {
-  "versionName": "1.0.711",
-  "latestVersion": "1.0.711",
-  "versionCode": 711,
+  "versionName": "1.0.712",
+  "latestVersion": "1.0.712",
+  "versionCode": 712,
   "changelog": [
-    "Fixes CS3M Settings navigation during CloudStream saved-state transitions.",
-    "Defers one settings launch until the host resumes instead of committing state loss or leaving a blocking empty overlay."
+    "Player control injection now fails closed until CloudStream's dedicated player_lock_holder is ready; unsafe generic control-row fallbacks were removed.",
+    "Default CS3M activation no longer changes CloudStream's player timeout or speed controls.",
+    "External downloader injection points are explicit opt-ins and are never enabled automatically."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-08-30",
   "isRequired": false,
-  "message": "v711 - state-safe settings navigation",
-  "sha256": "c7a7cbf731767602bf02120f6c6b3b0ba3bc359fa0e1e0bd0dcca883c1ef2b71"
+  "message": "v712 - fail-closed player injections",
+  "sha256": "cdaf9ef1b3d139cd63e71cf697cad3962bee7c5af9e4c4918d7ff8c4bcff3c1e"
 }
