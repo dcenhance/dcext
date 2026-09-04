@@ -14,7 +14,7 @@
     ],
     "version": 713,
     "internalName": "CS3MProvider",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider-v713.cs3",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
     "name": "CS3M",
     "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
     "versionCode": 713,
