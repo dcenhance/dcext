@@ -1,8 +1,11 @@
 {
-  "versionName": "1.0.722",
-  "latestVersion": "1.0.722",
-  "versionCode": 722,
+  "versionName": "1.0.723",
+  "latestVersion": "1.0.723",
+  "versionCode": 723,
   "changelog": [
+    "The safer navigation choice now summons a full-screen applause storm: color emojis fall under gravity, bounce, and collide instead of hiding in a tiny toast.",
+    "Devices with a vibrator may add a short haptic applause; unsupported devices remain safely silent without blocking the reward.",
+    "Navigation labels now escape clipped parent containers after refreshes, keeping custom names readable.",
     "The wooden navigation tale has been simplified into more than fifty tiny pages, so JinDevil's legendary mistake can be survived one click at a time.",
     "Per-tab colors now retry after CloudStream refreshes its menu, while the emoji mode keeps its color instead of accepting the white-silhouette curse.",
     "The wise choice still earns applause and fireworks; the suspicious ship-wheel decoration has been removed.",
@@ -32,6 +35,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v722 - simpler navigation story and reliable colorful icons",
-  "sha256": "5130d3ec77b4591834c613998c10993b24595fe1fcdbe00fc3c5365b33799990"
+  "message": "v723 - full-screen applause rain, haptics, and unclipped navigation labels",
+  "sha256": "ee22beda17f3469df3030846ea5718c081c1f2ca4692f51ba1d115557c620c76"
 }
