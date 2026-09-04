@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.724",
-  "latestVersion": "1.0.724",
-  "versionCode": 724,
+  "versionName": "1.0.725",
+  "latestVersion": "1.0.725",
+  "versionCode": 725,
   "changelog": [
-    "Some familiar voices have a shorter tale to tell. Listen carefully before something disappears.",
-    "Navigation confirmation now respects Back and screen changes, with a clearer safe choice."
+    "Something you survived may leave a mark. Curious hands can uncover what comes next.",
+    "Celebrations are livelier, with richer rhythmic haptics on supported devices."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v724 - a quieter warning, a shorter conversation",
-  "sha256": "d8671ef1a5a90734ea99232fabade6a2b911246063882c9f0c92cb8df41264da"
+  "message": "v725 - livelier celebrations and traces of survival",
+  "sha256": "dd7dbcd13352b8579cf052543620b4b999d7e4e7705ef9936f51a3008b2a2be0"
 }
