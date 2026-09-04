@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.716",
-  "latestVersion": "1.0.716",
-  "versionCode": 716,
+  "versionName": "1.0.717",
+  "latestVersion": "1.0.717",
+  "versionCode": 717,
   "changelog": [
+    "Added an English attention banner before hiding Home or Settings navigation tabs.",
+    "The attention banner updates live when essential tabs are selected.",
     "Added a fun safety warning before hiding Home or Settings navigation tabs.",
     "Hiding both Home and Settings now requires an explicit confirmation.",
     "Navigation Text Only now supports label case selection and adjustable letter spacing.",
@@ -17,9 +19,9 @@
     "External downloader injection points are explicit opt-ins and are never enabled automatically."
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/refs/heads/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v716 - fun warning for essential navigation tabs",
-  "sha256": "9fa5048a38f287e9e27cea4b3aaa05a8c7f6996a3f302a00bd2f164c4fbb7e67"
+  "message": "v717 - English navigation attention banners",
+  "sha256": "e9acc897599cd68ceca338285e069d8732c471e689a8d3a2c45ee44e0fa0705a"
 }
