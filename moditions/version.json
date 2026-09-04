@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.715",
-  "latestVersion": "1.0.715",
-  "versionCode": 715,
+  "versionName": "1.0.716",
+  "latestVersion": "1.0.716",
+  "versionCode": 716,
   "changelog": [
+    "Added a fun safety warning before hiding Home or Settings navigation tabs.",
+    "Hiding both Home and Settings now requires an explicit confirmation.",
     "Navigation Text Only now supports label case selection and adjustable letter spacing.",
     "Text Only appearance now supports live preview, custom font families, and label sizing.",
     "Navigation Text Only supports a 6-16sp size slider with half-step precision and live preview.",
@@ -18,6 +20,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v715 - navigation Text Only typography customization",
-  "sha256": "67d85f8c865136337541827a30d06693a60be469bdcacad3c89285907ae0c191"
+  "message": "v716 - fun warning for essential navigation tabs",
+  "sha256": "9fa5048a38f287e9e27cea4b3aaa05a8c7f6996a3f302a00bd2f164c4fbb7e67"
 }
