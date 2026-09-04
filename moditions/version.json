@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.725",
-  "latestVersion": "1.0.725",
-  "versionCode": 725,
+  "versionName": "1.0.726",
+  "latestVersion": "1.0.726",
+  "versionCode": 726,
   "changelog": [
-    "Something you survived may leave a mark. Curious hands can uncover what comes next.",
-    "Celebrations are livelier, with richer rhythmic haptics on supported devices."
+    "Fixed a crash when choosing Keep visible in Navigation settings.",
+    "The celebration and its hidden traces remain intact."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v725 - livelier celebrations and traces of survival",
-  "sha256": "dd7dbcd13352b8579cf052543620b4b999d7e4e7705ef9936f51a3008b2a2be0"
+  "message": "v726 - celebration crash fix",
+  "sha256": "47eefbbc5c9215316a832e78fbe75a568b05b0ac95f600d215bac922c39cdfb5"
 }
