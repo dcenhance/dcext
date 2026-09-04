@@ -1,10 +1,11 @@
 {
-  "versionName": "1.0.719",
-  "latestVersion": "1.0.719",
-  "versionCode": 719,
+  "versionName": "1.0.720",
+  "latestVersion": "1.0.720",
+  "versionCode": 720,
   "changelog": [
+    "The navigation tale has been rebuilt as a dusty fairy story with crooked wood, cobwebs, and a familiar restart button.",
+    "The old dialogs have vanished; four new chapters remember JinDevil's settings-cog incident and the legendary question about reverting back.",
     "Rewrote the classified navigation incident with more jokes, fewer innocent checkboxes, and questionable snack logistics.",
-    "The four sealed chapters now contain suspicious furniture, a missing map, and one deeply unreliable witness.",
     "A classified navigation incident is now sealed behind four chapters. The name has been redacted.",
     "The old warning has learned to tell a story. There may be a familiar name hidden between the lines.",
     "Added an English attention banner before hiding Home or Settings navigation tabs.",
@@ -26,6 +27,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v719 - funnier navigation story easter egg",
-  "sha256": "edfb1cee3ce25a6c52eaec15a5600d1feace838482545e63fc21f799833af326"
+  "message": "v720 - once upon a time wooden navigation warning",
+  "sha256": "eab5e3ec1d6c01900d504896e0a93e63443f0385974fdd6134f08857cde24a78"
 }
