@@ -1,16 +1,19 @@
 {
-  "versionName": "1.0.712",
-  "latestVersion": "1.0.712",
-  "versionCode": 712,
+  "versionName": "1.0.713",
+  "latestVersion": "1.0.713",
+  "versionCode": 713,
   "changelog": [
+    "Navigation Text Only now renders theme-colored, size-adaptive labels reliably.",
+    "Navigation supports custom tab labels and independent per-tab icon colors.",
+    "Navigation style switching restores the original CloudStream icons safely.",
     "Player control injection now fails closed until CloudStream's dedicated player_lock_holder is ready; unsafe generic control-row fallbacks were removed.",
     "Default CS3M activation no longer changes CloudStream's player timeout or speed controls.",
     "External downloader injection points are explicit opt-ins and are never enabled automatically."
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-08-30",
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider-v713.cs3",
+  "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v712 - fail-closed player injections",
-  "sha256": "cdaf9ef1b3d139cd63e71cf697cad3962bee7c5af9e4c4918d7ff8c4bcff3c1e"
+  "message": "v713 - navigation Text Only and per-tab customization",
+  "sha256": "4fb5f9766da218a6900f3659b0fe06a97d0fce0a1b2cc457330d8716097f3cbd"
 }
