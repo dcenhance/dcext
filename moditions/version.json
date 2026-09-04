@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.720",
-  "latestVersion": "1.0.720",
-  "versionCode": 720,
+  "versionName": "1.0.721",
+  "latestVersion": "1.0.721",
+  "versionCode": 721,
   "changelog": [
+    "The navigation bar now applauds anyone who refuses to repeat JinDevil's legendary mistake.",
+    "Per-tab colors have escaped the shared tint spell, while emoji icons are once again allowed to keep their actual colors.",
     "The navigation tale has been rebuilt as a dusty fairy story with crooked wood, cobwebs, and a familiar restart button.",
     "The old dialogs have vanished; four new chapters remember JinDevil's settings-cog incident and the legendary question about reverting back.",
     "Rewrote the classified navigation incident with more jokes, fewer innocent checkboxes, and questionable snack logistics.",
@@ -27,6 +29,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v720 - once upon a time wooden navigation warning",
-  "sha256": "eab5e3ec1d6c01900d504896e0a93e63443f0385974fdd6134f08857cde24a78"
+  "message": "v721 - navigation rewards and colorful icons",
+  "sha256": "b301d3a332215b743eea178b5eae4154594be9f0cfed2c3a0cf1739de54d1e64"
 }
