@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.714",
-  "latestVersion": "1.0.714",
-  "versionCode": 714,
+  "versionName": "1.0.715",
+  "latestVersion": "1.0.715",
+  "versionCode": 715,
   "changelog": [
+    "Navigation Text Only now supports label case selection and adjustable letter spacing.",
+    "Text Only appearance now supports live preview, custom font families, and label sizing.",
     "Navigation Text Only supports a 6-16sp size slider with half-step precision and live preview.",
     "Navigation Text Only supports Default, Sans Serif, Serif, and Monospace font families.",
     "Navigation Text Only now renders theme-colored, size-adaptive labels reliably.",
@@ -16,6 +18,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v714 - navigation Text Only size and font customization",
-  "sha256": "67041118b3317725b2e701915dbcb0f4e78b30e2bc797516f90d348d49f5c9f7"
+  "message": "v715 - navigation Text Only typography customization",
+  "sha256": "67d85f8c865136337541827a30d06693a60be469bdcacad3c89285907ae0c191"
 }
