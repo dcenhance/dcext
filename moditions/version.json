@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.717",
-  "latestVersion": "1.0.717",
-  "versionCode": 717,
+  "versionName": "1.0.718",
+  "latestVersion": "1.0.718",
+  "versionCode": 718,
   "changelog": [
+    "Added a four-part JinDevil navigation story when hiding Home or Settings.",
+    "The story must be completed before the final attention confirmation can be accepted.",
     "Added an English attention banner before hiding Home or Settings navigation tabs.",
     "The attention banner updates live when essential tabs are selected.",
     "Added a fun safety warning before hiding Home or Settings navigation tabs.",
@@ -22,6 +24,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v717 - English navigation attention banners",
-  "sha256": "e9acc897599cd68ceca338285e069d8732c471e689a8d3a2c45ee44e0fa0705a"
+  "message": "v718 - JinDevil navigation story easter egg",
+  "sha256": "5604bc2c1cc980fa5986311b8d7460586545075882e1529c0da09e4517beb363"
 }
