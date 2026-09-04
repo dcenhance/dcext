@@ -19,7 +19,7 @@
     "External downloader injection points are explicit opt-ins and are never enabled automatically."
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/refs/heads/main/plugins/CS3MProvider.cs3",
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
   "message": "v717 - English navigation attention banners",
