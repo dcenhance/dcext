@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.718",
-  "latestVersion": "1.0.718",
-  "versionCode": 718,
+  "versionName": "1.0.719",
+  "latestVersion": "1.0.719",
+  "versionCode": 719,
   "changelog": [
+    "Rewrote the classified navigation incident with more jokes, fewer innocent checkboxes, and questionable snack logistics.",
+    "The four sealed chapters now contain suspicious furniture, a missing map, and one deeply unreliable witness.",
     "A classified navigation incident is now sealed behind four chapters. The name has been redacted.",
     "The old warning has learned to tell a story. There may be a familiar name hidden between the lines.",
     "Added an English attention banner before hiding Home or Settings navigation tabs.",
@@ -24,6 +26,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v718 - JinDevil navigation story easter egg",
-  "sha256": "5604bc2c1cc980fa5986311b8d7460586545075882e1529c0da09e4517beb363"
+  "message": "v719 - funnier navigation story easter egg",
+  "sha256": "edfb1cee3ce25a6c52eaec15a5600d1feace838482545e63fc21f799833af326"
 }
