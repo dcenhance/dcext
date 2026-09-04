@@ -1,15 +1,20 @@
 {
-  "versionName": "1.0.726",
-  "latestVersion": "1.0.726",
-  "versionCode": 726,
+  "versionName": "1.0.727",
+  "latestVersion": "1.0.727",
+  "versionCode": 727,
   "changelog": [
-    "Fixed a crash when choosing Keep visible in Navigation settings.",
-    "The celebration and its hidden traces remain intact."
+    "Smoother settings updates with bounded refresh scheduling and reliable Activity hand-offs.",
+    "RPC text previews stay local until Save; Cancel no longer changes your active presence settings.",
+    "Home layout edits accumulate correctly and apply the exact saved layout.",
+    "Fixed settings search restoration and legacy settings returning after a reset.",
+    "Subtitle burn-in now checks WiFi-only and charging rules at download/export start.",
+    "Unsupported time-lock, format-conversion and unsafe bulk-delete controls are clearly unavailable.",
+    "Some quiet traces still wait to be found."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v726 - celebration crash fix",
-  "sha256": "47eefbbc5c9215316a832e78fbe75a568b05b0ac95f600d215bac922c39cdfb5"
+  "message": "v727 - smoother settings and safer editing",
+  "sha256": "97e3d5f4ed79481e2177eddc8808f1c865e2510432816c7aadcc34970576b897"
 }
