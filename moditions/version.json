@@ -1,8 +1,11 @@
 {
-  "versionName": "1.0.721",
-  "latestVersion": "1.0.721",
-  "versionCode": 721,
+  "versionName": "1.0.722",
+  "latestVersion": "1.0.722",
+  "versionCode": 722,
   "changelog": [
+    "The wooden navigation tale has been simplified into more than fifty tiny pages, so JinDevil's legendary mistake can be survived one click at a time.",
+    "Per-tab colors now retry after CloudStream refreshes its menu, while the emoji mode keeps its color instead of accepting the white-silhouette curse.",
+    "The wise choice still earns applause and fireworks; the suspicious ship-wheel decoration has been removed.",
     "The navigation bar now applauds anyone who refuses to repeat JinDevil's legendary mistake.",
     "Per-tab colors have escaped the shared tint spell, while emoji icons are once again allowed to keep their actual colors.",
     "The navigation tale has been rebuilt as a dusty fairy story with crooked wood, cobwebs, and a familiar restart button.",
@@ -29,6 +32,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v721 - navigation rewards and colorful icons",
+  "message": "v722 - simpler navigation story and reliable colorful icons",
   "sha256": "b301d3a332215b743eea178b5eae4154594be9f0cfed2c3a0cf1739de54d1e64"
 }
