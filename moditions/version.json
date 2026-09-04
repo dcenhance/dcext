@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.713",
-  "latestVersion": "1.0.713",
-  "versionCode": 713,
+  "versionName": "1.0.714",
+  "latestVersion": "1.0.714",
+  "versionCode": 714,
   "changelog": [
+    "Navigation Text Only supports a 6-16sp size slider with half-step precision and live preview.",
+    "Navigation Text Only supports Default, Sans Serif, Serif, and Monospace font families.",
     "Navigation Text Only now renders theme-colored, size-adaptive labels reliably.",
     "Navigation supports custom tab labels and independent per-tab icon colors.",
     "Navigation style switching restores the original CloudStream icons safely.",
@@ -14,6 +16,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-04",
   "isRequired": false,
-  "message": "v713 - navigation Text Only and per-tab customization",
-  "sha256": "4fb5f9766da218a6900f3659b0fe06a97d0fce0a1b2cc457330d8716097f3cbd"
+  "message": "v714 - navigation Text Only size and font customization",
+  "sha256": "67041118b3317725b2e701915dbcb0f4e78b30e2bc797516f90d348d49f5c9f7"
 }
