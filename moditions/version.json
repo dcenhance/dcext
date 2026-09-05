@@ -1,22 +1,20 @@
 {
-  "versionName": "1.0.730",
-  "latestVersion": "1.0.730",
-  "versionCode": 730,
+  "versionName": "1.0.731",
+  "latestVersion": "1.0.731",
+  "versionCode": 731,
   "changelog": [
-    "App dimming no longer creates an extra window; navigation labels retain native insets and per-tab colors have a color wheel and palettes.",
-    "Home provider icons can use provider artwork or the installed extension catalog; episode thumbnail masking follows recycled images.",
-    "Minibar resume and supported player controls use native playback calls; optional watched thresholds commit native state on player exit.",
-    "Download settings reflect native concurrency values; unsupported format and telemetry controls are clearly identified.",
-    "Settings transfers validate primitive types and preserve local security state; watch-party transport is hardened.",
-    "PIN storage, protected settings changes and the optional player time guard are strengthened.",
-    "System cleanup uses native operations with verification, device layouts restore cleanly, and community QA has a compact expandable view.",
-    "ATTENTION: Device playback and rendering still require verification. Parental controls are app-level assistance, not an OS-level lock.",
-    "Some quiet traces still wait to be found."
+    "Show Poster now respects explicit choices instead of switching itself back on.",
+    "Artwork results cannot replace newer playback, image settings or webhook configuration.",
+    "Webhook artwork caching expires safely; stale uploads are cancelled without blocking player/settings lifecycle.",
+    "Unchanged playback retries temporary artwork failures with capped backoff and refreshes expired images.",
+    "Idle image URLs use the artwork resolver, and the provider-URL diagnostic now reaches the presence payload.",
+    "Broadcast watching activity is cleared correctly when playback ends without a supported idle transport.",
+    "ATTENTION: Webhook upload and CDN retrieval are verified. Physical Discord-client rendering still requires device confirmation."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v730 - dimming, navigation, playback and safer settings",
-  "sha256": "c8dd7bb65618fef0b3a60fa30d8dec7c1ab6e687b834e1051542660517595202"
+  "message": "v731 - RPC artwork lifecycle and webhook cache fixes",
+  "sha256": "c2b9a2dd2bb4adb8d04ccf6ff548995930c423cf89124cadb1eddb0d9539902b"
 }
