@@ -1,18 +1,20 @@
 {
-  "versionName": "1.0.735",
-  "latestVersion": "1.0.735",
-  "versionCode": 735,
+  "versionName": "1.0.736",
+  "latestVersion": "1.0.736",
+  "versionCode": 736,
   "changelog": [
-    "Transparent Navigation Bar now lets the live page extend behind navigation icons instead of revealing an empty black strip.",
-    "Scrolling keeps final items reachable, with bottom controls clear of the navigation bar.",
-    "Turning transparency off restores the original layout. Navigation icons, labels and gesture insets are preserved.",
-    "ATTENTION: Update and fully restart CloudStream. Use Transparent Navigation Bar under Navigation settings.",
-    "Plain page backgrounds stay plain; this option does not add artwork or artificial blur."
+    "Player settings now target the active nested player and use the owning Activity instead of the window context.",
+    "Restored native control timeout, resize and subtitle font integration with cleanup when settings change or playback closes.",
+    "Animations reconcile without repeated restarts, respect motion settings and restore owned view state.",
+    "Replaced inconsistent standard UI icon fallbacks with 253 embedded official Material vector assets.",
+    "Unsupported gesture, brightness automation and custom audio-ducking controls are clearly unavailable instead of silently doing nothing.",
+    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream.",
+    "ATTENTION: Physical-device playback and rendering verification is still pending."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v735 - Transparent navigation backdrop fix",
-  "sha256": "64cdc8674ffe71c3a232b1c9d00f0d101fd2a2ac7699f0ed39e2188ba51f7f39"
+  "message": "v736 - Player integration, animation reliability and Material icons",
+  "sha256": "5fc513aca403b8dc6835056224d2a300d9eb969525a496b71fe0cc92fb868380"
 }
