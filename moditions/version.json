@@ -1,18 +1,18 @@
 {
-  "versionName": "1.0.734",
-  "latestVersion": "1.0.734",
-  "versionCode": 734,
+  "versionName": "1.0.735",
+  "latestVersion": "1.0.735",
+  "versionCode": 735,
   "changelog": [
-    "Provider artwork now uses lightly rounded corners on the home source button and in the native provider picker.",
-    "Navigation labels fit the host bottom bar without replacing its gesture insets or height.",
-    "Added an optional transparent app navigation bar; icons and labels remain opaque.",
-    "ATTENTION: Enable Show Provider Icons in Home Page settings and choose your artwork source. Transparency is off by default in Navigation settings.",
-    "ATTENTION: Restart CloudStream after updating to load the new plugin."
+    "Transparent Navigation Bar now lets the live page extend behind navigation icons instead of revealing an empty black strip.",
+    "Scrolling keeps final items reachable, with bottom controls clear of the navigation bar.",
+    "Turning transparency off restores the original layout. Navigation icons, labels and gesture insets are preserved.",
+    "ATTENTION: Update and fully restart CloudStream. Use Transparent Navigation Bar under Navigation settings.",
+    "Plain page backgrounds stay plain; this option does not add artwork or artificial blur."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v734 - Rounded provider artwork and navigation polish",
-  "sha256": "34185f4604072ec1ea54084f9728107b4c917d79fd64098d0e7c51f53eda6a8e"
+  "message": "v735 - Transparent navigation backdrop fix",
+  "sha256": "64cdc8674ffe71c3a232b1c9d00f0d101fd2a2ac7699f0ed39e2188ba51f7f39"
 }
