@@ -1,19 +1,18 @@
 {
-  "versionName": "1.0.728",
-  "latestVersion": "1.0.728",
-  "versionCode": 728,
+  "versionName": "1.0.729",
+  "latestVersion": "1.0.729",
+  "versionCode": 729,
   "changelog": [
-    "Cancel link loading with Cancel, Back or an outside tap; leaving the result view closes pending work.",
-    "Superseded or cancelled link results no longer open a later download picker.",
-    "Settings transfers preserve Float and Long values and keep known credentials and local achievements private.",
-    "Combined imports clearly report unsupported CloudStream settings instead of claiming full success.",
-    "Update installation verifies every DEX payload header, length and integrity checksum with bounded reads.",
+    "Back closes search first, then one CS3M page, without navigating CloudStream behind the settings.",
+    "Supported hosts show gesture progress with the previous settings hub; cancelling restores the current page.",
+    "Keyboard, debug, inspector and live-editor overlays consume Back before the screen underneath.",
+    "Exit confirmation yields to non-home navigation and foreground overlays instead of swallowing their Back handling.",
     "Some quiet traces still wait to be found."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v728 - cancellable link loading and reliable settings transfers",
-  "sha256": "51c66e5259021561d1b8cea4e18f585fcaa977e61889953138a62bacb589a753"
+  "message": "v729 - correct Back navigation and cancellable gesture previews",
+  "sha256": "ce48a28f24e6d95b72e5e1ab5fbeb9cb957e1344d29e5a2fd506452775314acf"
 }
