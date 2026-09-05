@@ -1,20 +1,22 @@
 {
-  "versionName": "1.0.737",
-  "latestVersion": "1.0.737",
-  "versionCode": 737,
+  "versionName": "1.0.738",
+  "latestVersion": "1.0.738",
+  "versionCode": 738,
   "changelog": [
-    "Navigation icons and labels now form a centered, compact group when Show Navigation Labels is enabled.",
-    "Preserved native system-bar insets, bar height, selection and transparent live-content behavior.",
-    "Replaced dramatic transition styles with fade-through, short directional shifts, rise and subtle settle motion.",
-    "Settings forward/back transitions share the same motion profiles, reverse correctly and respect reduced motion.",
-    "Navigation feedback is finite and restrained; legacy bounce, spin and perpetual pulse settings map to the new styles.",
-    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream.",
-    "ATTENTION: Default and None remain unchanged; physical-phone visual confirmation is pending."
+    "Material icons retain theme selectors, selected/disabled colors and alpha; corrected light/dark and player-button foregrounds.",
+    "Theme updates refresh existing owned icons, preserve explicit colors and avoid tinting profile artwork or provider logos.",
+    "Device Tweaks: repaired library grids, native sorting, keyboard cleanup and rebound tablet/TV poster/focus behavior.",
+    "Settings sharing honors category selection, imports only supplied values and uses bounded, acknowledged transfers.",
+    "Receiver restart/shutdown and discovery cancellation are owned; stale scans no longer update dismissed pickers.",
+    "Watch Positions transfers real selected-account playback positions through CloudStream storage and Android document picking; existing positions are preserved.",
+    "ATTENTION: Tablet/TV tweaks require the matching device layout. Position transfer is not a library or Continue Watching backup.",
+    "ATTENTION: LAN transfers remain unencrypted and require local approval. Syncplay TLS behavior is unchanged.",
+    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream. Physical-device and two-device LAN confirmation remain pending."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v737 - Balanced navigation labels and redesigned transitions",
-  "sha256": "6ec0b2e0532a6fbaff2c1dc95c65a9dc82baf7771946dbc8fd23dde009ced32a"
+  "message": "v738 - Icon colors, Device Tweaks and Sync & Sharing repairs",
+  "sha256": "3705fa0751692c481522fdd2f3f70e9f81af6a9ab2ddcd544d30ac537f6dcb6e"
 }
