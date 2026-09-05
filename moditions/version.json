@@ -1,20 +1,19 @@
 {
-  "versionName": "1.0.731",
-  "latestVersion": "1.0.731",
-  "versionCode": 731,
+  "versionName": "1.0.732",
+  "latestVersion": "1.0.732",
+  "versionCode": 732,
   "changelog": [
-    "Show Poster now respects explicit choices instead of switching itself back on.",
-    "Artwork results cannot replace newer playback, image settings or webhook configuration.",
-    "Webhook artwork caching expires safely; stale uploads are cancelled without blocking player/settings lifecycle.",
-    "Unchanged playback retries temporary artwork failures with capped backoff and refreshes expired images.",
-    "Idle image URLs use the artwork resolver, and the provider-URL diagnostic now reaches the presence payload.",
-    "Broadcast watching activity is cleared correctly when playback ends without a supported idle transport.",
-    "ATTENTION: Webhook upload and CDN retrieval are verified. Physical Discord-client rendering still requires device confirmation."
+    "One compact CS3M Updater across settings, with installed/latest versions and readable release notes.",
+    "Release warnings appear in separate ATTENTION blocks; long release notes remain scrollable.",
+    "Clear checking, download, verification and installation progress with retryable errors.",
+    "Manual updates let you choose when to restart CloudStream after verified installation.",
+    "Cached results are labelled; release metadata and available SHA-256 checksums must match the selected version.",
+    "ATTENTION: Update through the dcext repository in CloudStream or the built-in CS3M Updater. No manual plugin-file import is needed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v731 - RPC artwork lifecycle and webhook cache fixes",
-  "sha256": "c2b9a2dd2bb4adb8d04ccf6ff548995930c423cf89124cadb1eddb0d9539902b"
+  "message": "v732 - A clearer CS3M updater",
+  "sha256": "c9ff826516e0792599f2aef571778d3d5fc199f34a00550797040174b25ccba2"
 }
