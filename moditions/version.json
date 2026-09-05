@@ -1,17 +1,18 @@
 {
-  "versionName": "1.0.733",
-  "latestVersion": "1.0.733",
-  "versionCode": 733,
+  "versionName": "1.0.734",
+  "latestVersion": "1.0.734",
+  "versionCode": 734,
   "changelog": [
-    "Fixed a settings restore/startup crash caused by incompatible AndroidX lifecycle default methods.",
-    "Back navigation and deferred settings opening now use explicit lifecycle event dispatch.",
-    "Preserved predictive Back, search-first navigation, and the new CS3M Updater.",
-    "ATTENTION: Update CS3M through dcext in CloudStream, then restart CloudStream to load the fix."
+    "Provider artwork now uses lightly rounded corners on the home source button and in the native provider picker.",
+    "Navigation labels fit the host bottom bar without replacing its gesture insets or height.",
+    "Added an optional transparent app navigation bar; icons and labels remain opaque.",
+    "ATTENTION: Enable Show Provider Icons in Home Page settings and choose your artwork source. Transparency is off by default in Navigation settings.",
+    "ATTENTION: Restart CloudStream after updating to load the new plugin."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v733 - Fix settings startup compatibility",
-  "sha256": "3af304ef230b272de372d506bc026a900321b6ffaed2667b92e8f1409c7b5e5b"
+  "message": "v734 - Rounded provider artwork and navigation polish",
+  "sha256": "34185f4604072ec1ea54084f9728107b4c917d79fd64098d0e7c51f53eda6a8e"
 }
