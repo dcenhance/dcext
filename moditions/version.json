@@ -1,20 +1,19 @@
 {
-  "versionName": "1.0.727",
-  "latestVersion": "1.0.727",
-  "versionCode": 727,
+  "versionName": "1.0.728",
+  "latestVersion": "1.0.728",
+  "versionCode": 728,
   "changelog": [
-    "Smoother settings updates with bounded refresh scheduling and reliable Activity hand-offs.",
-    "RPC text previews stay local until Save; Cancel no longer changes your active presence settings.",
-    "Home layout edits accumulate correctly and apply the exact saved layout.",
-    "Fixed settings search restoration and legacy settings returning after a reset.",
-    "Subtitle burn-in now checks WiFi-only and charging rules at download/export start.",
-    "Unsupported time-lock, format-conversion and unsafe bulk-delete controls are clearly unavailable.",
+    "Cancel link loading with Cancel, Back or an outside tap; leaving the result view closes pending work.",
+    "Superseded or cancelled link results no longer open a later download picker.",
+    "Settings transfers preserve Float and Long values and keep known credentials and local achievements private.",
+    "Combined imports clearly report unsupported CloudStream settings instead of claiming full success.",
+    "Update installation verifies every DEX payload header, length and integrity checksum with bounded reads.",
     "Some quiet traces still wait to be found."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-09-04",
+  "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v727 - smoother settings and safer editing",
-  "sha256": "97e3d5f4ed79481e2177eddc8808f1c865e2510432816c7aadcc34970576b897"
+  "message": "v728 - cancellable link loading and reliable settings transfers",
+  "sha256": "51c66e5259021561d1b8cea4e18f585fcaa977e61889953138a62bacb589a753"
 }
