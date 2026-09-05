@@ -1,18 +1,22 @@
 {
-  "versionName": "1.0.729",
-  "latestVersion": "1.0.729",
-  "versionCode": 729,
+  "versionName": "1.0.730",
+  "latestVersion": "1.0.730",
+  "versionCode": 730,
   "changelog": [
-    "Back closes search first, then one CS3M page, without navigating CloudStream behind the settings.",
-    "Supported hosts show gesture progress with the previous settings hub; cancelling restores the current page.",
-    "Keyboard, debug, inspector and live-editor overlays consume Back before the screen underneath.",
-    "Exit confirmation yields to non-home navigation and foreground overlays instead of swallowing their Back handling.",
+    "App dimming no longer creates an extra window; navigation labels retain native insets and per-tab colors have a color wheel and palettes.",
+    "Home provider icons can use provider artwork or the installed extension catalog; episode thumbnail masking follows recycled images.",
+    "Minibar resume and supported player controls use native playback calls; optional watched thresholds commit native state on player exit.",
+    "Download settings reflect native concurrency values; unsupported format and telemetry controls are clearly identified.",
+    "Settings transfers validate primitive types and preserve local security state; watch-party transport is hardened.",
+    "PIN storage, protected settings changes and the optional player time guard are strengthened.",
+    "System cleanup uses native operations with verification, device layouts restore cleanly, and community QA has a compact expandable view.",
+    "ATTENTION: Device playback and rendering still require verification. Parental controls are app-level assistance, not an OS-level lock.",
     "Some quiet traces still wait to be found."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v729 - correct Back navigation and cancellable gesture previews",
-  "sha256": "ce48a28f24e6d95b72e5e1ab5fbeb9cb957e1344d29e5a2fd506452775314acf"
+  "message": "v730 - dimming, navigation, playback and safer settings",
+  "sha256": "c8dd7bb65618fef0b3a60fa30d8dec7c1ab6e687b834e1051542660517595202"
 }
