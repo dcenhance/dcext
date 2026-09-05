@@ -1,20 +1,20 @@
 {
-  "versionName": "1.0.736",
-  "latestVersion": "1.0.736",
-  "versionCode": 736,
+  "versionName": "1.0.737",
+  "latestVersion": "1.0.737",
+  "versionCode": 737,
   "changelog": [
-    "Player settings now target the active nested player and use the owning Activity instead of the window context.",
-    "Restored native control timeout, resize and subtitle font integration with cleanup when settings change or playback closes.",
-    "Animations reconcile without repeated restarts, respect motion settings and restore owned view state.",
-    "Replaced inconsistent standard UI icon fallbacks with 253 embedded official Material vector assets.",
-    "Unsupported gesture, brightness automation and custom audio-ducking controls are clearly unavailable instead of silently doing nothing.",
+    "Navigation icons and labels now form a centered, compact group when Show Navigation Labels is enabled.",
+    "Preserved native system-bar insets, bar height, selection and transparent live-content behavior.",
+    "Replaced dramatic transition styles with fade-through, short directional shifts, rise and subtle settle motion.",
+    "Settings forward/back transitions share the same motion profiles, reverse correctly and respect reduced motion.",
+    "Navigation feedback is finite and restrained; legacy bounce, spin and perpetual pulse settings map to the new styles.",
     "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream.",
-    "ATTENTION: Physical-device playback and rendering verification is still pending."
+    "ATTENTION: Default and None remain unchanged; physical-phone visual confirmation is pending."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v736 - Player integration, animation reliability and Material icons",
-  "sha256": "5fc513aca403b8dc6835056224d2a300d9eb969525a496b71fe0cc92fb868380"
+  "message": "v737 - Balanced navigation labels and redesigned transitions",
+  "sha256": "6ec0b2e0532a6fbaff2c1dc95c65a9dc82baf7771946dbc8fd23dde009ced32a"
 }
