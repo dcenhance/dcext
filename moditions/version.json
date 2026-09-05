@@ -1,22 +1,18 @@
 {
-  "versionName": "1.0.738",
-  "latestVersion": "1.0.738",
-  "versionCode": 738,
+  "versionName": "1.0.739",
+  "latestVersion": "1.0.739",
+  "versionCode": 739,
   "changelog": [
-    "Material icons retain theme selectors, selected/disabled colors and alpha; corrected light/dark and player-button foregrounds.",
-    "Theme updates refresh existing owned icons, preserve explicit colors and avoid tinting profile artwork or provider logos.",
-    "Device Tweaks: repaired library grids, native sorting, keyboard cleanup and rebound tablet/TV poster/focus behavior.",
-    "Settings sharing honors category selection, imports only supplied values and uses bounded, acknowledged transfers.",
-    "Receiver restart/shutdown and discovery cancellation are owned; stale scans no longer update dismissed pickers.",
-    "Watch Positions transfers real selected-account playback positions through CloudStream storage and Android document picking; existing positions are preserved.",
-    "ATTENTION: Tablet/TV tweaks require the matching device layout. Position transfer is not a library or Continue Watching backup.",
-    "ATTENTION: LAN transfers remain unencrypted and require local approval. Syncplay TLS behavior is unchanged.",
-    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream. Physical-device and two-device LAN confirmation remain pending."
+    "Fixed the optional player dim layer remaining over video after hiding controls.",
+    "Dimming follows native UI state instead of the always-present player holder; rapid taps cannot leave a stale overlay.",
+    "Player exit, view replacement and settings disable remove the owned layer and observer without altering video brightness or native controls.",
+    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream.",
+    "ATTENTION: Automated regression/build checks are complete; confirmation on the reporting phone remains pending."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v738 - Icon colors, Device Tweaks and Sync & Sharing repairs",
-  "sha256": "3705fa0751692c481522fdd2f3f70e9f81af6a9ab2ddcd544d30ac537f6dcb6e"
+  "message": "v739 - Player hide-controls dimming repair",
+  "sha256": "5a2a7f8c0ed16564074fd26cbe0ec891755172abf7c83c4cb8ec4cee27614a6b"
 }
