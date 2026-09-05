@@ -1,19 +1,17 @@
 {
-  "versionName": "1.0.732",
-  "latestVersion": "1.0.732",
-  "versionCode": 732,
+  "versionName": "1.0.733",
+  "latestVersion": "1.0.733",
+  "versionCode": 733,
   "changelog": [
-    "One compact CS3M Updater across settings, with installed/latest versions and readable release notes.",
-    "Release warnings appear in separate ATTENTION blocks; long release notes remain scrollable.",
-    "Clear checking, download, verification and installation progress with retryable errors.",
-    "Manual updates let you choose when to restart CloudStream after verified installation.",
-    "Cached results are labelled; release metadata and available SHA-256 checksums must match the selected version.",
-    "ATTENTION: Update through the dcext repository in CloudStream or the built-in CS3M Updater. No manual plugin-file import is needed."
+    "Fixed a settings restore/startup crash caused by incompatible AndroidX lifecycle default methods.",
+    "Back navigation and deferred settings opening now use explicit lifecycle event dispatch.",
+    "Preserved predictive Back, search-first navigation, and the new CS3M Updater.",
+    "ATTENTION: Update CS3M through dcext in CloudStream, then restart CloudStream to load the fix."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-05",
   "isRequired": false,
-  "message": "v732 - A clearer CS3M updater",
-  "sha256": "c9ff826516e0792599f2aef571778d3d5fc199f34a00550797040174b25ccba2"
+  "message": "v733 - Fix settings startup compatibility",
+  "sha256": "3af304ef230b272de372d506bc026a900321b6ffaed2667b92e8f1409c7b5e5b"
 }
