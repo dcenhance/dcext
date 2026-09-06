@@ -1,18 +1,16 @@
 {
-  "versionName": "1.0.741",
-  "latestVersion": "1.0.741",
-  "versionCode": 741,
+  "versionName": "1.0.742",
+  "latestVersion": "1.0.742",
+  "versionCode": 742,
   "changelog": [
-    "TV remote: keep settings focus inside the open page, restore the previous selection on Back, and prevent native player controls from consuming settings navigation.",
-    "Keyboard: repaired callback stacking, Center/Enter/Numpad Enter activation, held-key duplicates and cancellation; restored lowercase and Shift behavior.",
-    "Fast and smooth scrolling: remove owned handles, listeners and animations on refresh, disable or detach without replacing native touch/fling handlers.",
-    "Hide Search History now survives native query updates and restores the native visibility when disabled. Scene bookmarks use the current native video title.",
-    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream."
+    "Fixed artwork handoff after successful webhook uploads: preserve the returned attachment signature when creating the RPC image reference.",
+    "Keep attachment identity and expiry checks, and pass the complete signed image through cache, callbacks and the final presence payload.",
+    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream and restart playback."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-06",
   "isRequired": false,
-  "message": "v741 - TV remote navigation and active feature repairs",
-  "sha256": "61549bcbfaaa505ec817ded751da07d0c3f47933f528d988718494233d2f36a9"
+  "message": "v742 - Preserve signed Discord RPC artwork",
+  "sha256": "e33a8e3b6227d32e237e61b7ad6c327bffaa7f0b44141b29c6790eba386f25c5"
 }
