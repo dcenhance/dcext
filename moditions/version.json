@@ -1,16 +1,18 @@
 {
-  "versionName": "1.0.740",
-  "latestVersion": "1.0.740",
-  "versionCode": 740,
+  "versionName": "1.0.741",
+  "latestVersion": "1.0.741",
+  "versionCode": 741,
   "changelog": [
-    "Added missing themed Material icons to every Parental Controls row, including content filters, PIN actions and time-lock settings.",
-    "Icons remain visible in light and dark themes and after the settings screen refreshes. PIN checks and restrictions are unchanged.",
+    "TV remote: keep settings focus inside the open page, restore the previous selection on Back, and prevent native player controls from consuming settings navigation.",
+    "Keyboard: repaired callback stacking, Center/Enter/Numpad Enter activation, held-key duplicates and cancellation; restored lowercase and Shift behavior.",
+    "Fast and smooth scrolling: remove owned handles, listeners and animations on refresh, disable or detach without replacing native touch/fling handlers.",
+    "Hide Search History now survives native query updates and restores the native visibility when disabled. Scene bookmarks use the current native video title.",
     "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-09-05",
+  "releaseDate": "2026-09-06",
   "isRequired": false,
-  "message": "v740 - Restore Parental Controls icons",
-  "sha256": "6f4761c3c043f78c23e6727f29c1956c61fd826883b00cc53f70d06451aa0fc0"
+  "message": "v741 - TV remote navigation and active feature repairs",
+  "sha256": "61549bcbfaaa505ec817ded751da07d0c3f47933f528d988718494233d2f36a9"
 }
