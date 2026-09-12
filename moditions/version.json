@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.747",
-  "latestVersion": "1.0.747",
-  "versionCode": 747,
+  "versionName": "1.0.748",
+  "latestVersion": "1.0.748",
+  "versionCode": 748,
   "changelog": [
-    "Settings entry fix: a show-in-settings choice made while CloudStream still used its XML settings list no longer hides the CS3M entry in the new Compose settings screen - the choice now counts per settings UI generation, so the row appears again while an explicit opt-out still wins.",
-    "Settings entry robustness: the row is retried briefly while the settings screen lays out and, if it cannot be placed at all, a compact fallback entry is pinned so the entry is never silently missing.",
-    "The gear sheet now reports the live state of the settings entry (injected row, pending or off) next to the version, so the behaviour is verifiable at a glance.",
-    "The injected settings row now has an opaque themed surface, so the settings list can no longer shine through it."
+    "Settings entry: the settings screen is now resolved without relying on the fragment tree alone. CloudStream 4.8.0+ renders only the settings family with Compose, so the visible Compose screen inside the navigation host is used as a second, independent route - the entry now also appears on hosts where the fragment walk cannot see the destination.",
+    "Settings entry: row placement retries longer, removes itself when a settings sub-page or another tab is opened, and still falls back to a compact pinned entry if the list container never accepts the row.",
+    "Gear sheet now reports the live diagnostics of the entry (route, container, attempts, state) next to the version, so the behaviour can be verified without log files.",
+    "Fixes a resolver abort: one misbehaving fragment could previously cancel the whole settings-screen search."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v747 - Auto build + deploy"
+  "message": "v748 - Auto build + deploy"
 }
