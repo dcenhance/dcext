@@ -1,16 +1,17 @@
 {
-  "versionName": "1.0.757",
-  "latestVersion": "1.0.757",
-  "versionCode": 757,
+  "versionName": "1.0.758",
+  "latestVersion": "1.0.758",
+  "versionCode": 758,
   "changelog": [
-    "Order fixed for the common phone case: the entry now always renders as Extensions -> CSM -> version line. When the host list is taller than its viewport, the host's own build line is masked out and re-drawn directly underneath the entry, so it can never appear above the entry as a second line.",
-    "Placement is now independent of Compose semantics: the Compose view's own bottom is used as the anchor when the semantics tree is not available, so the entry cannot silently drop to the bottom of the screen.",
-    "Reserved height accounts for the mask, the row and the re-drawn build line, so nothing is clipped by the bottom navigation bar.",
-    "The settings-entry diagnostic reports the placement mode (pos=stamp-slot, pos=reserved or pos=none), so a screenshot shows which path ran."
+    "Fixed the ordering for real this time: the entry is laid over the host's build-stamp slot, so the visible order is Extensions -> CSM -> version line, and the host's own line can no longer appear above the entry.",
+    "The reserved space is now only the row's own height instead of row plus mask plus build line. Nothing else is taken from the list, so rows such as Extensions stay exactly where they were.",
+    "The list end is anchored in window coordinates and clamped to the viewport, so the row is never pushed under the bottom navigation bar and never overlaps the last entry.",
+    "Placement runs on every layout pass (semantics first, Compose view geometry as fallback), so it also settles after rotation and after the list is scrolled.",
+    "The settings-entry diagnostic reports pos=slot-bottom (tall list) or pos=slot-content (short list)."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v757 - Auto build + deploy"
+  "message": "v758 - Auto build + deploy"
 }
