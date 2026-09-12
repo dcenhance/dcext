@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.761",
-  "latestVersion": "1.0.761",
-  "versionCode": 761,
+  "versionName": "1.0.762",
+  "latestVersion": "1.0.762",
+  "versionCode": 762,
   "changelog": [
-    "Removed the Compose settings overlay completely. An extension View cannot be inserted into the host Compose Column; putting it beside that column was the source of the detached card, clipping and wrong positioning.",
-    "On hosts with the new native PluginSettingsEntryHost registry, CSM is rendered by CloudStream itself directly below Extensions and above the build information. It uses the same TextPreferenceWidget styling and a 32dp CSM icon.",
-    "On older Compose hosts, CSM intentionally uses CloudStream's existing native plugin settings action under Extensions instead of rendering an overlay. Legacy XML settings remain supported.",
-    "CSM now reports host-native or host-plugin-action in its diagnostic state; it never reports an injected Compose row."
+    "CSM now replaces the Compose settings landing page only while it is open, instead of placing a sibling overlay over CloudStream.",
+    "The replacement is one real scrollable settings page: Extensions is followed immediately by CSM, then the version/build line. CSM uses the same native row geometry, ripple, title/subtitle treatment, and a larger 32dp icon.",
+    "Every host category keeps its original navigation target. Leaving the settings landing page restores CloudStream's untouched Compose screen; legacy XML settings remain on their established path.",
+    "The replacement is enabled only on Compose settings hosts without a public plugin-row API; no CloudStream APK or host source is modified."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v761 - Auto build + deploy"
+  "message": "v762 - Auto build + deploy"
 }
