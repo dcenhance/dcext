@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.755",
-  "latestVersion": "1.0.755",
-  "versionCode": 755,
+  "versionName": "1.0.757",
+  "latestVersion": "1.0.757",
+  "versionCode": 757,
   "changelog": [
-    "The CSM settings entry now sits directly below the Extensions row, inside the list, instead of hanging at the bottom of the screen. Its position is derived from the host's build-stamp slot, which is the last item of the settings list, so it lands exactly under Extensions on every screen size.",
-    "The host's build line (version, commit, build date) is re-drawn underneath the entry, so it stays readable in its usual place and tapping it still copies the build info.",
-    "The entry no longer gets clipped by the bottom navigation bar: the settings list keeps its full height instead of being shortened, and the reserved-slot fallback only applies when the list genuinely scrolls.",
-    "Removed the grey slab behind the entry. It came from resolving the light AppCompat item background on this theme; the row now uses its own ripple on the app background, matching the host's own rows.",
-    "Host profile detection now also reads the host's build date, so the re-drawn build line matches what CloudStream itself shows."
+    "Order fixed for the common phone case: the entry now always renders as Extensions -> CSM -> version line. When the host list is taller than its viewport, the host's own build line is masked out and re-drawn directly underneath the entry, so it can never appear above the entry as a second line.",
+    "Placement is now independent of Compose semantics: the Compose view's own bottom is used as the anchor when the semantics tree is not available, so the entry cannot silently drop to the bottom of the screen.",
+    "Reserved height accounts for the mask, the row and the re-drawn build line, so nothing is clipped by the bottom navigation bar.",
+    "The settings-entry diagnostic reports the placement mode (pos=stamp-slot, pos=reserved or pos=none), so a screenshot shows which path ran."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v755 - Auto build + deploy"
+  "message": "v757 - Auto build + deploy"
 }
