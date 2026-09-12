@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.749",
-  "latestVersion": "1.0.749",
-  "versionCode": 749,
+  "versionName": "1.0.750",
+  "latestVersion": "1.0.750",
+  "versionCode": 750,
   "changelog": [
-    "Settings entry: an always-on observer now watches the settings screen and places the CS3M entry independently of the master switch, the fragment callbacks and the navigation listener - whichever of them the host breaks, the entry still gets placed and removed correctly.",
-    "Settings entry: resolution accepts the settings screen through the Compose screen itself, so it no longer depends on seeing the host fragment.",
-    "The gear sheet reports the placement outcome right after saving 'Show in Settings', so a missing entry can be diagnosed in seconds instead of log files."
+    "Settings entry root cause fixed: inside a plugin, host resource id lookups and androidx type checks can fail, which left both screen routes empty even though the settings screen was on screen. The screen is now located by class name and by scanning every fragment container of the window, and the fragment route works through reflection without sharing androidx classes with the host.",
+    "The fallback entry uses the same id-independent lookup, so the entry can no longer vanish completely.",
+    "Diagnostics are reported when the settings screen is actually visible (the settings sheet is not that screen), and now include how many compose screens and fragment containers were seen."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v749 - Auto build + deploy"
+  "message": "v750 - Auto build + deploy"
 }
