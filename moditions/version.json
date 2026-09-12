@@ -1,15 +1,16 @@
 {
-  "versionName": "1.0.751",
-  "latestVersion": "1.0.751",
-  "versionCode": 751,
+  "versionName": "1.0.752",
+  "latestVersion": "1.0.752",
+  "versionCode": 752,
   "changelog": [
-    "Settings entry fixed for real: the host's settings destination sits in a FragmentContainerView, whose addView() rejects any view that is not a fragment root (IllegalStateException). Every earlier attempt (row and fallback entry) was silently thrown away by that check. The entry now attaches to the window's content container, lifted above the bottom navigation bar, while the settings list is shortened by exactly one row - so the row lands right under the list.",
-    "The same rejection is now impossible for the fallback entry, which previously targeted the same container and therefore never appeared either.",
-    "Removed the container helpers that could only ever fail on a fragment container."
+    "New Host Inspector: CS3M now detects which CloudStream build it runs inside - package, version, build hash, install source, target SDK, pre-release vs release, settings UI generation (Compose vs XML), device and layout facts - straight from PackageManager and the host's own resources.",
+    "New view inventory: the app's live view trees are captured screen by screen (ids, classes, parent ids, sizes, text, flags), including an observed catalogue of host view ids. It runs automatically on every screen, is bounded, self-throttled and skips CS3M's own views.",
+    "Host Inspector page under Settings > System: shows the detected profile, the captured view counts, a clipboard export of the full JSON and a manual capture/clear action.",
+    "Anchoring decisions can now be based on observed host surfaces instead of assumptions, which is what made the settings entry fail silently before."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v751 - Auto build + deploy"
+  "message": "v752 - Auto build + deploy"
 }
