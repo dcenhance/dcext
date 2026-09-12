@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.763",
-  "latestVersion": "1.0.763",
-  "versionCode": 763,
+  "versionName": "1.0.764",
+  "latestVersion": "1.0.764",
+  "versionCode": 764,
   "changelog": [
-    "Removed the v762 Compose settings replacement. It attached behind CloudStream's actual Compose stack on device and did not render the real settings page.",
-    "CSM no longer draws a Compose settings overlay or replacement page. The native plugin settings action remains available under Extensions, and legacy XML settings remain unchanged.",
-    "No CloudStream host code or APK is modified."
+    "CSM now replaces only the existing CloudStream Compose settings surface on 4.8.0-PRE; no overlay, sibling view, or CloudStream APK patch is used.",
+    "The cloned settings list remains scrollable and places CSM directly after Extensions and before the version line.",
+    "Legacy XML settings injection remains unchanged on older CloudStream versions."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v763 - Auto build + deploy"
+  "message": "v764 - Auto build + deploy"
 }
