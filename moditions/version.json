@@ -3,8 +3,10 @@
   "latestVersion": "1.0.745",
   "versionCode": 745,
   "changelog": [
-    "Auto-build v745",
-    "See GitHub for full changelog"
+    "Settings rows are swapped for the new app: the CS3 Manager entry now sits in the Compose settings list of CloudStream 4.8.0+, and the legacy injected row is only used where it still exists.",
+    "Settings section hiding now reports the truth: on the Compose settings host the host owns its row list, so the option is marked as managed instead of silently doing nothing.",
+    "Host settings detection accepts both UI generations (SettingsFragment and SettingsFragment2) instead of only the old class name.",
+    "New CloudStream home row supported: the host clock row can be hidden and picked in the Live Home editor."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
