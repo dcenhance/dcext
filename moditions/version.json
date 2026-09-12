@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.760",
-  "latestVersion": "1.0.760",
-  "versionCode": 760,
+  "versionName": "1.0.761",
+  "latestVersion": "1.0.761",
+  "versionCode": 761,
   "changelog": [
-    "The CSM entry is now part of the scrolling settings list instead of its own fixed view: it re-anchors itself to the list position below Extensions, moves while the list scrolls and disappears when that slot scrolls out of view, exactly like a normal list item.",
-    "It no longer reserves any space, so the host list keeps its full height and no row can be pushed out of view.",
-    "Its icon is drawn larger (32dp) while the row keeps the host styling: same title size, same subtitle colour with the host's secondary alpha, same ripple, no card and no extra surface.",
-    "The build line is re-drawn directly underneath, so the order reads Extensions -> CSM -> version line, and the host's own build line can never appear above the entry."
+    "Removed the Compose settings overlay completely. An extension View cannot be inserted into the host Compose Column; putting it beside that column was the source of the detached card, clipping and wrong positioning.",
+    "On hosts with the new native PluginSettingsEntryHost registry, CSM is rendered by CloudStream itself directly below Extensions and above the build information. It uses the same TextPreferenceWidget styling and a 32dp CSM icon.",
+    "On older Compose hosts, CSM intentionally uses CloudStream's existing native plugin settings action under Extensions instead of rendering an overlay. Legacy XML settings remain supported.",
+    "CSM now reports host-native or host-plugin-action in its diagnostic state; it never reports an injected Compose row."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v760 - Auto build + deploy"
+  "message": "v761 - Auto build + deploy"
 }
