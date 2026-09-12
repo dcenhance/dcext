@@ -1,17 +1,15 @@
 {
-  "versionName": "1.0.758",
-  "latestVersion": "1.0.758",
-  "versionCode": 758,
+  "versionName": "1.0.759",
+  "latestVersion": "1.0.759",
+  "versionCode": 759,
   "changelog": [
-    "Fixed the ordering for real this time: the entry is laid over the host's build-stamp slot, so the visible order is Extensions -> CSM -> version line, and the host's own line can no longer appear above the entry.",
-    "The reserved space is now only the row's own height instead of row plus mask plus build line. Nothing else is taken from the list, so rows such as Extensions stay exactly where they were.",
-    "The list end is anchored in window coordinates and clamped to the viewport, so the row is never pushed under the bottom navigation bar and never overlaps the last entry.",
-    "Placement runs on every layout pass (semantics first, Compose view geometry as fallback), so it also settles after rotation and after the list is scrolled.",
-    "The settings-entry diagnostic reports pos=slot-bottom (tall list) or pos=slot-content (short list)."
+    "Source-verified placement: CloudStream's settings landing page is a single scrollable column ending in its build stamp, and plugin rows cannot be registered into it (the screen list is an immutable persistent list with host string resources). The entry therefore overlays the stamp slot, which is the only way to get Extensions -> CSM -> version line.",
+    "The entry now reserves exactly the row height measured against the Compose view's own top offset, so the list keeps every previously visible row instead of losing one to a too-tall reservation.",
+    "The settings list end is anchored in window coordinates and clamped to the viewport, so the entry cannot slide under the bottom navigation bar."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v758 - Auto build + deploy"
+  "message": "v759 - Auto build + deploy"
 }
