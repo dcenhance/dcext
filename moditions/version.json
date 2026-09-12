@@ -1,16 +1,19 @@
 {
-  "versionName": "1.0.742",
-  "latestVersion": "1.0.742",
-  "versionCode": 742,
+  "versionName": "1.0.743",
+  "latestVersion": "1.0.743",
+  "versionCode": 743,
   "changelog": [
-    "Fixed artwork handoff after successful webhook uploads: preserve the returned attachment signature when creating the RPC image reference.",
-    "Keep attachment identity and expiry checks, and pass the complete signed image through cache, callbacks and the final presence payload.",
-    "ATTENTION: Update through dcext or the CS3M Updater, then fully restart CloudStream and restart playback."
+    "Angepasst an CloudStream 4.8.0 / 4.8.0-PRE: Die Einstellungen sind dort neu in Compose gebaut (SettingsFragment2), das alte main_settings.xml ist nur noch toter Code. Dadurch konnte der bisherige CS3 Manager-Eintrag nicht mehr in die Einstellungsliste injiziert werden ('No CSM option').",
+    "Neuer Einstieg fuer Compose-Hosts: CS3 Manager erscheint als kompakter, themenkonformer Eintrag direkt im Einstellungsbildschirm und oeffnet die vollstaendigen CS3M-Einstellungen.",
+    "Zahnrad-Menue des Plugins hat jetzt 'Open CS3 Manager Settings' als immer verfuegbaren Weg in die vollen Einstellungen - auch wenn der Einstellungs-Eintrag deaktiviert ist.",
+    "Abwaertskompatibel: Alle aelteren CloudStream-Versionen behalten den bisherigen, nativ injizierten Eintrag in der Einstellungsliste unveraendert. Die neue Logik greift nur, wenn der alte XML-Anker nicht existiert.",
+    "Host-Erkennung ueber Klassenprobe (BaseComposeFragment / SettingsFragment2) statt Layout-Datei, da die alte XML-Datei noch im APK liegt.",
+    "Einstellungs-Eintrag wird pro Activity sauber besessen und entfernt (Lifecycle, Opt-out, Einstellungs-Overlay) - kein haengender Layout-Listener mehr auf Compose-Hosts.",
+    "Release-Helper: DEX-Pruefung scannt alle classesN.dex; echte Release-Notes aus .release-changelog.json bleiben beim Deploy erhalten."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-09-06",
+  "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v742 - Preserve signed Discord RPC artwork",
-  "sha256": "e33a8e3b6227d32e237e61b7ad6c327bffaa7f0b44141b29c6790eba386f25c5"
+  "message": "v743 - CloudStream 4.8.0 compatibility: CS3 Manager entry restored in the new Compose settings screen"
 }
