@@ -1,17 +1,16 @@
 {
-  "versionName": "1.0.746",
-  "latestVersion": "1.0.746",
-  "versionCode": 746,
+  "versionName": "1.0.747",
+  "latestVersion": "1.0.747",
+  "versionCode": 747,
   "changelog": [
-    "Version metadata fix: the internal version constant now matches the published version again, so CS3M no longer reports a permanent pending update after installing the latest build.",
-    "Settings rows are swapped for the new app: the CS3 Manager entry sits in the Compose settings list of CloudStream 4.8.0+, and the legacy injected row is only used where it still exists.",
-    "Settings section hiding reports the truth on the Compose settings host: the option is marked as managed by CloudStream instead of silently doing nothing.",
-    "Host settings detection accepts both UI generations (SettingsFragment and SettingsFragment2).",
-    "New CloudStream home row supported: the host clock row can be hidden and picked in the Live Home editor."
+    "Settings entry fix: a show-in-settings choice made while CloudStream still used its XML settings list no longer hides the CS3M entry in the new Compose settings screen - the choice now counts per settings UI generation, so the row appears again while an explicit opt-out still wins.",
+    "Settings entry robustness: the row is retried briefly while the settings screen lays out and, if it cannot be placed at all, a compact fallback entry is pinned so the entry is never silently missing.",
+    "The gear sheet now reports the live state of the settings entry (injected row, pending or off) next to the version, so the behaviour is verifiable at a glance.",
+    "The injected settings row now has an opaque themed surface, so the settings list can no longer shine through it."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v746 - Auto build + deploy"
+  "message": "v747 - Auto build + deploy"
 }
