@@ -1,16 +1,17 @@
 {
-  "versionName": "1.0.754",
-  "latestVersion": "1.0.754",
-  "versionCode": 754,
+  "versionName": "1.0.755",
+  "latestVersion": "1.0.755",
+  "versionCode": 755,
   "changelog": [
-    "Renamed the visible product name to CSM everywhere: settings entry and page titles, bottom sheet, notifications and update prompts, Discord Rich Presence activity name, download/subtitle labels, loading overlay, toasts, feature status reports and the repository listing in Extensions.",
-    "Only display text changed. Internal identity is untouched, so updates, saved settings and stored data keep working: preference keys and values, class and file names, the plugin internal name (CS3MProvider), the packaged manifest name and the repository URL all stay the same.",
-    "Settings exports from older versions still import unchanged; the export field is informational and is not used for validation.",
-    "The settings-entry auto-open scanner matches the new CSM label and the older spelling, so upgraded and legacy hosts both keep working."
+    "The CSM settings entry now sits directly below the Extensions row, inside the list, instead of hanging at the bottom of the screen. Its position is derived from the host's build-stamp slot, which is the last item of the settings list, so it lands exactly under Extensions on every screen size.",
+    "The host's build line (version, commit, build date) is re-drawn underneath the entry, so it stays readable in its usual place and tapping it still copies the build info.",
+    "The entry no longer gets clipped by the bottom navigation bar: the settings list keeps its full height instead of being shortened, and the reserved-slot fallback only applies when the list genuinely scrolls.",
+    "Removed the grey slab behind the entry. It came from resolving the light AppCompat item background on this theme; the row now uses its own ripple on the app background, matching the host's own rows.",
+    "Host profile detection now also reads the host's build date, so the re-drawn build line matches what CloudStream itself shows."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v754 - Auto build + deploy"
+  "message": "v755 - Auto build + deploy"
 }
