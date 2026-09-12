@@ -1,16 +1,17 @@
 {
-  "versionName": "1.0.745",
-  "latestVersion": "1.0.745",
-  "versionCode": 745,
+  "versionName": "1.0.746",
+  "latestVersion": "1.0.746",
+  "versionCode": 746,
   "changelog": [
-    "Settings rows are swapped for the new app: the CS3 Manager entry now sits in the Compose settings list of CloudStream 4.8.0+, and the legacy injected row is only used where it still exists.",
-    "Settings section hiding now reports the truth: on the Compose settings host the host owns its row list, so the option is marked as managed instead of silently doing nothing.",
-    "Host settings detection accepts both UI generations (SettingsFragment and SettingsFragment2) instead of only the old class name.",
+    "Version metadata fix: the internal version constant now matches the published version again, so CS3M no longer reports a permanent pending update after installing the latest build.",
+    "Settings rows are swapped for the new app: the CS3 Manager entry sits in the Compose settings list of CloudStream 4.8.0+, and the legacy injected row is only used where it still exists.",
+    "Settings section hiding reports the truth on the Compose settings host: the option is marked as managed by CloudStream instead of silently doing nothing.",
+    "Host settings detection accepts both UI generations (SettingsFragment and SettingsFragment2).",
     "New CloudStream home row supported: the host clock row can be hidden and picked in the Live Home editor."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v745 - Auto build + deploy"
+  "message": "v746 - Auto build + deploy"
 }
