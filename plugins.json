@@ -3,7 +3,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/assets/CS3M.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 6171372,
+        "fileSize": 6171948,
         "status": 1,
         "language": "en",
         "authors": [
@@ -12,14 +12,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 750,
+        "version": 751,
         "internalName": "CS3MProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
         "name": "CS3M",
         "description": "CloudStream customization with themes, player tools, and private Syncplay watch parties",
-        "versionCode": 750,
-        "versionInt": 750,
-        "sha256": "ed5d6f38cb149cf47156474cc54a4752d15ca89cb454ebcb17e4ee8cbe304bc6"
+        "versionCode": 751,
+        "versionInt": 751,
+        "sha256": "eb83556357ba980ac471deae6373fa4bf19035322b3bb7baad0f8aff70e97f80"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",

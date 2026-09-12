@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.750",
-  "latestVersion": "1.0.750",
-  "versionCode": 750,
+  "versionName": "1.0.751",
+  "latestVersion": "1.0.751",
+  "versionCode": 751,
   "changelog": [
-    "Settings entry root cause fixed: inside a plugin, host resource id lookups and androidx type checks can fail, which left both screen routes empty even though the settings screen was on screen. The screen is now located by class name and by scanning every fragment container of the window, and the fragment route works through reflection without sharing androidx classes with the host.",
-    "The fallback entry uses the same id-independent lookup, so the entry can no longer vanish completely.",
-    "Diagnostics are reported when the settings screen is actually visible (the settings sheet is not that screen), and now include how many compose screens and fragment containers were seen."
+    "Settings entry fixed for real: the host's settings destination sits in a FragmentContainerView, whose addView() rejects any view that is not a fragment root (IllegalStateException). Every earlier attempt (row and fallback entry) was silently thrown away by that check. The entry now attaches to the window's content container, lifted above the bottom navigation bar, while the settings list is shortened by exactly one row - so the row lands right under the list.",
+    "The same rejection is now impossible for the fallback entry, which previously targeted the same container and therefore never appeared either.",
+    "Removed the container helpers that could only ever fail on a fragment container."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v750 - Auto build + deploy"
+  "message": "v751 - Auto build + deploy"
 }
