@@ -1,19 +1,20 @@
 {
-  "versionName": "1.0.743",
-  "latestVersion": "1.0.743",
-  "versionCode": 743,
+  "versionName": "1.0.744",
+  "latestVersion": "1.0.744",
+  "versionCode": 744,
   "changelog": [
-    "Angepasst an CloudStream 4.8.0 / 4.8.0-PRE: Die Einstellungen sind dort neu in Compose gebaut (SettingsFragment2), das alte main_settings.xml ist nur noch toter Code. Dadurch konnte der bisherige CS3 Manager-Eintrag nicht mehr in die Einstellungsliste injiziert werden ('No CSM option').",
-    "Neuer Einstieg fuer Compose-Hosts: CS3 Manager erscheint als kompakter, themenkonformer Eintrag direkt im Einstellungsbildschirm und oeffnet die vollstaendigen CS3M-Einstellungen.",
-    "Zahnrad-Menue des Plugins hat jetzt 'Open CS3 Manager Settings' als immer verfuegbaren Weg in die vollen Einstellungen - auch wenn der Einstellungs-Eintrag deaktiviert ist.",
-    "Abwaertskompatibel: Alle aelteren CloudStream-Versionen behalten den bisherigen, nativ injizierten Eintrag in der Einstellungsliste unveraendert. Die neue Logik greift nur, wenn der alte XML-Anker nicht existiert.",
-    "Host-Erkennung ueber Klassenprobe (BaseComposeFragment / SettingsFragment2) statt Layout-Datei, da die alte XML-Datei noch im APK liegt.",
-    "Einstellungs-Eintrag wird pro Activity sauber besessen und entfernt (Lifecycle, Opt-out, Einstellungs-Overlay) - kein haengender Layout-Listener mehr auf Compose-Hosts.",
-    "Release-Helper: DEX-Pruefung scannt alle classesN.dex; echte Release-Notes aus .release-changelog.json bleiben beim Deploy erhalten."
+    "CloudStream 4.8.0+ rendert die Einstellungen komplett in Compose: die ganze Seite ist eine einzige AndroidComposeView, die alte XML-Liste (main_settings.xml / settings_extensions) liegt nur noch als toter Code im APK und taugt nicht mehr als Einfuege-Anker.",
+    "CS3 Manager wird jetzt als echte, native Zeile in die Einstellungsseite injiziert: Der Compose-Inhalt wird genau um eine Zeilenhoehe verkuerzt (nur LayoutParams, kein Umhaengen - die Composition und ihr Zustand bleiben unangetastet), darunter sitzt die CS3M-Zeile im freien Platz.",
+    "Die Zeile ist massstabsgetreu zu CloudStreams eigenen Einstellungszeilen gebaut (56dp Mindesthoehe, 16dp Abstaende, 24dp Icon, 16sp Titel, gedaempfte Unterzeile) und nutzt die Theme-Farben des Hosts - sie liest sich als letzter Eintrag der Liste.",
+    "Label, Icon und Klickverhalten kommen aus CS3M selbst (Plugin-Ressourcen, CS3M-Icon), es werden keine Host-Ressourcen-IDs benoetigt. Antippen oeffnet die vollstaendigen CS3M-Einstellungen.",
+    "Kein Reflection-Eingriff in die Compose-Liste: SettingsFragmentScreen.screens ist unveraenderliches static-final, und Android 17 verbietet das Schreiben static-finaler Felder per Reflection. Stattdessen reine Standard-View-APIs.",
+    "Zeile wird pro Activity besessen und exakt aufgeraeumt (Layout-Listener entfernt, Compose-Hoehe zurueckgesetzt, Zeile entfernt) bei Verlassen der Seite, Opt-out und Abbau. Nur die Einstellungs-Uebersicht bekommt die Zeile, keine Unterseiten.",
+    "Abwaertskompatibel: Aeltere CloudStream-Versionen behalten den bisherigen, nativ injizierten Eintrag in der XML-Liste unveraendert - der neue Pfad greift nur bei Compose-Hosts.",
+    "Zahnrad-Menue des Plugins bietet weiterhin 'Open CS3 Manager Settings' als immer verfuegbaren Weg."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v743 - CloudStream 4.8.0 compatibility: CS3 Manager entry restored in the new Compose settings screen"
+  "message": "v744 - CS3 Manager wird als echte Zeile in die neue Compose-Einstellungsseite injiziert"
 }
