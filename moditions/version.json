@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.752",
-  "latestVersion": "1.0.752",
-  "versionCode": 752,
+  "versionName": "1.0.753",
+  "latestVersion": "1.0.753",
+  "versionCode": 753,
   "changelog": [
-    "New Host Inspector: CS3M now detects which CloudStream build it runs inside - package, version, build hash, install source, target SDK, pre-release vs release, settings UI generation (Compose vs XML), device and layout facts - straight from PackageManager and the host's own resources.",
-    "New view inventory: the app's live view trees are captured screen by screen (ids, classes, parent ids, sizes, text, flags), including an observed catalogue of host view ids. It runs automatically on every screen, is bounded, self-throttled and skips CS3M's own views.",
-    "Host Inspector page under Settings > System: shows the detected profile, the captured view counts, a clipboard export of the full JSON and a manual capture/clear action.",
-    "Anchoring decisions can now be based on observed host surfaces instead of assumptions, which is what made the settings entry fail silently before."
+    "CS3 Manager settings row now matches the host's own rows exactly: same 24dp icon with 16/8dp padding, same 16sp title, subtitle in normal text colour with the host's secondary alpha (0.78) instead of a separate gray, 56dp minimum height and a transparent row with the host ripple instead of a solid surface.",
+    "The row is placed directly below the last list entry instead of at the bottom of the screen. Its position is measured from Compose's own semantics tree, so it sits exactly under 'Extensions' / the build stamp on every screen size.",
+    "If the settings list actually needs scrolling, the row falls back to a reserved slot above the navigation bar so it never covers a list entry.",
+    "Host Inspector added earlier in this release line stays available under Settings > System."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v752 - Auto build + deploy"
+  "message": "v753 - Auto build + deploy"
 }
