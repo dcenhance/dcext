@@ -1,16 +1,15 @@
 {
-  "versionName": "1.0.748",
-  "latestVersion": "1.0.748",
-  "versionCode": 748,
+  "versionName": "1.0.749",
+  "latestVersion": "1.0.749",
+  "versionCode": 749,
   "changelog": [
-    "Settings entry: the settings screen is now resolved without relying on the fragment tree alone. CloudStream 4.8.0+ renders only the settings family with Compose, so the visible Compose screen inside the navigation host is used as a second, independent route - the entry now also appears on hosts where the fragment walk cannot see the destination.",
-    "Settings entry: row placement retries longer, removes itself when a settings sub-page or another tab is opened, and still falls back to a compact pinned entry if the list container never accepts the row.",
-    "Gear sheet now reports the live diagnostics of the entry (route, container, attempts, state) next to the version, so the behaviour can be verified without log files.",
-    "Fixes a resolver abort: one misbehaving fragment could previously cancel the whole settings-screen search."
+    "Settings entry: an always-on observer now watches the settings screen and places the CS3M entry independently of the master switch, the fragment callbacks and the navigation listener - whichever of them the host breaks, the entry still gets placed and removed correctly.",
+    "Settings entry: resolution accepts the settings screen through the Compose screen itself, so it no longer depends on seeing the host fragment.",
+    "The gear sheet reports the placement outcome right after saving 'Show in Settings', so a missing entry can be diagnosed in seconds instead of log files."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v748 - Auto build + deploy"
+  "message": "v749 - Auto build + deploy"
 }
