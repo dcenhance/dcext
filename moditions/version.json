@@ -1,15 +1,16 @@
 {
-  "versionName": "1.0.759",
-  "latestVersion": "1.0.759",
-  "versionCode": 759,
+  "versionName": "1.0.760",
+  "latestVersion": "1.0.760",
+  "versionCode": 760,
   "changelog": [
-    "Source-verified placement: CloudStream's settings landing page is a single scrollable column ending in its build stamp, and plugin rows cannot be registered into it (the screen list is an immutable persistent list with host string resources). The entry therefore overlays the stamp slot, which is the only way to get Extensions -> CSM -> version line.",
-    "The entry now reserves exactly the row height measured against the Compose view's own top offset, so the list keeps every previously visible row instead of losing one to a too-tall reservation.",
-    "The settings list end is anchored in window coordinates and clamped to the viewport, so the entry cannot slide under the bottom navigation bar."
+    "The CSM entry is now part of the scrolling settings list instead of its own fixed view: it re-anchors itself to the list position below Extensions, moves while the list scrolls and disappears when that slot scrolls out of view, exactly like a normal list item.",
+    "It no longer reserves any space, so the host list keeps its full height and no row can be pushed out of view.",
+    "Its icon is drawn larger (32dp) while the row keeps the host styling: same title size, same subtitle colour with the host's secondary alpha, same ripple, no card and no extra surface.",
+    "The build line is re-drawn directly underneath, so the order reads Extensions -> CSM -> version line, and the host's own build line can never appear above the entry."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
   "releaseDate": "2026-09-12",
   "isRequired": false,
-  "message": "v759 - Auto build + deploy"
+  "message": "v760 - Auto build + deploy"
 }
