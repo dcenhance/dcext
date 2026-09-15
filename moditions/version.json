@@ -1,15 +1,18 @@
 {
-  "versionName": "1.0.764",
-  "latestVersion": "1.0.764",
-  "versionCode": 764,
+  "versionName": "1.0.766",
+  "latestVersion": "1.0.766",
+  "versionCode": 766,
   "changelog": [
+    "Added CSM directly below Extensions and above CloudStream's build stamp using the native settings-row metrics",
+    "Removed the custom main-settings replacement and all floating fallback UI",
     "CSM now replaces only the existing CloudStream Compose settings surface on 4.8.0-PRE; no overlay, sibling view, or CloudStream APK patch is used.",
     "The cloned settings list remains scrollable and places CSM directly after Extensions and before the version line.",
     "Legacy XML settings injection remains unchanged on older CloudStream versions."
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CS3MProvider.cs3",
-  "releaseDate": "2026-09-12",
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
+  "releaseDate": "2026-09-15",
   "isRequired": false,
-  "message": "v764 - Auto build + deploy"
+  "message": "Native CloudStream settings-row integration for CSM",
+  "sha256": "9e1d52a39e5b923825ffa9f5ac6faaf2862ee93de2b5ae3963a8253a24548747"
 }
