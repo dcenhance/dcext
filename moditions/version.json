@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.776",
-  "latestVersion": "1.0.776",
-  "versionCode": 776,
+  "versionName": "1.0.777",
+  "latestVersion": "1.0.777",
+  "versionCode": 777,
   "changelog": [
+    "Apply CSM app, title and body fonts to CloudStream's new Compose text views",
+    "Apply font scale, letter spacing and line height to live Compose text without replacing the host composition",
     "Index every CSM preference title in CSM search while preserving curated actions and availability filters",
     "Use CloudStream's native NavController for every CSM toolbar Back action",
     "Remove the broad toolbar touch strip so only the real navigation icon handles Back",
@@ -74,6 +76,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-15",
   "isRequired": false,
-  "message": "Complete CSM settings search and native toolbar Back navigation",
-  "sha256": "3c8db5845e94ef400450d0bb458cfac4f91313e959ef5c223dcd6cb860328f2e"
+  "message": "Compose font and typography support",
+  "sha256": "6a0d998a4e41a55bc89fb5d2169afdf59e96e4bf1bea4fe4f0902a3f43afe9b9"
 }
