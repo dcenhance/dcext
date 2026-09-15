@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.774",
-  "latestVersion": "1.0.774",
-  "versionCode": 774,
+  "versionName": "1.0.775",
+  "latestVersion": "1.0.775",
+  "versionCode": 775,
   "changelog": [
+    "Fix category crashes by registering every CSM settings page as a native CloudStream FragmentNavigator destination",
+    "Navigate Appearance and all other CSM categories through CloudStream's NavController instead of direct FragmentManager transactions",
     "Integrate CSM directly into CloudStream's SettingsFragmentScreen model instead of drawing a View overlay",
     "Open CSM through CloudStream's real NavController so the bottom tab navigation remains visible",
     "Install the native settings item before the settings composition is created, eliminating late injection",
@@ -70,5 +72,5 @@
   "releaseDate": "2026-09-15",
   "isRequired": false,
   "message": "Integrated CloudStream settings navigation for CSM",
-  "sha256": "b5eeccfbc23525d6b86fd93f24bf07f42f381d678dd3d6ad19634758e71bfaa4"
+  "sha256": "ea9bf185080d66c53e4774fb3a1fa34d3fd1fe5ec0b2e27c1c03969a683c70a1"
 }
