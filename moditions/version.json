@@ -1,8 +1,12 @@
 {
-  "versionName": "1.0.769",
-  "latestVersion": "1.0.769",
-  "versionCode": 769,
+  "versionName": "1.0.770",
+  "latestVersion": "1.0.770",
+  "versionCode": 770,
   "changelog": [
+    "Keep CloudStream's existing settings column scrollable while reserving one native CSM row",
+    "Keep the bottom tab navigation visible and prevent the CSM row or build footer from covering it",
+    "Inject the CSM row with frame-sized retries instead of a visible quarter-second delay",
+    "Use CloudStream's native extension icon metrics and preserve the complete build line on narrow phones",
     "Restore the CSM settings row on CloudStream Compose 1.12 by traversing its current root semantics tree",
     "Read the build-stamp text through the current SemanticsConfiguration.get API while retaining older-host compatibility",
     "Show CSM directly below Extensions when Compose merges the native build-stamp semantics",
@@ -58,5 +62,5 @@
   "releaseDate": "2026-09-15",
   "isRequired": false,
   "message": "Native CloudStream settings-row integration for CSM",
-  "sha256": "78d5bcc8ee7098bf41c95486bc7699db996960e0f691687266405dbe51771847"
+  "sha256": "f260dd713e4143a007b0c19fb1c7d62f6c3e56398243d91d4d6a8819c4d937be"
 }
