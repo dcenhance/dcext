@@ -1,8 +1,11 @@
 {
-  "versionName": "1.0.779",
-  "latestVersion": "1.0.779",
-  "versionCode": 779,
+  "versionName": "1.0.780",
+  "latestVersion": "1.0.780",
+  "versionCode": 780,
   "changelog": [
+    "Fix the CSM settings crash on CloudStream builds whose Compose LazyListScope ABI does not expose item$default",
+    "Call LazyColumn item and indexed-item APIs with all arguments explicitly for compatibility across CloudStream 4.8 builds",
+    "Remove the remaining Compose default-argument ABI bridges used by the CSM settings renderer",
     "Fix the CSM settings crash on CloudStream builds whose Compose RowScope ABI does not expose the newer default-argument bridge",
     "Call Compose row weight with all parameters explicitly for compatibility across CloudStream 4.8 builds",
     "Render every CSM settings page with CloudStream 4.8 Compose styling while preserving existing preferences, dialogs and dependencies",
@@ -81,6 +84,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Compose ABI crash fix",
-  "sha256": "b8f4183bf6c04d4474f623e04835a8bc86686f31ad519221aa17f1adf4040005"
+  "message": "Compose LazyList ABI crash fix",
+  "sha256": "9600b61043d5b25b3e56d04f8b6093edcc69cfc2ba66f5e10a969beca40dfa76"
 }
