@@ -1,8 +1,11 @@
 {
-  "versionName": "1.0.777",
-  "latestVersion": "1.0.777",
-  "versionCode": 777,
+  "versionName": "1.0.778",
+  "latestVersion": "1.0.778",
+  "versionCode": 778,
   "changelog": [
+    "Render every CSM settings page with CloudStream 4.8 Compose styling while preserving existing preferences, dialogs and dependencies",
+    "Keep CSM search, native NavController Back behavior, Discord profile cards and advancement medal actions working in Compose",
+    "Use CloudStream theme colors and apply CSM typography to both CloudStream and CSM Compose views",
     "Apply CSM app, title and body fonts to CloudStream's new Compose text views",
     "Apply font scale, letter spacing and line height to live Compose text without replacing the host composition",
     "Index every CSM preference title in CSM search while preserving curated actions and availability filters",
@@ -74,8 +77,8 @@
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-09-15",
+  "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Compose font and typography support",
-  "sha256": "6a0d998a4e41a55bc89fb5d2169afdf59e96e4bf1bea4fe4f0902a3f43afe9b9"
+  "message": "CloudStream-style Compose settings",
+  "sha256": "b04defc2b206831a909543393ab1243f5fca3a9d18c9f864dc54a3baeca02f67"
 }
