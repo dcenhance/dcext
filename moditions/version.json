@@ -1,8 +1,9 @@
 {
-  "versionName": "1.0.770",
-  "latestVersion": "1.0.770",
-  "versionCode": 770,
+  "versionName": "1.0.771",
+  "latestVersion": "1.0.771",
+  "versionCode": 771,
   "changelog": [
+    "Remove and suppress the CloudStream landing-page CSM row while CSM's own settings screen is open",
     "Keep CloudStream's existing settings column scrollable while reserving one native CSM row",
     "Keep the bottom tab navigation visible and prevent the CSM row or build footer from covering it",
     "Inject the CSM row with frame-sized retries instead of a visible quarter-second delay",
@@ -62,5 +63,5 @@
   "releaseDate": "2026-09-15",
   "isRequired": false,
   "message": "Native CloudStream settings-row integration for CSM",
-  "sha256": "f260dd713e4143a007b0c19fb1c7d62f6c3e56398243d91d4d6a8819c4d937be"
+  "sha256": "06c8a23997e8db5bfd0b15983d38cc3618327ba1c044cd341fb7e2bcc283f2f5"
 }
