@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.778",
-  "latestVersion": "1.0.778",
-  "versionCode": 778,
+  "versionName": "1.0.779",
+  "latestVersion": "1.0.779",
+  "versionCode": 779,
   "changelog": [
+    "Fix the CSM settings crash on CloudStream builds whose Compose RowScope ABI does not expose the newer default-argument bridge",
+    "Call Compose row weight with all parameters explicitly for compatibility across CloudStream 4.8 builds",
     "Render every CSM settings page with CloudStream 4.8 Compose styling while preserving existing preferences, dialogs and dependencies",
     "Keep CSM search, native NavController Back behavior, Discord profile cards and advancement medal actions working in Compose",
     "Use CloudStream theme colors and apply CSM typography to both CloudStream and CSM Compose views",
@@ -79,6 +81,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "CloudStream-style Compose settings",
-  "sha256": "b04defc2b206831a909543393ab1243f5fca3a9d18c9f864dc54a3baeca02f67"
+  "message": "Compose ABI crash fix",
+  "sha256": "b8f4183bf6c04d4474f623e04835a8bc86686f31ad519221aa17f1adf4040005"
 }
