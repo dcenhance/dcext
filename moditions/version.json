@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.767",
-  "latestVersion": "1.0.767",
-  "versionCode": 767,
+  "versionName": "1.0.768",
+  "latestVersion": "1.0.768",
+  "versionCode": 768,
   "changelog": [
+    "Show CSM directly below Extensions when Compose merges the native build-stamp semantics",
+    "Keep the anchor bounded to the 50dp native build row so no settings category can be covered",
     "Fixed the CSM row covering Extensions and duplicating CloudStream's build stamp",
     "Anchor the CSM row to the exact build-stamp text leaf and preserve the complete Extensions row",
     "Match CloudStream's primary settings background without a tinted CSM band",
@@ -54,5 +56,5 @@
   "releaseDate": "2026-09-15",
   "isRequired": false,
   "message": "Native CloudStream settings-row integration for CSM",
-  "sha256": "2c5412c76dc4de3a4832b98cf92305704f3fd1aa532bb2fd5f0d8f12100c3ac4"
+  "sha256": "ff4777028a78f8f7f4a9786a53cfb0bf987aead55dab3ae097c4ff4f12cf71cd"
 }
