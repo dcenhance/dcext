@@ -2,135 +2,61 @@
 
 # dcext
 
-<img src="assets/CS3M.png" width="100" alt="CS3M">
+<img src="assets/CS3M.png" width="100" alt="CSM extension icon">
 
-**CloudStream Extensions Repository**
+**CloudStream extensions — stable channel**
 
-[![CS3M](https://img.shields.io/badge/CS3M-v233-blue?style=flat-square)](plugins/)
-[![Android](https://img.shields.io/badge/Android-5.0+-green?style=flat-square)](https://www.android.com)
-[![CloudStream](https://img.shields.io/badge/CloudStream-3.x%20%7C%204.x-purple?style=flat-square)](https://github.com/recloudstream/cloudstream)
+[![CloudStream](https://img.shields.io/badge/CloudStream-4.x-purple?style=flat-square)](https://github.com/recloudstream/cloudstream)
+[![Channel](https://img.shields.io/badge/channel-stable-green?style=flat-square)](https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json)
 
 </div>
 
----
+## Add the repository
 
-## Install
+### Stable — recommended
 
-```
+```text
 https://raw.githubusercontent.com/dcenhance/dcext/main/repo.json
 ```
 
-**CloudStream** > **Settings** > **Extensions** > **Add Repository** > Paste URL
+### Development — testing builds
 
----
+```text
+https://raw.githubusercontent.com/dcenhance/dcext/dev/repo.json
+```
 
-## Plugins
+In CloudStream, open **Settings → Extensions → Add Repository**, paste one URL, and confirm.
 
-### CS3M - UI Manager
-> Complete UI customization toolkit
+> CSM Stable and CSM Dev use the same internal plugin identity. Choose one channel; do not install both simultaneously. Returning from a newer Dev build to an older Stable build may require uninstalling CSM first.
 
-| | |
-|---|---|
-| **Themes** | 15+ presets, Material You, custom colors |
-| **Player** | Pinch-zoom, gestures, side panels, auto-skip |
-| **Discord** | Rich Presence with poster art |
-| **Downloads** | Seal, ADM, 1DM integration |
-| **Profiles** | Reorder, hide, gallery pictures |
-| **More** | Animations, fonts, parental controls |
+## Channels
 
-### German Providers
+- **Stable (`main`)** — tested public releases under the name **CSM**.
+- **Development (`dev`)** — preview builds under the name **CSM Dev**. Features may change or break.
 
-| Plugin | Content |
-|--------|---------|
-| **Aniworld** | Anime (aniworld.to) |
-| **Kool Live TV** | Live TV channels |
-| **Kool VOD** | Movies & TV series |
+## Included extensions
 
----
+- **CSM** — CloudStream customization, player tools, Discord integration, downloads, profiles, navigation, appearance, and Android TV support.
+- **Aniworld**
+- **Kool Live TV**
+- **Kool VOD**
+- **S.to Serienstream / s.to**
+- **Filmpalast**
+- **Wayback Machine**
+- **YouTube**
+- **PeerTube**
+- **Serienjunkies**
+- **Source Health**
+- **Cine.to**
+- **Kinox**
 
-## CS3M Features
-
-<details>
-<summary><b>Appearance</b></summary>
-
-- Theme presets (Dark, AMOLED, Nord, Dracula, Solarized...)
-- Material You dynamic colors (Android 12+)
-- Custom accent, background, card colors
-- Card corner radius & shadows
-- 10+ fonts + custom import
-- Font scaling 75-150%
-
-</details>
-
-<details>
-<summary><b>Video Player</b></summary>
-
-- Pinch-to-zoom (Fit, Fill, 50-300%)
-- Volume/brightness gestures
-- Episode & source side panels
-- Custom playback speeds
-- Netflix-style pause screen
-- Auto-skip intro/outro
-
-</details>
-
-<details>
-<summary><b>Discord Integration</b></summary>
-
-- Rich Presence status
-- Poster art display
-- Elapsed time tracking
-- Custom status buttons
-- OAuth authentication
-
-</details>
-
-<details>
-<summary><b>Downloads</b></summary>
-
-- External downloader detection
-- Seal, YTDLnis, ADM, 1DM support
-- WiFi-only mode
-- Concurrent download control
-
-</details>
-
-<details>
-<summary><b>Animations</b></summary>
-
-- Page transitions (fade, slide, zoom)
-- List animations (cascade, stagger, wave)
-- Nav icon effects (bounce, pulse, rotate)
-- Skeleton loaders
-
-</details>
-
-<details>
-<summary><b>Profiles & Parental</b></summary>
-
-- Reorder profiles via drag
-- Hide profiles from selector
-- Local gallery profile pictures
-- PIN lock for settings
-- Content maturity filters
-- Keyword blocking
-
-</details>
-
----
+The repository manifests are the authoritative source for current versions and availability.
 
 ## Requirements
 
-| | |
-|---|---|
-| CloudStream | 3.x or 4.x |
-| Android | 5.0+ |
-| Material You | Android 12+ |
+- CloudStream 4.x
+- Android 5.0 or newer; individual features can require a newer Android version
 
----
+## Support
 
-<div align="center">
-
-**[Report Issue](https://github.com/dcenhance/dcext/issues)**
-
-</div>
+[Report an issue](https://github.com/dcenhance/dcext/issues)
