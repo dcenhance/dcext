@@ -1,15 +1,17 @@
 {
-  "versionName": "1.0.796",
-  "latestVersion": "1.0.796",
-  "versionCode": 796,
+  "versionName": "1.0.797",
+  "latestVersion": "1.0.797",
+  "versionCode": 797,
   "changelog": [
-    "Give the native CS Manager settings entry a restrained animated red glow",
-    "Respect reduced-motion settings with a subtle static glow and preserve CloudStream's native row layout"
+    "Add complete Android TV D-pad navigation and visible focus across CSM settings",
+    "Make repository, profile, and navigation-tab reordering fully remote-operable",
+    "Restore focus and scroll position after search, navigation, and rebuilt dialogs",
+    "Recognize Android TV, Leanback, and television-feature devices consistently"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Polish the CS Manager settings entry",
-  "sha256": "949dbfb025e3fbbe7ad2193ec51044c11520be5890b427ccae28edeefa48c857"
+  "message": "Complete Android TV remote navigation across CSM settings",
+  "sha256": "21da24b77ce5986d3cba3b59d9b8d349a5b6959b286704f412a6e36c753bd8b8"
 }
