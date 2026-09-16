@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.789",
-  "latestVersion": "1.0.789",
-  "versionCode": 789,
+  "versionName": "1.0.790",
+  "latestVersion": "1.0.790",
+  "versionCode": 790,
   "changelog": [
-    "Match CS Manager menu typography to CloudStream's official Compose preference widgets",
-    "Use CloudStream's 16sp titleLarge menu titles, bodyMedium summaries and headers, and native app-bar title weight"
+    "Remove the duplicate grey status-bar spacer above CS Manager menus",
+    "Keep the CS Manager version toolbar fixed outside the scrolling settings list"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Match CS Manager menu typography to CloudStream",
-  "sha256": "73e7121b93d0e8c325828a3f7f55417dfa97428dd27688b08fe0a61376c586d9"
+  "message": "Fix CS Manager menu top spacing and fixed version toolbar",
+  "sha256": "50c31eaa70dd3d04b6c740cffa8c3342d761eec06ecb3aacfd83f9a750b77494"
 }
