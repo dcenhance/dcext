@@ -1,8 +1,13 @@
 {
-  "versionName": "1.0.780",
-  "latestVersion": "1.0.780",
-  "versionCode": 780,
+  "versionName": "1.0.781",
+  "latestVersion": "1.0.781",
+  "versionCode": 781,
   "changelog": [
+    "Match CSM settings alignment, spacing, typography, icon tint and switch colors to CloudStream 4.8",
+    "Show CS Manager V 781 in CSM and in CloudStream's injected settings entry",
+    "Add a strongly animated primary-color glow to the CS Manager title and injected entry",
+    "Apply special list animations to CloudStream Compose surfaces and reliably cancel them when reset",
+    "Keep explicit Compose calls that avoid incompatible default-argument ABI bridges",
     "Fix the CSM settings crash on CloudStream builds whose Compose LazyListScope ABI does not expose item$default",
     "Call LazyColumn item and indexed-item APIs with all arguments explicitly for compatibility across CloudStream 4.8 builds",
     "Remove the remaining Compose default-argument ABI bridges used by the CSM settings renderer",
@@ -84,6 +89,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Compose LazyList ABI crash fix",
-  "sha256": "9600b61043d5b25b3e56d04f8b6093edcc69cfc2ba66f5e10a969beca40dfa76"
+  "message": "CloudStream-native CSM settings polish and Compose motion fixes",
+  "sha256": "5ab18892ac84ac8513d1c5e885a5757878ecff6ae4017bf683527b24e316cf84"
 }
