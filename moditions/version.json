@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.805",
-  "latestVersion": "1.0.805",
-  "versionCode": 805,
+  "versionName": "1.0.806",
+  "latestVersion": "1.0.806",
+  "versionCode": 806,
   "changelog": [
-    "Repair the CS Manager settings button when CloudStream replaces its navigation graph after plugin startup",
-    "Reconcile every CSM destination against the live NavController before reusing the injected settings row",
-    "Reject destination collisions instead of leaving a visible button that cannot open"
+    "Make the CS Manager row own its touch and TV Enter actions directly",
+    "Open CSM in an independent settings overlay instead of relying on CloudStream's replaceable navigation graph",
+    "Preserve the exact extension artwork and live-primary animated title glow"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Reliable CS Manager settings navigation",
-  "sha256": "d88f0f80e24896ee4433b3cdb4739ab67246b733046a7f8a83d32d612a7fc66a"
+  "message": "Direct, reliable CS Manager settings button",
+  "sha256": "a641cdd5fb0593e7f96517d3f1733f6165fe5b88c449a400266af82dde6f1dde"
 }
