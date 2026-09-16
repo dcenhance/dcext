@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.795",
-  "latestVersion": "1.0.795",
-  "versionCode": 795,
+  "versionName": "1.0.796",
+  "latestVersion": "1.0.796",
+  "versionCode": 796,
   "changelog": [
-    "Add the final subtle toolbar clearance requested for the title and action icons",
-    "Retain overlap-aware status-bar handling across edge-to-edge and already-inset layouts"
+    "Give the native CS Manager settings entry a restrained animated red glow",
+    "Respect reduced-motion settings with a subtle static glow and preserve CloudStream's native row layout"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Fine-tune CS Manager toolbar clearance",
-  "sha256": "be02d1da93d780fcf533f195a823124a1c7bf6962f6e3ce2ca787103cdd7b8ff"
+  "message": "Polish the CS Manager settings entry",
+  "sha256": "949dbfb025e3fbbe7ad2193ec51044c11520be5890b427ccae28edeefa48c857"
 }
