@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.808",
-  "latestVersion": "1.0.808",
-  "versionCode": 808,
+  "versionName": "1.0.809",
+  "latestVersion": "1.0.809",
+  "versionCode": 809,
   "changelog": [
-    "Integrate CS Manager as a real CloudStream settings item instead of a View overlay",
-    "Open CSM through CloudStream's live NavController with no blocking layer",
-    "Enlarge the original extension artwork by trimming only its transparent outer canvas"
+    "Keep the native CSM destination alive while CloudStream leaves its settings landing page",
+    "Fix the visible integrated CS Manager row doing nothing when tapped",
+    "Preserve the exact v808 row layout, icon size and CloudStream-owned scrolling"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Native CloudStream settings integration",
-  "sha256": "70feb2e4715aede9f345da8b2a65235df8c4220646b861ae9bcba611a16c0ea3"
+  "message": "Native settings click lifecycle fix",
+  "sha256": "ac964328bca76edd6e0542ac8b5fa141ff86a29ee79edf8808eaef6a1ea7bb02"
 }
