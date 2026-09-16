@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.799",
-  "latestVersion": "1.0.799",
-  "versionCode": 799,
+  "versionName": "1.0.800",
+  "latestVersion": "1.0.800",
+  "versionCode": 800,
   "changelog": [
-    "Tighten the vertical spacing between CSM settings to match CloudStream's visible row rhythm",
-    "Keep CloudStream-matched typography, icon geometry, and Android TV D-pad behavior intact"
+    "Refine CSM's settings density with a tighter 10dp vertical row rhythm",
+    "Preserve CloudStream-matched typography, icons, focus visibility, and Android TV navigation"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Compact CloudStream-matched settings spacing",
-  "sha256": "c8e07b6b61419ae76446e706094498f6d4430035270d44a7249a389692e69a70"
+  "message": "Further refined CloudStream-style settings density",
+  "sha256": "09f770450b02c3f3d452970d9bcbee5b92d3f8bccb35db42c9f2e2cc8c2923d1"
 }
