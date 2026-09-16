@@ -1,8 +1,11 @@
 {
-  "versionName": "1.0.784",
-  "latestVersion": "1.0.784",
-  "versionCode": 784,
+  "versionName": "1.0.785",
+  "latestVersion": "1.0.785",
+  "versionCode": 785,
   "changelog": [
+    "Render every settings icon as deterministic white 24dp artwork from the first frame",
+    "Match CloudStream's native 56dp preference geometry and remove the duplicate top inset",
+    "Refresh dependent switches and sliders immediately when their controlling preference changes",
     "Use pure white 24dp icons without tinted icon tiles across every CSM settings page",
     "Remove the duplicated status-bar inset and modernize row spacing while preserving gesture-navigation clearance",
     "Keep the injected CS Manager entry neutral and place it last among CloudStream settings categories",
@@ -95,6 +98,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Modern CSM settings with pure white icons and corrected spacing",
-  "sha256": "e0fcad839d0eeb857e82361c6410645c8d38d32afa22c19e8d1ced3c152646c9"
+  "message": "Native CloudStream settings geometry, deterministic white icons and live preference dependencies",
+  "sha256": "db1a08795149cd43e89e6b0d68904fb6b6f6b8c0ded18a4ed3e43ca36c056cb6"
 }
