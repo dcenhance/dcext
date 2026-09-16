@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.794",
-  "latestVersion": "1.0.794",
-  "versionCode": 794,
+  "versionName": "1.0.795",
+  "latestVersion": "1.0.795",
+  "versionCode": 795,
   "changelog": [
-    "Increase the toolbar's internal top clearance so the title sits distinctly below status icons",
+    "Add the final subtle toolbar clearance requested for the title and action icons",
     "Retain overlap-aware status-bar handling across edge-to-edge and already-inset layouts"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Increase CS Manager status-bar clearance",
-  "sha256": "3a9fc1bc8a2acb2d5436c84a5b62de2c96cd360e7ffe7b5b42baf67120d45833"
+  "message": "Fine-tune CS Manager toolbar clearance",
+  "sha256": "be02d1da93d780fcf533f195a823124a1c7bf6962f6e3ce2ca787103cdd7b8ff"
 }
