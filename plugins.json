@@ -18,8 +18,8 @@
         "versionInt": 804,
         "internalName": "CSMProvider",
         "description": "CSM - UI customization plugin for CloudStream",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-        "name": "CSM",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
+        "name": "CSM Dev",
         "sha256": "234131a36a4dcee8c57e423df1e30778c3874863519d498610c09cfb225fdfa7"
     },
     {

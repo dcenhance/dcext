@@ -1,8 +1,8 @@
 {
-  "name": "dcext",
-  "description": "CS3 Extension: Tools, Entertainment",
+  "name": "dcext Dev",
+  "description": "CSM development and testing channel",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins.json"
+    "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins.json"
   ]
 }

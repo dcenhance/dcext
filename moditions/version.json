@@ -7,7 +7,7 @@
     "Remove the separately redrawn cloud mark so the settings and extension identities cannot diverge"
   ],
   "minCloudstreamVersion": 1,
-  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
   "message": "Exact CSM extension icon in CloudStream settings",
