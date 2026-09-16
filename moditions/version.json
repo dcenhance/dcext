@@ -1,11 +1,12 @@
 {
-  "versionName": "1.0.786",
-  "latestVersion": "1.0.786",
-  "versionCode": 786,
+  "versionName": "1.0.787",
+  "latestVersion": "1.0.787",
+  "versionCode": 787,
   "changelog": [
+    "Remove the duplicate top inset whether CloudStream applies it as root padding or a parent offset",
     "Remove the duplicate status-bar padding above the CS Manager top bar",
-    "Render every settings icon as deterministic white 24dp artwork from the first frame",
-    "Match CloudStream's native 56dp preference geometry and remove the duplicate top inset",
+    "Render every settings icon as a deterministic white 24dp asset from the first frame",
+    "Match CloudStream's native 56dp preference geometry and remove the delayed duplicate top inset",
     "Refresh dependent switches and sliders immediately when their controlling preference changes",
     "Use pure white 24dp icons without tinted icon tiles across every CSM settings page",
     "Remove the duplicated status-bar inset and modernize row spacing while preserving gesture-navigation clearance",
@@ -99,6 +100,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Native CloudStream settings geometry, deterministic white icons and live preference dependencies",
-  "sha256": "2b613ef8d2044d7e7bc6a1588934be29e7f298532d8a3125ce058b876122ca09"
+  "message": "Remove the remaining duplicate space above the CS Manager top bar",
+  "sha256": "066e573c02e1c2c37e634435606bdd9f2a494dc81da9229ad09c1d2669311c6a"
 }
