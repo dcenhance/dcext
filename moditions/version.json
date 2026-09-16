@@ -1,15 +1,16 @@
 {
-  "versionName": "1.0.804",
-  "latestVersion": "1.0.804",
-  "versionCode": 804,
+  "versionName": "1.0.805",
+  "latestVersion": "1.0.805",
+  "versionCode": 805,
   "changelog": [
-    "Use the exact original CSM extension artwork for the injected CloudStream settings row",
-    "Remove the separately redrawn cloud mark so the settings and extension identities cannot diverge"
+    "Repair the CS Manager settings button when CloudStream replaces its navigation graph after plugin startup",
+    "Reconcile every CSM destination against the live NavController before reusing the injected settings row",
+    "Reject destination collisions instead of leaving a visible button that cannot open"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Exact CSM extension icon in CloudStream settings",
-  "sha256": "234131a36a4dcee8c57e423df1e30778c3874863519d498610c09cfb225fdfa7"
+  "message": "Reliable CS Manager settings navigation",
+  "sha256": "d88f0f80e24896ee4433b3cdb4739ab67246b733046a7f8a83d32d612a7fc66a"
 }
