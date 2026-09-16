@@ -1,8 +1,9 @@
 {
-  "versionName": "1.0.785",
-  "latestVersion": "1.0.785",
-  "versionCode": 785,
+  "versionName": "1.0.786",
+  "latestVersion": "1.0.786",
+  "versionCode": 786,
   "changelog": [
+    "Remove the duplicate status-bar padding above the CS Manager top bar",
     "Render every settings icon as deterministic white 24dp artwork from the first frame",
     "Match CloudStream's native 56dp preference geometry and remove the duplicate top inset",
     "Refresh dependent switches and sliders immediately when their controlling preference changes",
@@ -99,5 +100,5 @@
   "releaseDate": "2026-09-16",
   "isRequired": false,
   "message": "Native CloudStream settings geometry, deterministic white icons and live preference dependencies",
-  "sha256": "db1a08795149cd43e89e6b0d68904fb6b6f6b8c0ded18a4ed3e43ca36c056cb6"
+  "sha256": "2b613ef8d2044d7e7bc6a1588934be29e7f298532d8a3125ce058b876122ca09"
 }
