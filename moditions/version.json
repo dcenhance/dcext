@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.807",
-  "latestVersion": "1.0.807",
-  "versionCode": 807,
+  "versionName": "1.0.808",
+  "latestVersion": "1.0.808",
+  "versionCode": 808,
   "changelog": [
-    "Remove the opaque blocking strip without shrinking CloudStream's settings viewport",
-    "Keep the animated CS Manager title inside its parent without scaling or clipping",
-    "Display the exact extension artwork over three times larger by trimming only transparent canvas"
+    "Integrate CS Manager as a real CloudStream settings item instead of a View overlay",
+    "Open CSM through CloudStream's live NavController with no blocking layer",
+    "Enlarge the original extension artwork by trimming only its transparent outer canvas"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Clean, correctly sized CS Manager settings entry",
-  "sha256": "eefbd72b58b777d1bcfd600815b1f3e88e85cc21ed3df039244f20e6cfc75e45"
+  "message": "Native CloudStream settings integration",
+  "sha256": "70feb2e4715aede9f345da8b2a65235df8c4220646b861ae9bcba611a16c0ea3"
 }
