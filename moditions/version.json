@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.801",
-  "latestVersion": "1.0.801",
-  "versionCode": 801,
+  "versionName": "1.0.802",
+  "latestVersion": "1.0.802",
+  "versionCode": 802,
   "changelog": [
-    "Replace the generic settings gear with CSM's own extension mark in CloudStream settings",
-    "Keep the transparent icon theme-tintable across light, dark, and Android TV focus states"
+    "Render the CSM settings mark as one clean icon instead of overlapping bright and gray layers",
+    "Preserve CloudStream theme tinting with a solid transparent silhouette"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Use the CSM extension icon for its native settings entry",
-  "sha256": "97a697f6f41a17ed0ab6f7acf9715454a64adfa5ca629a6d989584541bfd9365"
+  "message": "Fix the layered CSM settings icon",
+  "sha256": "5e0ca9b7d7ef2f58cd7387d09648b2515afe44bed1cc6fc9d7d4be6dbf5fe16b"
 }
