@@ -1,16 +1,16 @@
 {
-  "versionName": "1.0.806",
-  "latestVersion": "1.0.806",
-  "versionCode": 806,
+  "versionName": "1.0.807",
+  "latestVersion": "1.0.807",
+  "versionCode": 807,
   "changelog": [
-    "Make the CS Manager row own its touch and TV Enter actions directly",
-    "Open CSM in an independent settings overlay instead of relying on CloudStream's replaceable navigation graph",
-    "Preserve the exact extension artwork and live-primary animated title glow"
+    "Remove the opaque blocking strip without shrinking CloudStream's settings viewport",
+    "Keep the animated CS Manager title inside its parent without scaling or clipping",
+    "Display the exact extension artwork over three times larger by trimming only transparent canvas"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Direct, reliable CS Manager settings button",
-  "sha256": "a641cdd5fb0593e7f96517d3f1733f6165fe5b88c449a400266af82dde6f1dde"
+  "message": "Clean, correctly sized CS Manager settings entry",
+  "sha256": "eefbd72b58b777d1bcfd600815b1f3e88e85cc21ed3df039244f20e6cfc75e45"
 }
