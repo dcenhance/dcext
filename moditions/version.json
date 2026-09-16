@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.800",
-  "latestVersion": "1.0.800",
-  "versionCode": 800,
+  "versionName": "1.0.801",
+  "latestVersion": "1.0.801",
+  "versionCode": 801,
   "changelog": [
-    "Refine CSM's settings density with a tighter 10dp vertical row rhythm",
-    "Preserve CloudStream-matched typography, icons, focus visibility, and Android TV navigation"
+    "Replace the generic settings gear with CSM's own extension mark in CloudStream settings",
+    "Keep the transparent icon theme-tintable across light, dark, and Android TV focus states"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Further refined CloudStream-style settings density",
-  "sha256": "09f770450b02c3f3d452970d9bcbee5b92d3f8bccb35db42c9f2e2cc8c2923d1"
+  "message": "Use the CSM extension icon for its native settings entry",
+  "sha256": "97a697f6f41a17ed0ab6f7acf9715454a64adfa5ca629a6d989584541bfd9365"
 }
