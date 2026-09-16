@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.798",
-  "latestVersion": "1.0.798",
-  "versionCode": 798,
+  "versionName": "1.0.799",
+  "latestVersion": "1.0.799",
+  "versionCode": 799,
   "changelog": [
-    "Match CSM settings row typography, line height, spacing, icon geometry, and minimum height to CloudStream's official preference widgets",
-    "Remove non-native category chevrons while preserving Android TV D-pad focus and activation"
+    "Tighten the vertical spacing between CSM settings to match CloudStream's visible row rhythm",
+    "Keep CloudStream-matched typography, icon geometry, and Android TV D-pad behavior intact"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Exact CloudStream settings styling for the CSM interface",
-  "sha256": "ad99c17e6746d2ca037688e0f2fac1317ffa5ac623abdf1d8c67a3d28df93f64"
+  "message": "Compact CloudStream-matched settings spacing",
+  "sha256": "c8e07b6b61419ae76446e706094498f6d4430035270d44a7249a389692e69a70"
 }
