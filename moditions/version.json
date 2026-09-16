@@ -1,15 +1,17 @@
 {
-  "versionName": "1.0.783",
-  "latestVersion": "1.0.783",
-  "versionCode": 783,
+  "versionName": "1.0.784",
+  "latestVersion": "1.0.784",
+  "versionCode": 784,
   "changelog": [
+    "Use pure white 24dp icons without tinted icon tiles across every CSM settings page",
+    "Remove the duplicated status-bar inset and modernize row spacing while preserving gesture-navigation clearance",
+    "Keep the injected CS Manager entry neutral and place it last among CloudStream settings categories",
     "Redesign CSM settings with compact modern rows, consistent white icons and navigation chevrons",
     "Apply the status-bar inset exactly once and keep the final row clear of gesture navigation",
-    "Keep the CS Manager toolbar title neutral while limiting the animated primary-color glow to CloudStream's injected CSM entry",
-    "Use CloudStream's native iconColor for every CSM settings icon",
+    "Keep the CS Manager toolbar and injected CloudStream entry in the host's neutral text color",
+    "Use pure white icons for every CSM settings icon",
     "Match CSM settings alignment, spacing, typography, icon tint and switch colors to CloudStream 4.8",
-    "Show CS Manager V 781 in CSM and in CloudStream's injected settings entry",
-    "Add a strongly animated primary-color glow to the CS Manager title and injected entry",
+    "Show the current CS Manager version in CSM and in CloudStream's injected settings entry",
     "Apply special list animations to CloudStream Compose surfaces and reliably cancel them when reset",
     "Keep explicit Compose calls that avoid incompatible default-argument ABI bridges",
     "Fix the CSM settings crash on CloudStream builds whose Compose LazyListScope ABI does not expose item$default",
@@ -93,6 +95,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Modern CSM settings with white icons and corrected system insets",
-  "sha256": "2abc82720a94e69529327577ee88bab2d0abcc2d88f0c279cb7b7104e25caab1"
+  "message": "Modern CSM settings with pure white icons and corrected spacing",
+  "sha256": "e0fcad839d0eeb857e82361c6410645c8d38d32afa22c19e8d1ced3c152646c9"
 }
