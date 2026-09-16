@@ -1,17 +1,15 @@
 {
-  "versionName": "1.0.797",
-  "latestVersion": "1.0.797",
-  "versionCode": 797,
+  "versionName": "1.0.798",
+  "latestVersion": "1.0.798",
+  "versionCode": 798,
   "changelog": [
-    "Add complete Android TV D-pad navigation and visible focus across CSM settings",
-    "Make repository, profile, and navigation-tab reordering fully remote-operable",
-    "Restore focus and scroll position after search, navigation, and rebuilt dialogs",
-    "Recognize Android TV, Leanback, and television-feature devices consistently"
+    "Match CSM settings row typography, line height, spacing, icon geometry, and minimum height to CloudStream's official preference widgets",
+    "Remove non-native category chevrons while preserving Android TV D-pad focus and activation"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Complete Android TV remote navigation across CSM settings",
-  "sha256": "21da24b77ce5986d3cba3b59d9b8d349a5b6959b286704f412a6e36c753bd8b8"
+  "message": "Exact CloudStream settings styling for the CSM interface",
+  "sha256": "ad99c17e6746d2ca037688e0f2fac1317ffa5ac623abdf1d8c67a3d28df93f64"
 }
