@@ -1,18 +1,15 @@
 {
-  "versionName": "1.0.803",
-  "latestVersion": "1.0.803",
-  "versionCode": 803,
+  "versionName": "1.0.804",
+  "latestVersion": "1.0.804",
+  "versionCode": 804,
   "changelog": [
-    "Use one clean CSM cloud icon and a primary-color animated glow in CloudStream settings",
-    "Redesign Discord sign-in and replace the connected login row with avatar, identity, and outlined sign-out",
-    "Repair current CloudStream player, subtitle, navigation, profile, source, download, typography, and lifecycle contracts",
-    "Remove misleading or inactive controls and make external playback, notifications, device options, and global search truthful",
-    "Preserve compact native CloudStream styling and Android TV D-pad behavior"
+    "Use the exact original CSM extension artwork for the injected CloudStream settings row",
+    "Remove the separately redrawn cloud mark so the settings and extension identities cannot diverge"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Deep CloudStream compatibility and account UI update",
-  "sha256": "f342aaeb1efe5e0b4a5db057c7636fbf70949fe0f680a4eca5ff4dfab3eab8bf"
+  "message": "Exact CSM extension icon in CloudStream settings",
+  "sha256": "234131a36a4dcee8c57e423df1e30778c3874863519d498610c09cfb225fdfa7"
 }
