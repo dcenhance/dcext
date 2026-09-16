@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.793",
-  "latestVersion": "1.0.793",
-  "versionCode": 793,
+  "versionName": "1.0.794",
+  "latestVersion": "1.0.794",
+  "versionCode": 794,
   "changelog": [
-    "Keep the CS Manager title below the Android status bar on edge-to-edge CloudStream layouts",
-    "Apply only the portion of the status-bar inset that actually overlaps the CSM content"
+    "Increase the toolbar's internal top clearance so the title sits distinctly below status icons",
+    "Retain overlap-aware status-bar handling across edge-to-edge and already-inset layouts"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Protect the CS Manager title from status-bar overlap",
-  "sha256": "89d01e73c4251c9d837aeae44a1892f9f755bce96de50878cafd9e02261ac12b"
+  "message": "Increase CS Manager status-bar clearance",
+  "sha256": "3a9fc1bc8a2acb2d5436c84a5b62de2c96cd360e7ffe7b5b42baf67120d45833"
 }
