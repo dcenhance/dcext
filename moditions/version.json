@@ -1,8 +1,10 @@
 {
-  "versionName": "1.0.781",
-  "latestVersion": "1.0.781",
-  "versionCode": 781,
+  "versionName": "1.0.782",
+  "latestVersion": "1.0.782",
+  "versionCode": 782,
   "changelog": [
+    "Keep the CS Manager toolbar title neutral while limiting the animated primary-color glow to CloudStream's injected CSM entry",
+    "Use CloudStream's native iconColor for every CSM settings icon",
     "Match CSM settings alignment, spacing, typography, icon tint and switch colors to CloudStream 4.8",
     "Show CS Manager V 781 in CSM and in CloudStream's injected settings entry",
     "Add a strongly animated primary-color glow to the CS Manager title and injected entry",
@@ -89,6 +91,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "CloudStream-native CSM settings polish and Compose motion fixes",
-  "sha256": "5ab18892ac84ac8513d1c5e885a5757878ecff6ae4017bf683527b24e316cf84"
+  "message": "Neutral CSM toolbar title and CloudStream-native settings icon tint",
+  "sha256": "b198e243cedc9785dd379dced2635f0f4beb372e09d662a9c331b95ba8ffb0f8"
 }
