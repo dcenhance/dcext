@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.791",
-  "latestVersion": "1.0.791",
-  "versionCode": 791,
+  "versionName": "1.0.792",
+  "latestVersion": "1.0.792",
+  "versionCode": 792,
   "changelog": [
-    "Remove CloudStream's hidden stock app bar so the CS Manager toolbar renders cleanly below the status bar",
-    "Restore full menu scrolling, add navigation-safe bottom space, and keep version information only in the fixed toolbar"
+    "Give the CS Manager toolbar a little more breathing room below the status bar",
+    "Reduce the settings list end padding while preserving the Android navigation-safe inset"
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-16",
   "isRequired": false,
-  "message": "Fix CS Manager toolbar geometry and full-list scrolling",
-  "sha256": "a2efc4f424518e41c48a21ed32b0dfed3bc0877d595eab21ee85fe99e0254655"
+  "message": "Refine CS Manager top and bottom spacing",
+  "sha256": "bfe58b832ac61e6f013dd1be8cafc6bd39f2bafc44ea5791512a04f60777e2ad"
 }
