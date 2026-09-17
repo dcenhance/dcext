@@ -310,5 +310,28 @@
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoxProvider.cs3",
         "name": "Kinox",
         "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed."
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/AndroidFlash.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dcenhance/dcext",
+        "fileSize": 32240,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "DC Enhancements"
+        ],
+        "tvTypes": [
+            "Others"
+        ],
+        "version": 1,
+        "versionCode": 1,
+        "versionInt": 1,
+        "internalName": "AndroidFlashProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/AndroidFlashProvider.cs3",
+        "name": "Android Flash Dev",
+        "description": "Play Flash (SWF) files from your own device storage with the open-source Ruffle runtime",
+        "fileHash": "sha256-bfb1bb5c61d65d42bd96b7a48342ea38b2a6bbedb031ee5b00cf360b8c16f71e",
+        "sha256": "bfb1bb5c61d65d42bd96b7a48342ea38b2a6bbedb031ee5b00cf360b8c16f71e"
     }
 ]
