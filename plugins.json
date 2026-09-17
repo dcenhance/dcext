@@ -315,7 +315,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/AndroidFlash.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 52086,
+        "fileSize": 52642,
         "status": 1,
         "language": "en",
         "authors": [
@@ -324,14 +324,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 6,
-        "versionCode": 6,
-        "versionInt": 6,
+        "version": 7,
+        "versionCode": 7,
+        "versionInt": 7,
         "internalName": "AndroidFlashProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/AndroidFlashProvider.cs3",
         "name": "Android Flash Dev",
         "description": "Play Flash (SWF) files from your own device storage with the open-source Ruffle runtime",
-        "fileHash": "sha256-0ce55149522287a216fcad375769c73e3f93c2584b0aec5a2feae059654b6d6b",
-        "sha256": "0ce55149522287a216fcad375769c73e3f93c2584b0aec5a2feae059654b6d6b"
+        "fileHash": "sha256-866a5bffb7bc83514681bc2ac540770bc86e9eaa6c01228c4991f396d1991291",
+        "sha256": "866a5bffb7bc83514681bc2ac540770bc86e9eaa6c01228c4991f396d1991291"
     }
 ]
