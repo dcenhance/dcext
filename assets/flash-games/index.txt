@@ -1,0 +1,2 @@
+# Android Flash published games: sha256 TAB size TAB title TAB file
+# Published by dcext-push-androidflash.py from repo-setup/assets/flash-games/.
