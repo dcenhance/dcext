@@ -315,7 +315,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 2430329,
+        "fileSize": 2432377,
         "status": 1,
         "language": "en",
         "authors": [
@@ -324,14 +324,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 21,
-        "versionCode": 21,
-        "versionInt": 21,
+        "version": 22,
+        "versionCode": 22,
+        "versionInt": 22,
         "internalName": "RetroFlashProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "Play Flash (SWF) files from your own device storage with the open-source Ruffle runtime",
-        "fileHash": "sha256-bddbb9bcae590e23a08bb2293bede7dbe7bbc7d1dc0d8b2962faff2b6a87db7d",
-        "sha256": "bddbb9bcae590e23a08bb2293bede7dbe7bbc7d1dc0d8b2962faff2b6a87db7d"
+        "fileHash": "sha256-45ca0fdc0ec62eb1eff4d511e40c27c20f21a1c08cc6b038e9b50764b8358848",
+        "sha256": "45ca0fdc0ec62eb1eff4d511e40c27c20f21a1c08cc6b038e9b50764b8358848"
     }
 ]
