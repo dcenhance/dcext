@@ -95,7 +95,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 46553,
+        "fileSize": 47106,
         "status": 1,
         "language": "de",
         "authors": [
@@ -104,15 +104,15 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 27,
+        "version": 28,
         "internalName": "SerienstreamProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
         "name": "S.to Serienstream",
         "description": "S.to - Serien & Staffeln online streamen. VOE Hoster.",
-        "fileHash": "sha256-d8b45f48d237f1b28121ec5b84fa8de4b6d02d966ff0f0bc33b9e5de9e184767",
-        "versionCode": 27,
-        "versionInt": 27,
-        "sha256": "d8b45f48d237f1b28121ec5b84fa8de4b6d02d966ff0f0bc33b9e5de9e184767"
+        "fileHash": "sha256-5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2",
+        "versionCode": 28,
+        "versionInt": 28,
+        "sha256": "5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
