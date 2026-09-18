@@ -315,7 +315,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 400639496,
+        "fileSize": 133687,
         "status": 1,
         "language": "en",
         "authors": [
@@ -324,14 +324,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 27,
-        "versionCode": 27,
-        "versionInt": 27,
+        "version": 28,
+        "versionCode": 28,
+        "versionInt": 28,
         "internalName": "RetroFlashProvider",
         "url": "https://dcenhancements.com/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "The whole RetroFlash library - every game ships inside the extension, so installing it once is all it takes - played offline with the open-source Ruffle runtime",
-        "fileHash": "sha256-65c880132ae538c055682b58cf5f8e682ea8af3220ac3522b10ac56884142118",
-        "sha256": "65c880132ae538c055682b58cf5f8e682ea8af3220ac3522b10ac56884142118"
+        "fileHash": "sha256-2f16301ae8ab1277f16461824047ac0981ea5c409a0175a84d3245e2b0dbe3b8",
+        "sha256": "2f16301ae8ab1277f16461824047ac0981ea5c409a0175a84d3245e2b0dbe3b8"
     }
 ]
