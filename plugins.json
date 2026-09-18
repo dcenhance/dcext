@@ -130,12 +130,12 @@
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/StoProvider.cs3",
         "name": "s.to",
         "description": "s.to - German series catalog with episodes and extractor handoff.",
-        "fileHash": "sha256-f0fc58476c7334ffbb378cad7ae6ee6bb28264218ba61ea535a8847e0cec8aa3",
-        "fileSize": 46658,
-        "version": 6,
-        "versionCode": 6,
-        "versionInt": 6,
-        "sha256": "f0fc58476c7334ffbb378cad7ae6ee6bb28264218ba61ea535a8847e0cec8aa3"
+        "fileHash": "sha256-991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1",
+        "fileSize": 47244,
+        "version": 7,
+        "versionCode": 7,
+        "versionInt": 7,
+        "sha256": "991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
