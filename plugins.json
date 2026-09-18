@@ -331,7 +331,7 @@
         "url": "https://dcenhancements.com/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "The whole RetroFlash library - every game ships inside the extension, so installing it once is all it takes - played offline with the open-source Ruffle runtime",
-        "fileHash": "sha256-83650e833f273295d13620c5ec4e1de32d79ae0dad9bd999c204be6468507229",
-        "sha256": "83650e833f273295d13620c5ec4e1de32d79ae0dad9bd999c204be6468507229"
+        "fileHash": "sha256-867beabaf75289b77af952ad8c8040766c9cce515e1eb3d0c8f3f28cefba3842",
+        "sha256": "867beabaf75289b77af952ad8c8040766c9cce515e1eb3d0c8f3f28cefba3842"
     }
 ]
