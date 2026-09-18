@@ -324,14 +324,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 20,
-        "versionCode": 20,
-        "versionInt": 20,
+        "version": 21,
+        "versionCode": 21,
+        "versionInt": 21,
         "internalName": "RetroFlashProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "Play Flash (SWF) files from your own device storage with the open-source Ruffle runtime",
-        "fileHash": "sha256-6e4551fb218d5caf5b9dad54f96f41a9457abe72459abc4d02bb2c517c480cbc",
-        "sha256": "6e4551fb218d5caf5b9dad54f96f41a9457abe72459abc4d02bb2c517c480cbc"
+        "fileHash": "sha256-bddbb9bcae590e23a08bb2293bede7dbe7bbc7d1dc0d8b2962faff2b6a87db7d",
+        "sha256": "bddbb9bcae590e23a08bb2293bede7dbe7bbc7d1dc0d8b2962faff2b6a87db7d"
     }
 ]
