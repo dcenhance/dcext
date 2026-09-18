@@ -139,7 +139,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 49006,
+        "fileSize": 51547,
         "status": 1,
         "language": "de",
         "authors": [
@@ -149,14 +149,15 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 21,
+        "version": 22,
         "internalName": "FilmpalastProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/FilmpalastProvider.cs3",
         "name": "Filmpalast",
         "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile.",
-        "fileHash": "sha256-fc01837738c411fcee3a02f4fe2c2d065a572c807a9d1135f710700e8510ff37",
-        "versionCode": 21,
-        "versionInt": 21
+        "fileHash": "sha256-0d13d90a42f1767fb6a512a87896b5904b3edd31b8d8b0d164a319b6a2426b76",
+        "versionCode": 22,
+        "versionInt": 22,
+        "sha256": "0d13d90a42f1767fb6a512a87896b5904b3edd31b8d8b0d164a319b6a2426b76"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
