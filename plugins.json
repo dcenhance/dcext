@@ -312,10 +312,10 @@
         "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed."
     },
     {
-        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/AndroidFlash.png",
+        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 89560,
+        "fileSize": 2428686,
         "status": 1,
         "language": "en",
         "authors": [
@@ -324,14 +324,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 18,
-        "versionCode": 18,
-        "versionInt": 18,
-        "internalName": "AndroidFlashProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/AndroidFlashProvider.cs3",
-        "name": "Android Flash Dev",
+        "version": 19,
+        "versionCode": 19,
+        "versionInt": 19,
+        "internalName": "RetroFlashProvider",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/RetroFlashProvider.cs3",
+        "name": "RetroFlash Dev (RFP)",
         "description": "Play Flash (SWF) files from your own device storage with the open-source Ruffle runtime",
-        "fileHash": "sha256-55b6f153aae99d2ba6c7e90a377a5b2980e6479cfce78af41378316d96e0b03a",
-        "sha256": "55b6f153aae99d2ba6c7e90a377a5b2980e6479cfce78af41378316d96e0b03a"
+        "fileHash": "sha256-cc819548d4fca8b70063fbf8c8572a62b788f68a4d836ef27032eb4e58fac8c4",
+        "sha256": "cc819548d4fca8b70063fbf8c8572a62b788f68a4d836ef27032eb4e58fac8c4"
     }
 ]
