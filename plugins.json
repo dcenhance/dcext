@@ -26,7 +26,7 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 79108,
+        "fileSize": 81729,
         "status": 1,
         "language": "de",
         "authors": [
@@ -36,15 +36,15 @@
             "Anime",
             "AnimeMovie"
         ],
-        "version": 25,
+        "version": 26,
         "internalName": "AniworldProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
         "name": "Aniworld",
         "description": "German anime streaming from aniworld.to",
-        "fileHash": "sha256-f17a255bf6ecf807a3d0dd000bf0a92006bf07181b88ad875f5dd06c44e58fd8",
-        "versionCode": 25,
-        "versionInt": 25,
-        "sha256": "f17a255bf6ecf807a3d0dd000bf0a92006bf07181b88ad875f5dd06c44e58fd8"
+        "fileHash": "sha256-10f4fd116814aef2ec119283678c7c06cdf6788f495f049253d669293a53df9c",
+        "versionCode": 26,
+        "versionInt": 26,
+        "sha256": "10f4fd116814aef2ec119283678c7c06cdf6788f495f049253d669293a53df9c"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
