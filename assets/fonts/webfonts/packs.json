@@ -1,0 +1,170 @@
+{
+ "scheme": "rfp-pack-v1",
+ "packs": [
+  {
+   "pack": "f5b166a57934",
+   "path": "assets/fonts/webfonts/dc9/dc9/df9/d1a/d33/d79/d48/d54/d0d/d4a/d28/dde/d6b/dc6/d88/dbc/de2/d39/ddd/d5f/f5b166a57934.dat",
+   "bytes": 2103312,
+   "games": [
+    {
+     "id": "d355d48b652c4da2",
+     "name": "34027-flash-game.swf",
+     "sha256": "d355d48b652c4da294ce899bcf6efcf8f2768e09f2f534ec20fc246781c35921",
+     "bytes": 50027
+    },
+    {
+     "id": "003663949706a45b",
+     "name": "Toxic.swf",
+     "sha256": "003663949706a45b7a7e5f5548acc19690eb0e14295342cf5e49d9cf19a8b086",
+     "bytes": 2052327
+    }
+   ]
+  },
+  {
+   "pack": "05c59b54f9f7",
+   "path": "assets/fonts/webfonts/d8d/d92/dab/dd0/d12/dea/df5/dca/d0a/d75/d8a/d0c/d54/d0c/da9/d9b/dad/dc6/d0b/d10/05c59b54f9f7.dat",
+   "bytes": 13031293,
+   "games": [
+    {
+     "id": "19b8067740489165",
+     "name": "achievement-unlocked.swf",
+     "sha256": "19b8067740489165d3b207d1ba547e5349ed0af402c57afe92415c7da17bb9b7",
+     "bytes": 2499931
+    },
+    {
+     "id": "ef61f35825a88e58",
+     "name": "age-of-defense-8.swf",
+     "sha256": "ef61f35825a88e58c6ff86a65d74ecfd1b4359c96996cd005d28970583ddd49c",
+     "bytes": 10527054
+    }
+   ]
+  },
+  {
+   "pack": "e9320d405ea8",
+   "path": "assets/fonts/webfonts/de5/d94/db1/dd8/d9f/d92/deb/d15/d6b/de3/d3c/d28/db7/d52/dd7/dd9/d16/d8f/dde/d58/e9320d405ea8.dat",
+   "bytes": 7860783,
+   "games": [
+    {
+     "id": "5f88517846ff0eb7",
+     "name": "age-of-war.swf",
+     "sha256": "5f88517846ff0eb75eee3bd6dfebbf9fad75edbb4dbe20ed8ea4c0afb3dfd3a1",
+     "bytes": 3628467
+    },
+    {
+     "id": "5e5c7edbad323412",
+     "name": "animator-2.swf",
+     "sha256": "5e5c7edbad32341265e07a50d6842bcaaf41bf2ca7a2919359b5d6954da976e4",
+     "bytes": 4229600
+    }
+   ]
+  },
+  {
+   "pack": "029828fa4f7a",
+   "path": "assets/fonts/webfonts/de1/df3/d81/d74/d39/dee/dba/d11/d9a/d15/d65/def/df0/dd1/d85/d70/d96/dd0/dc1/db3/029828fa4f7a.dat",
+   "bytes": 4580375,
+   "games": [
+    {
+     "id": "0197aeb768221506",
+     "name": "animator.swf",
+     "sha256": "0197aeb76822150656d9f889f385976dcd851225c06e5028d86e3c868acd6a5d",
+     "bytes": 1333766
+    },
+    {
+     "id": "a14f2589c86865fc",
+     "name": "bad-ice-cream-3-www-boysplaygame-com.swf",
+     "sha256": "a14f2589c86865fc87e1ed2a57e44f73621331298162bad44de1978e6b79f85e",
+     "bytes": 3245562
+    }
+   ]
+  },
+  {
+   "pack": "b11cd3d97702",
+   "path": "assets/fonts/webfonts/dcd/d0e/d8c/d37/daf/d7a/de5/d7d/dd5/d32/dff/ddd/d99/d7e/d6b/d4e/da0/d41/d00/de9/b11cd3d97702.dat",
+   "bytes": 3496498,
+   "games": [
+    {
+     "id": "fc49b9f780db5df7",
+     "name": "bloons-super-monkey.swf",
+     "sha256": "fc49b9f780db5df703d7c368e34f258e52c2fb20d581c145404c680f78ff04ed",
+     "bytes": 2707910
+    },
+    {
+     "id": "e41a083ca8b87438",
+     "name": "bloons-tower-defence-2.swf",
+     "sha256": "e41a083ca8b87438f9489777978cfa3be62a7bc6bebd82ad97c8be12e3ee2f47",
+     "bytes": 787394
+    }
+   ]
+  },
+  {
+   "pack": "a5c34391f7fb",
+   "path": "assets/fonts/webfonts/db9/dd6/d39/dbc/ddd/d04/d0b/dc3/d30/de7/dbc/ddb/d1b/d94/daf/d36/d5b/d21/d60/dff/a5c34391f7fb.dat",
+   "bytes": 4309023,
+   "games": [
+    {
+     "id": "78d464fcb52f6119",
+     "name": "bloons-tower-defence-3.swf",
+     "sha256": "78d464fcb52f6119c97a674aceebb2005753d5d1a0a8d4fa8f6218604f7b3849",
+     "bytes": 1400848
+    },
+    {
+     "id": "44e742fb071348b4",
+     "name": "bloons-tower-defence-4.swf",
+     "sha256": "44e742fb071348b40086744c441ce55e8aaa3db2d98fccf9c66f6fe09177457e",
+     "bytes": 2906520
+    }
+   ]
+  },
+  {
+   "pack": "edc0e36f6282",
+   "path": "assets/fonts/webfonts/d19/dfa/d58/d5c/d9c/dee/d89/dc4/df0/d60/dcb/dfb/d6d/dd6/dd2/d9d/d5e/d7c/df9/d6c/edc0e36f6282.dat",
+   "bytes": 1050122,
+   "games": [
+    {
+     "id": "b030231c32b48cbb",
+     "name": "bloons-tower-defence.swf",
+     "sha256": "b030231c32b48cbb7c8afed67d61355dd4a28369bdadaf73f7c669488dcc9cb8",
+     "bytes": 531015
+    },
+    {
+     "id": "f741394fccc5f067",
+     "name": "bloons.swf",
+     "sha256": "f741394fccc5f067fcb7eea78351ebe017091e79d779f7e8a0f4aae7cfff0bf1",
+     "bytes": 518506
+    }
+   ]
+  },
+  {
+   "pack": "cac541164120",
+   "path": "assets/fonts/webfonts/d4a/d57/de0/d83/da5/d43/d32/d76/dab/d47/d59/d02/d04/d9b/d9d/d76/dc9/d4c/d21/d43/cac541164120.dat",
+   "bytes": 11462796,
+   "games": [
+    {
+     "id": "6f7963e058f06343",
+     "name": "bloxorz.swf",
+     "sha256": "6f7963e058f06343d6736ec9eb0ff8320e83b7518c9fded18bee5a27ad27e3fb",
+     "bytes": 2250714
+    },
+    {
+     "id": "162ca2c582477ea9",
+     "name": "bob-the-robber.swf",
+     "sha256": "162ca2c582477ea9be222909c17e34e4cf5f114d7adcdca89e3afed797a8e01b",
+     "bytes": 9208317
+    }
+   ]
+  },
+  {
+   "pack": "119b5ba25bb9",
+   "path": "assets/fonts/webfonts/dd5/d6b/d94/d8b/dca/d9d/dd2/d47/d21/d06/d1f/d43/d43/d9c/dba/d62/db2/d6a/d9d/d1a/119b5ba25bb9.dat",
+   "bytes": 136418,
+   "games": [
+    {
+     "id": "a26dad4b412d5980",
+     "name": "checkers.swf",
+     "sha256": "a26dad4b412d598019a75c7111ac0ad6a7a9b4af25340bd9b741a152ebcc3e13",
+     "bytes": 136173
+    }
+   ]
+  }
+ ]
+}
