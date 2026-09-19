@@ -298,8 +298,8 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-d496047f3864f5992712ec0806081e834739c91aac14f83ece9a9ebc6257e8ee",
-        "fileSize": 14184,
+        "fileHash": "sha256-c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444",
+        "fileSize": 20800,
         "status": 1,
         "language": "de",
         "authors": [
@@ -308,12 +308,13 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 1,
-        "versionCode": 1,
-        "versionInt": 1,
+        "version": 2,
+        "versionCode": 2,
+        "versionInt": 2,
         "internalName": "KinoxProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoxProvider.cs3",
         "name": "Kinox",
-        "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed."
+        "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed.",
+        "sha256": "c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444"
     }
 ]
