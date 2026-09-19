@@ -253,8 +253,8 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-58a8b989bb7468158f328224ac47cb594be240cd422e225e5391bf805a7788e1",
-        "fileSize": 15656,
+        "fileHash": "sha256-1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4",
+        "fileSize": 21748,
         "status": 1,
         "language": "de",
         "authors": [
@@ -263,13 +263,14 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 2,
-        "versionCode": 2,
-        "versionInt": 2,
+        "version": 3,
+        "versionCode": 3,
+        "versionInt": 3,
         "internalName": "ProviderHealthProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/ProviderHealthProvider.cs3",
         "name": "Source Health",
-        "description": "Health checker for all 26 requested source domains. Reports HTTP, redirect, shell, challenge, and timeout status."
+        "description": "Health checker for all 26 requested source domains. Reports HTTP, redirect, shell, challenge, and timeout status.",
+        "sha256": "1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
