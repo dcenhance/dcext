@@ -335,7 +335,7 @@
         "url": "https://dcenhancements.com/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "The whole Flash game library - every game is downloaded on first play, then kept on the device and played offline with the open-source Ruffle runtime",
-        "fileHash": "sha256-28db4a1cd021b220a38df3eb4eb572fcdef455fbd402c8a0f289a10779031391",
-        "sha256": "28db4a1cd021b220a38df3eb4eb572fcdef455fbd402c8a0f289a10779031391"
+        "fileHash": "sha256-459ca939168906dbb226e8bb7aca3b82c4eb4e3cc0b567a9745a10e741b0e80b",
+        "sha256": "459ca939168906dbb226e8bb7aca3b82c4eb4e3cc0b567a9745a10e741b0e80b"
     }
 ]
