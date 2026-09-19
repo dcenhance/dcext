@@ -231,8 +231,8 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-96f6d0b5b0b4367409a818f00f144d49b934fe8f0b8049b714ec0f74bd2fc9a3",
-        "fileSize": 17892,
+        "fileHash": "sha256-03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d",
+        "fileSize": 24618,
         "status": 1,
         "language": "de",
         "authors": [
@@ -241,13 +241,14 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 1,
-        "versionCode": 1,
-        "versionInt": 1,
+        "version": 2,
+        "versionCode": 2,
+        "versionInt": 2,
         "internalName": "SerienjunkiesProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienjunkiesProvider.cs3",
         "name": "Serienjunkies",
-        "description": "Public German series catalog and release metadata. Protected download links remain fail-closed."
+        "description": "Public German series catalog and release metadata. Protected download links remain fail-closed.",
+        "sha256": "03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
