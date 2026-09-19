@@ -276,8 +276,8 @@
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-3cb32646b73f8794354368d1043b037cccd88a75fbb70b161ec19260304f3d80",
-        "fileSize": 14855,
+        "fileHash": "sha256-339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65",
+        "fileSize": 21300,
         "status": 1,
         "language": "de",
         "authors": [
@@ -286,13 +286,14 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 1,
-        "versionCode": 1,
-        "versionInt": 1,
+        "version": 2,
+        "versionCode": 2,
+        "versionInt": 2,
         "internalName": "CineToProvider",
         "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CineToProvider.cs3",
         "name": "Cine.to",
-        "description": "German movie catalog, details and public mirror metadata. CAPTCHA-protected playback remains fail-closed."
+        "description": "German movie catalog, details and public mirror metadata. CAPTCHA-protected playback remains fail-closed.",
+        "sha256": "339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65"
     },
     {
         "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
