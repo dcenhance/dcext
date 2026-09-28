@@ -1,18 +1,17 @@
 {
-  "versionName": "1.0.814",
-  "latestVersion": "1.0.814",
-  "versionCode": 814,
+  "versionName": "1.0.815",
+  "latestVersion": "1.0.815",
+  "versionCode": 815,
   "changelog": [
-    "Keep each settings page at its last browsing position without stealing touch focus.",
-    "Match CloudStream's group separation throughout CSM settings.",
-    "Make global search results unique across sections and show a clear empty state.",
-    "Remove links to unavailable appearance editors and correct hub descriptions.",
-    "Respect settings-entry opt-out and clear stale search state on recreated pages."
+    "Refresh the visible settings list when Sync, System, Parental or Discord rebuilds it.",
+    "Expose Smart Priority and ranking controls in Sources with honest host-capability states.",
+    "Route dependent global-search results through their guarded Sources page.",
+    "Keep settings-entry opt-out through host landing retries and release view observers on teardown."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Settings navigation, search and visual consistency",
-  "sha256": "532eeea27e7134d2f932ab8ae4ff529fd5f31996c00ced94fbcf6f951e2edf58"
+  "message": "Settings rebuilds, source controls and lifecycle consistency",
+  "sha256": "044625d60a2d394982b7ab73b26cb9d29fac2e6aa563fe2592ceb1a9a466c02e"
 }
