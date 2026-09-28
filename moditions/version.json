@@ -1,15 +1,17 @@
 {
-  "versionName": "1.0.819",
-  "latestVersion": "1.0.819",
-  "versionCode": 819,
+  "versionName": "1.0.820",
+  "latestVersion": "1.0.820",
+  "versionCode": 820,
   "changelog": [
-    "Require a parental PIN before content-level, keyword, time-lock, or reset actions can be selected.",
-    "Show a setup hint and enable those actions immediately after a PIN is configured."
+    "Wire the external playback button to the active player hook and remove it when disabled.",
+    "Honor the CSM notification master for update alerts; keep auto-update independent.",
+    "Prevent Smart Priority while the source side panel owns the player source UI.",
+    "Remove misleading search shortcuts and align default values and backup descriptions."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Parental settings setup and PIN-gated actions",
-  "sha256": "27304f32a482d4ad1dd5f1ac47c8f8f0b6aaa701d5f5158b748faf0c30f6e3f3"
+  "message": "Settings search, external playback and notification master fixes",
+  "sha256": "25732db655c578663cef6823d184b893a69f40aa50e116ca77da0da275104a90"
 }
