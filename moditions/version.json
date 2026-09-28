@@ -1,14 +1,15 @@
 {
-  "versionName": "1.0.818",
-  "latestVersion": "1.0.818",
-  "versionCode": 818,
+  "versionName": "1.0.819",
+  "latestVersion": "1.0.819",
+  "versionCode": 819,
   "changelog": [
-    "Explain and disable watch-position sync when this CloudStream host lacks the required storage API."
+    "Require a parental PIN before content-level, keyword, time-lock, or reset actions can be selected.",
+    "Show a setup hint and enable those actions immediately after a PIN is configured."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Watch-position sync host availability",
-  "sha256": "70659344368123b194173863aaa89e1cbde6d849846cf6dc3a4b0b35aede8ab6"
+  "message": "Parental settings setup and PIN-gated actions",
+  "sha256": "27304f32a482d4ad1dd5f1ac47c8f8f0b6aaa701d5f5158b748faf0c30f6e3f3"
 }
