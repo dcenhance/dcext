@@ -1,17 +1,18 @@
 {
-  "versionName": "1.0.815",
-  "latestVersion": "1.0.815",
-  "versionCode": 815,
+  "versionName": "1.0.816",
+  "latestVersion": "1.0.816",
+  "versionCode": 816,
   "changelog": [
-    "Refresh the visible settings list when Sync, System, Parental or Discord rebuilds it.",
-    "Expose Smart Priority and ranking controls in Sources with honest host-capability states.",
-    "Route dependent global-search results through their guarded Sources page.",
-    "Keep settings-entry opt-out through host landing retries and release view observers on teardown."
+    "Refresh Advancements preferences after the page rebuilds on return.",
+    "Hide runtime-disabled controls consistently in categories and global search.",
+    "Route dependent search results through their guarded owning settings pages.",
+    "Correct search destinations and remove obsolete direct switches.",
+    "Leave nested CSM settings destinations before unloading plugin navigation."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Settings rebuilds, source controls and lifecycle consistency",
-  "sha256": "044625d60a2d394982b7ab73b26cb9d29fac2e6aa563fe2592ceb1a9a466c02e"
+  "message": "Settings callback, search and navigation consistency",
+  "sha256": "dfeb3d5411cc4b4ef1954d2ee47f9c2d0aaf710e292c171258c6479f2136f041"
 }
