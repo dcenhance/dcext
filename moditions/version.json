@@ -1,15 +1,15 @@
 {
-  "versionName": "1.0.811",
-  "latestVersion": "1.0.811",
-  "versionCode": 811,
+  "versionName": "1.0.812",
+  "latestVersion": "1.0.812",
+  "versionCode": 812,
   "changelog": [
-    "Match CloudStream’s 16dp vertical spacing in CSM settings rows.",
-    "Keep the existing typography, icon sizes, touch targets and TV D-pad behavior."
+    "Simplify the Discord sign-in chrome: one compact header and no duplicate security card or fake badge.",
+    "Let Discord’s own login page use the full width and disclose CSM’s use of the session token."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Match CloudStream settings row spacing",
-  "sha256": "b905bd0cd7ac98ad347ca0abed53c495d7f7a5d27a655a4416765ac7b14fff36"
+  "message": "Cleaner Discord connection screen",
+  "sha256": "bad11a14b9e7437e3adf7d818cd8ffc5fd7c85f9b133f5f2b512a061a0660839"
 }
