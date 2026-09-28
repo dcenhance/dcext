@@ -1,15 +1,14 @@
 {
-  "versionName": "1.0.817",
-  "latestVersion": "1.0.817",
-  "versionCode": 817,
+  "versionName": "1.0.818",
+  "latestVersion": "1.0.818",
+  "versionCode": 818,
   "changelog": [
-    "Keep runtime-disabled controls out of fallback settings search results.",
-    "Let WiFi settings receivers rebind after an active connection is closed."
+    "Explain and disable watch-position sync when this CloudStream host lacks the required storage API."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Search availability and WiFi receiver restart reliability",
-  "sha256": "906e5b2fe31b37bd80ef7d3153078065524433f92dd7a49523f877c02fefe418"
+  "message": "Watch-position sync host availability",
+  "sha256": "70659344368123b194173863aaa89e1cbde6d849846cf6dc3a4b0b35aede8ab6"
 }
