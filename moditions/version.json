@@ -1,18 +1,15 @@
 {
-  "versionName": "1.0.816",
-  "latestVersion": "1.0.816",
-  "versionCode": 816,
+  "versionName": "1.0.817",
+  "latestVersion": "1.0.817",
+  "versionCode": 817,
   "changelog": [
-    "Refresh Advancements preferences after the page rebuilds on return.",
-    "Hide runtime-disabled controls consistently in categories and global search.",
-    "Route dependent search results through their guarded owning settings pages.",
-    "Correct search destinations and remove obsolete direct switches.",
-    "Leave nested CSM settings destinations before unloading plugin navigation."
+    "Keep runtime-disabled controls out of fallback settings search results.",
+    "Let WiFi settings receivers rebind after an active connection is closed."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Settings callback, search and navigation consistency",
-  "sha256": "dfeb3d5411cc4b4ef1954d2ee47f9c2d0aaf710e292c171258c6479f2136f041"
+  "message": "Search availability and WiFi receiver restart reliability",
+  "sha256": "906e5b2fe31b37bd80ef7d3153078065524433f92dd7a49523f877c02fefe418"
 }
