@@ -1,17 +1,18 @@
 {
-  "versionName": "1.0.813",
-  "latestVersion": "1.0.813",
-  "versionCode": 813,
+  "versionName": "1.0.814",
+  "latestVersion": "1.0.814",
+  "versionCode": 814,
   "changelog": [
-    "Show a Retry action when the Discord login page fails to load, without masking its error.",
-    "Keep ordinary Discord alerts visible; ignore stale CSM session callbacks after navigation.",
-    "Route Rich Presence search results through the guarded Discord settings page.",
-    "Restore normal Back behavior after returning from a settings search result."
+    "Keep each settings page at its last browsing position without stealing touch focus.",
+    "Match CloudStream's group separation throughout CSM settings.",
+    "Make global search results unique across sections and show a clear empty state.",
+    "Remove links to unavailable appearance editors and correct hub descriptions.",
+    "Respect settings-entry opt-out and clear stale search state on recreated pages."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "Discord sign-in recovery and guarded settings search",
-  "sha256": "889aaf2eb4bd9c7a82773f4b9d47da66b8e2f5e0dea766abe2e497f1cd7a48fd"
+  "message": "Settings navigation, search and visual consistency",
+  "sha256": "532eeea27e7134d2f932ab8ae4ff529fd5f31996c00ced94fbcf6f951e2edf58"
 }
