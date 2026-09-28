@@ -1,17 +1,15 @@
 {
-  "versionName": "1.0.810",
-  "latestVersion": "1.0.810",
-  "versionCode": 810,
+  "versionName": "1.0.811",
+  "latestVersion": "1.0.811",
+  "versionCode": 811,
   "changelog": [
-    "Align the shared settings rows, headers, icon colors and tap feedback with CloudStream.",
-    "Keep TV D-pad focus safe for Discord's embedded profile card and disabled rows.",
-    "Improve settings search: show new results from the top, restore browsing position and dismiss the keyboard on Back.",
-    "Show actionable setup hints directly in the Downloads and Discord category summaries."
+    "Match CloudStream’s 16dp vertical spacing in CSM settings rows.",
+    "Keep the existing typography, icon sizes, touch targets and TV D-pad behavior."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-28",
   "isRequired": false,
-  "message": "CloudStream-style settings and TV focus improvements",
-  "sha256": "be99c3b1f6a332301d136913690ea76ea170034dfb700fbe2a74782793039ced"
+  "message": "Match CloudStream settings row spacing",
+  "sha256": "b905bd0cd7ac98ad347ca0abed53c495d7f7a5d27a655a4416765ac7b14fff36"
 }
