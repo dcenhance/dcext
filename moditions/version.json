@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.823",
-  "latestVersion": "1.0.823",
-  "versionCode": 823,
+  "versionName": "1.0.824",
+  "latestVersion": "1.0.824",
+  "versionCode": 824,
   "changelog": [
-    "Tested every declared preference against its runtime reader; the exact inventory of unimplemented keys is now pinned by a regression test.",
-    "Added first tests for the install-mode resolver, notification blur policy and Discord custom-data resolution.",
-    "Verified shared-value contracts never contradict how a key is stored; no phantom key may be read as a setting.",
-    "Removed the last interactive control that stored a value nothing reads (Stream Quality)."
+    "The legacy settings screen search-history switch now controls the flag the runtime honours instead of a superseded key.",
+    "Removed the notification-sound picker: CSM posts through low-importance channels, so Android decides the sound.",
+    "Pinned the shipped variant policy: broken, hidden and stub features stay invisible and dev mode cannot be unlocked.",
+    "Added contract tests for the legacy settings surface and the variant gating."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-29",
   "isRequired": false,
-  "message": "Preference reader audit and new runtime contract tests",
-  "sha256": "19a721c7cdcfe4a9b9699d9d93df9a5bae18fb0d809053fcc17d49f33a4603d3"
+  "message": "Legacy settings truth and shipped variant policy tests",
+  "sha256": "78b7f1f7096066ae0031aefb97f5fe51c03d366da86ac1f2ad4ae2d8f9a74ee5"
 }
