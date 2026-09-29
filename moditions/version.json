@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.822",
-  "latestVersion": "1.0.822",
-  "versionCode": 822,
+  "versionName": "1.0.823",
+  "latestVersion": "1.0.823",
+  "versionCode": 823,
   "changelog": [
-    "Saved stream URL history records the playing link instead of overwriting one entry.",
-    "Recent searches keep true recency order and honour the configured limit.",
-    "Search suggestions stop replacing the host search listener while capturing queries.",
-    "Feature registry marks superseded and unimplemented keys instead of reporting them as working."
+    "Tested every declared preference against its runtime reader; the exact inventory of unimplemented keys is now pinned by a regression test.",
+    "Added first tests for the install-mode resolver, notification blur policy and Discord custom-data resolution.",
+    "Verified shared-value contracts never contradict how a key is stored; no phantom key may be read as a setting.",
+    "Removed the last interactive control that stored a value nothing reads (Stream Quality)."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-29",
   "isRequired": false,
-  "message": "Stream history recording, recent search order and feature registry truth",
-  "sha256": "e5b0b2e5bf6b1a61dbefa26144b9966650975cc492870c604b0e47d12f0cab48"
+  "message": "Preference reader audit and new runtime contract tests",
+  "sha256": "19a721c7cdcfe4a9b9699d9d93df9a5bae18fb0d809053fcc17d49f33a4603d3"
 }
