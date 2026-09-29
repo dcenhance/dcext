@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.821",
-  "latestVersion": "1.0.821",
-  "versionCode": 821,
+  "versionName": "1.0.822",
+  "latestVersion": "1.0.822",
+  "versionCode": 822,
   "changelog": [
-    "Keep feature-visibility gates when settings pages rebuild after a PIN change or import.",
-    "Hide time-lock actions when the parent is unavailable and explain their disabled state.",
-    "Detach the debug toolbelt when the CSM master is off; verify view ownership.",
-    "Unify duplicate search destinations with the live category control names."
+    "Saved stream URL history records the playing link instead of overwriting one entry.",
+    "Recent searches keep true recency order and honour the configured limit.",
+    "Search suggestions stop replacing the host search listener while capturing queries.",
+    "Feature registry marks superseded and unimplemented keys instead of reporting them as working."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-09-28",
+  "releaseDate": "2026-09-29",
   "isRequired": false,
-  "message": "Settings visibility, time-lock prerequisites and debug overlay ownership",
-  "sha256": "1c29b32abef51de7f4d39ef739d1125a50b94c1d0e0571ab0bc3e064ecc10bac"
+  "message": "Stream history recording, recent search order and feature registry truth",
+  "sha256": "e5b0b2e5bf6b1a61dbefa26144b9966650975cc492870c604b0e47d12f0cab48"
 }
