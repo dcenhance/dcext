@@ -1,17 +1,17 @@
 {
-  "versionName": "1.0.824",
-  "latestVersion": "1.0.824",
-  "versionCode": 824,
+  "versionName": "1.0.825",
+  "latestVersion": "1.0.825",
+  "versionCode": 825,
   "changelog": [
-    "The legacy settings screen search-history switch now controls the flag the runtime honours instead of a superseded key.",
-    "Removed the notification-sound picker: CSM posts through low-importance channels, so Android decides the sound.",
-    "Pinned the shipped variant policy: broken, hidden and stub features stay invisible and dev mode cannot be unlocked.",
-    "Added contract tests for the legacy settings surface and the variant gating."
+    "Queued episodes can no longer reuse an existing queue id, which used to make one removal drop two entries.",
+    "The play queue, the equalizer presets and the shared option catalogue are now covered by contract tests.",
+    "A regression test that fails without the queue-id fix proves the new coverage is real.",
+    "Option tables must keep their labels and value mappings in step, so no picker can store an unmappable value."
   ],
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-09-29",
   "isRequired": false,
-  "message": "Legacy settings truth and shipped variant policy tests",
-  "sha256": "78b7f1f7096066ae0031aefb97f5fe51c03d366da86ac1f2ad4ae2d8f9a74ee5"
+  "message": "Play queue id integrity and option catalogue contract tests",
+  "sha256": "3d67d16ee43d037107c14de3c7d12cf405c89541edb863f7fa01a613c5959546"
 }
