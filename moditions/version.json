@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.827",
-    "latestVersion": "1.0.827",
-    "versionCode": 827,
-    "changelog": "Unified CSM confirmation, selection and input dialogs with CloudStream theme roles, typography and spacing.\nApplied shared styling to modern, legacy and default AndroidX preference dialogs.\nKept host native dialog backgrounds; uses a Material shape only when host resources are unavailable.\nAligned login, chat, provider settings, runtime tools and system pickers with the host theme.\nPreserved listener-vetoed preference changes, cancel drafts, callbacks, selection and input behavior.\nProtected faithful content previews and diagnostic monospace formatting from generic restyling.\nAdded dialog coverage, lifecycle, choice-state and persistence regression tests.",
+    "versionName": "1.0.828",
+    "latestVersion": "1.0.828",
+    "versionCode": 828,
+    "changelog": "Corrected duplicated row padding: one 16dp side inset and an 8dp icon-to-text gap.\nReduced oversized settings surfaces with a centered adaptive 600dp content cap.\nMade standard alert dialogs compact while preserving explicit full-screen and caller widths.\nUnified native dialog and Compose text around the host-owned font family.\nNormalized UI icons to 24dp and host theme tint; retained artwork, logo and medal colors.\nReplaced hand-drawn choice checks with Material glyphs.\nVerified actual Compose row measurements at phone and tablet widths; preserved input and callback contracts.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-01",
     "isRequired": false,
-    "message": "CloudStream dialog styling and behavior contracts renewed",
-    "sha256": "fe4094475afd4654d84dfb18ac8d0ab8a49c13c2111936e4d40522816cf4901a"
+    "message": "compact spacing, shared fonts and Material icons renewed",
+    "sha256": "843b11b3f8c8bd2a88b430cb3956454d7c55c5b8708418280fe1ebdb94364aed"
 }
