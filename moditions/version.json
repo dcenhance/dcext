@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.828",
-    "latestVersion": "1.0.828",
-    "versionCode": 828,
-    "changelog": "Corrected duplicated row padding: one 16dp side inset and an 8dp icon-to-text gap.\nReduced oversized settings surfaces with a centered adaptive 600dp content cap.\nMade standard alert dialogs compact while preserving explicit full-screen and caller widths.\nUnified native dialog and Compose text around the host-owned font family.\nNormalized UI icons to 24dp and host theme tint; retained artwork, logo and medal colors.\nReplaced hand-drawn choice checks with Material glyphs.\nVerified actual Compose row measurements at phone and tablet widths; preserved input and callback contracts.",
+    "versionName": "1.0.829",
+    "latestVersion": "1.0.829",
+    "versionCode": 829,
+    "changelog": "Restored supported settings hidden by the USER variant, retaining opt-in, PIN, account and device prerequisites.\nMade restored player, theme, display, Sync and WiFi-transfer controls discoverable; search keeps owner callbacks and confirmations.\nRestored player mute, frame capture, quick-action selectors, speed controls, subtitle shortcuts and information overlays.\nAdded owned Scene Bookmark management, session-safe Equalizer controls, reversible Immersive Mode and scheduled themes.\nRestored explicit automatic-update opt-in with installation/restart disclosure; preserved manual checking and update-alert semantics.\nFixed invisible native choice lists, saved 4K selection, external-downloader selection and master-dependent rows.\nFixed OFF/player-exit cleanup, stale callbacks and reversible poster geometry; retained compact host-font and Material dialog styling.\nKept unsupported or unwired features disabled; automated tests do not certify hardware playback, audio, capture or TV rendering.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-01",
     "isRequired": false,
-    "message": "compact spacing, shared fonts and Material icons renewed",
-    "sha256": "843b11b3f8c8bd2a88b430cb3956454d7c55c5b8708418280fe1ebdb94364aed"
+    "message": "restore supported controls, search and lifecycle cleanup renewed",
+    "sha256": "77204eb27754d8c2e2c8cf182717bba02b9314ca8a4dad6c327566ac87f981d0"
 }
