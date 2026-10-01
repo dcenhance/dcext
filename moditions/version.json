@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.829",
-    "latestVersion": "1.0.829",
-    "versionCode": 829,
-    "changelog": "Restored supported settings hidden by the USER variant, retaining opt-in, PIN, account and device prerequisites.\nMade restored player, theme, display, Sync and WiFi-transfer controls discoverable; search keeps owner callbacks and confirmations.\nRestored player mute, frame capture, quick-action selectors, speed controls, subtitle shortcuts and information overlays.\nAdded owned Scene Bookmark management, session-safe Equalizer controls, reversible Immersive Mode and scheduled themes.\nRestored explicit automatic-update opt-in with installation/restart disclosure; preserved manual checking and update-alert semantics.\nFixed invisible native choice lists, saved 4K selection, external-downloader selection and master-dependent rows.\nFixed OFF/player-exit cleanup, stale callbacks and reversible poster geometry; retained compact host-font and Material dialog styling.\nKept unsupported or unwired features disabled; automated tests do not certify hardware playback, audio, capture or TV rendering.",
+    "versionName": "1.0.830",
+    "latestVersion": "1.0.830",
+    "versionCode": 830,
+    "changelog": "Fixed stale player actions so hidden, detached or rebuilt controls cannot act on another player.\nBound frame capture and cancellation to the initiating action; obsolete callbacks cannot cancel a newer capture.\nFixed retained subtitle-font clicks, late root calls and old preference events; preserved native font size and embedded flags.\nKept native system bars untouched with no explicit opt-in; restored host state on final opt-out and retained status-bar transparency.\nUpdated the open Appearance page when scheduled themes change, with exact lifecycle observer cleanup.\nPreserved PIN, capability and default-OFF gates, compact host styling, supported controls and saved choices.\nAutomated tests verify off-device contracts, not physical capture, decoder playback, Android TV or installed-host visuals.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-01",
     "isRequired": false,
-    "message": "restore supported controls, search and lifecycle cleanup renewed",
-    "sha256": "77204eb27754d8c2e2c8cf182717bba02b9314ca8a4dad6c327566ac87f981d0"
+    "message": "harden player action ownership, subtitle callbacks and system bars renewed",
+    "sha256": "a71705974cf82d4a3401bfa289ac1fd218897a71d7dd7babe3c6f7ae1e63eb89"
 }
