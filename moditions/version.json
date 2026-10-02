@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.833",
-    "latestVersion": "1.0.833",
-    "versionCode": 833,
-    "changelog": "Dev build v833. Raises the CSM review-workbench action controls to the measured 48dp minimum (24dp glyph bounds, 8dp compound gap; RTL and TV D-pad preserved). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.834",
+    "latestVersion": "1.0.834",
+    "versionCode": 834,
+    "changelog": "Dev build v834. Fixes the self-test PACKAGED_ABI probe: it now resolves CSM's own packaged classes through the plugin classloader instead of the host app loader, which had made packaged_component_abi fail and every feature report a false ABI_MISSING. Adds the active self-test campaign: it enables every CSM setting (each restored afterwards), invokes every mounted CSM control, opens every CSM settings layout in the host NavController and restarts CloudStream once, resuming from a persisted journal. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-02",
     "isRequired": false,
-    "message": "Dev build v833 - review-workbench 48dp action geometry",
-    "sha256": "551328adc083640b239b9f955f3dee8617f17a11c68a51955b7b016a620ca6d7"
+    "message": "Dev build v834 - self-test probe loader fix + active campaign",
+    "sha256": "a7dd3429ae6fc7963cb600512cc01e6a05e8755d06532ec5b423fa0d0a321b6f"
 }
