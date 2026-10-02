@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.836",
-    "latestVersion": "1.0.836",
-    "versionCode": 836,
-    "changelog": "Dev build v836. Closes the remaining host crash on the CSM player settings screen. The onResume and preference-change refresh path re-applied a ListPreference summary from the raw option label, so toggling any player modification re-armed the String.format crash for Controls Dim Level (\"Medium (30%)\" -> UnknownFormatConversionException: Conversion = ')'). Every ListPreference summary assignment now escapes the label; the displayed text is unchanged. Also carries the v835 escape fix, the v834 PACKAGED_ABI probe-classloader fix and the active self-test campaign. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.837",
+    "latestVersion": "1.0.837",
+    "versionCode": 837,
+    "changelog": "Dev build v837. The CSM settings row no longer shows a stale version. The extracted host-menu resource APK was cached under one fixed filename and reused forever, so the row kept the version baked into the first extraction (\"CS Manager V 835\"). The cache is now revision-scoped (csm-settings-host-res-<versionCode>.apk) and every other revision, including the legacy fixed name, is pruned, so the row always matches the running CSM version after an update and restart. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-02",
     "isRequired": false,
-    "message": "Dev build v836 - close remaining ListPreference summary crash on player settings",
-    "sha256": "0f6007ecf1363f04651b22c90b81f0a223902422eb6ef3051d806bbabfce114b"
+    "message": "Dev build v837 - CSM settings row now shows the running version",
+    "sha256": "93b0b0e6a678bad6cdc80a0980f4537e63a6e21ce8bd7a53d0675cbe6bef5bdd"
 }
