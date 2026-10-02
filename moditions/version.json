@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.837",
-    "latestVersion": "1.0.837",
-    "versionCode": 837,
-    "changelog": "Dev build v837. The CSM settings row no longer shows a stale version. The extracted host-menu resource APK was cached under one fixed filename and reused forever, so the row kept the version baked into the first extraction (\"CS Manager V 835\"). The cache is now revision-scoped (csm-settings-host-res-<versionCode>.apk) and every other revision, including the legacy fixed name, is pruned, so the row always matches the running CSM version after an update and restart. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.838",
+    "latestVersion": "1.0.838",
+    "versionCode": 838,
+    "changelog": "Dev build v838 - function-honesty audit: the registry no longer advertises functions that do not exist. Zoom Buttons and Gradient Background were filed as STABLE/BETA although no runtime consumer ever read them; both are now BROKEN with an explicit \"no runtime consumer\" description. The audit also confirmed what is already honest (Swipe Seek Sensitivity, Android Auto Voice, Default Profile) and that no other registered key is advertised without a consumer. Debug/system registry keys are now backed by CSMKeys constants instead of bare string literals. Regression: CsmFunctionHonestyTest (pre-fix RED demonstrated). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-    "releaseDate": "2026-10-02",
+    "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v837 - CSM settings row now shows the running version",
-    "sha256": "93b0b0e6a678bad6cdc80a0980f4537e63a6e21ce8bd7a53d0675cbe6bef5bdd"
+    "message": "Dev build v838 - registry no longer advertises functions without a runtime consumer",
+    "sha256": "352f3ad5ae9b5cda2cbc68ea848d9d3586030f10585aafe56462e04a4535e1e9"
 }
