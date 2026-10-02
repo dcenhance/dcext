@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.834",
-    "latestVersion": "1.0.834",
-    "versionCode": 834,
-    "changelog": "Dev build v834. Fixes the self-test PACKAGED_ABI probe: it now resolves CSM's own packaged classes through the plugin classloader instead of the host app loader, which had made packaged_component_abi fail and every feature report a false ABI_MISSING. Adds the active self-test campaign: it enables every CSM setting (each restored afterwards), invokes every mounted CSM control, opens every CSM settings layout in the host NavController and restarts CloudStream once, resuming from a persisted journal. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.835",
+    "latestVersion": "1.0.835",
+    "versionCode": 835,
+    "changelog": "Dev build v835. Fixes a host crash in the CSM player settings screen: a ListPreference summary is used as a String.format template, so an option label containing a literal percent ('Light (15%)', 'Medium (30%)', 'Strong (45%)' for Controls Dim Level) threw UnknownFormatConversionException: Conversion = ')' while the settings list rendered or prefetched. Option labels are now escaped before being used as the summary template and still render unchanged. Also carries the v834 self-test PACKAGED_ABI probe-classloader fix and the active self-test campaign. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-02",
     "isRequired": false,
-    "message": "Dev build v834 - self-test probe loader fix + active campaign",
-    "sha256": "a7dd3429ae6fc7963cb600512cc01e6a05e8755d06532ec5b423fa0d0a321b6f"
+    "message": "Dev build v835 - fix player settings ListPreference summary crash",
+    "sha256": "d852e7aef89558fc20d4b0ae76b5967fb5dbe70dfcdf291d2362c59755641b24"
 }
