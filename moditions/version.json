@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.843",
-    "latestVersion": "1.0.843",
-    "versionCode": 843,
-    "changelog": "Dev build v843 - Fixed: the Automatic Updates switch in System settings felt dead. The row is deliberately non-persistent because the confirmation (and an optional parental PIN) owns the only write - but returning false from the change listener makes AndroidX revert the switch the instant it is tapped, so it snapped straight back before the dialog had a chance to decide. The tap now keeps the chosen position while the confirmation is open, a cancelled/back-dismissed confirmation re-syncs the row from the stored value instead of leaving a state that was never saved, and a tap rejected because another dialog is open also re-syncs. The switch therefore always mirrors what is actually stored, and the summary continues to distinguish Off / saved-but-paused / On. Tests: 4 new contract tests (row state text, switch mirrors the stored opt-in, listener keeps the visual choice, every dismissal path re-syncs). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.844",
+    "latestVersion": "1.0.844",
+    "versionCode": 844,
+    "changelog": "Dev build v844 - Fixed: Tap to TV could report success while nothing opened on the receiving device. CSM-to-CSM delivery opens the media through CloudStream's own player link (cloudstreamplayer://<enc>?name=<enc>, the shape the host manifest documents), but the receiver started that intent and then answered OK unconditionally, so the sender showed a success message even when nothing on the device handled the link and no player ever appeared. The receiver now resolves the link first and refuses with a clear reason instead of claiming playback, launches from the resumed activity when one exists so the start is a foreground start (a background context may be ignored by the platform), reports a refusal instead of a false OK, and words a background start as sent rather than started. Tests: 5 new launch-contract tests (deep-link shape, intent target, no-handler cannot be reported as playing, resolution detected, wording never claims verified playback). This dev build aggregates all current unpublished source in the shared CSM tree.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v843 - Automatic Updates switch no longer snaps back and always shows the stored state",
-    "sha256": "29679ad52e13c015061d4cc521f31c9193fca3796355037e902a12d3e74d9811"
+    "message": "Dev build v844 - Tap to TV receiver no longer reports playback it never started",
+    "sha256": "a1938b2d54bc9d5c0a1feefd61aa1d58146cb7e8aac508221c9e6992f6dd88aa"
 }
