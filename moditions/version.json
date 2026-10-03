@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.838",
-    "latestVersion": "1.0.838",
-    "versionCode": 838,
-    "changelog": "Dev build v838 - function-honesty audit: the registry no longer advertises functions that do not exist. Zoom Buttons and Gradient Background were filed as STABLE/BETA although no runtime consumer ever read them; both are now BROKEN with an explicit \"no runtime consumer\" description. The audit also confirmed what is already honest (Swipe Seek Sensitivity, Android Auto Voice, Default Profile) and that no other registered key is advertised without a consumer. Debug/system registry keys are now backed by CSMKeys constants instead of bare string literals. Regression: CsmFunctionHonestyTest (pre-fix RED demonstrated). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.839",
+    "latestVersion": "1.0.839",
+    "versionCode": 839,
+    "changelog": "Dev build v839 - added: the Show Zoom Buttons toggle is a real function again. Its zoom +/- controls were already implemented but nothing ever injected them, while the row claimed to be unavailable; the player pass now reconciles them (inject when ON, remove exactly the two CSM-owned buttons when OFF, never duplicate on repeated passes). Fixed: the feature registry no longer reports that function as broken, the settings row is user-writable again, and the export/import action rows use the CSMKeys constants instead of duplicating string literals. Tests: 5 new zoom-button behaviour tests plus the updated honesty and player-settings contracts. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v838 - registry no longer advertises functions without a runtime consumer",
-    "sha256": "352f3ad5ae9b5cda2cbc68ea848d9d3586030f10585aafe56462e04a4535e1e9"
+    "message": "Dev build v839 - Zoom Buttons implemented; export/import keys single-sourced",
+    "sha256": "0921921c352c53897633836f914eef7c6290a69ed6e8792983216013f2ad87c8"
 }
