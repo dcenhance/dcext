@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.847",
-  "latestVersion": "1.0.847",
-  "versionCode": 847,
-  "changelog": "Reorganized settings into compact task-based sections with direct search destinations and remembered section navigation.\nSeparated System updates, backups, storage, diagnostics, logging, extension cleanup and reset into clear destinations.\nRestructured parental controls around setup, content rules, schedules and recovery; improved prerequisite hints and temporary-access controls.\nHardened PIN verification against changed credentials, active lockouts and stale dialogs before saving protected changes.\nGrouped player options by purpose and redesigned quick actions with a bounded scrolling menu, clearer Material icons, speed selection and focus handling.\nFixed rejected update toggles, stale summaries, cross-player mute ownership and obsolete search targets.\nMoved profile-image imports off the UI thread with bounded atomic storage and stale-result rejection; fixed a settings-sharing shutdown race.",
+  "versionName": "1.0.848",
+  "latestVersion": "1.0.848",
+  "versionCode": 848,
+  "changelog": "Replaced folder-style settings navigation with direct area tabs for faster switching without nested submenus.\nSystem, parental and player settings open their first area immediately and remember the selected tab across page recreation.\nKept account and setup controls available across areas; search still covers all settings and opens the matching tab.\nBack now closes search or leaves the settings page directly, without an intermediate folder overview.\nAdded accessible selected-tab labels and improved remote navigation between the toolbar, scrollable tabs and setting controls.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-03",
   "isRequired": false,
-  "message": "Dev build v847 - Reorganized settings, player controls and safer parental workflows",
-  "sha256": "7afa86eef1b1df50611adc9094b8c8372ef765ffd36f3b0f111d9d9cf40a82f0"
+  "message": "Dev build v848 - Direct settings tabs without folder navigation",
+  "sha256": "7c8d33df4366a0b91e136913fbc59599e59e4239508fd9c64bc19c836a8916d5"
 }
