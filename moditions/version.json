@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.841",
-    "latestVersion": "1.0.841",
-    "versionCode": 841,
-    "changelog": "Dev build v841 - Fixed: opening \"CloudStream Notification Settings\" crashed Fire TV and other TV builds. That option called startActivity on ACTION_APP_NOTIFICATION_SETTINGS without checking whether anything handles it, which those devices do not provide. The capability is now resolved first; the row reads \"Not available on this device\" and is disabled, and the click path stays guarded. Fixed: the improved TV keyboard overlay ignored the remote. It only opened when the EditText itself held focus, but on Fire TV the focus usually sits on the search wrapper, so the select press was passed through and nothing happened. The focused view and its subtree are now searched for the input, so CENTER/ENTER opens the overlay; selecting a card still never resolves an unrelated field. Improved: the notification dialog can now show changelogs and real update information. The update card carries the release changelog from the remote metadata (capped, with a count of what is left out) instead of only a one-line message, and the cards gained a type-accent stripe, a WHAT'S NEW section and a release preview. Tests: 12 new (keyboard focus resolution, notification-settings resolution, update card/changelog mapping). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.842",
+    "latestVersion": "1.0.842",
+    "versionCode": 842,
+    "changelog": "Dev build v842 - The action icons injected into the player control bar are now laid out from one shared density-independent contract instead of two parallel factories. Every injected action gets a 48dp touch target, a 24dp optical glyph box (scaleType CENTER, so no catalog icon can be stretched or clipped), 6dp row spacing and the 3dp corner radius of the host button. Fixed: the zoom +/- buttons were built by the other factory, so they were the only injected actions with no row spacing and a fully transparent background - no pressed or DPAD-focus feedback at all. They now match the rest of the row. Fixed: the quick-actions button used a flat background fill that destroyed the ripple, so it gave no touch feedback; the quick-action panel rows had a focusable surface that painted nothing. Both now use the same stateful surface. Icon artwork itself was already correct (24dp intrinsic box, tint from the shared policy) - the defect was purely layout and state, so no new artwork was drawn. Tests: 4 new layout tests proving 48dp/24dp/6dp at phone and TV densities plus stateful surfaces through the real reconciler. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v841 - Fire TV crash fix, TV keyboard activation, changelogs in the notification dialog",
-    "sha256": "32ce34c4a6f7815818a6e7a743af43eda8ad11e9d050c182324799ef84a74470"
+    "message": "Dev build v842 - Even, density-correct player action icons with real pressed/focused feedback",
+    "sha256": "eac9c33bdcd7040b90a53bb74cdda3009b274477d022fe8ec7ac0e19d301ba66"
 }
