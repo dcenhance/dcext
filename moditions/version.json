@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.844",
-    "latestVersion": "1.0.844",
-    "versionCode": 844,
-    "changelog": "Dev build v844 - Fixed: Tap to TV could report success while nothing opened on the receiving device. CSM-to-CSM delivery opens the media through CloudStream's own player link (cloudstreamplayer://<enc>?name=<enc>, the shape the host manifest documents), but the receiver started that intent and then answered OK unconditionally, so the sender showed a success message even when nothing on the device handled the link and no player ever appeared. The receiver now resolves the link first and refuses with a clear reason instead of claiming playback, launches from the resumed activity when one exists so the start is a foreground start (a background context may be ignored by the platform), reports a refusal instead of a false OK, and words a background start as sent rather than started. Tests: 5 new launch-contract tests (deep-link shape, intent target, no-handler cannot be reported as playing, resolution detected, wording never claims verified playback). This dev build aggregates all current unpublished source in the shared CSM tree.",
+    "versionName": "1.0.845",
+    "latestVersion": "1.0.845",
+    "versionCode": 845,
+    "changelog": "Dev build v845 - Fixed: opening and leaving CSM settings still looked instant. The CSM page lives in its own container placed on top of the host screen, so the transition that CloudStream uses for its settings (enter_anim/exit_anim) never reached it - only the fragment inside animated, invisibly, under a container that appeared and disappeared at once. The container itself now plays the host enter animation when CSM settings open and the host exit animation before it is removed, so entering and leaving is visible. The container no longer double-animates the first page inside it (the two transitions used to compound); page switches inside CSM settings keep the host transition. A close always completes even if no animation can be resolved, with a safety timeout so the container can never be left stuck on screen. Tests: 5 new overlay animation tests (unresolvable animation still closes exactly once, safety net fires once, open animates the container, exit precedes removal, no double animation). This dev build aggregates all current unpublished source in the shared CSM tree.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v844 - Tap to TV receiver no longer reports playback it never started",
-    "sha256": "a1938b2d54bc9d5c0a1feefd61aa1d58146cb7e8aac508221c9e6992f6dd88aa"
+    "message": "Dev build v845 - CSM settings now really animate in and out",
+    "sha256": "719b86382f81de44697aab026606ec042ec00698dc4454413cee81a43b94d55d"
 }
