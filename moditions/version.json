@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.846",
-    "latestVersion": "1.0.846",
-    "versionCode": 846,
-    "changelog": "Dev build v846 - Fixed: the Watch Party room filled with update notices telling you to download Syncplay from syncplay.pl. The client presented the CSM plugin version as its Syncplay client version, and the public server uses that value for two things: every client below its recent-client threshold gets an outdated-version notice on each connect, and protocol paths are gated on it (chat only reaches clients it considers at least 1.5.0). A chat-capable client therefore looked ancient and the server withheld the chat it declares support for. The client now presents the Syncplay client level whose message set it actually speaks, with the protocol version kept as its own separate axis, and repeated server notices are shown once per session instead of on every reconnect. Tests: 5 new identity and notice-gate tests (the version axes stay separate, the presented level clears the server threshold while the plugin version does not, the declared chat is unlocked, a repeated notice shows once, the raw motd is no longer appended directly). This dev build aggregates all current unpublished source in the shared CSM tree.",
-    "minCloudstreamVersion": 1,
-    "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-    "releaseDate": "2026-10-03",
-    "isRequired": false,
-    "message": "Dev build v846 - Watch Party no longer reports itself as an outdated Syncplay",
-    "sha256": "1889d80bdff9257001518cf2c723f3c39ab8b9c2170b24f0d5aacf0a530dc489"
+  "versionName": "1.0.847",
+  "latestVersion": "1.0.847",
+  "versionCode": 847,
+  "changelog": "Reorganized settings into compact task-based sections with direct search destinations and remembered section navigation.\nSeparated System updates, backups, storage, diagnostics, logging, extension cleanup and reset into clear destinations.\nRestructured parental controls around setup, content rules, schedules and recovery; improved prerequisite hints and temporary-access controls.\nHardened PIN verification against changed credentials, active lockouts and stale dialogs before saving protected changes.\nGrouped player options by purpose and redesigned quick actions with a bounded scrolling menu, clearer Material icons, speed selection and focus handling.\nFixed rejected update toggles, stale summaries, cross-player mute ownership and obsolete search targets.\nMoved profile-image imports off the UI thread with bounded atomic storage and stale-result rejection; fixed a settings-sharing shutdown race.",
+  "minCloudstreamVersion": 1,
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
+  "releaseDate": "2026-10-03",
+  "isRequired": false,
+  "message": "Dev build v847 - Reorganized settings, player controls and safer parental workflows",
+  "sha256": "7afa86eef1b1df50611adc9094b8c8372ef765ffd36f3b0f111d9d9cf40a82f0"
 }

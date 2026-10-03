@@ -1,345 +1,345 @@
 [
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "fileHash": "sha256-1889d80bdff9257001518cf2c723f3c39ab8b9c2170b24f0d5aacf0a530dc489",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 3359782,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "dcenhance"
-        ],
-        "tvTypes": [
-            "Others"
-        ],
-        "version": 846,
-        "versionCode": 846,
-        "versionInt": 846,
-        "internalName": "CSMProvider",
-        "description": "CSM - UI customization plugin for CloudStream",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-        "name": "CSM Dev",
-        "sha256": "1889d80bdff9257001518cf2c723f3c39ab8b9c2170b24f0d5aacf0a530dc489"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 101851,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Anime",
-            "AnimeMovie"
-        ],
-        "version": 27,
-        "internalName": "AniworldProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/AniworldProvider.cs3",
-        "name": "Aniworld",
-        "description": "German anime streaming from aniworld.to",
-        "fileHash": "sha256-733f4c5cc896805b537bbb00ba4147de08c899e51a2fb9836f75e3c70984b22b",
-        "versionCode": 27,
-        "versionInt": 27,
-        "sha256": "733f4c5cc896805b537bbb00ba4147de08c899e51a2fb9836f75e3c70984b22b"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 43169,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 21,
-        "internalName": "KoolLiveTVProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
-        "name": "Kool Live TV",
-        "description": "Kool Live TV - current www.kool.to mediahub IPTV catalog with dynamic HLS resolve.",
-        "versionCode": 21,
-        "versionInt": 21,
-        "fileHash": "sha256-2b176b7e4197527301d5819cd45de33e35d6598900beeade825320110f600370"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 55043,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries"
-        ],
-        "version": 24,
-        "internalName": "KoolToProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
-        "name": "Kool VOD",
-        "description": "Kool VOD - current www.kool.to mediahub catalog for German movies and TV series.",
-        "versionCode": 24,
-        "versionInt": 24,
-        "fileHash": "sha256-df6af8d1979e95436f037a1d5a13f996c826c35748159e1247d7a43372e7d033"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 47106,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "TvSeries"
-        ],
-        "version": 28,
-        "internalName": "SerienstreamProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
-        "name": "S.to Serienstream",
-        "description": "S.to - Serien & Staffeln online streamen. VOE Hoster.",
-        "fileHash": "sha256-5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2",
-        "versionCode": 28,
-        "versionInt": 28,
-        "sha256": "5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "TvSeries"
-        ],
-        "internalName": "StoProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/StoProvider.cs3",
-        "name": "s.to",
-        "description": "s.to - German series catalog with episodes and extractor handoff.",
-        "fileHash": "sha256-991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1",
-        "fileSize": 47244,
-        "version": 7,
-        "versionCode": 7,
-        "versionInt": 7,
-        "sha256": "991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 52184,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries"
-        ],
-        "version": 23,
-        "internalName": "FilmpalastProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
-        "name": "Filmpalast",
-        "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile.",
-        "fileHash": "sha256-b57d2b112fbdb687aff2e30499ffee923dc06aeed32f79b80ed4a91faefb98ff",
-        "versionCode": 23,
-        "versionInt": 23,
-        "sha256": "b57d2b112fbdb687aff2e30499ffee923dc06aeed32f79b80ed4a91faefb98ff"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 19053,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Others"
-        ],
-        "version": 4,
-        "internalName": "WaybackMachineProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/WaybackMachineProvider.cs3",
-        "name": "Wayback Machine",
-        "description": "Browse and open archived web snapshots from the Internet Archive Wayback Machine",
-        "fileHash": "sha256-180cd025a798dc207f8350b5fcd99be8cc620533eeb0bb3c1270f76947ed0c6d",
-        "versionCode": 4,
-        "versionInt": 4
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 15263,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 2,
-        "internalName": "YouTubeProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/YouTubeProvider.cs3",
-        "name": "YouTube",
-        "description": "Search and play public YouTube videos without signing in",
-        "fileHash": "sha256-8ff559e40e9e785e7b6fd541376b2466cf642e893530f0fa3997ff83e5d7bb29",
-        "versionCode": 2,
-        "versionInt": 2
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 18965,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 2,
-        "internalName": "PeerTubeProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/PeerTubeProvider.cs3",
-        "name": "PeerTube",
-        "description": "Browse and play public videos from federated PeerTube instances",
-        "fileHash": "sha256-f9316fa8f40debed6983d04b6a383c9c409c4892479b31c5aaae97e33a877c87",
-        "versionCode": 2,
-        "versionInt": 2
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d",
-        "fileSize": 24618,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "TvSeries"
-        ],
-        "version": 2,
-        "versionCode": 2,
-        "versionInt": 2,
-        "internalName": "SerienjunkiesProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienjunkiesProvider.cs3",
-        "name": "Serienjunkies",
-        "description": "Public German series catalog and release metadata. Protected download links remain fail-closed.",
-        "sha256": "03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4",
-        "fileSize": 21748,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 3,
-        "versionCode": 3,
-        "versionInt": 3,
-        "internalName": "ProviderHealthProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/ProviderHealthProvider.cs3",
-        "name": "Source Health",
-        "description": "Health checker for all 26 requested source domains. Reports HTTP, redirect, shell, challenge, and timeout status.",
-        "sha256": "1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65",
-        "fileSize": 21300,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 2,
-        "versionCode": 2,
-        "versionInt": 2,
-        "internalName": "CineToProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CineToProvider.cs3",
-        "name": "Cine.to",
-        "description": "German movie catalog, details and public mirror metadata. CAPTCHA-protected playback remains fail-closed.",
-        "sha256": "339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65"
-    },
-    {
-        "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileHash": "sha256-c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444",
-        "fileSize": 20800,
-        "status": 1,
-        "language": "de",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 2,
-        "versionCode": 2,
-        "versionInt": 2,
-        "internalName": "KinoxProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoxProvider.cs3",
-        "name": "Kinox",
-        "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed.",
-        "sha256": "c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444"
-    },
-    {
-        "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 161283,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "DC Enhancements"
-        ],
-        "tvTypes": [
-            "Others"
-        ],
-        "version": 37,
-        "versionCode": 37,
-        "versionInt": 37,
-        "internalName": "RetroFlashProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/retroflash-dev/22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a/RetroFlashProvider.cs3",
-        "name": "RetroFlash Dev (RFP)",
-        "description": "The whole Flash game library - every game is downloaded on first play, then kept on the device and played offline with the open-source Ruffle runtime",
-        "fileHash": "sha256-22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a",
-        "sha256": "22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a"
-    }
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-7afa86eef1b1df50611adc9094b8c8372ef765ffd36f3b0f111d9d9cf40a82f0",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 3397828,
+    "status": 1,
+    "language": "en",
+    "authors": [
+      "dcenhance"
+    ],
+    "tvTypes": [
+      "Others"
+    ],
+    "version": 847,
+    "versionCode": 847,
+    "versionInt": 847,
+    "internalName": "CSMProvider",
+    "description": "CSM - UI customization plugin for CloudStream",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
+    "name": "CSM Dev",
+    "sha256": "7afa86eef1b1df50611adc9094b8c8372ef765ffd36f3b0f111d9d9cf40a82f0"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 101851,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Anime",
+      "AnimeMovie"
+    ],
+    "version": 27,
+    "internalName": "AniworldProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/AniworldProvider.cs3",
+    "name": "Aniworld",
+    "description": "German anime streaming from aniworld.to",
+    "fileHash": "sha256-733f4c5cc896805b537bbb00ba4147de08c899e51a2fb9836f75e3c70984b22b",
+    "versionCode": 27,
+    "versionInt": 27,
+    "sha256": "733f4c5cc896805b537bbb00ba4147de08c899e51a2fb9836f75e3c70984b22b"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 43169,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Live"
+    ],
+    "version": 21,
+    "internalName": "KoolLiveTVProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolLiveTVProvider.cs3",
+    "name": "Kool Live TV",
+    "description": "Kool Live TV - current www.kool.to mediahub IPTV catalog with dynamic HLS resolve.",
+    "versionCode": 21,
+    "versionInt": 21,
+    "fileHash": "sha256-2b176b7e4197527301d5819cd45de33e35d6598900beeade825320110f600370"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 55043,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "version": 24,
+    "internalName": "KoolToProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KoolToProvider.cs3",
+    "name": "Kool VOD",
+    "description": "Kool VOD - current www.kool.to mediahub catalog for German movies and TV series.",
+    "versionCode": 24,
+    "versionInt": 24,
+    "fileHash": "sha256-df6af8d1979e95436f037a1d5a13f996c826c35748159e1247d7a43372e7d033"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 47106,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "version": 28,
+    "internalName": "SerienstreamProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
+    "name": "S.to Serienstream",
+    "description": "S.to - Serien & Staffeln online streamen. VOE Hoster.",
+    "fileHash": "sha256-5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2",
+    "versionCode": 28,
+    "versionInt": 28,
+    "sha256": "5041f2f425a99d6cb5a85b65363a0244bb88af088a353b08edb390662fc6a1f2"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "internalName": "StoProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/StoProvider.cs3",
+    "name": "s.to",
+    "description": "s.to - German series catalog with episodes and extractor handoff.",
+    "fileHash": "sha256-991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1",
+    "fileSize": 47244,
+    "version": 7,
+    "versionCode": 7,
+    "versionInt": 7,
+    "sha256": "991d659e5d3c5dd37bff225b259dade8feb192a8dff0b35664612418768e39f1"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 52184,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "version": 23,
+    "internalName": "FilmpalastProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
+    "name": "Filmpalast",
+    "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile.",
+    "fileHash": "sha256-b57d2b112fbdb687aff2e30499ffee923dc06aeed32f79b80ed4a91faefb98ff",
+    "versionCode": 23,
+    "versionInt": 23,
+    "sha256": "b57d2b112fbdb687aff2e30499ffee923dc06aeed32f79b80ed4a91faefb98ff"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 19053,
+    "status": 1,
+    "language": "en",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Others"
+    ],
+    "version": 4,
+    "internalName": "WaybackMachineProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/WaybackMachineProvider.cs3",
+    "name": "Wayback Machine",
+    "description": "Browse and open archived web snapshots from the Internet Archive Wayback Machine",
+    "fileHash": "sha256-180cd025a798dc207f8350b5fcd99be8cc620533eeb0bb3c1270f76947ed0c6d",
+    "versionCode": 4,
+    "versionInt": 4
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 15263,
+    "status": 1,
+    "language": "en",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 2,
+    "internalName": "YouTubeProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/YouTubeProvider.cs3",
+    "name": "YouTube",
+    "description": "Search and play public YouTube videos without signing in",
+    "fileHash": "sha256-8ff559e40e9e785e7b6fd541376b2466cf642e893530f0fa3997ff83e5d7bb29",
+    "versionCode": 2,
+    "versionInt": 2
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 18965,
+    "status": 1,
+    "language": "en",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 2,
+    "internalName": "PeerTubeProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/PeerTubeProvider.cs3",
+    "name": "PeerTube",
+    "description": "Browse and play public videos from federated PeerTube instances",
+    "fileHash": "sha256-f9316fa8f40debed6983d04b6a383c9c409c4892479b31c5aaae97e33a877c87",
+    "versionCode": 2,
+    "versionInt": 2
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileHash": "sha256-03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d",
+    "fileSize": 24618,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
+    "internalName": "SerienjunkiesProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienjunkiesProvider.cs3",
+    "name": "Serienjunkies",
+    "description": "Public German series catalog and release metadata. Protected download links remain fail-closed.",
+    "sha256": "03a2f1c9a70f0c2192d7b12386f274f17d6501e3c7dde018b8124c3bf66cb78d"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileHash": "sha256-1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4",
+    "fileSize": 21748,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 3,
+    "versionCode": 3,
+    "versionInt": 3,
+    "internalName": "ProviderHealthProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/ProviderHealthProvider.cs3",
+    "name": "Source Health",
+    "description": "Health checker for all 26 requested source domains. Reports HTTP, redirect, shell, challenge, and timeout status.",
+    "sha256": "1ce14506b63f06cd2aee67aad3162c43f4245966267fb170e96a18ad115a1ca4"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileHash": "sha256-339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65",
+    "fileSize": 21300,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
+    "internalName": "CineToProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CineToProvider.cs3",
+    "name": "Cine.to",
+    "description": "German movie catalog, details and public mirror metadata. CAPTCHA-protected playback remains fail-closed.",
+    "sha256": "339b62a3058d32337687e87cec7f5bcf31904b9f38daa99f834ac254ac4d8a65"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileHash": "sha256-c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444",
+    "fileSize": 20800,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
+    "internalName": "KinoxProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoxProvider.cs3",
+    "name": "Kinox",
+    "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed.",
+    "sha256": "c600cf1303180296e85f82f5c23684c4d3e6990d51673584906e5b5658aea444"
+  },
+  {
+    "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 161283,
+    "status": 1,
+    "language": "en",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Others"
+    ],
+    "version": 37,
+    "versionCode": 37,
+    "versionInt": 37,
+    "internalName": "RetroFlashProvider",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/retroflash-dev/22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a/RetroFlashProvider.cs3",
+    "name": "RetroFlash Dev (RFP)",
+    "description": "The whole Flash game library - every game is downloaded on first play, then kept on the device and played offline with the open-source Ruffle runtime",
+    "fileHash": "sha256-22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a",
+    "sha256": "22940954bf0655c0072aa83d6f8aa79d7160c36ba6b5aab19d07f33d54a10e8a"
+  }
 ]
