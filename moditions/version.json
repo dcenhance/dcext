@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.840",
-    "latestVersion": "1.0.840",
-    "versionCode": 840,
-    "changelog": "Dev build v840 - CSM menu transition parity: the overlay used to appear and disappear with no animation at all. It now uses CloudStream's own settings transition - the host graph declares enterAnim=@anim/enter_anim with exitAnim=@anim/exit_anim and reuses that same pair for popEnter/popExit - resolved from the host resources and applied to both overlay transactions, failing closed when they cannot be resolved. Fixed: on Android TV the CSM settings page is full width. The Compose renderer capped its content column at 600dp and centred it, which made the CSM page narrower than CloudStream's own settings on a TV; the cap now applies only when the device is not a television. Tests: 6 new parity tests for TV detection/width and the transition slots. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.841",
+    "latestVersion": "1.0.841",
+    "versionCode": 841,
+    "changelog": "Dev build v841 - Fixed: opening \"CloudStream Notification Settings\" crashed Fire TV and other TV builds. That option called startActivity on ACTION_APP_NOTIFICATION_SETTINGS without checking whether anything handles it, which those devices do not provide. The capability is now resolved first; the row reads \"Not available on this device\" and is disabled, and the click path stays guarded. Fixed: the improved TV keyboard overlay ignored the remote. It only opened when the EditText itself held focus, but on Fire TV the focus usually sits on the search wrapper, so the select press was passed through and nothing happened. The focused view and its subtree are now searched for the input, so CENTER/ENTER opens the overlay; selecting a card still never resolves an unrelated field. Improved: the notification dialog can now show changelogs and real update information. The update card carries the release changelog from the remote metadata (capped, with a count of what is left out) instead of only a one-line message, and the cards gained a type-accent stripe, a WHAT'S NEW section and a release preview. Tests: 12 new (keyboard focus resolution, notification-settings resolution, update card/changelog mapping). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v840 - CSM settings open/close animation parity; full-width CSM page on TV",
-    "sha256": "46909475f41bee5d81da69eec010e9dc78e596619968b0d2147fd6236724b41b"
+    "message": "Dev build v841 - Fire TV crash fix, TV keyboard activation, changelogs in the notification dialog",
+    "sha256": "32ce34c4a6f7815818a6e7a743af43eda8ad11e9d050c182324799ef84a74470"
 }
