@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.842",
-    "latestVersion": "1.0.842",
-    "versionCode": 842,
-    "changelog": "Dev build v842 - The action icons injected into the player control bar are now laid out from one shared density-independent contract instead of two parallel factories. Every injected action gets a 48dp touch target, a 24dp optical glyph box (scaleType CENTER, so no catalog icon can be stretched or clipped), 6dp row spacing and the 3dp corner radius of the host button. Fixed: the zoom +/- buttons were built by the other factory, so they were the only injected actions with no row spacing and a fully transparent background - no pressed or DPAD-focus feedback at all. They now match the rest of the row. Fixed: the quick-actions button used a flat background fill that destroyed the ripple, so it gave no touch feedback; the quick-action panel rows had a focusable surface that painted nothing. Both now use the same stateful surface. Icon artwork itself was already correct (24dp intrinsic box, tint from the shared policy) - the defect was purely layout and state, so no new artwork was drawn. Tests: 4 new layout tests proving 48dp/24dp/6dp at phone and TV densities plus stateful surfaces through the real reconciler. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.843",
+    "latestVersion": "1.0.843",
+    "versionCode": 843,
+    "changelog": "Dev build v843 - Fixed: the Automatic Updates switch in System settings felt dead. The row is deliberately non-persistent because the confirmation (and an optional parental PIN) owns the only write - but returning false from the change listener makes AndroidX revert the switch the instant it is tapped, so it snapped straight back before the dialog had a chance to decide. The tap now keeps the chosen position while the confirmation is open, a cancelled/back-dismissed confirmation re-syncs the row from the stored value instead of leaving a state that was never saved, and a tap rejected because another dialog is open also re-syncs. The switch therefore always mirrors what is actually stored, and the summary continues to distinguish Off / saved-but-paused / On. Tests: 4 new contract tests (row state text, switch mirrors the stored opt-in, listener keeps the visual choice, every dismissal path re-syncs). This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v842 - Even, density-correct player action icons with real pressed/focused feedback",
-    "sha256": "eac9c33bdcd7040b90a53bb74cdda3009b274477d022fe8ec7ac0e19d301ba66"
+    "message": "Dev build v843 - Automatic Updates switch no longer snaps back and always shows the stored state",
+    "sha256": "29679ad52e13c015061d4cc521f31c9193fca3796355037e902a12d3e74d9811"
 }
