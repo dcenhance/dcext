@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.839",
-    "latestVersion": "1.0.839",
-    "versionCode": 839,
-    "changelog": "Dev build v839 - added: the Show Zoom Buttons toggle is a real function again. Its zoom +/- controls were already implemented but nothing ever injected them, while the row claimed to be unavailable; the player pass now reconciles them (inject when ON, remove exactly the two CSM-owned buttons when OFF, never duplicate on repeated passes). Fixed: the feature registry no longer reports that function as broken, the settings row is user-writable again, and the export/import action rows use the CSMKeys constants instead of duplicating string literals. Tests: 5 new zoom-button behaviour tests plus the updated honesty and player-settings contracts. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
+    "versionName": "1.0.840",
+    "latestVersion": "1.0.840",
+    "versionCode": 840,
+    "changelog": "Dev build v840 - CSM menu transition parity: the overlay used to appear and disappear with no animation at all. It now uses CloudStream's own settings transition - the host graph declares enterAnim=@anim/enter_anim with exitAnim=@anim/exit_anim and reuses that same pair for popEnter/popExit - resolved from the host resources and applied to both overlay transactions, failing closed when they cannot be resolved. Fixed: on Android TV the CSM settings page is full width. The Compose renderer capped its content column at 600dp and centred it, which made the CSM page narrower than CloudStream's own settings on a TV; the cap now applies only when the device is not a television. Tests: 6 new parity tests for TV detection/width and the transition slots. This dev build aggregates all current unpublished source in the shared CSM tree and is not an isolated patch.",
     "minCloudstreamVersion": 1,
     "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "releaseDate": "2026-10-03",
     "isRequired": false,
-    "message": "Dev build v839 - Zoom Buttons implemented; export/import keys single-sourced",
-    "sha256": "0921921c352c53897633836f914eef7c6290a69ed6e8792983216013f2ad87c8"
+    "message": "Dev build v840 - CSM settings open/close animation parity; full-width CSM page on TV",
+    "sha256": "46909475f41bee5d81da69eec010e9dc78e596619968b0d2147fd6236724b41b"
 }
