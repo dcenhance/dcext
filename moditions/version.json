@@ -1,12 +1,12 @@
 {
-    "versionName": "1.0.826",
-    "latestVersion": "1.0.826",
-    "versionCode": 826,
-    "changelog": "Rebuilt System settings into storage, backup, updates, diagnostics and maintenance.\nRenewed compact native settings navigation, accessibility and search.\nOverhauled layout inspection, temporary edits, undo and safe owner cleanup.\nRebuilt the debug console with live/pause, filters and full retained-log copy.\nSeparated manual feature review from runtime telemetry and static metadata.\nAdded bounded cache operations, protected imports and checked settings resets.\nFixed downloader-hook ownership and atomic settings import persistence.\nRedacted input and credential patterns in diagnostic exports.",
-    "minCloudstreamVersion": 1,
-    "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-    "releaseDate": "2026-09-30",
-    "isRequired": false,
-    "message": "System, diagnostics and layout tools renewed",
-    "sha256": "dc647518f76e1c3dd5549f2c195490f199ba92e3804a6abd49c4186d30fa6985"
+  "versionName": "1.0.840",
+  "latestVersion": "1.0.840",
+  "versionCode": 840,
+  "changelog": "Renewed the shared CloudStream dialog styling, compact spacing, fonts and Material icon geometry.\nRestored supported controls and search with owner-safe navigation and lifecycle cleanup.\nHardened player action ownership, subtitle callbacks, system bars and native dialog fit.\nFixed a packaged-host Compose pointer ABI crash.\nFixed player-settings option summaries (ListPreference crash).\nThe CSM settings row reports the running version again.\nThe function registry no longer advertises features that have no runtime consumer.\nShow Zoom Buttons is implemented again: zoom +/- controls in the player control bar.\nThe CSM menu now opens and closes with CloudStream's own settings animation.\nThe CSM settings page is full width on Android TV.",
+  "minCloudstreamVersion": 1,
+  "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
+  "releaseDate": "2026-10-03",
+  "isRequired": false,
+  "message": "Settings parity, player fixes and TV layout",
+  "sha256": "46909475f41bee5d81da69eec010e9dc78e596619968b0d2147fd6236724b41b"
 }
