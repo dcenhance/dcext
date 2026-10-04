@@ -323,7 +323,7 @@
         "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/dcenhance/dcext",
-        "fileSize": 168717,
+        "fileSize": 169838,
         "status": 1,
         "language": "en",
         "authors": [
@@ -332,14 +332,14 @@
         "tvTypes": [
             "Others"
         ],
-        "version": 39,
-        "versionCode": 39,
-        "versionInt": 39,
+        "version": 40,
+        "versionCode": 40,
+        "versionInt": 40,
         "internalName": "RetroFlashProvider",
-        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/retroflash-dev/c4ebcefc115de1ec9cbbbd8bb80b5b8d2ea9e32dd00a84df8c35efb0fe8a17db/RetroFlashProvider.cs3",
+        "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/retroflash-dev/afb71cfa8a68be38c3f767d0b3651aec7ba5bc8fb9180fa6cc2d9aab4076990f/RetroFlashProvider.cs3",
         "name": "RetroFlash Dev (RFP)",
         "description": "The whole Flash game library - every game is downloaded on first play, then kept on the device and played offline with the open-source Ruffle runtime",
-        "fileHash": "sha256-c4ebcefc115de1ec9cbbbd8bb80b5b8d2ea9e32dd00a84df8c35efb0fe8a17db",
-        "sha256": "c4ebcefc115de1ec9cbbbd8bb80b5b8d2ea9e32dd00a84df8c35efb0fe8a17db"
+        "fileHash": "sha256-afb71cfa8a68be38c3f767d0b3651aec7ba5bc8fb9180fa6cc2d9aab4076990f",
+        "sha256": "afb71cfa8a68be38c3f767d0b3651aec7ba5bc8fb9180fa6cc2d9aab4076990f"
     }
 ]
