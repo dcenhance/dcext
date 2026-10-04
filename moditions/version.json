@@ -7,6 +7,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v853 - Default full list, tile grid and jump navigation",
+  "message": "Dev build v853 - Relevance-ranked CSM settings search",
   "sha256": "f9d0157472e91478b46b04052853d6647713812207b2d63cd3f775d168bdd24d"
 }
