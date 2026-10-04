@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.850",
-  "latestVersion": "1.0.850",
-  "versionCode": 850,
-  "changelog": "Choose settings-area navigation directly in Appearance: top tabs, bottom tabs, adaptive sidebar or compact area selector.\nNavigation style applies immediately and is saved. Narrow screens adapt the sidebar without losing your choice.\nPreserved direct areas, shared controls, full settings search, readable values and prerequisite/safety summaries.\nImproved TV D-pad handoffs for bottom tabs and sidebar, including offscreen areas and correct focus after switching.",
+  "versionName": "1.0.851",
+  "latestVersion": "1.0.851",
+  "versionCode": 851,
+  "changelog": "Seven settings navigation layouts: top tabs, bottom tabs, left sidebar, area selector, right sidebar, previous/next area and all areas in one list.\nChoose the layout directly in CSM Appearance settings; adaptive sidebars, large text and TV D-pad navigation remain supported.\nRemoved the Watch & download, Make it yours, Connect & share and App & safety headings. All settings destinations remain directly accessible.\nPreserved native preference storage, cross-area search, prerequisite summaries and selected-area restoration.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v850 - Configurable settings navigation",
-  "sha256": "41820b9b6d4f577bb5cd3d34ec8b1c994a0dd32a44954536f08aaaa1bfb4ce97"
+  "message": "Dev build v851 - Seven navigation layouts and direct settings",
+  "sha256": "70d5cd8e293cb0ab83c86c9d09b5916675d24dd714e596e21c68b97c61f27c4a"
 }
