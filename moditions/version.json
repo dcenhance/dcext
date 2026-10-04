@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.851",
-  "latestVersion": "1.0.851",
-  "versionCode": 851,
-  "changelog": "Seven settings navigation layouts: top tabs, bottom tabs, left sidebar, area selector, right sidebar, previous/next area and all areas in one list.\nChoose the layout directly in CSM Appearance settings; adaptive sidebars, large text and TV D-pad navigation remain supported.\nRemoved the Watch & download, Make it yours, Connect & share and App & safety headings. All settings destinations remain directly accessible.\nPreserved native preference storage, cross-area search, prerequisite summaries and selected-area restoration.",
+  "versionName": "1.0.852",
+  "latestVersion": "1.0.852",
+  "versionCode": 852,
+  "changelog": "All areas in one list is now the default for CSM settings. Existing explicit layout choices are preserved.\nAdded an adaptive area tile grid and a full-list jump selector: nine settings navigation layouts selectable in Appearance.\nRemoved redundant category headings that repeat their first control; distinct settings and prerequisite/safety summaries remain intact.\nTablet Grid Columns and Library Grid Columns now have distinct labels. Native storage, search, large text and TV D-pad navigation remain supported.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v851 - Seven navigation layouts and direct settings",
-  "sha256": "70d5cd8e293cb0ab83c86c9d09b5916675d24dd714e596e21c68b97c61f27c4a"
+  "message": "Dev build v852 - Default full list, tile grid and jump navigation",
+  "sha256": "416cba7572b6b85fb7ee47fa9a3f30880873bf6b85a5e675632f2e39474dd6d9"
 }
