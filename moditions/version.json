@@ -7,6 +7,6 @@
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v855 - Relevance-ranked CSM header search",
+  "message": "Dev build v855 - See how many CSM options are on, and where",
   "sha256": "41aace35a0e63230f3b563b2c7dc1ed6333dc612b1c88cf82647eafb0d86fd9a"
 }
