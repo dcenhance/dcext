@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.849",
-  "latestVersion": "1.0.849",
-  "versionCode": 849,
-  "changelog": "Settings areas stay directly accessible: compact rounded tabs now use a subtle theme-aware selection and a clear indicator, separate from TV focus.\nChoice settings show the current readable selection below the title, without repeating identical values or hiding setup and safety notes.\nSlider titles and explanations have more space; current values and ranges are aligned above a larger accessible slider target.\nPreserved native settings persistence, search across areas, large-font layouts and remote navigation.",
+  "versionName": "1.0.850",
+  "latestVersion": "1.0.850",
+  "versionCode": 850,
+  "changelog": "Choose settings-area navigation directly in Appearance: top tabs, bottom tabs, adaptive sidebar or compact area selector.\nNavigation style applies immediately and is saved. Narrow screens adapt the sidebar without losing your choice.\nPreserved direct areas, shared controls, full settings search, readable values and prerequisite/safety summaries.\nImproved TV D-pad handoffs for bottom tabs and sidebar, including offscreen areas and correct focus after switching.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-03",
+  "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v849 - Clearer settings tabs, choices and sliders",
-  "sha256": "ec388df7c68a95a7e77fd5053684aaf09e0a415f57a1d13a54fc0c7e37f88ada"
+  "message": "Dev build v850 - Configurable settings navigation",
+  "sha256": "41820b9b6d4f577bb5cd3d34ec8b1c994a0dd32a44954536f08aaaa1bfb4ce97"
 }
