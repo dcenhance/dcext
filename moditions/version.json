@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.856",
-  "latestVersion": "1.0.856",
-  "versionCode": 856,
-  "changelog": "Gradient Background now works: the appearance page exposes the gradient switch and the preset picker, and the stored preset paints a dark gradient behind app content through the same reversible visual lease as the theme colours.\nPicking a preset writes its start and end colour; an unreadable preset is never guessed at and leaves the background untouched, and turning the option off restores the host background exactly.\nUnused, unreferenced plugin code was removed (compiler- and suite-verified): theme/feature statistics helpers, manager leftovers and unreachable animation, toolbar, scroll and utility helpers no longer ship.",
+  "versionName": "1.0.857",
+  "latestVersion": "1.0.857",
+  "versionCode": 857,
+  "changelog": "The option count now reads out of the whole: the settings hub states \"N of 202 on\" instead of just a total, and every named area states its own \"N of M\".\nThe count row and its number are drawn in the theme accent colour, so the state stands out from the rows below it without becoming a status block.\nTurning everything off keeps the exact denominator (\"None of 202 on\"), and the per-area short counts disappear as before while an area is completely off.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v856 - Working gradient background and a slimmer plugin",
-  "sha256": "e8360b03138b9633c7333f326968af792745269508ead7bf69be9d08373e6ebe"
+  "message": "Dev build v857 - Option counts read out of the whole, in the accent colour",
+  "sha256": "598b43e5d069233a5bf73d5fe38bf73732b68b2fd8bb15a1fbd7f70b8bc8c8c2"
 }
