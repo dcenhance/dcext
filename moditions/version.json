@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.854",
-  "latestVersion": "1.0.854",
-  "versionCode": 854,
-  "changelog": "CSM settings header search now orders results by relevance too: exact title, title prefix, title text, description, compatibility alias, then internal keys.\nThe same matching stays case-insensitive, keeps one owner per result and never writes settings while typing.\nDialog actions verified at real TV geometry: full 48dp targets and long labels stay inside the dialog, with the body text fully laid out.",
+  "versionName": "1.0.855",
+  "latestVersion": "1.0.855",
+  "versionCode": 855,
+  "changelog": "The settings hub now shows how many options are on: one quiet row states the total and the areas carrying it, e.g. \"17 on in 5 areas\".\nEvery settings area shows its own exact count in its row summary (\"3 of 12 on\") and stays silent while the area is completely off.\nCounts are read live from the stored settings and never write anything: a control without a storage key is not an option, and two controls sharing one key count once.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v854 - Relevance-ranked CSM header search",
-  "sha256": "f0c41fc4ffa20476469dfb07d9d9293c19a9434e6b6a0b04390faeb10a3feb92"
+  "message": "Dev build v855 - Relevance-ranked CSM header search",
+  "sha256": "41aace35a0e63230f3b563b2c7dc1ed6333dc612b1c88cf82647eafb0d86fd9a"
 }
