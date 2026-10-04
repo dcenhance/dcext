@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.855",
-  "latestVersion": "1.0.855",
-  "versionCode": 855,
-  "changelog": "The settings hub now shows how many options are on: one quiet row states the total and the areas carrying it, e.g. \"17 on in 5 areas\".\nEvery settings area shows its own exact count in its row summary (\"3 of 12 on\") and stays silent while the area is completely off.\nCounts are read live from the stored settings and never write anything: a control without a storage key is not an option, and two controls sharing one key count once.",
+  "versionName": "1.0.856",
+  "latestVersion": "1.0.856",
+  "versionCode": 856,
+  "changelog": "Gradient Background now works: the appearance page exposes the gradient switch and the preset picker, and the stored preset paints a dark gradient behind app content through the same reversible visual lease as the theme colours.\nPicking a preset writes its start and end colour; an unreadable preset is never guessed at and leaves the background untouched, and turning the option off restores the host background exactly.\nUnused, unreferenced plugin code was removed (compiler- and suite-verified): theme/feature statistics helpers, manager leftovers and unreachable animation, toolbar, scroll and utility helpers no longer ship.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-04",
   "isRequired": false,
-  "message": "Dev build v855 - See how many CSM options are on, and where",
-  "sha256": "41aace35a0e63230f3b563b2c7dc1ed6333dc612b1c88cf82647eafb0d86fd9a"
+  "message": "Dev build v856 - Working gradient background and a slimmer plugin",
+  "sha256": "e8360b03138b9633c7333f326968af792745269508ead7bf69be9d08373e6ebe"
 }
