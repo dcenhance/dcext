@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.859",
-  "latestVersion": "1.0.859",
-  "versionCode": 859,
-  "changelog": "Every option the registry does not call Stable now says so on its own row - Beta, Experimental, Coming soon - and names the option it depends on when that prerequisite is off, so a row can no longer sit there silently doing nothing.\nEach category page gains one guarded \"Reset this area\" action that restores exactly that area's stored options to their defaults and keeps every other area, account and saved medium untouched.\nA reset offers exactly one step back for the values it removed; those values stay in memory only, are never written to a file, and a value the user changed afterwards is never overwritten.",
+  "versionName": "1.0.860",
+  "latestVersion": "1.0.860",
+  "versionCode": 860,
+  "changelog": "The community QA page now reads as a story: three beats - spotted in real use, reproduced deliberately, verified independently - each with its own icon, instead of one paragraph.\nThe page assembles itself once when opened, and that reveal is draw-time only: a device with reduced motion, animations disabled or a cancelled animation shows the complete page, never a half-transparent one.\nThe credits caveat stands on its own quiet strip, the disclosure keeps its exact original behaviour, and nothing on the page writes a single preference.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-05",
   "isRequired": false,
-  "message": "Dev build v859 - Options state their readiness, and each area resets on its own",
-  "sha256": "2eb5413ec37b90bbd748b40e5368a0a701102a294e12aee1567c1adad226f37a"
+  "message": "Dev build v860 - The community QA page reads like a story and assembles itself",
+  "sha256": "758f1c6420e4cb96b73513aae5c12684b0efeac7cea826a09f59b8847076d520"
 }
