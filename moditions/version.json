@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.858",
-  "latestVersion": "1.0.858",
-  "versionCode": 858,
-  "changelog": "Every category page now opens with one quiet line stating how many of its options are on out of the whole, e.g. \"1 of 10 on\" on System, drawn in the theme accent colour.\nThe hub and the category pages count the same shared settings catalog, so a page line and the hub area row can never disagree about an area.\nThe line is information, not a control: pages without a hub area stay untouched, and nothing is written, reordered or re-owned.",
+  "versionName": "1.0.859",
+  "latestVersion": "1.0.859",
+  "versionCode": 859,
+  "changelog": "Every option the registry does not call Stable now says so on its own row - Beta, Experimental, Coming soon - and names the option it depends on when that prerequisite is off, so a row can no longer sit there silently doing nothing.\nEach category page gains one guarded \"Reset this area\" action that restores exactly that area's stored options to their defaults and keeps every other area, account and saved medium untouched.\nA reset offers exactly one step back for the values it removed; those values stay in memory only, are never written to a file, and a value the user changed afterwards is never overwritten.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-05",
   "isRequired": false,
-  "message": "Dev build v858 - Every category states how many of its options are on",
-  "sha256": "37606b05e7f72c13a331ee1c8e8e44caca600f0b0544eb243495a8bac4c4bc64"
+  "message": "Dev build v859 - Options state their readiness, and each area resets on its own",
+  "sha256": "2eb5413ec37b90bbd748b40e5368a0a701102a294e12aee1567c1adad226f37a"
 }
