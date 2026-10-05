@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.857",
-  "latestVersion": "1.0.857",
-  "versionCode": 857,
-  "changelog": "The option count now reads out of the whole: the settings hub states \"N of 202 on\" instead of just a total, and every named area states its own \"N of M\".\nThe count row and its number are drawn in the theme accent colour, so the state stands out from the rows below it without becoming a status block.\nTurning everything off keeps the exact denominator (\"None of 202 on\"), and the per-area short counts disappear as before while an area is completely off.",
+  "versionName": "1.0.858",
+  "latestVersion": "1.0.858",
+  "versionCode": 858,
+  "changelog": "Every category page now opens with one quiet line stating how many of its options are on out of the whole, e.g. \"1 of 10 on\" on System, drawn in the theme accent colour.\nThe hub and the category pages count the same shared settings catalog, so a page line and the hub area row can never disagree about an area.\nThe line is information, not a control: pages without a hub area stay untouched, and nothing is written, reordered or re-owned.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-04",
+  "releaseDate": "2026-10-05",
   "isRequired": false,
-  "message": "Dev build v857 - Option counts read out of the whole, in the accent colour",
-  "sha256": "598b43e5d069233a5bf73d5fe38bf73732b68b2fd8bb15a1fbd7f70b8bc8c8c2"
+  "message": "Dev build v858 - Every category states how many of its options are on",
+  "sha256": "37606b05e7f72c13a331ee1c8e8e44caca600f0b0544eb243495a8bac4c4bc64"
 }
