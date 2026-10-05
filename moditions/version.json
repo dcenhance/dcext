@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.861",
-  "latestVersion": "1.0.861",
-  "versionCode": 861,
-  "changelog": "The community QA page no longer repeats itself: the hero states who is credited and what the credit covers, and the wording lives in one place.\nEverything else stays as released: the three beats with their own icons, the reveal that can never hide content, and the disclosure that behaves exactly as before.",
+  "versionName": "1.0.862",
+  "latestVersion": "1.0.862",
+  "versionCode": 862,
+  "changelog": "Faster settings, same settings: the catalog of CSM rows is built once instead of being rebuilt, re-scanned and re-copied on every settings page.\nOne hub build now reads the stored values and the unfiltered row ranking once, instead of once per area row and per category count, and search ranks every row once instead of re-ranking both rows of every comparison.\nNothing visible changed: same rows, same counts, same search order - only less work behind them.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-05",
   "isRequired": false,
-  "message": "Dev build v861 - the community QA page without a repeated line",
-  "sha256": "bb86262c00a089aaa7a09f9d8c8ad50942bbf6e1f80039c88a562105ad5196c4"
+  "message": "Dev build v862 - the settings hub reads its own state once per build",
+  "sha256": "fcf461b7d093fdc1bee3387027de5ebcac6a095b38fad35044caabc7a7eea7aa"
 }
