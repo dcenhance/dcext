@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.865",
-  "latestVersion": "1.0.865",
-  "versionCode": 865,
-  "changelog": "Discord presence preview now shows only the RPC activity card \u2014 exactly the poster, title and progress bar you'd see in Discord's own profile \u2014 instead of a full fake modal. Long display names are no longer cut off; the profile row and every new preview label clip with an ellipsis instead of pushing into the sign-out button.",
+  "versionName": "1.0.864",
+  "latestVersion": "1.0.864",
+  "versionCode": 864,
+  "changelog": "Discord presence can now show where you actually are in an episode: a live \"elapsed / total\" progress bar that keeps moving while you watch, the same timeline streaming apps put on their now-playing card.\nIt is built from the player's own position and duration, so seeking or pausing re-syncs the bar right away instead of letting it drift, and a stream with no known duration simply keeps the plain elapsed timer.\nThe option sits next to Show Time Elapsed and is off by default; the presence preview in settings draws the same bar, so you can see it before turning it on.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-06",
   "isRequired": false,
-  "message": "Dev build v865 - Discord RPC preview shows the real card, not a fake profile",
-  "sha256": "064be3b5035adf5d4da1c486df566c0c95d641844086d08de46995957e6d7323"
+  "message": "Dev build v864 - Discord presence gains a live playback progress bar",
+  "sha256": "5f072f3087d2362752a310bc133a3313b026a55453e2131630b9c35f5c8398f4"
 }
