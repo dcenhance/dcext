@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.863",
-  "latestVersion": "1.0.863",
-  "versionCode": 863,
-  "changelog": "Dead code removed: 304 lines nothing could reach - a whole category-indicator chain, three copies of a toolbar-padding helper, a duplicate chevron, an unused chart paint and a leftover formatter.\nNothing reachable changed: every removal was unreachable from the whole plugin, and the hub still shows the same rows, counts, summaries and search results.",
+  "versionName": "1.0.864",
+  "latestVersion": "1.0.864",
+  "versionCode": 864,
+  "changelog": "Discord presence can now show where you actually are in an episode: a live \"elapsed / total\" progress bar that keeps moving while you watch, the same timeline streaming apps put on their now-playing card.\nIt is built from the player's own position and duration, so seeking or pausing re-syncs the bar right away instead of letting it drift, and a stream with no known duration simply keeps the plain elapsed timer.\nThe option sits next to Show Time Elapsed and is off by default; the presence preview in settings draws the same bar, so you can see it before turning it on.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-05",
+  "releaseDate": "2026-10-06",
   "isRequired": false,
-  "message": "Dev build v863 - dead code removed, nothing reachable touched",
-  "sha256": "1bc08c8c5ea3d84310ea7e344af3c097b0a57547e31ff6d554e983557570a101"
+  "message": "Dev build v864 - Discord presence gains a live playback progress bar",
+  "sha256": "300b837bf50878fba4c39c329f46bfdada9882611abbee210687194075f0ebda"
 }
