@@ -13,9 +13,9 @@
     "tvTypes": [
       "Others"
     ],
-    "version": 864,
-    "versionCode": 864,
-    "versionInt": 864,
+    "version": 865,
+    "versionCode": 865,
+    "versionInt": 865,
     "internalName": "CSMProvider",
     "description": "CSM - UI customization plugin for CloudStream",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
