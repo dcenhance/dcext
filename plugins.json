@@ -1,10 +1,10 @@
 [
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-300b837bf50878fba4c39c329f46bfdada9882611abbee210687194075f0ebda",
+    "fileHash": "sha256-064be3b5035adf5d4da1c486df566c0c95d641844086d08de46995957e6d7323",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 3409399,
+    "fileSize": 3409629,
     "status": 1,
     "language": "en",
     "authors": [
@@ -20,7 +20,7 @@
     "description": "CSM - UI customization plugin for CloudStream",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
     "name": "CSM Dev",
-    "sha256": "300b837bf50878fba4c39c329f46bfdada9882611abbee210687194075f0ebda"
+    "sha256": "064be3b5035adf5d4da1c486df566c0c95d641844086d08de46995957e6d7323"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
