@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.870",
-  "latestVersion": "1.0.870",
-  "versionCode": 870,
-  "changelog": "The \"next episode in X seconds\" notice no longer covers the subtitles: it used to be a full-width, opaque bar across the bottom of the screen \u2014 exactly where dialogue is drawn \u2014 and is now a compact, self-sized pill below the top edge, clear of both the subtitle line and the control row.\nIts two actions are usable with a TV remote or gamepad again: they were plain text labels with no focus state, so a remote could not reach \"Play Now\" or \"Cancel\" at all. Both take remote focus now, show a focused highlight, and have a fixed left/right order.\nOn TV the notice hands the remote focus to its primary action when it appears and returns it to where you were when it disappears; on phones nothing about the focus behaviour changes.\nChanging the text size no longer crashes the app in safe mode: the typography pass ran between the measure and the draw, so the frame that was about to be painted drew a text layout the write had just emptied. The pass now only detects; the write itself happens in the animation phase of the next frame, i.e. before that frame is measured, and the stale frame is cancelled instead of painted.\nThe configured font size is therefore already in place when the frame is painted, so the text no longer shows the app's own size for a split second before switching \u2014 including when the size is set back to default.",
+  "versionName": "1.0.871",
+  "latestVersion": "1.0.871",
+  "versionCode": 871,
+  "changelog": "Each injection pass is now built from isolated steps. Until now a phase ran as one block: if a single modification threw \u2014 typically a NoSuchMethodError or NoClassDefFoundError after a CloudStream update \u2014 every later modification of that phase was silently skipped, and the log only said \"Phase N error\" without naming the feature. A failing step is now named, and the remaining steps still run, so one broken feature no longer hides the rest of the screen.\nThe diagnostics dashboard names the failing step: phase, step and error, plus how many steps failed in this session. The injection card also shows how many steps a pass executed, and the review report lists the failures per step (which feature to fix) and the slowest steps.\nThe per-module cost list in the injection summary was declared but never filled, so it always read as empty. Every step now records its duration, and the list is bounded so a long session cannot grow it.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-07",
   "isRequired": false,
-  "message": "Dev build v870 - next-episode notice keeps clear of subtitles and changing the text size no longer crashes",
-  "sha256": "27caeb89a57a9b35c985e2aecc0997283b89efff4285c3c27ebfc4854be3c336"
+  "message": "Dev build v871 - one broken injection step no longer takes the rest of the screen with it",
+  "sha256": "9c524366a9812ab837dfd8d0204453723e1c10d933b74f358ba4963501517984"
 }
