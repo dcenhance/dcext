@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.871",
-  "latestVersion": "1.0.871",
-  "versionCode": 871,
-  "changelog": "Each injection pass is now built from isolated steps. Until now a phase ran as one block: if a single modification threw \u2014 typically a NoSuchMethodError or NoClassDefFoundError after a CloudStream update \u2014 every later modification of that phase was silently skipped, and the log only said \"Phase N error\" without naming the feature. A failing step is now named, and the remaining steps still run, so one broken feature no longer hides the rest of the screen.\nThe diagnostics dashboard names the failing step: phase, step and error, plus how many steps failed in this session. The injection card also shows how many steps a pass executed, and the review report lists the failures per step (which feature to fix) and the slowest steps.\nThe per-module cost list in the injection summary was declared but never filled, so it always read as empty. Every step now records its duration, and the list is bounded so a long session cannot grow it.",
+  "versionName": "1.0.872",
+  "latestVersion": "1.0.872",
+  "versionCode": 872,
+  "changelog": "Fixed Discord's Show Progress Bar reading active playback as paused on current CloudStream players.\nPlayback state now uses the inherited player getter and the host IPlayer contract, matching position and duration reads.\nPause/resume and seek updates retain the existing artwork and timeline behavior.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-07",
   "isRequired": false,
-  "message": "Dev build v871 - one broken injection step no longer takes the rest of the screen with it",
-  "sha256": "9c524366a9812ab837dfd8d0204453723e1c10d933b74f358ba4963501517984"
+  "message": "Dev build v872 - restore Discord progress bars from native playback state",
+  "sha256": "7705a7c49b0016364859efd0bef134c893ef8f95f3209c5262d093c4e7dc029f"
 }
