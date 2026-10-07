@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.869",
-  "latestVersion": "1.0.869",
-  "versionCode": 869,
-  "changelog": "Typography options now take effect on the screen you are looking at: changing the font, font scale, letter spacing or line height applies immediately instead of only after leaving and reopening the page.\nText that CloudStream composes after that pass \u2014 a new row, a new section, a list that just scrolled in \u2014 receives the configured typography again as well.\nChanging the font scale back down scales the text back exactly, and changing it up again does not compound the previous scaling.",
+  "versionName": "1.0.870",
+  "latestVersion": "1.0.870",
+  "versionCode": 870,
+  "changelog": "The \"next episode in X seconds\" notice no longer covers the subtitles: it used to be a full-width, opaque bar across the bottom of the screen \u2014 exactly where dialogue is drawn \u2014 and is now a compact, self-sized pill below the top edge, clear of both the subtitle line and the control row.\nIts two actions are usable with a TV remote or gamepad again: they were plain text labels with no focus state, so a remote could not reach \"Play Now\" or \"Cancel\" at all. Both take remote focus now, show a focused highlight, and have a fixed left/right order.\nOn TV the notice hands the remote focus to its primary action when it appears and returns it to where you were when it disappears; on phones nothing about the focus behaviour changes.\nChanging the text size no longer crashes the app in safe mode: the typography pass ran between the measure and the draw, so the frame that was about to be painted drew a text layout the write had just emptied. The pass now only detects; the write itself happens in the animation phase of the next frame, i.e. before that frame is measured, and the stale frame is cancelled instead of painted.\nThe configured font size is therefore already in place when the frame is painted, so the text no longer shows the app's own size for a split second before switching \u2014 including when the size is set back to default.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-07",
   "isRequired": false,
-  "message": "Dev build v869 - typography settings apply live and to newly composed text",
-  "sha256": "da1d29609c1108deffb409c19a4719bb063a69859f9321578e31f0555b40263e"
+  "message": "Dev build v870 - next-episode notice keeps clear of subtitles and changing the text size no longer crashes",
+  "sha256": "27caeb89a57a9b35c985e2aecc0997283b89efff4285c3c27ebfc4854be3c336"
 }
