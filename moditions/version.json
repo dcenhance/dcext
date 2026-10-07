@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.867",
-  "latestVersion": "1.0.867",
-  "versionCode": 867,
-  "changelog": "Discord presence handles pausing properly now: while an episode plays you get the live progress bar, and the moment you pause, the bar is replaced by the elapsed time at the paused position \u2014 no progress bar keeps creeping forward while nothing is playing.\nResuming re-anchors the bar to the real playback position instead of continuing from where the paused timer had drifted, and an item without a known duration keeps the plain elapsed timer while it plays.\nThe option's description in Discord settings now states both halves of that behaviour.\nEvery button this module adds to the player row is reachable with a TV remote or gamepad again: they were clickable but not focusable, so a D-pad could never land on them. They now take remote focus, show a clear focused highlight, and the row's focus order leads from CloudStream's own last button into these actions and back out.\nThose buttons also match the size of CloudStream's own row buttons instead of a fixed larger square \u2014 box, icon size and spacing are copied from the real button next to them (phone and TV layouts both), and on TV the icons are drawn at the host's smaller icon size instead of oversized.",
+  "versionName": "1.0.868",
+  "latestVersion": "1.0.868",
+  "versionCode": 868,
+  "changelog": "Fixed a crash that could hit while changing the text size: the custom font/typography feature rewrote CloudStream's Compose text styles during the frame that was about to be painted, which emptied Android's internal text layout cache and made the renderer abort with \"ParagraphLayoutCache could not provide a Paragraph during the draw phase\" (Safe mode on).\nThe typography pass now only *detects* that a text style has to be rebuilt during a frame and performs the rewrite right after it, so a fresh text measurement always happens before the next paint. Changing the system text size, display size or font scale no longer trips this.\nBehaviour is unchanged otherwise: fonts, font scale, letter spacing and the glow on the CSM entry still apply, and turning the module off still restores CloudStream's original typography.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-10-07",
   "isRequired": false,
-  "message": "Dev build v867 - paused presence plus host-sized, remote-reachable player buttons",
-  "sha256": "b44eaf5376a81fdd6ea8a732f61fa7e2e335e2f83c10235f298984506ff75588"
+  "message": "Dev build v868 - typography no longer empties Compose text caches inside a draw",
+  "sha256": "1f0b523d5f69c3effb658d55d08e58ebd04730b2c2417a22063b71d53eeaf41e"
 }
