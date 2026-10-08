@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.872",
-  "latestVersion": "1.0.872",
-  "versionCode": 872,
-  "changelog": "Fixed Discord's Show Progress Bar reading active playback as paused on current CloudStream players.\nPlayback state now uses the inherited player getter and the host IPlayer contract, matching position and duration reads.\nPause/resume and seek updates retain the existing artwork and timeline behavior.",
+  "versionName": "1.0.873",
+  "latestVersion": "1.0.873",
+  "versionCode": 873,
+  "changelog": "CSM 1.0.873\n\nAppearance and motion: preserve saved gradients at startup, re-enable recycled-card scroll animations, match language badges on complete tokens, and compact each padding edge independently.\nPlayer: keep zoom video-only and in the CSM store, retire stale controls, retain pending watched thresholds during visual refresh, cancel next-episode countdowns after rewind or pause, and prefer actual video metadata over display dimensions. Restore only still-owned native focus links when injected controls leave.\nContent and downloads: filter only verified native catalog cards, bind external-download controls to their exact player, and recheck current download rules immediately before every handoff.\nDiscord: respect title-off defaults across presence transports, prevent episode changes from mixing progress timelines, preserve authored hover text, and retire profile/cache callbacks with their owning account.\nSettings sharing: validate complete reviewed value types before one checked import commit, include all selected category settings and notification controls, preserve private/local state, and cancel retired Wi-Fi sender operations and sockets.\nSystem and search: keep successful automatic-update completion alive, require explicit master enablement for cache cleanup, honor modern exit choices, reset and recover both Discord button text/URL pairs with checked save results, and keep mode-dependent search actions aligned with their owning settings page.\n\nStatic/source and off-device regression verification do not certify decoded playback, Discord-client rendering, physical phone/TV navigation, host next-episode dispatch, or real LAN device transfers. Unsupported features remain unsupported.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-07",
+  "releaseDate": "2026-10-08",
   "isRequired": false,
-  "message": "Dev build v872 - restore Discord progress bars from native playback state",
-  "sha256": "7705a7c49b0016364859efd0bef134c893ef8f95f3209c5262d093c4e7dc029f"
+  "message": "CSM Dev v873 - full-feature audit and lifecycle repairs",
+  "sha256": "8d9c02420266a1bd1c8d085aa79ba03b84e4d9adae82fd757d7db51750cca8fc"
 }
