@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.874",
-  "latestVersion": "1.0.874",
-  "versionCode": 874,
-  "changelog": "CSM 1.0.874\n\nFont Scale is temporarily hidden from Appearance, legacy settings and settings search due to instability. Existing and imported global font-scale values are inactive; CloudStream's native text sizing is used. App Font, letter spacing, line height and the system's accessibility font size are unchanged.\n\nThis is a feature withdrawal, not a claim that the scaler was repaired. Regression verification includes mounted modern/legacy settings callbacks, actual hub search and attached Compose text; physical-device rendering is not certified.",
+  "versionName": "1.0.875",
+  "latestVersion": "1.0.875",
+  "versionCode": 875,
+  "changelog": "Improve exact-owner cleanup across player controls, downloads, notifications, settings and sharing. Stale transfer approvals and queued callbacks now remain inactive after disable, navigation or owner replacement; fresh sessions remain usable. Harden atomic settings imports and preserve local-only credentials and state. Align injected controls with CloudStream sizing and focus ownership. Keep retired options unavailable and Font Scale hidden and runtime-disabled without deleting saved values. Verification: complete off-device suite plus isolated native-host and loopback regressions; physical playback, audio effects, Discord rendering and LAN device transfer remain unverified.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-08",
+  "releaseDate": "2026-10-09",
   "isRequired": false,
-  "message": "CSM Dev v874 - withdraw unstable global Font Scale",
-  "sha256": "e41967a53476320608025d31bc1b12194b129ab7d439aed22af372db3037ec43"
+  "message": "Dev build v875 - ownership and transfer lifecycle hardening",
+  "sha256": "294a7855bc2decff1bcd4754ceebf19c2a2e7a3a35b58f459264186c394f3082"
 }
