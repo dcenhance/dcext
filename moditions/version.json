@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.840",
-  "latestVersion": "1.0.840",
-  "versionCode": 840,
-  "changelog": "Renewed the shared CloudStream dialog styling, compact spacing, fonts and Material icon geometry.\nRestored supported controls and search with owner-safe navigation and lifecycle cleanup.\nHardened player action ownership, subtitle callbacks, system bars and native dialog fit.\nFixed a packaged-host Compose pointer ABI crash.\nFixed player-settings option summaries (ListPreference crash).\nThe CSM settings row reports the running version again.\nThe function registry no longer advertises features that have no runtime consumer.\nShow Zoom Buttons is implemented again: zoom +/- controls in the player control bar.\nThe CSM menu now opens and closes with CloudStream's own settings animation.\nThe CSM settings page is full width on Android TV.",
+  "versionName": "1.0.876",
+  "latestVersion": "1.0.876",
+  "versionCode": 876,
+  "changelog": "CSM 1.0.876\n\nUpdates\n• Updates automatically follow the loaded installation: CSM stays on Normal and CSM Dev stays on Dev. The manual channel picker is removed.\n• Improve update ownership, cancellation and stale completion handling.\n\nSettings and appearance\n• Direct settings areas, selectable navigation layouts, relevance-ranked search and clearer values, counts and prerequisite hints.\n• Category-specific reset and recovery preserve unrelated settings and local account state.\n• Improve saved gradients, recycled-card animations and immediate settings refresh.\n• Correct settings width changes between phone and TV configurations and guard host metadata access on older Android versions.\n• Resume Offset can be configured with Auto Resume enabled while the global CSM switch is off; playback changes still require CSM to be enabled.\n• Global Font Scale remains hidden and inactive. Saved and imported values are preserved; CloudStream's native text sizing remains in use.\n\nPlayer and Discord\n• Player action controls use CloudStream's existing sizing and focus links; refine quick actions and the next-episode notice.\n• Optional Discord progress timestamps follow the actual player position and duration, re-anchor after seeking or resuming, and use paused elapsed time instead of a moving bar.\n• Simplify the activity-card preview and preserve title, hover-text and account ownership choices.\n• Keep unsupported TV handoffs from reporting playback that was never started, and separate Watch Party's protocol identity from the extension version.\n\nDiagnostics\n• Add an offline self-test dashboard with complete TXT/JSON reports, explicit failed or untested checks and owner-aware cancellation.\n• Keep component-check results separate from functions that require an active player, account, network or device.\n\nStability and privacy\n• Isolate failing injection steps and improve per-feature diagnostics without skipping unrelated steps.\n• Harden stale player, dialog, download and sharing callbacks after disable, navigation or owner replacement.\n• Validate settings transfers before a checked import and preserve private, local-only credentials and state.\n• Keep unsupported and retired options unavailable.\n\nPhysical playback, audio effects, Discord rendering and transfers between devices have not been verified.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-03",
+  "releaseDate": "2026-10-10",
   "isRequired": false,
-  "message": "Settings parity, player fixes and TV layout",
-  "sha256": "46909475f41bee5d81da69eec010e9dc78e596619968b0d2147fd6236724b41b"
+  "message": "CSM 1.0.876 — installed-channel updates and lifecycle stability",
+  "sha256": "d86cca58e71c57a01964073551cd5c08b646ae3927dc5d91fb0ae745c5291789"
 }
