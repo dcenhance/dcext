@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.875",
-  "latestVersion": "1.0.875",
-  "versionCode": 875,
-  "changelog": "Improve exact-owner cleanup across player controls, downloads, notifications, settings and sharing. Stale transfer approvals and queued callbacks now remain inactive after disable, navigation or owner replacement; fresh sessions remain usable. Harden atomic settings imports and preserve local-only credentials and state. Align injected controls with CloudStream sizing and focus ownership. Keep retired options unavailable and Font Scale hidden and runtime-disabled without deleting saved values. Verification: complete off-device suite plus isolated native-host and loopback regressions; physical playback, audio effects, Discord rendering and LAN device transfer remain unverified.",
+  "versionName": "1.0.876",
+  "latestVersion": "1.0.876",
+  "versionCode": 876,
+  "changelog": "CSM 1.0.876\n\nUpdates\n\u2022 Updates automatically follow the loaded installation: CSM stays on Normal and CSM Dev stays on Dev. The manual channel picker is removed.\n\u2022 Improve update ownership, cancellation and stale completion handling.\n\nSettings and appearance\n\u2022 Direct settings areas, selectable navigation layouts, relevance-ranked search and clearer values, counts and prerequisite hints.\n\u2022 Category-specific reset and recovery preserve unrelated settings and local account state.\n\u2022 Improve saved gradients, recycled-card animations and immediate settings refresh.\n\u2022 Correct settings width changes between phone and TV configurations and guard host metadata access on older Android versions.\n\u2022 Resume Offset can be configured with Auto Resume enabled while the global CSM switch is off; playback changes still require CSM to be enabled.\n\u2022 Global Font Scale remains hidden and inactive. Saved and imported values are preserved; CloudStream's native text sizing remains in use.\n\nPlayer and Discord\n\u2022 Player action controls use CloudStream's existing sizing and focus links; refine quick actions and the next-episode notice.\n\u2022 Optional Discord progress timestamps follow the actual player position and duration, re-anchor after seeking or resuming, and use paused elapsed time instead of a moving bar.\n\u2022 Simplify the activity-card preview and preserve title, hover-text and account ownership choices.\n\u2022 Keep unsupported TV handoffs from reporting playback that was never started, and separate Watch Party's protocol identity from the extension version.\n\nDiagnostics\n\u2022 Add an offline self-test dashboard with complete TXT/JSON reports, explicit failed or untested checks and owner-aware cancellation.\n\u2022 Keep component-check results separate from functions that require an active player, account, network or device.\n\nStability and privacy\n\u2022 Isolate failing injection steps and improve per-feature diagnostics without skipping unrelated steps.\n\u2022 Harden stale player, dialog, download and sharing callbacks after disable, navigation or owner replacement.\n\u2022 Validate settings transfers before a checked import and preserve private, local-only credentials and state.\n\u2022 Keep unsupported and retired options unavailable.\n\nPhysical playback, audio effects, Discord rendering and transfers between devices have not been verified.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-10-09",
+  "releaseDate": "2026-10-10",
   "isRequired": false,
-  "message": "Dev build v875 - ownership and transfer lifecycle hardening",
-  "sha256": "294a7855bc2decff1bcd4754ceebf19c2a2e7a3a35b58f459264186c394f3082"
+  "message": "CSM 1.0.876 \u2014 installed-channel updates and lifecycle stability",
+  "sha256": "d86cca58e71c57a01964073551cd5c08b646ae3927dc5d91fb0ae745c5291789"
 }
