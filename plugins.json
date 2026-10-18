@@ -327,10 +327,10 @@
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-2a40ca310b19948ed10d02d4c2989d7d4a86acd924eafe02a0940517c9996357",
+    "fileHash": "sha256-ff1f7f618530bd10d17b2bcd26ffd2f80c8e706f842d7f2371190b230c82e7c8",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 25511,
+    "fileSize": 30807,
     "status": 1,
     "language": "de",
     "authors": [
@@ -339,44 +339,21 @@
     "tvTypes": [
       "TvSeries"
     ],
-    "version": 1,
-    "versionCode": 1,
-    "versionInt": 1,
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
     "internalName": "BurningSeriesProvider",
     "description": "Burning Series (burning-series.io / .net / burningseries.ac) \u2013 deutscher Serienkatalog mit >10.000 Serien, Staffeln, Episoden, Episodentiteln und Hoster-Liste (VOE, Doodstream, Filemoon, Vidmoly). Katalog und Suche funktionieren; die Wiedergabe ist auf der Seite durch reCAPTCHA/VPN-Sperren gesch\u00fctzt und bleibt daher fail-closed.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/BurningSeriesProvider.cs3",
     "name": "Burning Series",
-    "sha256": "2a40ca310b19948ed10d02d4c2989d7d4a86acd924eafe02a0940517c9996357"
-  },
-  {
-    "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
-    "fileHash": "sha256-609572e810874fb70cf025b15fe8eb60bcc2cc0d2bb838faee348bd80952e0ca",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 17925,
-    "status": 1,
-    "language": "de",
-    "authors": [
-      "DC Enhancements"
-    ],
-    "tvTypes": [
-      "Live"
-    ],
-    "version": 1,
-    "versionCode": 1,
-    "versionInt": 1,
-    "internalName": "FreeTvProvider",
-    "description": "Free-TV IPTV \u2013 frei empfangbare Live-TV-Sender aus Deutschland und \u00d6sterreich (ARD/ZDF/Regional sowie ORF) mit direktem HLS-Stream. Quelle: github.com/Free-TV/IPTV.",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FreeTvProvider.cs3",
-    "name": "Free-TV IPTV",
-    "sha256": "609572e810874fb70cf025b15fe8eb60bcc2cc0d2bb838faee348bd80952e0ca"
+    "sha256": "ff1f7f618530bd10d17b2bcd26ffd2f80c8e706f842d7f2371190b230c82e7c8"
   },
   {
     "iconUrl": "https://www.google.com/s2/favicons?domain=iptv-org.github.io&sz=%size%",
-    "fileHash": "sha256-efaa94a6833b8505df4b8720ab02a8b5ccdc5368eb2ba2e5355c972401357526",
+    "fileHash": "sha256-62faae41c6d6aa52151e1789f3ffa8efdf3cb1103e7aceead42a3ec3507b7101",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 19406,
+    "fileSize": 21039,
     "status": 1,
     "language": "de",
     "authors": [
@@ -385,21 +362,21 @@
     "tvTypes": [
       "Live"
     ],
-    "version": 1,
-    "versionCode": 1,
-    "versionInt": 1,
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
     "internalName": "IptvOrgProvider",
     "description": "IPTV-org Deutschland \u2013 frei empfangbare deutsche Live-TV-Kan\u00e4le (Landes- und Sprachliste) mit direktem HLS-Stream. Quelle: iptv-org.github.io.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/IptvOrgProvider.cs3",
     "name": "IPTV-org Deutschland",
-    "sha256": "efaa94a6833b8505df4b8720ab02a8b5ccdc5368eb2ba2e5355c972401357526"
+    "sha256": "62faae41c6d6aa52151e1789f3ffa8efdf3cb1103e7aceead42a3ec3507b7101"
   },
   {
     "iconUrl": "https://kinoking.cc/favicon.ico",
-    "fileHash": "sha256-9ad33c3b9192b9cb1cbc53dba8bf07818475d50918a1f822caf7882b860861fc",
+    "fileHash": "sha256-8771afa623814b712ac7f020b8246e81eceb2e0cdcadb16ebe9f0887d7a80e3b",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 15178,
+    "fileSize": 16116,
     "status": 1,
     "language": "de",
     "authors": [
@@ -408,14 +385,14 @@
     "tvTypes": [
       "Movie"
     ],
-    "version": 1,
-    "versionCode": 1,
-    "versionInt": 1,
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
     "internalName": "KinoKingProvider",
     "description": "KinoKing (kinoking.cc) - deutscher Filmkatalog mit Suche und Details. Wiedergabe \u00fcber die vom Server gelisteten Hoster-Mirrors (VOE, Doodstream, Firestream, Playmate); der eingebaute Player des Portals selbst verlangt zus\u00e4tzlich eine Cloudflare-Turnstile-Pr\u00fcfung. Filme only.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoKingProvider.cs3",
     "name": "KinoKing",
-    "sha256": "9ad33c3b9192b9cb1cbc53dba8bf07818475d50918a1f822caf7882b860861fc"
+    "sha256": "8771afa623814b712ac7f020b8246e81eceb2e0cdcadb16ebe9f0887d7a80e3b"
   },
   {
     "iconUrl": "https://kinoger.com/favicon.ico",
@@ -488,10 +465,126 @@
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-60dea52854c514eb3611b3d5c3454d66fbe1bb3a775ddf6aa606db4f489b4b29",
+    "fileHash": "sha256-c4d725f1ea55339c72f43ae5945ca2e0b0561096880e22d01ac31f3067ae224c",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 18013,
+    "fileSize": 23392,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 2,
+    "versionCode": 2,
+    "versionInt": 2,
+    "internalName": "XcineProvider",
+    "description": "Xcine (xcine.online) \u2013 deutscher Film-/Serienkatalog mit Kategorien, Covern, Beschreibung und Jahresangabe. Der Katalog und die komplette Filmliste (Sitemap) sind durchsuchbar; die Wiedergabe wird NICHT angeboten, weil der Player der Seite nur einen Platzhalter l\u00e4dt und der \u00bbOnline Stream\u00ab-Knopf auf Werbe-Redirects f\u00fchrt.",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/XcineProvider.cs3",
+    "name": "Xcine",
+    "sha256": "c4d725f1ea55339c72f43ae5945ca2e0b0561096880e22d01ac31f3067ae224c"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-ea36ffc83f1fc0a80681d8947bc8666f54042ae1883fbbc7a00ff9da6b3aa1ab",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 21685,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Anime",
+      "AnimeMovie"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "AnimeStreamProvider",
+    "description": "Anime-Stream (anime-stream.to) \u2013 deutscher Anime-Katalog mit Serien- und Film-Index, Genre-Routen, Suche, Staffeln und echten deutschen Episodenlisten (Titel, Beschreibung, Vorschaubild). Die Wiedergabe wird NICHT angeboten: jeder Episoden-Link f\u00fchrt nur auf \u00bb/secure-redirect.php\u00ab, das eine Cloudflare-Turnstile-/FingerprintJS-Menschenpr\u00fcfung zeigt; ein Quellpfad ist ohne diesen Nachweis nicht erreichbar.",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AnimeStreamProvider.cs3",
+    "name": "Anime-Stream",
+    "sha256": "ea36ffc83f1fc0a80681d8947bc8666f54042ae1883fbbc7a00ff9da6b3aa1ab"
+  },
+  {
+    "iconUrl": "https://dokujunkies.org/img/favicon.png",
+    "fileHash": "sha256-22f0bb357058d6eaa03ee2e9420538d7a0ed6bfc0da01ca38ab1604ecf5aecea",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 18482,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Documentary"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "DokuJunkiesProvider",
+    "description": "DokuJunkies (dokujunkies.org) \u2013 deutscher Dokumentations-Katalog (4.500+ Dokus) mit A\u2013Z-Browse, Suche, Staffeln/Folgen und Release-Metadaten (Hoster, Qualit\u00e4t, Sprache). Die eigentlichen Download-/Stream-Links liegen hinter dem gesch\u00fctzten Flow der Seite und werden deshalb nicht aufgel\u00f6st.",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuJunkiesProvider.cs3",
+    "name": "DokuJunkies",
+    "sha256": "22f0bb357058d6eaa03ee2e9420538d7a0ed6bfc0da01ca38ab1604ecf5aecea"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-853961d1f798819e56abe3a7da1ca27be733c1f5778c76850714d2b856fd048b",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 15043,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Documentary"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "DokuStreamsComProvider",
+    "description": "Doku-Streams (doku-streams.com) \u2013 deutsches Doku-Streaming-Portal mit Kategorien (Geschichte, Politik, Gesellschaft, Kultur, Milit\u00e4r, Pers\u00f6nlichkeiten), Neuheiten-\u00dcbersicht und Suche. Die Dokumentationen spielen: jede Detailseite bettet ihren Film als YouTube-Player ein, der \u00fcber den mitgelieferten YoutubeExtractor abgespielt wird.",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuStreamsComProvider.cs3",
+    "name": "Doku-Streams",
+    "sha256": "853961d1f798819e56abe3a7da1ca27be733c1f5778c76850714d2b856fd048b"
+  },
+  {
+    "iconUrl": "https://dokustreams.de/favicon.ico",
+    "fileHash": "sha256-2a5584e050232d234692aa1c2b80a25b67136d684ce848fdf5f9deb4e23bf65b",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 16471,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Documentary"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "DokuStreamsProvider",
+    "description": "DokuStreams (dokustreams.de) \u2013 deutscher Dokumentations-Katalog (WordPress) mit Kategorien, Suche und Wiedergabe \u00fcber die in die Beitr\u00e4ge eingebetteten YouTube-Videos; einzelne Videos sind auf YouTube inzwischen nicht mehr verf\u00fcgbar und werden dann \u00fcbersprungen. Dokumentationen (deutsch).",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuStreamsProvider.cs3",
+    "name": "DokuStreams",
+    "sha256": "2a5584e050232d234692aa1c2b80a25b67136d684ce848fdf5f9deb4e23bf65b"
+  },
+  {
+    "iconUrl": "https://filmo.to/favicon.ico",
+    "fileHash": "sha256-4773ebc95f26aa1ae31ebe1feca4db045059aba68b5199c6c651b5cb1225d32c",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 20894,
     "status": 1,
     "language": "de",
     "authors": [
@@ -503,10 +596,10 @@
     "version": 1,
     "versionCode": 1,
     "versionInt": 1,
-    "internalName": "XcineProvider",
-    "description": "Xcine (xcine.online) \u2013 deutscher Film-/Serienkatalog mit Kategorien, Covern, Beschreibung und Jahresangabe. Der Katalog und die komplette Filmliste (Sitemap) sind durchsuchbar; die Wiedergabe wird NICHT angeboten, weil der Player der Seite nur einen Platzhalter l\u00e4dt und der \u00bbOnline Stream\u00ab-Knopf auf Werbe-Redirects f\u00fchrt.",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/XcineProvider.cs3",
-    "name": "Xcine",
-    "sha256": "60dea52854c514eb3611b3d5c3454d66fbe1bb3a775ddf6aa606db4f489b4b29"
+    "internalName": "FilmoProvider",
+    "description": "Filmo (filmo.to) \u2013 deutscher Film-Katalog mit Kategorien, Suche und echter Wiedergabe: die Hoster-Links einer Filmseite (z. B. VOE) werden \u00fcber den Stream-Endpunkt /n der Seite aufgel\u00f6st und an die eingebauten Extractor \u00fcbergeben. Filme (deutsch).",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmoProvider.cs3",
+    "name": "Filmo",
+    "sha256": "4773ebc95f26aa1ae31ebe1feca4db045059aba68b5199c6c651b5cb1225d32c"
   }
 ]
