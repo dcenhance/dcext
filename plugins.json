@@ -26,7 +26,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 110991,
+    "fileSize": 111585,
     "status": 1,
     "language": "de",
     "authors": [
@@ -41,16 +41,16 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AniworldProvider.cs3",
     "name": "Aniworld",
     "description": "German anime streaming from aniworld.to",
-    "fileHash": "sha256-25d147777b10269f64c7b301603bc1c3af780a35fff2199826816fe19ad998ff",
+    "fileHash": "sha256-27bcc5f6a68c2800b4752f45faa0a5428a5bd7fc853a7c1175984c23c20c5faf",
     "versionCode": 28,
     "versionInt": 28,
-    "sha256": "25d147777b10269f64c7b301603bc1c3af780a35fff2199826816fe19ad998ff"
+    "sha256": "27bcc5f6a68c2800b4752f45faa0a5428a5bd7fc853a7c1175984c23c20c5faf"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 51659,
+    "fileSize": 52348,
     "status": 1,
     "language": "de",
     "authors": [
@@ -66,14 +66,14 @@
     "description": "Kool Live TV - current www.kool.to mediahub IPTV catalog with dynamic HLS resolve.",
     "versionCode": 23,
     "versionInt": 23,
-    "fileHash": "sha256-c6685d1e499a14942785e71de648cb39ba49a0b97cad23e950e605f1bcb9e9a4",
-    "sha256": "c6685d1e499a14942785e71de648cb39ba49a0b97cad23e950e605f1bcb9e9a4"
+    "fileHash": "sha256-29fe765aea273be613c7644b2697d213ef40ade1aa685c7adafb855db9d8a569",
+    "sha256": "29fe765aea273be613c7644b2697d213ef40ade1aa685c7adafb855db9d8a569"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 63458,
+    "fileSize": 64050,
     "status": 1,
     "language": "de",
     "authors": [
@@ -90,14 +90,14 @@
     "description": "Kool VOD - current www.kool.to mediahub catalog for German movies and TV series.",
     "versionCode": 26,
     "versionInt": 26,
-    "fileHash": "sha256-81aae52a4039c8b78fc412de67b0e18343da7830d573c2d98141f25a5735fefe",
-    "sha256": "81aae52a4039c8b78fc412de67b0e18343da7830d573c2d98141f25a5735fefe"
+    "fileHash": "sha256-d16106654b4dc8f3239c1a26868f5a33b7760706876a09f3269a4e424594c887",
+    "sha256": "d16106654b4dc8f3239c1a26868f5a33b7760706876a09f3269a4e424594c887"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 56356,
+    "fileSize": 56961,
     "status": 1,
     "language": "de",
     "authors": [
@@ -111,16 +111,16 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienstreamProvider.cs3",
     "name": "S.to Serienstream",
     "description": "S.to - Serien & Staffeln online streamen. VOE Hoster.",
-    "fileHash": "sha256-ebeea27404fd731348bcae043262bb7e188cc9f71097a4bac79ca83165ecda47",
+    "fileHash": "sha256-b6a72717e4f00c29609e7df79a265017df9cd531fefc71ee36650de99df1df96",
     "versionCode": 30,
     "versionInt": 30,
-    "sha256": "ebeea27404fd731348bcae043262bb7e188cc9f71097a4bac79ca83165ecda47"
+    "sha256": "b6a72717e4f00c29609e7df79a265017df9cd531fefc71ee36650de99df1df96"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 61070,
+    "fileSize": 61675,
     "status": 1,
     "language": "de",
     "authors": [
@@ -135,16 +135,16 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmpalastProvider.cs3",
     "name": "Filmpalast",
     "description": "Filmpalast.to - Filme & Serien kostenlos. VOE, Vidara, Vidsonic, FlyFile.",
-    "fileHash": "sha256-3a3878492306a907206c6d8b05f82506d4ae7670980bb853507ce83700e8dbca",
+    "fileHash": "sha256-89256f7213fbb06a99b5248017441fc055565603ced660ea80ff2b3ac3148fcb",
     "versionCode": 24,
     "versionInt": 24,
-    "sha256": "3a3878492306a907206c6d8b05f82506d4ae7670980bb853507ce83700e8dbca"
+    "sha256": "89256f7213fbb06a99b5248017441fc055565603ced660ea80ff2b3ac3148fcb"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 27959,
+    "fileSize": 28557,
     "status": 1,
     "language": "en",
     "authors": [
@@ -158,16 +158,16 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/WaybackMachineProvider.cs3",
     "name": "Wayback Machine",
     "description": "Browse and open archived web snapshots from the Internet Archive Wayback Machine",
-    "fileHash": "sha256-f457c9522b1af5e7c8ba927e774eb33387706afb869fc14f4cf77aa90728cfcb",
+    "fileHash": "sha256-84b037c066ee1cc649e4bdf8d15ed6ae8d279f0e1f1906045cb3d8dd0f52ea06",
     "versionCode": 10,
     "versionInt": 10,
-    "sha256": "f457c9522b1af5e7c8ba927e774eb33387706afb869fc14f4cf77aa90728cfcb"
+    "sha256": "84b037c066ee1cc649e4bdf8d15ed6ae8d279f0e1f1906045cb3d8dd0f52ea06"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 26407,
+    "fileSize": 27043,
     "status": 1,
     "language": "en",
     "authors": [
@@ -181,16 +181,16 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/YouTubeProvider.cs3",
     "name": "YouTube",
     "description": "Search and play public YouTube videos without signing in",
-    "fileHash": "sha256-c023f39bf59a0cf43ab1fd44bbf189bb4e517b145409b224e0b896ed629c4df3",
+    "fileHash": "sha256-7f8aeb19154a05c1acfd4ed49fce8c7e13b3a51322fed8ad08b0216d75cc8bb2",
     "versionCode": 10,
     "versionInt": 10,
-    "sha256": "c023f39bf59a0cf43ab1fd44bbf189bb4e517b145409b224e0b896ed629c4df3"
+    "sha256": "7f8aeb19154a05c1acfd4ed49fce8c7e13b3a51322fed8ad08b0216d75cc8bb2"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 27776,
+    "fileSize": 28399,
     "status": 1,
     "language": "en",
     "authors": [
@@ -204,17 +204,17 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/PeerTubeProvider.cs3",
     "name": "PeerTube",
     "description": "Browse and play public videos from federated PeerTube instances",
-    "fileHash": "sha256-11880f480f4529c1ccb751fdcc9f295f48edb78d3f01300c908493299394119e",
+    "fileHash": "sha256-3920b7bd67b3e7b234fcafb65afa7d21b520a5dda1d943004fd2f13e1c359249",
     "versionCode": 10,
     "versionInt": 10,
-    "sha256": "11880f480f4529c1ccb751fdcc9f295f48edb78d3f01300c908493299394119e"
+    "sha256": "3920b7bd67b3e7b234fcafb65afa7d21b520a5dda1d943004fd2f13e1c359249"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileHash": "sha256-4ce71c46f06bc7e0936844d8031af8acfa107c127af9cc1ea77f1943287a3f93",
-    "fileSize": 33452,
+    "fileHash": "sha256-c318dc264ad5bbade35242d753db6762b864f3732bae975503a391f0638d0744",
+    "fileSize": 34104,
     "status": 1,
     "language": "de",
     "authors": [
@@ -230,14 +230,14 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/SerienjunkiesProvider.cs3",
     "name": "Serienjunkies",
     "description": "Public German series catalog and release metadata. Protected download links remain fail-closed.",
-    "sha256": "4ce71c46f06bc7e0936844d8031af8acfa107c127af9cc1ea77f1943287a3f93"
+    "sha256": "c318dc264ad5bbade35242d753db6762b864f3732bae975503a391f0638d0744"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileHash": "sha256-2c7bd720fe5e9a873edebc31e573e863c1763cfdd7706b06a083ae4914676475",
-    "fileSize": 31519,
+    "fileHash": "sha256-8c51859def3f076a3a876225d23532741974c4d704fa0f171f440369db0ff4f1",
+    "fileSize": 32113,
     "status": 1,
     "language": "de",
     "authors": [
@@ -253,14 +253,14 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/ProviderHealthProvider.cs3",
     "name": "Source Health",
     "description": "Health checker for all 26 requested source domains. Reports HTTP, redirect, shell, challenge, and timeout status.",
-    "sha256": "2c7bd720fe5e9a873edebc31e573e863c1763cfdd7706b06a083ae4914676475"
+    "sha256": "8c51859def3f076a3a876225d23532741974c4d704fa0f171f440369db0ff4f1"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileHash": "sha256-c2cf3104b60abb410ed3b7f66893f31e4996b60e4dc04458626be2dd4e085a5f",
-    "fileSize": 30052,
+    "fileHash": "sha256-e1ac97df630f2994de29d38574cf5935094b0e301c9bddb957868eb24d06ad68",
+    "fileSize": 30665,
     "status": 1,
     "language": "de",
     "authors": [
@@ -276,14 +276,14 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CineToProvider.cs3",
     "name": "Cine.to",
     "description": "German movie catalog, details and public mirror metadata. CAPTCHA-protected playback remains fail-closed.",
-    "sha256": "c2cf3104b60abb410ed3b7f66893f31e4996b60e4dc04458626be2dd4e085a5f"
+    "sha256": "e1ac97df630f2994de29d38574cf5935094b0e301c9bddb957868eb24d06ad68"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileHash": "sha256-e0e9105d7ac18e0da1272b423f40348ee76c77f5ee5cfdf18e2e5210ace3ba73",
-    "fileSize": 29406,
+    "fileHash": "sha256-212d42e08670fefd77c79f6a7888abedb57847f0bf02a09d000236dfa68e4396",
+    "fileSize": 30043,
     "status": 1,
     "language": "de",
     "authors": [
@@ -299,14 +299,14 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinoxProvider.cs3",
     "name": "Kinox",
     "description": "German movie catalog, search, details and public mirror metadata. Verification-protected playback remains fail-closed.",
-    "sha256": "e0e9105d7ac18e0da1272b423f40348ee76c77f5ee5cfdf18e2e5210ace3ba73"
+    "sha256": "212d42e08670fefd77c79f6a7888abedb57847f0bf02a09d000236dfa68e4396"
   },
   {
     "iconUrl": "https://www.google.com/s2/favicons?domain=animetoast.cc&sz=%size%",
-    "fileHash": "sha256-240d05ecae9b49092050354195c27ab2c2bd32b7664386f84ba514d994803c8c",
+    "fileHash": "sha256-e779595262c7f0ac17af04ae76957c0d7ba9c6ff50e033e28a58b5d6b0922191",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 30205,
+    "fileSize": 30832,
     "status": 1,
     "language": "de",
     "authors": [
@@ -323,14 +323,14 @@
     "description": "AnimeToast (animetoast.cc) \u2013 deutscher Anime-Katalog (Ger Dub / Ger Sub) mit A\u2013Z-Browse, Suche und Hoster-Handoff (Voe, Filemoon, Vidmoly, Mp4Upload).",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AnimeToastProvider.cs3",
     "name": "AnimeToast",
-    "sha256": "240d05ecae9b49092050354195c27ab2c2bd32b7664386f84ba514d994803c8c"
+    "sha256": "e779595262c7f0ac17af04ae76957c0d7ba9c6ff50e033e28a58b5d6b0922191"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-d2bd5935904a7dfc69be664359dd43e83a8eec7afd2b10f7f21305800af4c947",
+    "fileHash": "sha256-5d07f2b0e64e0fc565bf40847af5b354b384b28dd3f1a00cd2bb095cdbc4a1b6",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 39441,
+    "fileSize": 40079,
     "status": 1,
     "language": "de",
     "authors": [
@@ -346,14 +346,14 @@
     "description": "Burning Series (burning-series.io / .net / burningseries.ac) \u2013 deutscher Serienkatalog mit >10.000 Serien, Staffeln, Episoden, Episodentiteln und Hoster-Liste (VOE, Doodstream, Filemoon, Vidmoly). Katalog und Suche funktionieren; die Wiedergabe ist auf der Seite durch reCAPTCHA/VPN-Sperren gesch\u00fctzt und bleibt daher fail-closed.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/BurningSeriesProvider.cs3",
     "name": "Burning Series",
-    "sha256": "d2bd5935904a7dfc69be664359dd43e83a8eec7afd2b10f7f21305800af4c947"
+    "sha256": "5d07f2b0e64e0fc565bf40847af5b354b384b28dd3f1a00cd2bb095cdbc4a1b6"
   },
   {
     "iconUrl": "https://www.google.com/s2/favicons?domain=iptv-org.github.io&sz=%size%",
-    "fileHash": "sha256-b760a71cfa3ab590e7c1cfda9b2107dc1ba31dddbc1c3dd52031c9afef830a66",
+    "fileHash": "sha256-e5749bc0798645160cb1a82d1c418f2133c85a9a10c8624ed93c017e0673937d",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 29749,
+    "fileSize": 30373,
     "status": 1,
     "language": "de",
     "authors": [
@@ -369,14 +369,14 @@
     "description": "IPTV-org Deutschland \u2013 frei empfangbare deutsche Live-TV-Kan\u00e4le (Landes- und Sprachliste) mit direktem HLS-Stream. Quelle: iptv-org.github.io.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/IptvOrgProvider.cs3",
     "name": "IPTV-org Deutschland",
-    "sha256": "b760a71cfa3ab590e7c1cfda9b2107dc1ba31dddbc1c3dd52031c9afef830a66"
+    "sha256": "e5749bc0798645160cb1a82d1c418f2133c85a9a10c8624ed93c017e0673937d"
   },
   {
     "iconUrl": "https://kinoger.com/favicon.ico",
-    "fileHash": "sha256-c8a3207871779a9c7a885e5eb60b1e95aead4c2fe789edb1d6c9666d83ef8eb3",
+    "fileHash": "sha256-e3bfe02f10e842ff5d3f595db9d6d136ec2937d6274704e5f9282ede1efa221c",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 28244,
+    "fileSize": 28896,
     "status": 1,
     "language": "de",
     "authors": [
@@ -392,14 +392,14 @@
     "description": "Kinoger (kinoger.com) - deutsche Filme mit Katalog, Suche und echter Wiedergabe (MP4-Quellen der eingebetteten KVS-Player, z. B. fsst.online/incvideo). Filme only.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/KinogerProvider.cs3",
     "name": "Kinoger",
-    "sha256": "c8a3207871779a9c7a885e5eb60b1e95aead4c2fe789edb1d6c9666d83ef8eb3"
+    "sha256": "e3bfe02f10e842ff5d3f595db9d6d136ec2937d6274704e5f9282ede1efa221c"
   },
   {
     "iconUrl": "https://megakino24.com/favicon.ico",
-    "fileHash": "sha256-7343cc1a794d46570c2b6bbda1a1bcbdcf27e4709360f6f698b9b5bae8fb8c5b",
+    "fileHash": "sha256-cbe66d04137329ea7eedf21698ca6a4cce61118bbaaf37b35cdba1bd815eab29",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 25001,
+    "fileSize": 25660,
     "status": 1,
     "language": "de",
     "authors": [
@@ -415,14 +415,14 @@
     "description": "MegaKino (megakino.ms \u2192 megakino24.com) - deutsche Filme mit Katalog, Suche und echter Wiedergabe \u00fcber die eingebetteten Hoster (VOE, GXPlayer). Das Portal verlangt einen kurzen Cookie-Handshake, den der Provider automatisch ausf\u00fchrt. Filme only.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/MegaKinoProvider.cs3",
     "name": "MegaKino",
-    "sha256": "7343cc1a794d46570c2b6bbda1a1bcbdcf27e4709360f6f698b9b5bae8fb8c5b"
+    "sha256": "cbe66d04137329ea7eedf21698ca6a4cce61118bbaaf37b35cdba1bd815eab29"
   },
   {
     "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
-    "fileHash": "sha256-ad2512fe7f62aac1c29077b372e9cd1f938020a9dc3bbfcb312fdf7e20a255e5",
+    "fileHash": "sha256-c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 178583,
+    "fileSize": 179122,
     "status": 1,
     "language": "en",
     "authors": [
@@ -436,16 +436,16 @@
     "versionInt": 42,
     "internalName": "RetroFlashProvider",
     "description": "RetroFlash (RFP): browse all library shelves as series with games as episodes, search games without duplicate genre hits, and keep your own local Flash files separate. Verified downloads and local Ruffle playback.",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/retroflash-dev/ad2512fe7f62aac1c29077b372e9cd1f938020a9dc3bbfcb312fdf7e20a255e5/RetroFlashProvider.cs3",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/retroflash-dev/c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab/RetroFlashProvider.cs3",
     "name": "RetroFlash (RFP)",
-    "sha256": "ad2512fe7f62aac1c29077b372e9cd1f938020a9dc3bbfcb312fdf7e20a255e5"
+    "sha256": "c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-df54829863bca6831e23164c691c4bf99d628b98d24ce9f2107225296aef1315",
+    "fileHash": "sha256-dd934070eb863fae3eb05e60943c376fc382b8edcb69194d62d6aa7ab0d15887",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 32045,
+    "fileSize": 32644,
     "status": 1,
     "language": "de",
     "authors": [
@@ -461,14 +461,14 @@
     "description": "Xcine (xcine.online) \u2013 deutscher Film-/Serienkatalog mit Kategorien, Covern, Beschreibung und Jahresangabe. Der Katalog und die komplette Filmliste (Sitemap) sind durchsuchbar; die Wiedergabe wird NICHT angeboten, weil der Player der Seite nur einen Platzhalter l\u00e4dt und der \u00bbOnline Stream\u00ab-Knopf auf Werbe-Redirects f\u00fchrt.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/XcineProvider.cs3",
     "name": "Xcine",
-    "sha256": "df54829863bca6831e23164c691c4bf99d628b98d24ce9f2107225296aef1315"
+    "sha256": "dd934070eb863fae3eb05e60943c376fc382b8edcb69194d62d6aa7ab0d15887"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-6b34681d7354134fd4daa8f72de24ce42d9055ac868b2b57b4d51c7e04098078",
+    "fileHash": "sha256-c1ebcd1821f8f13123484da6313c30501886d3a5c602a32980c2ce6a06fd0a7a",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 30456,
+    "fileSize": 31068,
     "status": 1,
     "language": "de",
     "authors": [
@@ -485,14 +485,14 @@
     "description": "Anime-Stream (anime-stream.to) \u2013 deutscher Anime-Katalog mit Serien- und Film-Index, Genre-Routen, Suche, Staffeln und echten deutschen Episodenlisten (Titel, Beschreibung, Vorschaubild). Die Wiedergabe wird NICHT angeboten: jeder Episoden-Link f\u00fchrt nur auf \u00bb/secure-redirect.php\u00ab, das eine Cloudflare-Turnstile-/FingerprintJS-Menschenpr\u00fcfung zeigt; ein Quellpfad ist ohne diesen Nachweis nicht erreichbar.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/AnimeStreamProvider.cs3",
     "name": "Anime-Stream",
-    "sha256": "6b34681d7354134fd4daa8f72de24ce42d9055ac868b2b57b4d51c7e04098078"
+    "sha256": "c1ebcd1821f8f13123484da6313c30501886d3a5c602a32980c2ce6a06fd0a7a"
   },
   {
     "iconUrl": "https://dokujunkies.org/img/favicon.png",
-    "fileHash": "sha256-9cb6bbfbb0643be986ba1588daa1802db24bf9692b3b71b2cf9bfbb864f0b120",
+    "fileHash": "sha256-58099628ef1418206cec1e00ddebee0ef66ff517222da32ed610ef93d12843a0",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 27146,
+    "fileSize": 27807,
     "status": 1,
     "language": "de",
     "authors": [
@@ -508,14 +508,14 @@
     "description": "DokuJunkies (dokujunkies.org) \u2013 deutscher Dokumentations-Katalog (4.500+ Dokus) mit A\u2013Z-Browse, Suche, Staffeln/Folgen und Release-Metadaten (Hoster, Qualit\u00e4t, Sprache). Die eigentlichen Download-/Stream-Links liegen hinter dem gesch\u00fctzten Flow der Seite und werden deshalb nicht aufgel\u00f6st.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuJunkiesProvider.cs3",
     "name": "DokuJunkies",
-    "sha256": "9cb6bbfbb0643be986ba1588daa1802db24bf9692b3b71b2cf9bfbb864f0b120"
+    "sha256": "58099628ef1418206cec1e00ddebee0ef66ff517222da32ed610ef93d12843a0"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
-    "fileHash": "sha256-d3090582e06c90c43df0e2482c7f7536e61ac6d7bfd93095e735da3591ae4850",
+    "fileHash": "sha256-a2bc31b1f779429affbb19da9274d18d2b4fb3ff323dda676a934b36e65f8a0c",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 23947,
+    "fileSize": 24607,
     "status": 1,
     "language": "de",
     "authors": [
@@ -531,14 +531,14 @@
     "description": "Doku-Streams (doku-streams.com) \u2013 deutsches Doku-Streaming-Portal mit Kategorien (Geschichte, Politik, Gesellschaft, Kultur, Milit\u00e4r, Pers\u00f6nlichkeiten), Neuheiten-\u00dcbersicht und Suche. Die Dokumentationen spielen: jede Detailseite bettet ihren Film als YouTube-Player ein, der \u00fcber den mitgelieferten YoutubeExtractor abgespielt wird.",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuStreamsComProvider.cs3",
     "name": "Doku-Streams",
-    "sha256": "d3090582e06c90c43df0e2482c7f7536e61ac6d7bfd93095e735da3591ae4850"
+    "sha256": "a2bc31b1f779429affbb19da9274d18d2b4fb3ff323dda676a934b36e65f8a0c"
   },
   {
     "iconUrl": "https://dokustreams.de/favicon.ico",
-    "fileHash": "sha256-f5dd06403eaae2dedaab1137d681c39f53ed65f27c42a1b115f73c30d9b204ad",
+    "fileHash": "sha256-4056ce510beef4d38b2bf6ffb3adf3943f25790de08b8f6b292f605593c121aa",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 25315,
+    "fileSize": 25936,
     "status": 1,
     "language": "de",
     "authors": [
@@ -554,14 +554,14 @@
     "description": "DokuStreams (dokustreams.de) \u2013 deutscher Dokumentations-Katalog (WordPress) mit Kategorien, Suche und Wiedergabe \u00fcber die in die Beitr\u00e4ge eingebetteten YouTube-Videos; einzelne Videos sind auf YouTube inzwischen nicht mehr verf\u00fcgbar und werden dann \u00fcbersprungen. Dokumentationen (deutsch).",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/DokuStreamsProvider.cs3",
     "name": "DokuStreams",
-    "sha256": "f5dd06403eaae2dedaab1137d681c39f53ed65f27c42a1b115f73c30d9b204ad"
+    "sha256": "4056ce510beef4d38b2bf6ffb3adf3943f25790de08b8f6b292f605593c121aa"
   },
   {
     "iconUrl": "https://filmo.to/favicon.ico",
-    "fileHash": "sha256-71b0850cadfa6797b347d5023ba5b9e4dbf2e29e184c41b82e406b3ee4af5793",
+    "fileHash": "sha256-c9df5181220786799d26a29f770306f53b67d8865155619fc6750b7c9fd5616b",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 29588,
+    "fileSize": 30196,
     "status": 1,
     "language": "de",
     "authors": [
@@ -577,6 +577,6 @@
     "description": "Filmo (filmo.to) \u2013 deutscher Film-Katalog mit Kategorien, Suche und echter Wiedergabe: die Hoster-Links einer Filmseite (z. B. VOE) werden \u00fcber den Stream-Endpunkt /n der Seite aufgel\u00f6st und an die eingebauten Extractor \u00fcbergeben. Filme (deutsch).",
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/FilmoProvider.cs3",
     "name": "Filmo",
-    "sha256": "71b0850cadfa6797b347d5023ba5b9e4dbf2e29e184c41b82e406b3ee4af5793"
+    "sha256": "c9df5181220786799d26a29f770306f53b67d8865155619fc6750b7c9fd5616b"
   }
 ]
