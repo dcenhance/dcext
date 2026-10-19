@@ -419,10 +419,10 @@
   },
   {
     "iconUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/assets/RetroFlash.png",
-    "fileHash": "sha256-c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab",
+    "fileHash": "sha256-27cebbce297710a83f7f616935b96bc1bd2b91c9d867c3b58304a3c28ef1801c",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/dcenhance/dcext",
-    "fileSize": 179122,
+    "fileSize": 183000,
     "status": 1,
     "language": "en",
     "authors": [
@@ -436,9 +436,9 @@
     "versionInt": 42,
     "internalName": "RetroFlashProvider",
     "description": "RetroFlash (RFP): browse all library shelves as series with games as episodes, search games without duplicate genre hits, and keep your own local Flash files separate. Verified downloads and local Ruffle playback.",
-    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/retroflash-dev/c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab/RetroFlashProvider.cs3",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/retroflash-dev/27cebbce297710a83f7f616935b96bc1bd2b91c9d867c3b58304a3c28ef1801c/RetroFlashProvider.cs3",
     "name": "RetroFlash (RFP)",
-    "sha256": "c1d0a2b995bb44cbc48d1932950fa3f96d47ddb62239410311f80c7a5f9f48ab"
+    "sha256": "27cebbce297710a83f7f616935b96bc1bd2b91c9d867c3b58304a3c28ef1801c"
   },
   {
     "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
