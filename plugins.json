@@ -578,5 +578,75 @@
     "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/FilmoProvider.cs3",
     "name": "Filmo",
     "sha256": "c9df5181220786799d26a29f770306f53b67d8865155619fc6750b7c9fd5616b"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-22027766fe05fc495d7746a627057f5cd54ab4fe4434db5a1034618f54c2a78b",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 42496,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "FilmFrei24Provider",
+    "description": "FilmFrei24 (filmfrei24.com) \u2013 deutsches Film- und Serienportal (981 Filme, 55 Serien) mit Genre-Kategorien, Suche, Staffeln/Folgen und echter Wiedergabe. Katalog, Suche, Episodenlisten und die Wiedergabe-Quelle kommen aus der offenen JSON-Schnittstelle der Seite (beta/api.php); die Filme und Folgen werden als direkte MP4-Datei abgespielt. Filme und Serien (deutsch).",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/FilmFrei24Provider.cs3",
+    "name": "FilmFrei24",
+    "sha256": "22027766fe05fc495d7746a627057f5cd54ab4fe4434db5a1034618f54c2a78b"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-b584822aa3d51533c2e6de6236d0774594bab0c86fe62c15bf2da9737ebb3433",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 32630,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "KellerKinoProvider",
+    "description": "Kellerkino (kellerkino.com) \u2013 deutscher Film-Katalog mit Kategorien (Action, Kom\u00f6die, Drama, Horror, Thriller), Filmarchiv, A\u2013Z-\u00dcbersicht und Suche \u00fcber die offene WordPress-Suche der Seite. Die Wiedergabe erfolgt nicht \u00fcber einen eigenen Stream der Seite, sondern \u00fcber die Hoster-Einbettungen jeder Filmseite (u. a. Streamtape, LuluStream, Voe, Doodstream); diese Links werden an die in CloudStream eingebauten Extractor weitergegeben. Ein Film, dessen Seite nur Hoster ohne eingebauten Extractor einbettet, bleibt ohne Quelle. Filme (deutsch).",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/KellerKinoProvider.cs3",
+    "name": "KellerKino",
+    "sha256": "b584822aa3d51533c2e6de6236d0774594bab0c86fe62c15bf2da9737ebb3433"
+  },
+  {
+    "iconUrl": "https://avatars.githubusercontent.com/u/85038324?v=4",
+    "fileHash": "sha256-71d950b47eea941d8c01c4ed831917098838c7539830bf6f58c808a1b46f6841",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/dcenhance/dcext",
+    "fileSize": 32555,
+    "status": 1,
+    "language": "de",
+    "authors": [
+      "DC Enhancements"
+    ],
+    "tvTypes": [
+      "Movie"
+    ],
+    "version": 1,
+    "versionCode": 1,
+    "versionInt": 1,
+    "internalName": "NetzkinoProvider",
+    "description": "Netzkino (netzkino.de) \u2013 deutsches, kostenloses Filmportal (AVOD) mit Genre-Kategorien, Suche und echter Wiedergabe. Katalog, Suche und Filmdetails kommen aus der offenen GraphQL-API der Seite (data.netzkino.de); jede Filmseite liefert eine direkte MP4- bzw. HLS-Quelle, die ohne Anmeldung abgespielt wird. Einzelne Titel sind nur mit dem kostenpflichtigen \u00bbNetzkino Plus\u00ab verf\u00fcgbar: sie tragen keine freie Quelle (DRM) und werden deshalb nicht aufgel\u00f6st.",
+    "url": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/NetzkinoProvider.cs3",
+    "name": "Netzkino",
+    "sha256": "71d950b47eea941d8c01c4ed831917098838c7539830bf6f58c808a1b46f6841"
   }
 ]
