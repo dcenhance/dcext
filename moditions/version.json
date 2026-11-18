@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.901",
-  "latestVersion": "1.0.901",
-  "versionCode": 901,
-  "changelog": "- Align settings sliders with CloudStream: show the current value beside the title and use the full row width for the slider.\n- Match the settings focus outline to CloudStream for TV navigation.\n- Refine the native player audio and subtitle controls and track panel layout.",
+  "versionName": "1.0.902",
+  "latestVersion": "1.0.902",
+  "versionCode": 902,
+  "changelog": "- Allow CSManager to start on both official CloudStream Stable and Pre-release.\n- Use more specific icons for navigation style and search provider scope.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-18",
   "isRequired": false,
-  "message": "CSM 1.0.901",
-  "sha256": "9c8b3a6c48b5086d210de3777a20d14c9b1bc025ee73dd4929387100474ac303"
+  "message": "CSM 1.0.902",
+  "sha256": "d45e061fcdc7b98a0e924ae60f385f24b0922ec5cfa610b9f06ed48e085f5aeb"
 }
