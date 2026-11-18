@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.906",
-  "latestVersion": "1.0.906",
-  "versionCode": 906,
-  "changelog": "Added an optional CS Manager tab in CloudStream. Set its position and choose it as the startup page.",
+  "versionName": "1.0.907",
+  "latestVersion": "1.0.907",
+  "versionCode": 907,
+  "changelog": "The System tab shows one settings section at a time. Search still covers every section, and the toolbar can restore the full list.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-18",
   "isRequired": false,
-  "message": "CSM 1.0.906",
-  "sha256": "5869cc290eb27995760761d8d36dbb1d344b06c5e57d1f42395155017f4fe493"
+  "message": "CSM 1.0.907",
+  "sha256": "d946eb537883ab4a3147d960bda22e5e3e5d8839868045503ecf12125fbefed1"
 }
