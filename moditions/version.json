@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.902",
-  "latestVersion": "1.0.902",
-  "versionCode": 902,
-  "changelog": "- Allow CSManager to start on both official CloudStream Stable and Pre-release.\n- Use more specific icons for navigation style and search provider scope.",
+  "versionName": "1.0.903",
+  "latestVersion": "1.0.903",
+  "versionCode": 903,
+  "changelog": "Removed duplicate download limit controls; CloudStream owns individual limits.\nKept download performance presets and queue controls.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-18",
   "isRequired": false,
-  "message": "CSM 1.0.902",
-  "sha256": "d45e061fcdc7b98a0e924ae60f385f24b0922ec5cfa610b9f06ed48e085f5aeb"
+  "message": "CSM 1.0.903",
+  "sha256": "3f90361408201a3f840d7db384125419c42fe9483a9b89dcd586e4f5b5e8a3fb"
 }
