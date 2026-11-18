@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.903",
-  "latestVersion": "1.0.903",
-  "versionCode": 903,
-  "changelog": "Removed duplicate download limit controls; CloudStream owns individual limits.\nKept download performance presets and queue controls.",
+  "versionName": "1.0.905",
+  "latestVersion": "1.0.905",
+  "versionCode": 905,
+  "changelog": "Added an optional settings dashboard with grouped cards and a prominent Player entry.\nSwitch between the dashboard and the classic list from the toolbar without changing your settings.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-18",
   "isRequired": false,
-  "message": "CSM 1.0.903",
-  "sha256": "3f90361408201a3f840d7db384125419c42fe9483a9b89dcd586e4f5b5e8a3fb"
+  "message": "CSM 1.0.905",
+  "sha256": "86a594889758cecc09b142d61dc0c7405696c12410ae10581edbecd454bd5d12"
 }
