@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.912",
-  "latestVersion": "1.0.912",
-  "versionCode": 912,
-  "changelog": "Settings search now restores recent queries correctly, shows helpful no-match details, and keeps reset out of search.",
+  "versionName": "1.0.913",
+  "latestVersion": "1.0.913",
+  "versionCode": 913,
+  "changelog": "Settings search keeps its own scroll position and no longer overwrites the settings list position or remembered TV row.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-19",
   "isRequired": false,
-  "message": "CSM 1.0.912",
-  "sha256": "284a40f6d2b4413d897f83c6d9600e6c5475048bef57ca446bbce52507409899"
+  "message": "CSM 1.0.913",
+  "sha256": "0fdd4d414f7f91fa732e5b03d147e5795e86696016f03208998575b2d7eedeb7"
 }
