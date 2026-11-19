@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.907",
-  "latestVersion": "1.0.907",
-  "versionCode": 907,
-  "changelog": "The System tab shows one settings section at a time. Search still covers every section, and the toolbar can restore the full list.",
+  "versionName": "1.0.908",
+  "latestVersion": "1.0.908",
+  "versionCode": 908,
+  "changelog": "System is one shorter list, with grouped backup, update and developer controls, a cleaner startup badge, and redesigned Credits.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-18",
+  "releaseDate": "2026-11-19",
   "isRequired": false,
-  "message": "CSM 1.0.907",
-  "sha256": "d946eb537883ab4a3147d960bda22e5e3e5d8839868045503ecf12125fbefed1"
+  "message": "CSM 1.0.908",
+  "sha256": "239073bac3286908547b0d44d29b97409667fd938d4c4e37239e6d90fc600118"
 }
