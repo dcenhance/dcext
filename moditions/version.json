@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.908",
-  "latestVersion": "1.0.908",
-  "versionCode": 908,
-  "changelog": "System is one shorter list, with grouped backup, update and developer controls, a cleaner startup badge, and redesigned Credits.",
+  "versionName": "1.0.909",
+  "latestVersion": "1.0.909",
+  "versionCode": 909,
+  "changelog": "Parental controls now PIN-lock supported cards from NSFW-tagged providers instead of checking words. Settings show which providers CloudStream marks NSFW.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-19",
   "isRequired": false,
-  "message": "CSM 1.0.908",
-  "sha256": "239073bac3286908547b0d44d29b97409667fd938d4c4e37239e6d90fc600118"
+  "message": "CSM 1.0.909",
+  "sha256": "b0ff88fc5676508659f407c71aef4b521544ab16d7d4bbd09389e581eadc1822"
 }
