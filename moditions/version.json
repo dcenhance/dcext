@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.910",
-  "latestVersion": "1.0.910",
-  "versionCode": 910,
-  "changelog": "Clearer settings choices and player menus, a download queue empty state, and confirmation before deleting scene bookmarks.",
+  "versionName": "1.0.911",
+  "latestVersion": "1.0.911",
+  "versionCode": 911,
+  "changelog": "A tighter settings header, consistent category sizes, and a new overview for enabled options, recent changes and reset.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-19",
   "isRequired": false,
-  "message": "CSM 1.0.910",
-  "sha256": "e062595df0ea223577e588e1104ced2232ad09b8aea0ec73263b467a4c761a30"
+  "message": "CSM 1.0.911",
+  "sha256": "9d794213cf9cc0ee336081ef07ab120a3c9f12fbf942cdd20d3e83d10fad0102"
 }
