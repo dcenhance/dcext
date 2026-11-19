@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.909",
-  "latestVersion": "1.0.909",
-  "versionCode": 909,
-  "changelog": "Parental controls now PIN-lock supported cards from NSFW-tagged providers instead of checking words. Settings show which providers CloudStream marks NSFW.",
+  "versionName": "1.0.910",
+  "latestVersion": "1.0.910",
+  "versionCode": 910,
+  "changelog": "Clearer settings choices and player menus, a download queue empty state, and confirmation before deleting scene bookmarks.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-19",
   "isRequired": false,
-  "message": "CSM 1.0.909",
-  "sha256": "b0ff88fc5676508659f407c71aef4b521544ab16d7d4bbd09389e581eadc1822"
+  "message": "CSM 1.0.910",
+  "sha256": "e062595df0ea223577e588e1104ced2232ad09b8aea0ec73263b467a4c761a30"
 }
