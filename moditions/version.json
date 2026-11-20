@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.914",
-  "latestVersion": "1.0.914",
-  "versionCode": 914,
-  "changelog": "Opens CSM directly from CloudStream Settings without the provider sheet, restores browse position after search, and lets the TV remote take focus after touch input.",
+  "versionName": "1.0.915",
+  "latestVersion": "1.0.915",
+  "versionCode": 915,
+  "changelog": "Version & updates now labels the installed repository Main or Dev automatically and uses the same detected channel for update checks.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-20",
   "isRequired": false,
-  "message": "CSM 1.0.914",
-  "sha256": "bcd8062e9f41dc2309d91650a3a75ea3960639bbe5eddcabd05cc2f17cd2ca72"
+  "message": "CSM 1.0.915",
+  "sha256": "85fbdc32bc5a2176f1e0211603c890df4a480874d475e9e10ac42ae7bb9e60b2"
 }
