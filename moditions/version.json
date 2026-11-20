@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.913",
-  "latestVersion": "1.0.913",
-  "versionCode": 913,
-  "changelog": "Settings search keeps its own scroll position and no longer overwrites the settings list position or remembered TV row.",
+  "versionName": "1.0.914",
+  "latestVersion": "1.0.914",
+  "versionCode": 914,
+  "changelog": "Opens CSM directly from CloudStream Settings without the provider sheet, restores browse position after search, and lets the TV remote take focus after touch input.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-19",
+  "releaseDate": "2026-11-20",
   "isRequired": false,
-  "message": "CSM 1.0.913",
-  "sha256": "0fdd4d414f7f91fa732e5b03d147e5795e86696016f03208998575b2d7eedeb7"
+  "message": "CSM 1.0.914",
+  "sha256": "bcd8062e9f41dc2309d91650a3a75ea3960639bbe5eddcabd05cc2f17cd2ca72"
 }
