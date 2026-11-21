@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.929",
-  "latestVersion": "1.0.929",
-  "versionCode": 929,
-  "changelog": "A new CSM build gets a themed flame reveal on the first eligible hub open. Credits now use three expandable sections without dropping contributions.",
+  "versionName": "1.0.930",
+  "latestVersion": "1.0.930",
+  "versionCode": 930,
+  "changelog": "Discord settings now show your display name, handle, profile colors, banner and supported cosmetics, with still images when motion is reduced.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.929",
-  "sha256": "8ea38feb76bafc2fcccfdb33567e9530d113f330b1181799b9e706d6f0869a18"
+  "message": "CSM 1.0.930",
+  "sha256": "17fc87670875cc3b9d5aefe11f644734b25621609f764d9e33daebe7aa546efd"
 }
