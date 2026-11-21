@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.921",
-  "latestVersion": "1.0.921",
-  "versionCode": 921,
-  "changelog": "Discord sign-in uses a tighter CloudStream dialog, a wider web viewport and a readable origin notice. The Discord web form is unchanged.",
+  "versionName": "1.0.922",
+  "latestVersion": "1.0.922",
+  "versionCode": 922,
+  "changelog": "The CSM repository settings header now uses a subtle app-primary tint. Pure-black themes keep a black fill and a thin tinted outline.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.921",
-  "sha256": "eed44a3f4d190173f9d7f129d72589ef83ba440574faa0e123781fc22c7b09b4"
+  "message": "CSM 1.0.922",
+  "sha256": "19f5785a7440a7c359b0a595a6aafe533f7ef916f3f99cfc9d58ed4c47d1eba2"
 }
