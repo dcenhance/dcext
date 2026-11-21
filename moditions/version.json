@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.915",
-  "latestVersion": "1.0.915",
-  "versionCode": 915,
-  "changelog": "Version & updates now labels the installed repository Main or Dev automatically and uses the same detected channel for update checks.",
+  "versionName": "1.0.916",
+  "latestVersion": "1.0.916",
+  "versionCode": 916,
+  "changelog": "Reworked CSM settings navigation to avoid saving plugin pages into new CloudStream tasks. Fixed return focus and keyboard handoff, backup export bookkeeping, and the Minibar Play button. Before updating, close CloudStream from Android Recents so the host does not reuse a task saved by older CSM navigation.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-20",
+  "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.915",
-  "sha256": "85fbdc32bc5a2176f1e0211603c890df4a480874d475e9e10ac42ae7bb9e60b2"
+  "message": "CSM 1.0.916",
+  "sha256": "d6ecc8358705e657836ce21f35478b27f8c16249efb594d238085013305f2633"
 }
