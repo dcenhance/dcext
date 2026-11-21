@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.930",
-  "latestVersion": "1.0.930",
-  "versionCode": 930,
-  "changelog": "Discord settings now show your display name, handle, profile colors, banner and supported cosmetics, with still images when motion is reduced.",
+  "versionName": "1.0.931",
+  "latestVersion": "1.0.931",
+  "versionCode": 931,
+  "changelog": "CSM stays open while auto-updates download. Animated progress shows in settings; verified updates are applied in the background.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.930",
-  "sha256": "17fc87670875cc3b9d5aefe11f644734b25621609f764d9e33daebe7aa546efd"
+  "message": "CSM 1.0.931",
+  "sha256": "4b7ea1e728a0083be1d6e7d11770f87063076025b2f78319f762bb24baa21709"
 }
