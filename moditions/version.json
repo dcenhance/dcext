@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.919",
-  "latestVersion": "1.0.919",
-  "versionCode": 919,
-  "changelog": "CS Manager shows the enabled-option count under its title.\nSystem now contains Last changed and Reset all CSM settings.\nThe CSM repository settings no longer show connection details or reachability checks.",
+  "versionName": "1.0.920",
+  "latestVersion": "1.0.920",
+  "versionCode": 920,
+  "changelog": "Choose from four CS Manager layouts with the toolbar button: Classic list, Dashboard cards, Compact list, and Sectioned list. Your choice is saved locally.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.919",
-  "sha256": "84fdbfe1189917c41e8adb02f823b96d1b823f16bad5f43da75ac21bf8f9c626"
+  "message": "CSM 1.0.920",
+  "sha256": "e8b580b2114e7ce602d2c2b6ea415bf6de330cc20e185a83b5f71bd90ec4841b"
 }
