@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.917",
-  "latestVersion": "1.0.917",
-  "versionCode": 917,
-  "changelog": "Neues Foldcase-CS-Icon im CSM-Einstellungsmen\u00fc, in hell und dunkel.",
+  "versionName": "1.0.918",
+  "latestVersion": "1.0.918",
+  "versionCode": 918,
+  "changelog": "Redesigned the CSM repository settings sheet with the Foldcase icon, a compact version header, a visible Save action, and animated connection details.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.917",
-  "sha256": "33a0f8514fa5fd2af7d3969498ff0be14f17032b72a77f34d106c80dff808f95"
+  "message": "CSM 1.0.918",
+  "sha256": "af8b25e2d103245f17106eb892dcc401c7ebb80ff0ad7dea521b3b797528c32c"
 }
