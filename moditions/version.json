@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.928",
-  "latestVersion": "1.0.928",
-  "versionCode": 928,
-  "changelog": "CSM distinguishes the running build, an update waiting for restart, and the Main and Dev repository versions. The official feed takes priority over mirror data.",
+  "versionName": "1.0.929",
+  "latestVersion": "1.0.929",
+  "versionCode": 929,
+  "changelog": "A new CSM build gets a themed flame reveal on the first eligible hub open. Credits now use three expandable sections without dropping contributions.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.928",
-  "sha256": "a0d6d2e989b6cd98750c3cb53af8bea851fbf0cff2d5245bc4ce12ccd7df8881"
+  "message": "CSM 1.0.929",
+  "sha256": "8ea38feb76bafc2fcccfdb33567e9530d113f330b1181799b9e706d6f0869a18"
 }
