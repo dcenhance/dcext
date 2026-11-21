@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.923",
-  "latestVersion": "1.0.923",
-  "versionCode": 923,
-  "changelog": "CS Manager now offers 10 layouts. New: Tile grid, Mosaic, A\u2013Z directory, Outline, Showcase and Numbered index. Find them under the layout button beside Search.",
+  "versionName": "1.0.924",
+  "latestVersion": "1.0.924",
+  "versionCode": 924,
+  "changelog": "Discord settings now have a themed account card, a larger sign-out button, clearer presence status and labeled local previews.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.923",
-  "sha256": "c5959daa8a1ec5916fc02463d43691b0595637fde1915bf1c0a56e746f05bd67"
+  "message": "CSM 1.0.924",
+  "sha256": "4c6b8bdbb81dbaf4732741270831a6c5dec7c2969c82bbb1782cc696e51c2b96"
 }
