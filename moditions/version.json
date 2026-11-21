@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.931",
-  "latestVersion": "1.0.931",
-  "versionCode": 931,
-  "changelog": "CSM stays open while auto-updates download. Animated progress shows in settings; verified updates are applied in the background.",
+  "versionName": "1.0.932",
+  "latestVersion": "1.0.932",
+  "versionCode": 932,
+  "changelog": "CSM settings hide the phone navigation bar while open and show update verification and restart status. Discord RPC templates now resolve consistently, with a default image when no override is selected.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.931",
-  "sha256": "4b7ea1e728a0083be1d6e7d11770f87063076025b2f78319f762bb24baa21709"
+  "message": "CSM 1.0.932",
+  "sha256": "dde32b77448c55d3dd8c132f598b085ba8baeb2c0ff86d2f318a4c3496035564"
 }
