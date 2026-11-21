@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.920",
-  "latestVersion": "1.0.920",
-  "versionCode": 920,
-  "changelog": "Choose from four CS Manager layouts with the toolbar button: Classic list, Dashboard cards, Compact list, and Sectioned list. Your choice is saved locally.",
+  "versionName": "1.0.921",
+  "latestVersion": "1.0.921",
+  "versionCode": 921,
+  "changelog": "Discord sign-in uses a tighter CloudStream dialog, a wider web viewport and a readable origin notice. The Discord web form is unchanged.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.920",
-  "sha256": "e8b580b2114e7ce602d2c2b6ea415bf6de330cc20e185a83b5f71bd90ec4841b"
+  "message": "CSM 1.0.921",
+  "sha256": "eed44a3f4d190173f9d7f129d72589ef83ba440574faa0e123781fc22c7b09b4"
 }
