@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.932",
-  "latestVersion": "1.0.932",
-  "versionCode": 932,
-  "changelog": "CSM settings hide the phone navigation bar while open and show update verification and restart status. Discord RPC templates now resolve consistently, with a default image when no override is selected.",
+  "versionName": "1.0.933",
+  "latestVersion": "1.0.933",
+  "versionCode": 933,
+  "changelog": "Fixes a CloudStream crash after updating when Discord Rich Presence initializes its template parser on Android.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.932",
-  "sha256": "dde32b77448c55d3dd8c132f598b085ba8baeb2c0ff86d2f318a4c3496035564"
+  "message": "CSM 1.0.933",
+  "sha256": "575952052b655fef5f021dcbf6d1b79bf1c6710eeeb32339c305559dd3277a55"
 }
