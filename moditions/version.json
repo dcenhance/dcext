@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.918",
-  "latestVersion": "1.0.918",
-  "versionCode": 918,
-  "changelog": "Redesigned the CSM repository settings sheet with the Foldcase icon, a compact version header, a visible Save action, and animated connection details.",
+  "versionName": "1.0.919",
+  "latestVersion": "1.0.919",
+  "versionCode": 919,
+  "changelog": "CS Manager shows the enabled-option count under its title.\nSystem now contains Last changed and Reset all CSM settings.\nThe CSM repository settings no longer show connection details or reachability checks.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.918",
-  "sha256": "af8b25e2d103245f17106eb892dcc401c7ebb80ff0ad7dea521b3b797528c32c"
+  "message": "CSM 1.0.919",
+  "sha256": "84fdbfe1189917c41e8adb02f823b96d1b823f16bad5f43da75ac21bf8f9c626"
 }
