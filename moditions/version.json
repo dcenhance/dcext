@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.916",
-  "latestVersion": "1.0.916",
-  "versionCode": 916,
-  "changelog": "Reworked CSM settings navigation to avoid saving plugin pages into new CloudStream tasks. Fixed return focus and keyboard handoff, backup export bookkeeping, and the Minibar Play button. Before updating, close CloudStream from Android Recents so the host does not reuse a task saved by older CSM navigation.",
+  "versionName": "1.0.917",
+  "latestVersion": "1.0.917",
+  "versionCode": 917,
+  "changelog": "Neues Foldcase-CS-Icon im CSM-Einstellungsmen\u00fc, in hell und dunkel.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.916",
-  "sha256": "d6ecc8358705e657836ce21f35478b27f8c16249efb594d238085013305f2633"
+  "message": "CSM 1.0.917",
+  "sha256": "33a0f8514fa5fd2af7d3969498ff0be14f17032b72a77f34d106c80dff808f95"
 }
