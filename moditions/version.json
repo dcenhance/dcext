@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.926",
-  "latestVersion": "1.0.926",
-  "versionCode": 926,
-  "changelog": "CSM no longer forces a restart after automatic updates and replaces the archive atomically. Discord sign-in has CSM-themed chrome. The Hub keeps ten layouts.",
+  "versionName": "1.0.927",
+  "latestVersion": "1.0.927",
+  "versionCode": 927,
+  "changelog": "CSM Hub now offers 100 presets: ten styles with ten category orders each. The grouped picker keeps current layouts and search unchanged.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.926",
-  "sha256": "e847233c1c0a3a68ff4c446221b5e0810574dbae24c8906eb563acade6a16a85"
+  "message": "CSM 1.0.927",
+  "sha256": "c3e8f435fb5391ed5af36d19dd10862700ede5164a022c4358d32071cdf7a394"
 }
