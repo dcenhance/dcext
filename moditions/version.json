@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.927",
-  "latestVersion": "1.0.927",
-  "versionCode": 927,
-  "changelog": "CSM Hub now offers 100 presets: ten styles with ten category orders each. The grouped picker keeps current layouts and search unchanged.",
+  "versionName": "1.0.928",
+  "latestVersion": "1.0.928",
+  "versionCode": 928,
+  "changelog": "CSM distinguishes the running build, an update waiting for restart, and the Main and Dev repository versions. The official feed takes priority over mirror data.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-21",
   "isRequired": false,
-  "message": "CSM 1.0.927",
-  "sha256": "c3e8f435fb5391ed5af36d19dd10862700ede5164a022c4358d32071cdf7a394"
+  "message": "CSM 1.0.928",
+  "sha256": "a0d6d2e989b6cd98750c3cb53af8bea851fbf0cff2d5245bc4ce12ccd7df8881"
 }
