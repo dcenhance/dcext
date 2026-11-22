@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.945",
-  "latestVersion": "1.0.945",
-  "versionCode": 945,
-  "changelog": "Preview custom colors before applying them. Preview source selection rules and search the repository visibility picker. See how saved or draft settings affect access to Sync & Sharing actions without starting a transfer.",
+  "versionName": "1.0.946",
+  "latestVersion": "1.0.946",
+  "versionCode": 946,
+  "changelog": "Check available space on CloudStream app storage in System. Browse and search locally saved dismissal IDs in Notifications. Both actions can be found in CSM settings search.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.945",
-  "sha256": "3deac3bb036b070115c9662f5c0a763a9fc075f52d7a460800822e6c542d639f"
+  "message": "CSM 1.0.946",
+  "sha256": "ff81adf3208d54afc1dabcfb7583eab0a69da357dbdf478e434e7667b28bd991"
 }
