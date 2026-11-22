@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.943",
-  "latestVersion": "1.0.943",
-  "versionCode": 943,
-  "changelog": "Notification settings: Export and import saved notification types, priority filters, and quiet hours. Apply without changing the priority threshold keeps the current value, including values outside the presets. An omitted setting leaves the destination unchanged.",
+  "versionName": "1.0.944",
+  "latestVersion": "1.0.944",
+  "versionCode": 944,
+  "changelog": "Home avatar: Ignore retired Discord image requests after the Home avatar is disabled, re-enabled, reset, or its account changes. Local avatar rendering and Discord Presence are unchanged.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.943",
-  "sha256": "4761dd908f996509d24ad618bbd57534f55b6e5619a3be31b1392d8c377f24c7"
+  "message": "CSM 1.0.944",
+  "sha256": "a864b147575879cb665b73738b9bac9350aebc965a24524df50f743caa18a781"
 }
