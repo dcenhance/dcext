@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.936",
-  "latestVersion": "1.0.936",
-  "versionCode": 936,
-  "changelog": "Customize avatar frames with colors, thickness, gradients and glow. Open an optional Home profile card with native account and library shortcuts.",
+  "versionName": "1.0.937",
+  "latestVersion": "1.0.937",
+  "versionCode": 937,
+  "changelog": "Fixed circular backgrounds showing behind shaped Home profile avatars.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.936",
-  "sha256": "cc0a6bb6d54f6439f4dbcf4a83e5ad05fa4aec20f9d2d25804ec211a0599a467"
+  "message": "CSM 1.0.937",
+  "sha256": "3e393c7e5755297d99452c371f7e334343eb3672d8a89c18a0b21c4fdd2e8370"
 }
