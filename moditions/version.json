@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.946",
-  "latestVersion": "1.0.946",
-  "versionCode": 946,
-  "changelog": "Check available space on CloudStream app storage in System. Browse and search locally saved dismissal IDs in Notifications. Both actions can be found in CSM settings search.",
+  "versionName": "1.0.947",
+  "latestVersion": "1.0.947",
+  "versionCode": 947,
+  "changelog": "Library adds Sort & Filters while preserving the active title search. Navigation can show a hidden startup tab. Downloads adds a local queue browser. Discord adds local presence previews. Device Tweaks previews its grid contribution. Parental, Developer, and Advancements show clearer local status.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.946",
-  "sha256": "ff81adf3208d54afc1dabcfb7583eab0a69da357dbdf478e434e7667b28bd991"
+  "message": "CSM 1.0.947",
+  "sha256": "e26d9007e8e5803addf0ac734ccf1a435f743f773c68567387cfc9adda14bd3d"
 }
