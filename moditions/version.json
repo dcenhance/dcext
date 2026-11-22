@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.944",
-  "latestVersion": "1.0.944",
-  "versionCode": 944,
-  "changelog": "Home avatar: Ignore retired Discord image requests after the Home avatar is disabled, re-enabled, reset, or its account changes. Local avatar rendering and Discord Presence are unchanged.",
+  "versionName": "1.0.945",
+  "latestVersion": "1.0.945",
+  "versionCode": 945,
+  "changelog": "Preview custom colors before applying them. Preview source selection rules and search the repository visibility picker. See how saved or draft settings affect access to Sync & Sharing actions without starting a transfer.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.944",
-  "sha256": "a864b147575879cb665b73738b9bac9350aebc965a24524df50f743caa18a781"
+  "message": "CSM 1.0.945",
+  "sha256": "3deac3bb036b070115c9662f5c0a763a9fc075f52d7a460800822e6c542d639f"
 }
