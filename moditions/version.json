@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.935",
-  "latestVersion": "1.0.935",
-  "versionCode": 935,
-  "changelog": "Customize the home avatar shape and size with a live preview and reset.\nOptionally show your Discord picture, display name, or profile-color outline.",
+  "versionName": "1.0.936",
+  "latestVersion": "1.0.936",
+  "versionCode": 936,
+  "changelog": "Customize avatar frames with colors, thickness, gradients and glow. Open an optional Home profile card with native account and library shortcuts.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.935",
-  "sha256": "a8b6f3f57eaa5e78b10c2bebb46fe2db74ea4d11bf837da66920f6dbb419d71a"
+  "message": "CSM 1.0.936",
+  "sha256": "cc0a6bb6d54f6439f4dbcf4a83e5ad05fa4aec20f9d2d25804ec211a0599a467"
 }
