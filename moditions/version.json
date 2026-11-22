@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.938",
-  "latestVersion": "1.0.938",
-  "versionCode": 938,
-  "changelog": "Fixed shaped Home avatar rendering and profile menu navigation. Start with None no longer changes a saved Home source. If None is already selected, choose a provider once to restore provider rows.",
+  "versionName": "1.0.940",
+  "latestVersion": "1.0.940",
+  "versionCode": 940,
+  "changelog": "Settings search supports words in any order, jumps to the right row, and preserves the search on Back. Startup progress survives repeated requests and cleans up on detach. Overlapping update checks share a request; repository comparison no longer postpones automatic checks.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.938",
-  "sha256": "4ae1c10217d665a1558d5a485c24acd9455d78f8c69d1113736ee3f6fac5c392"
+  "message": "CSM 1.0.940",
+  "sha256": "eb15baf0fada9ce712e5f39d05f7fe62b14f9ba5c783e702516d9785ab58d81f"
 }
