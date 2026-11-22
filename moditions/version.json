@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.937",
-  "latestVersion": "1.0.937",
-  "versionCode": 937,
-  "changelog": "Fixed circular backgrounds showing behind shaped Home profile avatars.",
+  "versionName": "1.0.938",
+  "latestVersion": "1.0.938",
+  "versionCode": 938,
+  "changelog": "Fixed shaped Home avatar rendering and profile menu navigation. Start with None no longer changes a saved Home source. If None is already selected, choose a provider once to restore provider rows.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.937",
-  "sha256": "3e393c7e5755297d99452c371f7e334343eb3672d8a89c18a0b21c4fdd2e8370"
+  "message": "CSM 1.0.938",
+  "sha256": "4ae1c10217d665a1558d5a485c24acd9455d78f8c69d1113736ee3f6fac5c392"
 }
