@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.934",
-  "latestVersion": "1.0.934",
-  "versionCode": 934,
-  "changelog": "Use the CSM logo for default Discord artwork and replace the retired idle image on upgrades.\nChoose and insert Idle Presence placeholders for app, dates, time and idle duration with a live preview.",
+  "versionName": "1.0.935",
+  "latestVersion": "1.0.935",
+  "versionCode": 935,
+  "changelog": "Customize the home avatar shape and size with a live preview and reset.\nOptionally show your Discord picture, display name, or profile-color outline.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-21",
+  "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.934",
-  "sha256": "5cb37d91f6713b669823ec9f6590a2fae69d5b3d184c3c20ad77d6b873c054c3"
+  "message": "CSM 1.0.935",
+  "sha256": "a8b6f3f57eaa5e78b10c2bebb46fe2db74ea4d11bf837da66920f6dbb419d71a"
 }
