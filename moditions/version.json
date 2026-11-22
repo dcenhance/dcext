@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.942",
-  "latestVersion": "1.0.942",
-  "versionCode": 942,
-  "changelog": "Discord presence: Clear playback activity before the automatic switch to idle. Retain the clear across reconnect if the send fails, and bound a stalled close handshake so it cannot block a replacement connection. No changes to the Discord profile card, playback support, or broadcast mode.",
+  "versionName": "1.0.943",
+  "latestVersion": "1.0.943",
+  "versionCode": 943,
+  "changelog": "Notification settings: Export and import saved notification types, priority filters, and quiet hours. Apply without changing the priority threshold keeps the current value, including values outside the presets. An omitted setting leaves the destination unchanged.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-22",
   "isRequired": false,
-  "message": "CSM 1.0.942",
-  "sha256": "92236db929ae449024d976aea3bba6d08adafb3c111d65aed90c76a4dd4dcc21"
+  "message": "CSM 1.0.943",
+  "sha256": "4761dd908f996509d24ad618bbd57534f55b6e5619a3be31b1392d8c377f24c7"
 }
