@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.949",
-  "latestVersion": "1.0.949",
-  "versionCode": 949,
-  "changelog": "Dim App now offers a black overlay in addition to window brightness. Use the same intensity slider; the method is saved on this device.",
+  "versionName": "1.0.950",
+  "latestVersion": "1.0.950",
+  "versionCode": 950,
+  "changelog": "Navigation: Letter spacing shows the correct percentage. Reopening the editor and applying without a slider change no longer changes the spacing.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-23",
   "isRequired": false,
-  "message": "CSM 1.0.949",
-  "sha256": "663a0398908da864b6d0f84ef6b5297d8a44b26094d8a7ff939d13c513423147"
+  "message": "CSM 1.0.950",
+  "sha256": "2d5b8c5717f88038dd43de306499a51ddf59a2d44b3fa5686e84d62d4deee879"
 }
