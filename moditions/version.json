@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.948",
-  "latestVersion": "1.0.948",
-  "versionCode": 948,
-  "changelog": "Compare all three priority modes on the same local sample sources in Sources & Extensions. The preview uses your saved quality and provider rules without saving a mode or starting playback.",
+  "versionName": "1.0.949",
+  "latestVersion": "1.0.949",
+  "versionCode": 949,
+  "changelog": "Dim App now offers a black overlay in addition to window brightness. Use the same intensity slider; the method is saved on this device.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-23",
   "isRequired": false,
-  "message": "CSM 1.0.948",
-  "sha256": "e16ca9497a607a7790d1c2d20b3e66cf3bde3d18bc9b4f539297c4948d204b61"
+  "message": "CSM 1.0.949",
+  "sha256": "663a0398908da864b6d0f84ef6b5297d8a44b26094d8a7ff939d13c513423147"
 }
