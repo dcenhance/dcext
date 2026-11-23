@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.951",
-  "latestVersion": "1.0.951",
-  "versionCode": 951,
-  "changelog": "Navigation: Icon Tint Color immediately indicates when Per-Tab Colors take precedence. Saved colors are unchanged.",
+  "versionName": "1.0.952",
+  "latestVersion": "1.0.952",
+  "versionCode": 952,
+  "changelog": "Preview custom player speeds before saving. The preview does not change saved settings or control playback.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-23",
   "isRequired": false,
-  "message": "CSM 1.0.951",
-  "sha256": "6e38b3a06c05fff3013ba053621f03752f30a82b6d2ef4af897baec053dcabfb"
+  "message": "CSM 1.0.952",
+  "sha256": "d1e642d26e49aeed3b23613dae56fceaf32f04e3e264a0542ed418543a2d590a"
 }
