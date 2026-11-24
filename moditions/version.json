@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.941",
-  "latestVersion": "1.0.941",
-  "versionCode": 941,
-  "changelog": "Discord account: Redesigned the profile card around the avatar, name, and handle. Connection status and badges are easier to find, and profile artwork no longer leaves an empty banner. Presence settings and delivery are unchanged.\nLibrary sorting and filters now use CloudStream\u2019s current lists, including after a refresh or device rotation. Clearing a filter restores the current native list instead of older entries. Parental time-lock repair stays PIN-protected, temporary access is tied to when it was granted, and the player stays paused if it cannot close. If an older temporary grant needs repair, use Parental Controls \u2192 Set lock time and enter your PIN.",
+  "versionName": "1.0.959",
+  "latestVersion": "1.0.959",
+  "versionCode": 959,
+  "changelog": "Animations: Animation Strength now shows exact slider steps and preserves the saved value when Apply is pressed without changing the slider.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/main/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-22",
+  "releaseDate": "2026-11-24",
   "isRequired": false,
-  "message": "CSM 1.0.941",
-  "sha256": "5b9cc001f0185b49bda1e0598e11a831171081c35b927f3ab582ca3605e1b4c0"
+  "message": "CSM 1.0.959",
+  "sha256": "32f77bec79e12acf952d8f34052603c78b22ae4ecc89ed15ad6c9f1a5333fb9c"
 }
