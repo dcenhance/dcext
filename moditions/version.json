@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.953",
-  "latestVersion": "1.0.953",
-  "versionCode": 953,
-  "changelog": "Navigation: Animation Strength now displays exact slider steps and preserves the saved value when Apply is pressed without moving the slider.",
+  "versionName": "1.0.957",
+  "latestVersion": "1.0.957",
+  "versionCode": 957,
+  "changelog": "Animations: Animation Speed shows the correct percentage and keeps the saved value when you press Apply without moving the slider.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-23",
+  "releaseDate": "2026-11-24",
   "isRequired": false,
-  "message": "CSM 1.0.953",
-  "sha256": "38ebbe079b281b357d9b1c732dbf8fa8634af8b31e16394bc9cd12add2cdb7a5"
+  "message": "CSM 1.0.957",
+  "sha256": "2d628247e04520a20e6ba6a1564b37e3f49e13a92c898f3be9fd2af52fa4ab06"
 }
