@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.960",
-  "latestVersion": "1.0.960",
-  "versionCode": 960,
-  "changelog": "TV keyboard: Enter submits an active CloudStream search without altering the query. Library and phone editing are unchanged.",
+  "versionName": "1.0.961",
+  "latestVersion": "1.0.961",
+  "versionCode": 961,
+  "changelog": "Settings: Unchanged Apply preserves saved animation speed, duration, style and delay. Card elevation and corner radius keep the host default unless changed. Library Grid Columns shows Auto for unsupported counts and ignores old dialogs after a plugin reload. Clearing search history keeps the current query. Feature Review exports only manual assessments.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-24",
+  "releaseDate": "2026-11-25",
   "isRequired": false,
-  "message": "CSM 1.0.960",
-  "sha256": "4bcdafc84708b66b1e519e0b51864c8dc4d5e334095f0eadcc5706711d3255cf"
+  "message": "CSM 1.0.961",
+  "sha256": "3f5dc6cfa5fff79551e3e22573c01d65cdc71dc59f6128346e91f233bb2c9c72"
 }
