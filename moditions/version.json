@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.964",
-  "latestVersion": "1.0.964",
-  "versionCode": 964,
-  "changelog": "Gradient Preset now waits for deliberate selection. Unchanged Apply preserves saved Item Animation, Content Entry Style, Click Animation, Selected Animation, Resting Feedback and Icon Style. Startup Page no longer reveals a hidden tab from an unchanged selection. Hide Navigation Tabs skips unchanged Apply and repeated warnings. Text Only Labels saves only edited fields. Icon Style stays current after Reset or Undo.",
+  "versionName": "1.0.965",
+  "latestVersion": "1.0.965",
+  "versionCode": 965,
+  "changelog": "Unchanged Apply or Save now preserves Navigation Labels, icon colors, hidden profiles, Notification Types, Quiet Hours times, Preferred Quality, Priority Mode and Downloader App. The Seek step picker shows all six choices. Resume Offset shows valid saved values outside the presets.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-25",
   "isRequired": false,
-  "message": "CSM 1.0.964",
-  "sha256": "204c1097e8d1ce2ec080a3a9d71831ce783220b9a09443789ed0432e776b07af"
+  "message": "CSM 1.0.965",
+  "sha256": "3d99b3214937ae954d9d4084cfcfc03dc23f09a474c618209783f15f797afe1d"
 }
