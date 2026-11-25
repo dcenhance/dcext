@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.961",
-  "latestVersion": "1.0.961",
-  "versionCode": 961,
-  "changelog": "Settings: Unchanged Apply preserves saved animation speed, duration, style and delay. Card elevation and corner radius keep the host default unless changed. Library Grid Columns shows Auto for unsupported counts and ignores old dialogs after a plugin reload. Clearing search history keeps the current query. Feature Review exports only manual assessments.",
+  "versionName": "1.0.962",
+  "latestVersion": "1.0.962",
+  "versionCode": 962,
+  "changelog": "Welcome shows saved settings and restart guidance. Discord settings distinguish account connection from presence sharing. Unknown-origin installs get manual repository links without enabling self-update. Unchanged Apply or Save preserves Text Only appearance, tablet columns, tab order, profile order and overlay opacity. Auto-Mark Watched displays saved custom thresholds. Player zoom buttons use distinct magnifier icons.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-25",
   "isRequired": false,
-  "message": "CSM 1.0.961",
-  "sha256": "3f5dc6cfa5fff79551e3e22573c01d65cdc71dc59f6128346e91f233bb2c9c72"
+  "message": "CSM 1.0.962",
+  "sha256": "699825a8fe79ffff683c450a37482dc0e74bcc56ddd347c812edc5b6d70e9f30"
 }
