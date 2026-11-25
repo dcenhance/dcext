@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.962",
-  "latestVersion": "1.0.962",
-  "versionCode": 962,
-  "changelog": "Welcome shows saved settings and restart guidance. Discord settings distinguish account connection from presence sharing. Unknown-origin installs get manual repository links without enabling self-update. Unchanged Apply or Save preserves Text Only appearance, tablet columns, tab order, profile order and overlay opacity. Auto-Mark Watched displays saved custom thresholds. Player zoom buttons use distinct magnifier icons.",
+  "versionName": "1.0.963",
+  "latestVersion": "1.0.963",
+  "versionCode": 963,
+  "changelog": "Tracks & markers has a distinct timeline icon. Settings Search finds the local Watching and Idle Discord previews once each. Download performance presets need an explicit selection before Apply. Unchanged Apply preserves saved Download Behavior, Transition Style, Home Grid Columns, Letter Spacing, Line Height, Poster Aspect Ratio, Age Rating Badge Style and Notification Card Style.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
   "releaseDate": "2026-11-25",
   "isRequired": false,
-  "message": "CSM 1.0.962",
-  "sha256": "699825a8fe79ffff683c450a37482dc0e74bcc56ddd347c812edc5b6d70e9f30"
+  "message": "CSM 1.0.963",
+  "sha256": "a6e49c92e7d373ae0471626ab1e1aeab01a17ddac5af63a402a48b5fd779e005"
 }
