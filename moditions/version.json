@@ -1,12 +1,12 @@
 {
-  "versionName": "1.0.965",
-  "latestVersion": "1.0.965",
-  "versionCode": 965,
-  "changelog": "Unchanged Apply or Save now preserves Navigation Labels, icon colors, hidden profiles, Notification Types, Quiet Hours times, Preferred Quality, Priority Mode and Downloader App. The Seek step picker shows all six choices. Resume Offset shows valid saved values outside the presets.",
+  "versionName": "1.0.966",
+  "latestVersion": "1.0.966",
+  "versionCode": 966,
+  "changelog": "Hub Search opens Exit Confirmation in Interactions, and the picker identifies the saved CSM Home fallback. Unchanged confirmations preserve Scheduled Theme presets and start times, App Font and its custom path, Custom Player Speeds, Queue & Retry, and the custom downloader package. Priority Threshold declines an outdated change when its setting or required switches have changed.",
   "minCloudstreamVersion": 1,
   "downloadUrl": "https://raw.githubusercontent.com/dcenhance/dcext/dev/plugins/CSMProvider.cs3",
-  "releaseDate": "2026-11-25",
+  "releaseDate": "2026-11-26",
   "isRequired": false,
-  "message": "CSM 1.0.965",
-  "sha256": "3d99b3214937ae954d9d4084cfcfc03dc23f09a474c618209783f15f797afe1d"
+  "message": "CSM 1.0.966",
+  "sha256": "92b37ee17865ce0e9999c070ad020234a6ad5fee8cde6925001694aa7c4b29f7"
 }
